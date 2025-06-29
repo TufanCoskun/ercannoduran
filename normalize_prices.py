@@ -19,9 +19,29 @@ def _normalize(price_date: datetime, price: float) -> float:
             return price * (1 + rate)
     return price
 
-def normalize_prices(df, date_col: str, price_col: str):
+DEFAULT_PRICE_COLUMNS = [
+    "Room Revenue",
+    "Net Room Revenue",
+    "Extra Revenue ADR",
+    "NETADR",
+    "APR",
+    "NETAPR",
+    "PR Extra Rate",
+    "Net PR Extra Rate",
+]
+
+
+def normalize_prices(df, date_col: str, price_cols: list[str]):
+    """Normalize the given price columns of ``df`` according to the
+    inflation periods."""
+
     df[date_col] = pd.to_datetime(df[date_col])
-    df[price_col] = df.apply(lambda row: _normalize(row[date_col], row[price_col]), axis=1)
+
+    for col in price_cols:
+        if col not in df.columns:
+            # Skip columns that are missing in the spreadsheet
+            continue
+        df[col] = df.apply(lambda row: _normalize(row[date_col], row[col]), axis=1)
     return df
 
 def main():
@@ -29,11 +49,16 @@ def main():
     parser.add_argument("input", help="Path to the input Excel file")
     parser.add_argument("output", help="Path to the output Excel file")
     parser.add_argument("--date-col", default="Date", help="Name of the date column")
-    parser.add_argument("--price-col", default="Price", help="Name of the price column")
+    parser.add_argument(
+        "--price-cols",
+        nargs="+",
+        default=DEFAULT_PRICE_COLUMNS,
+        help="Price columns to normalize (space separated)",
+    )
     args = parser.parse_args()
 
     df = pd.read_excel(args.input)
-    df = normalize_prices(df, args.date_col, args.price_col)
+    df = normalize_prices(df, args.date_col, args.price_cols)
     df.to_excel(args.output, index=False)
 
 if __name__ == "__main__":
