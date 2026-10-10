@@ -6,7 +6,8 @@ import { currentStreak, dateKey, useProgress, viewedToday, DAILY_SIZE } from "@/
 import { useSaved } from "@/lib/saved";
 import { useHydrated } from "@/lib/store";
 import { useState } from "react";
-import { ArrowLeftIcon, BookmarkIcon, DumbbellIcon, FlameIcon, GridIcon, MenuIcon, PlayIcon } from "./Icons";
+import { useRole } from "@/lib/role-client";
+import { ArrowLeftIcon, BookmarkIcon, DumbbellIcon, FlameIcon, GridIcon, MenuIcon, PlayIcon, SparkIcon } from "./Icons";
 import { Sheet } from "./Sheet";
 import { CardsIcon } from "./tinder/bits";
 
@@ -19,6 +20,13 @@ const ITEMS: Item[] = [
   { href: "/brands", label: "Markalar", short: "Markalar", icon: <GridIcon size={21} />, match: (p) => p.startsWith("/brands") },
   { href: "/saved", label: "Kaydedilenler", short: "Kayıtlı", icon: <BookmarkIcon size={21} />, match: (p) => p.startsWith("/saved") },
 ];
+
+/** Admin-only entries (the routes themselves also return 403 for viewers). */
+const ADMIN_ITEMS: Item[] = [{ href: "/strategy", label: "Strateji", short: "Strateji", icon: <SparkIcon size={21} />, match: (p) => p.startsWith("/strategy") }];
+
+function useItems(): Item[] {
+  return useRole() === "admin" ? [...ITEMS, ...ADMIN_ITEMS] : ITEMS;
+}
 
 function useNavState() {
   const pathname = usePathname();
@@ -52,12 +60,13 @@ export function Logo({ className = "" }: { className?: string }) {
 
 export function SideNav() {
   const { pathname, daily, savedCount, streak, best, doneToday, hydrated } = useNavState();
+  const items = useItems();
   return (
     <nav className="fixed inset-y-0 left-0 z-40 hidden w-60 flex-col border-r border-line bg-ink/80 px-4 py-6 backdrop-blur-xl lg:flex" aria-label="Ana menü">
       <Logo className="px-2" />
       <p className="mt-2 px-2 text-xs leading-relaxed text-zinc-500">Reklam kasını her gün çalıştır.</p>
       <ul className="mt-8 space-y-1">
-        {ITEMS.map((it) => {
+        {items.map((it) => {
           const on = it.match(pathname, daily);
           return (
             <li key={it.href}>
@@ -126,6 +135,7 @@ export function AppMenu({
   children?: React.ReactNode;
 }) {
   const { pathname, daily, savedCount, streak, doneToday, hydrated } = useNavState();
+  const items = useItems();
   const href = (it: Item) => (it.href === "/" ? (feedHref ?? it.href) : it.href === "/?mode=daily" ? (dailyHref ?? it.href) : it.href);
   return (
     <Sheet open={open} onClose={onClose} title={
@@ -137,7 +147,7 @@ export function AppMenu({
         </span>
       } label="Menü">
       <ul className="grid grid-cols-2 gap-2" aria-label="Ana menü">
-        {ITEMS.map((it) => {
+        {items.map((it) => {
           const on = it.match(pathname, daily);
           const sub =
             it.href === "/?mode=daily"
@@ -152,7 +162,9 @@ export function AppMenu({
                   ? "Marka akışları"
                   : it.href === "/tinder"
                     ? "Rastgele turnuva"
-                    : "Tüm reklamlar";
+                    : it.href === "/strategy"
+                      ? "Remix stratejisi"
+                      : "Tüm reklamlar";
           return (
             <li key={it.href} className="odd:last:col-span-2">
               <Link
