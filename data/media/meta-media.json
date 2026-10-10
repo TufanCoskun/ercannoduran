@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:01:45.842Z",
+  "generatedAt": "2026-10-10T13:04:18.113Z",
   "items": {
     "meta_1004724955971367": {
       "media": [
@@ -94,6 +94,31 @@
       "fetchedAt": "2026-10-10T12:58:39.573Z",
       "thumbnailUrl": "/media/meta/meta_1016451784037642.jpg"
     },
+    "meta_1021774717542892": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841261171_1111826151578152_8757970844764730616_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-YE8jOxyWKEQ7kNvwHRJMSd&_nc_oc=AdrnLaq9o6CxSfFgkbgL7qz-qKeEvPLTrtspvJYEM48zbsQV5yQGOy5qPMJa9CDS1uQ&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=tiNbeZNWt-O2gvJ41PKrOw&_nc_ss=70289&oh=00_AQO79tHwAgsK59ah1bX28bgsWwx-Ry9m9w4WL0cJ0E2qpA&oe=6AD020B1",
+          "thumbnailUrl": "/media/meta/meta_1021774717542892.jpg"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "IMAGE",
+      "body": "Limited Edition ONE PIECE Collab. Hurry up! Things are selling out fast.\nWe're launching a new Soap & new Deodorant, inspired by the character Sanji from ONE PIECE. Plus we're relaunching Straw Hat Bricc & Sticc and Three Sword Surge!",
+      "headline": "Selling out fast!",
+      "cta": "Shop now",
+      "landingUrl": "http://www.drsquatch.com/products/pirates-treasure-trove",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-15T00:01:09.000Z",
+      "fetchedAt": "2026-10-10T13:02:31.026Z",
+      "thumbnailUrl": "/media/meta/meta_1021774717542892.jpg"
+    },
     "meta_1029831252916541": {
       "media": [
         {
@@ -114,6 +139,27 @@
       "mediaExpiresAt": "2026-10-14T22:12:47.000Z",
       "fetchedAt": "2026-10-10T12:41:51.209Z",
       "thumbnailUrl": "/media/meta/meta_1029831252916541.jpg"
+    },
+    "meta_1033250459774222": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMr6AiIJaRWSVylZKyjfzv9WmgAjbvtK2HJhmxpW_H8Z1CMNGhqgPDU3Z8GOSOVA3sidJwKHW16_qX5ggGG5DmdCvKkxnWeKbQzeGQaMb1cPA.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=gVeRZ0SrZ4kQ7kNvwEwh8Mt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjkyNDQzMzgyMzgxMDczNSwiYXNzZXRfYWdlX2RheXMiOjQsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoxNSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=56d2301ceb805924&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FM0E5OUQ3MzI4ODM0OUM3Qjg5QzJCQjhBMzJDNTg3NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzJBMTc3OEI3RkRDMTQ1NEZCNTQ3MTIzMTZCQzI2MkE2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbekv7akLGkAxUCKAJDMywXQC4Q5WBBiTcYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=Yskl_md7-dn8wqfkw5Tm6Q&_nc_ss=70289&_nc_zt=28&oh=00_AQNz6JyfgjPq690Ey3Y-AbbAehUElra6YQ_r26PZGpWaIQ&oe=6ACFFC69",
+          "thumbnailUrl": "/media/meta/meta_1033250459774222.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "There’s a new Chipotle near you! Check us out at 3407 Canyon Bluff Blvd., Dallas, TX for delicious real food.",
+      "headline": "Now Open in Dallas",
+      "cta": "Order now",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:04:25.000Z",
+      "fetchedAt": "2026-10-10T13:01:48.976Z",
+      "thumbnailUrl": "/media/meta/meta_1033250459774222.jpg"
     },
     "meta_1034466769639506": {
       "media": [
@@ -543,6 +589,33 @@
       "fetchedAt": "2026-10-10T13:00:23.739Z",
       "thumbnailUrl": "/media/meta/meta_1083706574452033.jpg"
     },
+    "meta_1085346920799040": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQO97Px187XGsHVTWZSgzKJtkrLzhHV4zCFOQUI8WesetK1kuronaIFVu6LVF_vzgPd8gOowCDJAMcJCphsiiawVnL14WcWzakM5W1pk5HbyvA.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=iBYmcProwS8Q7kNvwE5bljl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIxNjU3NzMxNjc2MjgwOTksImFzc2V0X2FnZV9kYXlzIjoxMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=715782e600d48404&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CMzRBNThENDg1RDBERjM0RUM0RTQ1QjY0MkQ5MDQ4MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzQyRkYyQjgyQzU3NjQyQzg4QjQyNkQxRjREQjQ5OURFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGvZDFy_DYBxUCKAJDMywXQCKIMSbpeNUYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=SBu3OQkg43Sl1nBa1-idbg&_nc_ss=70289&_nc_zt=28&oh=00_AQMCuSQvsMc_ZGDOloIxNEyXxHSHXJ3SijlGYs0BMhDNPg&oe=6AD0162D",
+          "thumbnailUrl": "/media/meta/meta_1085346920799040.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPX-vtnAxY2-wPLuFbTnCW8uBcpcHaGsKZpzEU28fxgOzYafOeSScgtMvkBc_qdM6oDWNqo1p-gVIDS_RABUpcVObCVsZm3qsd4XKsiGiE7Cw.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=JljozQj8BmwQ7kNvwEqxKLk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2Mzg5MDU1ODQ1NTUwNzcsImFzc2V0X2FnZV9kYXlzIjoxMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=649ef8fd6d18e841&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GQzQyNUZGNEY2MkFFQTZGRTUwNkM3OTQ3MTg0MzlBM19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0RBMEEwNkMzODk2NTRDMkJCQjJDOTVBMURDMzk5OTNDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaK0YCT7qTpBRUCKAJDMywXQCKIMSbpeNUYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=SBu3OQkg43Sl1nBa1-idbg&_nc_ss=70289&_nc_zt=28&oh=00_AQOxo8CUkx900qHJxtEzfjfnLS45N2rX1J1ICjrfByepkQ&oe=6AD007BD",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825278942_1468442195344768_6809005791747186265_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tjqRcZ_Nnb4Q7kNvwFJD7sp&_nc_oc=Ado9tEDmWtPWoDVUmvZgHTuBjIyqpwy6VkxU2WZS_juhsTdfBeow6lxOv9KmnP13qH8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=SBu3OQkg43Sl1nBa1-idbg&_nc_ss=70289&oh=00_AQPkNClyG5wLyrm-fUEXIqs39wJfulobDWS3-5N4AN3mTA&oe=6ACFFAF9"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Forget your shaker bottle – protein is tasty now. This is what +15g of protein per Grande looks like.",
+      "headline": "No shaker required",
+      "cta": "See menu",
+      "landingUrl": "https://starbucks.app.link/z4XLfcSjx6b?%243p=a_facebook&%24deeplink_no_attribution=true&~customer_placement=meta&~campaign=fy27proteinsocial&~creative_name=proteindrinks",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:58:17.000Z",
+      "fetchedAt": "2026-10-10T13:03:40.386Z",
+      "thumbnailUrl": "/media/meta/meta_1085346920799040.jpg"
+    },
     "meta_1085962457724166": {
       "media": [
         {
@@ -634,6 +707,41 @@
       "mediaExpiresAt": "2026-10-14T21:29:19.000Z",
       "fetchedAt": "2026-10-10T13:01:37.575Z",
       "thumbnailUrl": "/media/meta/meta_1088423990775276.jpg"
+    },
+    "meta_1089487297272740": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/842610462_1743009160086037_750191064689656371_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=w5pUr6Qpm34Q7kNvwFWtjcz&_nc_oc=AdpGtdcoCaOjY-9DByWGpYKs4oy6UIw5_Y3XgQo6Bbc2_Otkf1pkJnp9KRTTnWmZzxI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=j7rTT6gGwNFWdwd7eazxVA&_nc_ss=70289&oh=00_AQPDbXnAIvzysjUKrgoWabzUcdC1QZ0PFjlo6qgTT1Rcgg&oe=6AD01777",
+          "thumbnailUrl": "/media/meta/meta_1089487297272740.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/837633914_1954142122225379_4627517896526708717_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ziodDVtKxqEQ7kNvwFLVPSN&_nc_oc=AdoSMNLNgR1RhLdNW7mKxdzUgq9bdRa7A_8kWDn98BnGa3WFaWBbbm9dgTwU_SQ5fHY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=j7rTT6gGwNFWdwd7eazxVA&_nc_ss=70289&oh=00_AQNYY9zUIsJfVluFarjWpjVQzmBzOcWbrOTB6MZLEDtrMQ&oe=6AD024C1",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/838330107_1370269184954701_3420445897476645313_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=gNQoNQNN2HAQ7kNvwF5tZxh&_nc_oc=AdpQwpN9JlqNvu1jtHmkWlYKMww7KCT-S3AC-Z5DkQ09Csd9B2vZQlwOvBdrk9-fxMU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=j7rTT6gGwNFWdwd7eazxVA&_nc_ss=70289&oh=00_AQPHz7RtiPP14t9RDMxnljfY8KjtoZprhc_r4UEf7Qvm4w&oe=6ACFEFA0"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839167095_2570638210117525_7243617177803176536_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KF3wYPb2wrEQ7kNvwHQEHuC&_nc_oc=AdqeCbuwfY3yMQ1aSYZ_DY-PiwoUeoASXu-Fbtnir7ZbJmz_OuQffiBRBn9pxG5Pe2I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=j7rTT6gGwNFWdwd7eazxVA&_nc_ss=70289&oh=00_AQM8ifIPSms5P16ZM7X0smgOh1gTmvnpOmhrwpJEzQIvOg&oe=6AD00216",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/838352388_4424005997854260_2738427782541547778_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fG13eeQG1R4Q7kNvwHww6Uw&_nc_oc=Adoj3jbpQucbEjA-voYzqn3GmIoNszhA8xhQIotnMu8JMJn91FYhiO84AAkyN7KEm3Y&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=j7rTT6gGwNFWdwd7eazxVA&_nc_ss=70289&oh=00_AQODETAN1IxmerRjy51ikFZc02Gs-UkzMUa6-AapOk-duA&oe=6ACFFF5A"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Meet Chubbies Denim. 100% cotton in a super light wash and relaxed fit. Now available in shorts or pants.",
+      "headline": "Chubbies Makes Jeans Now. Seriously.",
+      "cta": "Shop now",
+      "landingUrl": "https://www.chubbiesshorts.com/collections/denim",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:09:52.000Z",
+      "fetchedAt": "2026-10-10T13:02:52.254Z",
+      "thumbnailUrl": "/media/meta/meta_1089487297272740.jpg"
     },
     "meta_1090258926743370": {
       "media": [
@@ -831,6 +939,39 @@
       "fetchedAt": "2026-10-10T12:45:11.679Z",
       "thumbnailUrl": "/media/meta/meta_1107241985104665.jpg"
     },
+    "meta_1108339618410144": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825353127_1077376545095383_6435690827724292630_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mE1Sje9IdUkQ7kNvwGTRKES&_nc_oc=AdrqEiAySlm15rn2BPCXsC_BQscgdHcDj9-5vvEyWi-X_OzNh0cyGicwTad9zwI8ADM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=G1fsJ8ug9g4BFjsNSHuGXA&_nc_ss=70289&oh=00_AQNA33lIUhhzyHAru8RoHY8I4DUeJSNIp8q2e-F8inTWGQ&oe=6AD012D6",
+          "thumbnailUrl": "/media/meta/meta_1108339618410144.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQOqq9KJaDkbwlqQrTRfpnXwYvJs3MxI2T6OLxQ1XCXSWV2aBjTCxeTxYOdgdyVyg-TxpDf4tqogPHaUg4nIlPCpKZiTKcxV5EOjjU5tT_1ELQ.mp4?_nc_cat=102&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=2N13pWjcNA8Q7kNvwFBF_X4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIxNzcwNDc5MzYyMDk2NTksImFzc2V0X2FnZV9kYXlzIjoxMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=1fe69525b9bdc69a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zRjY4NTEwQUQwQzc0ODAzQUVFNjA4NjQyNDUxOUJBN19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzQxRDE4Nzk2MUZGMDQ2OUQ5QzhDMDY2NTFEQTZCNzFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb2y6yO74DeBxUCKAJDMywXQB7MzMzMzM0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=G1fsJ8ug9g4BFjsNSHuGXA&_nc_ss=70289&_nc_zt=28&oh=00_AQPLjrZnNerPvXOSVnoKhM7ro0freJUEJgzfT6WRGtra-Q&oe=6ACFF132",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/828451220_953510780550935_6404629704054530142_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nsEDiOtN7gMQ7kNvwGMhID4&_nc_oc=Adpv-J4nVSH8OBohz7dDTBdiIytmZ9zpbMWUqmkWL4ul1Asn9sEbV2POOaDLR2fzJxI&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=G1fsJ8ug9g4BFjsNSHuGXA&_nc_ss=70289&oh=00_AQOH2XgOudg9ebW7lFAdydrTB0TPrGebC6v16Tr9iV2BwQ&oe=6AD01DF3"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825353344_1086335197724566_8554517581787953741_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bDHcrq6RsqgQ7kNvwEi7gGz&_nc_oc=AdpULKOrl0lwmbWb_k8Z585tjUvWWxbLwEcH-4YChlA6kDGHLnzKgPq3flUfZkf67cY&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=G1fsJ8ug9g4BFjsNSHuGXA&_nc_ss=70289&oh=00_AQPlbEFVxg6qNPE47OYziMfgqBb_3LOK_DEKm9OkN6BvyQ&oe=6AD003B6",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825889179_1728426644888308_817606543838199667_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=37K1kGQueXUQ7kNvwFRe5Je&_nc_oc=AdpUjc017F0B5PW2UomIQf3FkStvITBY70oYEWLRXOkkb2ZvWUHzb3Hls0c9F3C1WPA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=G1fsJ8ug9g4BFjsNSHuGXA&_nc_ss=70289&oh=00_AQO1ZRfdb558FBdbn0e7HNjvcU8CLVCF4teFnyv4qqIyVw&oe=6AD017FA"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Helping you reach your macros, plus a coffee boost. Vanilla Protein Cream Cold Brew works as hard as you do.",
+      "headline": "Skip the blender",
+      "cta": "See menu",
+      "landingUrl": "https://starbucks.app.link/7n6U87kvw6b?%243p=a_facebook&%24deeplink_no_attribution=true&~customer_placement=meta&~campaign=fy27proteinsocial&~creative_name=vanillaproteincreamcoldbrew",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "variations": 1,
+      "mediaExpiresAt": "2026-10-14T21:16:34.000Z",
+      "fetchedAt": "2026-10-10T13:03:43.596Z",
+      "thumbnailUrl": "/media/meta/meta_1108339618410144.jpg"
+    },
     "meta_1111785891193029": {
       "media": [
         {
@@ -853,6 +994,94 @@
       "mediaExpiresAt": "2026-10-15T00:13:08.000Z",
       "fetchedAt": "2026-10-10T12:50:03.258Z",
       "thumbnailUrl": "/media/meta/meta_1111785891193029.jpg"
+    },
+    "meta_1115040071039332": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825279700_1413273416853580_7084700060851610165_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=58SiKbxVMQcQ7kNvwFlzuZo&_nc_oc=Adp0C9wQBiK0gsL1vSIhfu9LK5O7kQ2KHHK9b8xYCquoBQDPL25Uf_mjrbfrYPgOewY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4VzxaetiNVBXIsMwZX-rUA&_nc_ss=70289&oh=00_AQOOgL2eGZjtN3PHeeQuJbh2zB6evmMPiG5DKcAVY2xCyQ&oe=6ACFFC46",
+          "thumbnailUrl": "/media/meta/meta_1115040071039332.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQM8yWLo-Wl8kTRbkRIxRZDVSNix-VdXvshfB2y2BR3aztX3h8Z1J0AeklCQBBE3b69M7adaaunUHP4jUXepZXw9682FLeqLnfk1ES6bIJZKVQ.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=-RpQcIcP8wAQ7kNvwFL83SG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0MTk1NjE5NjAzNjc5MTcsImFzc2V0X2FnZV9kYXlzIjoxMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f79a05f2af268350&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DRDQyMTk1Q0YzOEE1ODEwMUFCRkQ5MzdGQ0Y1MURBMl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzZGOTUxNjUyNEM5QzRDMkM5MzI3OEQ4QjI5NzMxQTNEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbanJPmsMWFBRUCKAJDMywXQBlbItDlYEIYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=4VzxaetiNVBXIsMwZX-rUA&_nc_ss=70289&_nc_zt=28&oh=00_AQNCA3lUWmEjt9agLg0iq8bg7ujgbFkjehi0hU4DnRPxvA&oe=6ACFF869",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/827533089_29322004997405287_1056200641167153566_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=nuxUn38gh18Q7kNvwEC7-Io&_nc_oc=AdoBkivGBKzeVZsW3PgP4yP10v2tgC8KJpYdnldgK40wQ-ZxujtmxrLqwV3aUF0II78&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4VzxaetiNVBXIsMwZX-rUA&_nc_ss=70289&oh=00_AQPLLYnmtOve76bFJAdoW4hB0QQI7kkpD9XbLvBxXXx15g&oe=6AD0201F"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825279595_1443365014356139_3215950364821628594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DJqp1QNvtLkQ7kNvwGyDB3m&_nc_oc=AdpKbEOYkacZ9OcNyhbZbg2BZQC_U6e5XvqS5Yh3FYS36to41agOaxtHOBhMquDNOa0&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4VzxaetiNVBXIsMwZX-rUA&_nc_ss=70289&oh=00_AQMwv5VvXA55WK2nQReKq4fDH9Lv-zt0f-Y_P0xI9S0vMg&oe=6AD02385",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/827590522_3705984476219777_6607825617674476730_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QFT2IhNWim0Q7kNvwEhBi5T&_nc_oc=AdpVgcRTaxmFkajMDBdAJF-ET9N_foKCVIsyfp0EPG5YIQyPZMB4P8LJukuNRRLxUYU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4VzxaetiNVBXIsMwZX-rUA&_nc_ss=70289&oh=00_AQOKkc9uQyptDT1uymMcoouZFjEFp3wXDiPdgNDiZe8ziQ&oe=6AD015E2"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Your fall order, exactly how you like it. Add for +15g of protein per Grande, because fall deserves the most.",
+      "headline": "Pumpkin, but she lifts now",
+      "cta": "See menu",
+      "landingUrl": "https://starbucks.app.link/z4XLfcSjx6b?%243p=a_facebook&%24deeplink_no_attribution=true&~customer_placement=meta&~campaign=fy27proteinsocial&~creative_name=proteindrinks",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:47:21.000Z",
+      "fetchedAt": "2026-10-10T13:03:40.352Z",
+      "thumbnailUrl": "/media/meta/meta_1115040071039332.jpg"
+    },
+    "meta_1115195184238308": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/842235889_1078566381457152_7012352742637331066_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hLKnuh000zcQ7kNvwE4XT29&_nc_oc=AdoP6oI-huusDeQD5WjLdjoiz_CsLACVEiRuiKbvuxakIWg3AoT1qeD1vU4IxqhVSfc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=kodSVdARslO3ZBTt9akfLQ&_nc_ss=70289&oh=00_AQNn1f0Bwow932jsXp68P36Xp9kicZCDfi6W_IQIKrnhSw&oe=6AD01977",
+          "thumbnailUrl": "/media/meta/meta_1115195184238308.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841085368_2264597344389858_8152143400541973100_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9eoG6UO6RIMQ7kNvwGAnfIU&_nc_oc=Ado7u9d2iklXHr2gZRULeNpQjT_Oe2zFxIXAOo5vVxA-xy-JEsthApp22MSGF4bOLiQ&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kodSVdARslO3ZBTt9akfLQ&_nc_ss=70289&oh=00_AQOoKG0CVCqdNokFlcEX46yr5-YcV_vwCmwcEjxsdqMdVg&oe=6ACFF109",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/842679719_1857611938937307_7865061061072494697_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qoHM3Olzp4kQ7kNvwEFtM7_&_nc_oc=Adr7ISZHy0vtFUtJFzyC0pMVREgQUHzvP3RivtIM5za59BZYUSJiOsq-cZFtUOa54Ws&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=kodSVdARslO3ZBTt9akfLQ&_nc_ss=70289&oh=00_AQPJWyKNeCTNnVyPYthxWDiUkxvVRxgyVcKRGdAil7D-YQ&oe=6ACFEE1D"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Did you know cleaning products are some of the most toxic products we use on a daily basis⁉️ That's why we've set out to create human-safe cleaning products for you & your entire family 💛 Our formulas are free from:\n✖️ Hormone Disruptors\n✖️ Sulfates\n✖️ Phthalates\n✖️ Chlorine\n✖️ Phosphates\n✖️ Parabens\n✖️ VOCs\n\nGet 30% Off Your First Subscription Order TODAY ✨",
+      "headline": "Get 30% Off Your First Subscription Order TODAY ✨",
+      "cta": "Shop now",
+      "landingUrl": "https://branchbasics.com/pages/5-reasons-to-switch-to-human-safe-cleaning",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:03:25.000Z",
+      "fetchedAt": "2026-10-10T13:02:46.827Z",
+      "thumbnailUrl": "/media/meta/meta_1115195184238308.jpg"
+    },
+    "meta_1115387238124504": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/842366519_1284068843826636_8059877077418084973_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2lcINLspT0UQ7kNvwGe9LCY&_nc_oc=Adog6c6XWeOVwUUH2orWjVQMBh7Sa6SQPIRuquJrif6f6owUN_sathWKjVjk12n8doA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=y5kDCGanCzjRRxwYgpcL9w&_nc_ss=70289&oh=00_AQOo-QNXQb_uoVcn_X4z5EecjmGpbQun79v34OnIk_1JRg&oe=6ACFFF52",
+          "thumbnailUrl": "/media/meta/meta_1115387238124504.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/842366518_2104908090118158_1232952115687196493_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yZk4oajFxbQQ7kNvwGnx3iP&_nc_oc=AdoHDth0DjrV-VJfiyAogyjuLM8aGSNT5zGen7ujG_i0pRtYs-DpcvZbqf8U9WLJCQc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=y5kDCGanCzjRRxwYgpcL9w&_nc_ss=70289&oh=00_AQMi4HipShT53mmQSlk-67N1NgFibX6wxd65CNM-C1TXYw&oe=6AD0241A",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841928674_932589339617170_8047313435646662916_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KdRTRNJiaFUQ7kNvwHhZ9wI&_nc_oc=AdrgvJCLayvRK31aR2hEw1sOXBS-RpjpREJ-QqrkonTkUt8EfE2otK3OTh6JGaKDvig&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=y5kDCGanCzjRRxwYgpcL9w&_nc_ss=70289&oh=00_AQNMcXzhS1Po1ThnNBJu5rlaHcPlQKjkzBUGmpWxBU26ew&oe=6ACFF75F"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Learn more about H&R Block. Bring Your Consultative Skills to Tax.",
+      "headline": "Apply Now",
+      "cta": "Learn more",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:42:55.000Z",
+      "fetchedAt": "2026-10-10T13:04:01.639Z",
+      "thumbnailUrl": "/media/meta/meta_1115387238124504.jpg"
     },
     "meta_1116288314151848": {
       "media": [
@@ -909,6 +1138,35 @@
       "mediaExpiresAt": "2026-10-14T22:44:13.000Z",
       "fetchedAt": "2026-10-10T12:41:51.540Z",
       "thumbnailUrl": "/media/meta/meta_1120265774015573.jpg"
+    },
+    "meta_1122528790214914": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/833376110_1894626905227111_7522578899777251719_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=enx6JIut0hEQ7kNvwHvqj-o&_nc_oc=Ado3oyRXEdJnWR4z7nGNhudfcI6F2-o5sSkSTtibwIbtZUz93y2DpYFLzXYq7qD_fOg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Q0zkROEtvu7d5LU04Qic2Q&_nc_ss=70289&oh=00_AQPXxVzWa84PsOjKGYOFtJ311vMOvOoCOwdHg-j4L71P3Q&oe=6AD01DFA",
+          "thumbnailUrl": "/media/meta/meta_1122528790214914.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/834528485_1359025492973795_3808154233602803642_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kJ0RpLcxIgIQ7kNvwGK0SNk&_nc_oc=AdoOg4UIrN5gezn3_19M_0GDxSR9axfKCtD8WD4EnkYkWMHlnhXF_lvFAJGOP_FPd1o&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Q0zkROEtvu7d5LU04Qic2Q&_nc_ss=70289&oh=00_AQO0w2TEkwBBb79Q2eHCsZTNSL-mVFjzUxGCd6MkE-MFSQ&oe=6AD000E7",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/835596678_1756264009010197_8843637463482733147_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QESl7fhkzOwQ7kNvwGUhsmO&_nc_oc=AdoeIfBtioi-VS9sGkST54S-O4fadx9HfBNMondLc_JBYRztcm6OuGFqZ3tQ1et2T1I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Q0zkROEtvu7d5LU04Qic2Q&_nc_ss=70289&oh=00_AQP7xTdBPRiCWSt455IXtQgVLb9NFfM-xZhLSWd3-plFuQ&oe=6ACFF717"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Make Your Self. Shop science-backed essentials for daily health with clean, vegan multivitamins.*",
+      "headline": "Women’s Multivitamin 18+",
+      "cta": "Shop now",
+      "landingUrl": "https://ritual.com/products/essential-for-women-multivitamin?variant=42283036246110",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:41:43.000Z",
+      "fetchedAt": "2026-10-10T13:03:30.128Z",
+      "thumbnailUrl": "/media/meta/meta_1122528790214914.jpg"
     },
     "meta_1124747743449305": {
       "media": [
@@ -1057,6 +1315,34 @@
       "mediaExpiresAt": "2026-10-14T21:05:56.000Z",
       "fetchedAt": "2026-10-10T12:59:55.135Z",
       "thumbnailUrl": "/media/meta/meta_1134734475664327.jpg"
+    },
+    "meta_1135705482322464": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQOOqMyBb6NZiXpe6zv7LNidqKCZruIDwQmON1e9jF5KIbaSFXfzC7viLh6N9iGbVTUzAdxCyCur2xYx8SrMeYTDsQ0W3Mkku9eDrIchrzHUoA.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=dYMv5pSAMv0Q7kNvwEMDlcP&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2MTk3Njg4MTYyMjI0MTgsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=88ed3197894afffe&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQkI2QjI2MEJFRDM0MzcyQjJCNTgyREM1NDkzRjM5NF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzM2NTAxMjk5MUQyOTQ5QzI5ODk0QzM0NDUzNjQ0OTBBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACakg8aO-srgBRUCKAJDMywXQE5ybpeNT98YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ha38afvTcl9ojdrgMvmUkg&_nc_ss=70289&_nc_zt=28&oh=00_AQMe2gx8M37BgaSQQ_nbHa2DyVwnSmBXfkX_EkaY8vr1tg&oe=6AD009E4",
+          "thumbnailUrl": "/media/meta/meta_1135705482322464.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPiU4kkjvXFlcPKgUH3z5njr9Rap2FUrNEBGrCDtJt1MtLyPypy_FZ3f6vpOpV3yyMVYxj1OSw7aXtofHQFqcpwGBoOdn9_NwFqTpQMTIib_w.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=qn69GyHojawQ7kNvwHe4rXI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIyMDE2NDI5ODA3NDI0MjMsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=998c503c571ea73a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC85QTk5OTkzMUI5Njc0QkY0OUM2NkU5M0Y5NTJCMkIyRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M3MDVBODAyMUU4NjRFRkY5Q0UxQTJDOEUyMEFENzIzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACau1NC8vpjpBxUCKAJDMywXQE5ybpeNT98YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=ha38afvTcl9ojdrgMvmUkg&_nc_ss=70289&_nc_zt=28&oh=00_AQOcN2GbJkGQd2izd9XBHooxO6vF9l5nzhVCrlPPyDEGsw&oe=6AD02510",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/842785863_4147145628916702_7429718799338339713_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=MSrAu9_R0C8Q7kNvwGXxqxi&_nc_oc=AdopY5gTPntYiV3GoUMXVBRAmm-8NPwqYMcO2Ik0nYnXYcdTcVBjb-MzBjZJLT64ArI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ha38afvTcl9ojdrgMvmUkg&_nc_ss=70289&oh=00_AQPOc6DlVooxdnRetyYoXyOHTJCoQ-o9SHTDdvbIdDrNPg&oe=6AD00248"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Your cookware got the HexClad treatment. Now your bakeware has too. Meet our new Hybrid Bakeware.\n\n✓ TerraBond™ for Baking ceramic nonstick\n✓ Aluminum core for an even bake\n✓ Tri-ply construction to resist warping\n\nThis is bakeware, reinvented.",
+      "headline": "NEW: HexClad Hybrid Bakeware",
+      "cta": "Shop now",
+      "landingUrl": "https://hexclad.com/pages/bakeware",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:29:28.000Z",
+      "fetchedAt": "2026-10-10T13:03:03.418Z",
+      "thumbnailUrl": "/media/meta/meta_1135705482322464.jpg"
     },
     "meta_1143331318370827": {
       "media": [
@@ -1607,6 +1893,35 @@
       "fetchedAt": "2026-10-10T12:59:14.792Z",
       "thumbnailUrl": "/media/meta/meta_1391289442708694.jpg"
     },
+    "meta_1396681265459165": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/837860340_1044151988679845_5508456848078779843_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=macIPsb_CP0Q7kNvwGxJBgI&_nc_oc=AdrjFRgjkmgPABkWzNxR8f-gk_gcZOKxr0dVtY2EKhPrxiMrMDxLijhLPO-bOp21-44&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=YlF05N_wwJvFzEGHjbsG2A&_nc_ss=70289&oh=00_AQMWVUbiYPtiAwdorPecQvlSDgMddNeneyIvZWYlM5ZkXw&oe=6AD0180F",
+          "thumbnailUrl": "/media/meta/meta_1396681265459165.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/835952283_1090340163786438_1008839682828943388_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=n1e5C7Zd1h0Q7kNvwEbRaUi&_nc_oc=AdphR5-5DTmuKLTN2g80cjH7ssniqFkl7N8PQASCnx8KauwAFZh6poYu-4QPYHv9KYg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=YlF05N_wwJvFzEGHjbsG2A&_nc_ss=70289&oh=00_AQMIdpVYf2PuKJoVCja6_rFadS7Sq9h9NI5chL0P6wQFqw&oe=6AD01608",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/835886696_1410897834485629_2221652965834350479_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ne9OkrcVZXoQ7kNvwElqFbD&_nc_oc=Adqz_heSb56LN1jdiI66cQuEcewcw2M4KPT6N5bkTYdTp4TPkrqfMP28LqjwKIq8fEg&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=YlF05N_wwJvFzEGHjbsG2A&_nc_ss=70289&oh=00_AQPnLuwZ67nWL2se7WbjIDtnVjyAEROvIQhCa2U87AJnOA&oe=6AD00ED9"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Ricky Martin is bringing the heat to Atlantic City! Grab your tickets now!",
+      "headline": "Ricky Martin Is Coming!",
+      "cta": "Shop now",
+      "landingUrl": "https://www.ticketmaster.com/ricky-martin-atlantic-city-new-jersey-10-16-2026/event/020064F7A834F1CB",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T23:23:05.000Z",
+      "fetchedAt": "2026-10-10T13:02:08.768Z",
+      "thumbnailUrl": "/media/meta/meta_1396681265459165.jpg"
+    },
     "meta_1400865698803315": {
       "media": [
         {
@@ -1640,6 +1955,55 @@
       "mediaExpiresAt": "2026-10-14T21:32:01.000Z",
       "fetchedAt": "2026-10-10T12:48:15.123Z",
       "thumbnailUrl": "/media/meta/meta_1400865698803315.jpg"
+    },
+    "meta_1411701664492113": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/794516478_1347810474099673_8007200373756161138_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rATtK0mQFpUQ7kNvwE6F6hk&_nc_oc=AdoUsmhDD8vcQH-hGjN2ExP-7VPQP4DCC4nckUDxwmuuMyS-2Q1w_96_x9vylt1aYqc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQPqDDDK5QMpvfNPushHX7Yg6e49eFRtR7IHQJ-kiY3VtA&oe=6ACFF0D4",
+          "thumbnailUrl": "/media/meta/meta_1411701664492113.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/797841489_2623131771465655_5993982673089205123_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=aYlf5AxsOqMQ7kNvwHUC_6z&_nc_oc=AdoP0VZKK9JsdWSPLAN52yZEKRQhLe8_dZgXI737daMmw6BS3IwbmSkJBdeKW5VSQpQ&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQPiMGGJWTANI8n2TMmiV6Y93I_TkDWmlCk4wY0ndnwOJA&oe=6ACFEFA8",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/797841489_2623131771465655_5993982673089205123_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=aYlf5AxsOqMQ7kNvwHUC_6z&_nc_oc=AdoP0VZKK9JsdWSPLAN52yZEKRQhLe8_dZgXI737daMmw6BS3IwbmSkJBdeKW5VSQpQ&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQOPbZ6pViijwL48ebHInFw-Z9AkL4LvtbYuyjdvZBMztw&oe=6ACFEFA8"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/798079485_1095001499649246_2676959019609256893_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-tGqJ-97cEcQ7kNvwGBUQSw&_nc_oc=Adru-GEREasX8ioHtZGmqMBMUwR5y8C59Ix3thjvmujrXrt41CghQW6wW7qgjgNRx_k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQP1afUqtiFHmq2AOFlnLpJZRCpdKwW2OwTgvD6W893mYg&oe=6AD01089",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/798079485_1095001499649246_2676959019609256893_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-tGqJ-97cEcQ7kNvwGBUQSw&_nc_oc=Adru-GEREasX8ioHtZGmqMBMUwR5y8C59Ix3thjvmujrXrt41CghQW6wW7qgjgNRx_k&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQPF0DmjcbVD3TqIG-NpsIHSUCb4uHCjiK1o8AM6uwvikg&oe=6AD01089"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/795582507_1728634651775220_349754255095899446_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YZ4RqrMWZ8UQ7kNvwHvlJn1&_nc_oc=AdoHluBQKk1cKymJm04XRHdkUnn53AnC50FmtDUZt5_ae314svfcMzsKgIHBy_s-U3A&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQOGBujJYZr3nHLMXY1kOkWKprM9F5JzFtc28RDEFN2DUA&oe=6AD0029A",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/795582507_1728634651775220_349754255095899446_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YZ4RqrMWZ8UQ7kNvwHvlJn1&_nc_oc=AdoHluBQKk1cKymJm04XRHdkUnn53AnC50FmtDUZt5_ae314svfcMzsKgIHBy_s-U3A&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQMvIbOaZV8VTRs1BcqlY66CXbERXIEVBn7wXh0RvTYMBw&oe=6AD0029A"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/802030637_1731551817890606_741739411214243348_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4dj52Yw5a3EQ7kNvwEBRozC&_nc_oc=AdqrtAqT7hz6672U0yc_8AIVosBL9MZzvnx99_PQsF84X5_yjTK6m6znjUfLjubjNq8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQNMbL4EDC5P00NIbkMIX1kvO65jzLvxXCqOacr95tA7ng&oe=6AD02387",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/802030637_1731551817890606_741739411214243348_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4dj52Yw5a3EQ7kNvwEBRozC&_nc_oc=AdqrtAqT7hz6672U0yc_8AIVosBL9MZzvnx99_PQsF84X5_yjTK6m6znjUfLjubjNq8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQOgjsH2WiYKRuWHgp2lD4z9uTA6i1pSIlfNsnYO0Vx41g&oe=6AD02387"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/800065784_1448952997109993_5835628592393703079_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=v8o-Skz3n4EQ7kNvwEo1qJ_&_nc_oc=AdoMLayOiesPu85M_6RpOUzPbpRHvpqO1sogK-HhOjCpONJdrEQcHhQyPUN_Uu8m0a8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQO7DtuZWzaMYRD_YHwo-FwrnhVdvYeGG8SVTNLEIHNSSw&oe=6AD023D6",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/800065784_1448952997109993_5835628592393703079_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=v8o-Skz3n4EQ7kNvwEo1qJ_&_nc_oc=AdoMLayOiesPu85M_6RpOUzPbpRHvpqO1sogK-HhOjCpONJdrEQcHhQyPUN_Uu8m0a8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=BK_cUtCD-YsUJSUBfcVAtQ&_nc_ss=70289&oh=00_AQMNmjOSY__t6ZjDW3hq9IydTFbwBJMPM4XgPSSvQ0YzoQ&oe=6AD023D6"
+        }
+      ],
+      "format": "carousel",
+      "displayFormat": "DPA",
+      "body": "Refresh your kitchenware for fall entertaining. Explore display-worthy designs and durable, clean materials built to last ✨",
+      "headline": "You Deserve Quality Kitchenware",
+      "cta": "Shop now",
+      "landingUrl": "https://www.carawayhome.com/collections/best-sellers",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:10:00.000Z",
+      "fetchedAt": "2026-10-10T13:02:09.754Z",
+      "thumbnailUrl": "/media/meta/meta_1411701664492113.jpg"
     },
     "meta_1411703723828841": {
       "media": [
@@ -2111,6 +2475,35 @@
       "fetchedAt": "2026-10-10T12:36:51.131Z",
       "thumbnailUrl": "/media/meta/meta_1466630792178088.jpg"
     },
+    "meta_1468263228484112": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNUEdKP0NFi9vdCw9GJBUXKNdxItDN7I3B_XxiSy3RMyUJbKhTzB-y7nBaebpEyQOBEAedacBgvqncxxF4yRR4hAl4C_IzyyMj2xiIA3ZI8zg.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=b3oJF5HpE90Q7kNvwE7lw5i&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjExMDQyOTkzMDU0NDg5NzIsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=2d176fbf177c0112&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CM0M0Qjk0RDk1NDI0MTlGODI1NURGNDgzQzA2Nzk1NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzU1NzQ5NzM5Nzg1RTREQTZBNzg0QkRFRTMwMDJFMzYzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaY2J391pb2AxUCKAJDMywXQBgGJN0vGqAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=g0965OOjhKE3YAAwK3iFoA&_nc_ss=70289&_nc_zt=28&oh=00_AQM4FxYa-INGDFTOiCZv7-cxcGHwy7h_wET8sdcuqut5ZA&oe=6AD00D9D",
+          "thumbnailUrl": "/media/meta/meta_1468263228484112.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNZmhet0kq56hF7bf7LBwhBRD90-Z6gAO6aAUcLsBGFcmCn8TEOcWzas1CRwogGD32UzayiAosTC5oeO-t-XPk-X0DQWnZ0Zy6UxbfbhRgaSQ.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=wzESqiKKF7YQ7kNvwEcuhLu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNDI0ODcyOTIxMzYyNDMsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=e8779c46a082a6a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9BRjI5MjM4RTk4QkI0NEEwOUI4MzE3MEM3OEY2MDRERF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ExRkYyNjhGQkY5NDQ2Q0U4QUNGMUJERDMyN0M2QjEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbmrNjL34jaAxUCKAJDMywXQBgGJN0vGqAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=g0965OOjhKE3YAAwK3iFoA&_nc_ss=70289&_nc_zt=28&oh=00_AQOvoeKScecRlG3vhUWEGRmulQXvZvIwuvIthg5vR4sBQw&oe=6AD014D3",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840881844_28970267915927128_7162122117751340124_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eC_A5XGL3TkQ7kNvwGE47oj&_nc_oc=AdoKx9KIEEXUOmj1aohFJJg1h8U-VEPS_m7GDTx_r4rEcuP00rJP9kqT5-4zFL_ENns&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=g0965OOjhKE3YAAwK3iFoA&_nc_ss=70289&oh=00_AQP8Wa-3cxRXiQBST08DU-GVbN6kGxxFzFd4lu82lcOnyg&oe=6ACFF0CF"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Liquid I.V.® is the only hydration brand to clinically validate that our sugar-free science works. Proven in research and performance.",
+      "headline": "Sugar-Free Science",
+      "cta": "Learn more",
+      "landingUrl": "https://www.liquid-iv.com/collections/sugar-free?pbk=cmtaea2gn0001l10483d5tdwy&disable_popup=1",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:14:55.000Z",
+      "fetchedAt": "2026-10-10T13:02:51.695Z",
+      "thumbnailUrl": "/media/meta/meta_1468263228484112.jpg"
+    },
     "meta_1469489085232413": {
       "media": [
         {
@@ -2183,6 +2576,57 @@
       "mediaExpiresAt": "2026-10-14T22:08:39.000Z",
       "fetchedAt": "2026-10-10T12:37:24.755Z",
       "thumbnailUrl": "/media/meta/meta_1470654261355694.jpg"
+    },
+    "meta_1472490071385388": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841499964_1808815066815414_685911150047388231_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qvhRIPjt-n4Q7kNvwFEKZBw&_nc_oc=AdrlQGPy40f20uE-4B_nrVLP1U4DoAbXNNNpCTxqMgXPY_HvcADwUNyvzcTCGP4_Vdk&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQPQQ4nscKPmokNOaCmWRktu_4_kOdYw7z-xsxaLPn4I7w&oe=6AD02013",
+          "thumbnailUrl": "/media/meta/meta_1472490071385388.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840664158_1095927453346435_3965388632781071193_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rj6uwysVsx8Q7kNvwFJYLLJ&_nc_oc=Adq9RuQi-iXGx6qdcTg5jvVAOKzByuSE6PCBjPm9p9284URr2Cxp95MoIr868UPHWFA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQPodgiGJqrm3d5Fi7oUJwyuZi-WNk0h9vVKj0881gPT4A&oe=6AD00352",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840951728_1378331144288328_7907067728874318387_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Xouirk7GaR8Q7kNvwEzXVma&_nc_oc=AdqIQUlC2eWdnpUB_biUv81C-cOgJ-si9Kl5glZW8ZmY_hS_eDt10zGTuq9Km4NhMwM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQP22mfg_EiOS6VZemEpSWUWv3yMpje56CrYlu4OsqTI3Q&oe=6AD00AA5"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841057306_2068537033776684_8659921577961592807_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6H1qvVWrB2IQ7kNvwFM6bTT&_nc_oc=Ado3aQ68z2N_r6yMpkH0YoXM1YHaBuzm9yifSsCWI1QjNfL_-PqL9acaDBPgw0XP40c&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQOHiI7HWZe-oC79BTHabi1inZki5frbqD79CpX3B7HRew&oe=6AD00BD1",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/838561601_1525976652614270_2487697062956915992_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uvEof1lDVd0Q7kNvwHQYYE1&_nc_oc=AdqHNc4nMG4SgyWtSY3N8Iex10nTuuL-_FEKX8uuOIGj8KVMKV5bV3iVxEXSRoHjDuw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQNEvcsYymbbrnC1fxed5MLwXNMW2BpqDHIKALyX318hLQ&oe=6AD0177D"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/840764612_1843158997046514_4577709027450239155_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2hTdBjsOg78Q7kNvwFQkyAG&_nc_oc=AdrofYvWyeJh1_bout7gZXXZvnSZyK38CBiF6zQSUszWuVmTSgfnaBGPDqWE1UlWMYU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQNWsj5KrkWDryetmM4Fg8VRC1KlevEg2yw4pjRExHCaXQ&oe=6AD00904",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841370298_1462118049123318_5777553665674642124_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=H9PhZiz77xMQ7kNvwF2BYZK&_nc_oc=Ado_hx_i-Og7gJNmPgfbykR85a3ZcHevODPW4pD0X7CoTz08GLnbqskE3YEJnub08gE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQM-FLkowjf9KrQ-xMNn18xioSjqdUB9GrdajgDGdUbTfg&oe=6AD01B3A"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841208248_1139214561937954_7337555001698286419_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HR3-oGjhckoQ7kNvwEp7mC2&_nc_oc=AdruRFJfExZcr0C0I7GdXBl3iDXfFTgUHiY-YguUHwBw2jSHJIRtwM1vIVltxG2ZkiE&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQPfI7U3I6iqt9h1ci3fJXitBxTq4Bx7XDB9uRBJhOEOMA&oe=6AD0016C",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/840519689_2482749645548230_444614514977699707_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=7YVlTVJMDNAQ7kNvwE12Ayw&_nc_oc=AdqSAmnL2lKV6jHL13sKfP-S4FPSzrRXtMA-1yO5VVcXFrDvQW_Zxc35aW5sEn_N9dw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQOr-rucK9ASvHUDliR5sp27woZiqIqjHALbGzZPMyGbNg&oe=6AD0060A"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839806386_1815670826550397_7959662577923910745_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Zb9KS7OdFtAQ7kNvwH_KR2Y&_nc_oc=Ado7qZIMOJCNQZKRsk_rSgrY873QWom_Y8xlMaORhpW8NhIdBIxvNQjXQtVeGLrL8gs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQNtNDrE07PXIxRv6goNDFkICU5V4bz8QwxHmOp8EpJatA&oe=6AD0130A",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/840714475_1361970303666712_3072054060151628151_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=9Dn8YW5KIDkQ7kNvwF59lhj&_nc_oc=AdqqY07ratgiJ0tuizilDPADJ48odixHgE7cQ6tM0VHva_bcmxTTNYPGPuffUIUeBtA&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=dxTNhgDEbYQ5zRWorjqpAg&_nc_ss=70289&oh=00_AQPjzy0J0jIguOxL3mWhZZlEtCIgyT57JhDH0HT3rc2xSQ&oe=6AD00803"
+        }
+      ],
+      "format": "carousel",
+      "displayFormat": "CAROUSEL",
+      "body": "Baby Blues @mejuri 🪡\n\nDraped in Mejuri’s annual Salmon Gold capsule collection, but this time adorned with a touch of me… Sapphire ! My birthstone ! Responsibly sourced and entirely breathtaking. How lucky, how special <3",
+      "headline": "Orion Carloto",
+      "cta": "Shop now",
+      "landingUrl": "https://mejuri.com/collections/open-dome-collection",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:25:48.000Z",
+      "fetchedAt": "2026-10-10T13:02:22.512Z",
+      "thumbnailUrl": "/media/meta/meta_1472490071385388.jpg"
     },
     "meta_1481283606288405": {
       "media": [
@@ -2721,6 +3165,35 @@
       "fetchedAt": "2026-10-10T12:40:48.711Z",
       "thumbnailUrl": "/media/meta/meta_1562259081840078.jpg"
     },
+    "meta_1568475985087055": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841013435_1116741640748831_927943666487186431_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=OxDFS-l2sx4Q7kNvwFb6t_Q&_nc_oc=AdojJMJkJfe7LGSe6NhvC_RbCVfiqzOmuzFRL3fPzP561rTEJKQHkDQYVhb3urHluxw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=5NyqiSBwzrSD2yRzLo6SUg&_nc_ss=70289&oh=00_AQNCKCrrv0SNfvzWqWWz2GrW_1OKo9CE06yTSD5Ct6mZ_A&oe=6ACFF2CC",
+          "thumbnailUrl": "/media/meta/meta_1568475985087055.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/843606721_1731402957948564_7246654364841121989_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yj1tvHoC7EcQ7kNvwENkWW0&_nc_oc=Adqvnl6yVl0PkZhxOJtw0q-PgpYQ4l3m6cRKPOS340Kg3gZv_2lrjvZi5VWkRC1WrlM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=5NyqiSBwzrSD2yRzLo6SUg&_nc_ss=70289&oh=00_AQP0Cn3tFSg1TE7Cgs287ZcrUyiOPx8M18PkhxtTe5EndA&oe=6AD00DA3",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840405118_1762105445058165_2390602090271624531_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=p4cKziXVZ0EQ7kNvwE2qD-r&_nc_oc=AdpDbkHGJEzJ9tO8RfmUTE7pxOtPqR6AvLFiNcD1e3cFj8txw7A3sB-RFrwrnc4E2Uw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=5NyqiSBwzrSD2yRzLo6SUg&_nc_ss=70289&oh=00_AQMXEI6Zr841HVkRWInoSRYNwKjxsfNxwJSU9_VfdsCXkg&oe=6AD00A7B"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Stock up on Synbiotic+, with probiotics LGG® and BB12® to support immune health.*",
+      "headline": "Probiotic for Immune Support*",
+      "cta": "Shop now",
+      "landingUrl": "https://ritual.com/products/synbiotic-plus-for-gut-health",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:23:24.000Z",
+      "fetchedAt": "2026-10-10T13:03:32.089Z",
+      "thumbnailUrl": "/media/meta/meta_1568475985087055.jpg"
+    },
     "meta_1569281474508184": {
       "media": [
         {
@@ -2956,6 +3429,57 @@
       "fetchedAt": "2026-10-10T12:38:26.882Z",
       "thumbnailUrl": "/media/meta/meta_1578715660509859.jpg"
     },
+    "meta_1597844979041956": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/837573562_1835653637877525_8352149385183644317_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Bpz1NNssI0EQ7kNvwHwOF66&_nc_oc=AdqKpXeST1b3KuWyPfP0EXONVY0xccmF3Uj8EscUaKCfbQs4KV0rwSMyfCClcatBXRY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=geRs_WhXW-AvgBsQ-I77gA&_nc_ss=70289&oh=00_AQNgRJ-CCDv0pG_gzvMWpuSCSB4D9iIamBCRZ3W3Z0jkhg&oe=6ACFF33E",
+          "thumbnailUrl": "/media/meta/meta_1597844979041956.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841249946_1780307426554484_2282044849300007985_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-qVnfWsgK_gQ7kNvwEKE54C&_nc_oc=AdpCguU0fj453nTqUEnJ1gFe-Gl4RUTayn-tWWkOMg8EwCyJwy-w02aw04h4orKUXlY&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=geRs_WhXW-AvgBsQ-I77gA&_nc_ss=70289&oh=00_AQM3OfJT-8w04bgYLravBkiMk7qsZKoUyK8pZhdEtyCX3A&oe=6AD01175",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840233189_4270301869938458_4972080551760773312_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IizaoHsuZe4Q7kNvwGnh3ph&_nc_oc=AdqI4mIO_jgdXU-LJx9XvClosP4JWQzpsIIQMAyDQUvLytTOvniuygUx8UvMNa758bs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=geRs_WhXW-AvgBsQ-I77gA&_nc_ss=70289&oh=00_AQPvpZsKseotyxXAbPw5CNBXcPC1bECF102dfXHAK0orlA&oe=6AD018E1"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "It’s only your daily health. Shop Ritual's science-backed essentials and get 25% off when you bundle.*",
+      "headline": "Your Next Month of Healthy Habits",
+      "cta": "Shop now",
+      "landingUrl": "https://ritual.com/pages/daily-health-18-starter-set/?starter_set=dailyhealth18",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:25:18.000Z",
+      "fetchedAt": "2026-10-10T13:03:21.275Z",
+      "thumbnailUrl": "/media/meta/meta_1597844979041956.jpg"
+    },
+    "meta_1600217571592870": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/837397049_3460957587403551_449635719593253677_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WkTjc9WkKtwQ7kNvwE2XiRr&_nc_oc=Adq9VLPzqvDH97IWAVWQX-bOeTXZ4osT4tQDsJGenD_czTIJQ-zI2MdV7vDqRnCeBG0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=jRtMkCesLL8Lx6h2aOKeqg&_nc_ss=70289&oh=00_AQNxEd9WHETa28Ika24KTkD6LDuljWKI51QOgl-TjExxqg&oe=6ACFF0F4",
+          "thumbnailUrl": "/media/meta/meta_1600217571592870.jpg"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "IMAGE",
+      "body": "There’s a new Chipotle near you! Check us out at 4780 S. Amherst Hwy., Madison Heights, VA for delicious real food.",
+      "headline": "Now Open in Madison Heights",
+      "cta": "Order now",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "variations": 1,
+      "mediaExpiresAt": "2026-10-14T21:15:32.000Z",
+      "fetchedAt": "2026-10-10T13:01:54.438Z",
+      "thumbnailUrl": "/media/meta/meta_1600217571592870.jpg"
+    },
     "meta_1601301608041358": {
       "media": [
         {
@@ -2987,6 +3511,30 @@
       "mediaExpiresAt": "2026-10-14T22:39:20.000Z",
       "fetchedAt": "2026-10-10T13:01:45.452Z",
       "thumbnailUrl": "/media/meta/meta_1601301608041358.jpg"
+    },
+    "meta_1603850878175890": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQM0EF6kN53XaE7KcS2h4TBxWUae-Y8jHpRbnH---2U7SuMUisEGe1MoFgDcGn4xmQBoXP9bh0X5BOJr6d-bfeRi50aU8LSEdFWzvD1vGHFwFA.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=owDCE0ftgIoQ7kNvwHIi2R4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjQyMjI4NDQwODgwMDY5NTUsImFzc2V0X2FnZV9kYXlzIjo4LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=5ec7e228fdc22647&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DMjJGRjIxMjU4RTE0MDY4QTFBRjVCNzRFMjc2ODdFNV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ZEOENGM0UwQTRFODQ2NzY4RkQ1RENEOUQ3QjlEQTJEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbW5PWc8KmADxUCKAJDMywXQEuzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=sLYxEQAO-BNjFXQDRG6CBA&_nc_ss=70289&_nc_zt=28&oh=00_AQNzVGOyFIQVGpSO2qS6_Vmb7UQ1cfa3sf1k29RrVXLpDA&oe=6AD00177",
+          "thumbnailUrl": "/media/meta/meta_1603850878175890.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Sold out after launch. It's back (for now).\n\nBuilt on the clinically backed AG1 Next Gen formula, AG1 Pro adds 5g of Creavitalis® creatine monohydrate, Ca-HMB, and zinc carnosine for advanced muscle and gut support, all in one daily serving.*\n\n💚 80+ ingredients, including creatine\n💪 5g creatine monohydrate + 1.5g Ca-HMB for muscle support*\n🦠 75mg zinc carnosine for gut health support*\n🔁 One serving, once a day\n\n* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.",
+      "headline": "AG1 Pro Is Here - Get it before it’s gone again",
+      "cta": "Shop now",
+      "landingUrl": "https://drinkag1.com/?trybe=580eb083",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:23:38.000Z",
+      "fetchedAt": "2026-10-10T13:02:58.264Z",
+      "thumbnailUrl": "/media/meta/meta_1603850878175890.jpg"
     },
     "meta_1605357884417962": {
       "media": [
@@ -3282,6 +3830,63 @@
       "mediaExpiresAt": "2026-10-14T21:24:06.000Z",
       "fetchedAt": "2026-10-10T13:00:09.959Z",
       "thumbnailUrl": "/media/meta/meta_1634749758311464.jpg"
+    },
+    "meta_1634872498284669": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841398874_1129921329474362_6505881827876856469_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pro6waZxgqwQ7kNvwHL3HC8&_nc_oc=AdrO8a-ND-WyxJwuw1wo91-tCc8nNGz8IUDGbSoo0-ciJMOIp_F1bHPUgBOv9LWpACY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=a4jMNenevRH6FMyDkrLCAQ&_nc_ss=70289&oh=00_AQPJMFMUKSSSIxc_4xVJM9Sf---GpF6_Ayc9Koy11S9Vgw&oe=6AD01B7C",
+          "thumbnailUrl": "/media/meta/meta_1634872498284669.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/843434988_1071667765759283_1287824689185269985_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GQtW23pEOYEQ7kNvwHF4SIR&_nc_oc=Ado_-C9LS73Q54Fe-ozkEz4m_AK4BJkbAL1IYOl8tneCwwMf2M17nQWxEJ852CsryHA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=a4jMNenevRH6FMyDkrLCAQ&_nc_ss=70289&oh=00_AQMS5YHZKZKyZVOKftK9hii3dm8iyeblbjDqhyjF71UeWA&oe=6ACFF7B1",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/843520460_2869231193459101_1169501558854918173_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mnwMkHkVf-cQ7kNvwE5ce_M&_nc_oc=Adr2ODq2DIV_3T1DZ0s6bVchsqj5HWD5xlJnBRiFjo_CZRsbskra_bwZj5G81njboSU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=a4jMNenevRH6FMyDkrLCAQ&_nc_ss=70289&oh=00_AQORsIC-WSVdYYr3FpOp2np269QAhyzGxoyTGNXoorEAiA&oe=6AD004BA"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Rich, creamy flavor that raises the bar. Clean Label Project awarded, and made with responsibly-sourced cocoa.",
+      "headline": "20g Chocolate Protein",
+      "cta": "Shop now",
+      "landingUrl": "https://ritual.com/shop/protein",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:44:17.000Z",
+      "fetchedAt": "2026-10-10T13:03:33.492Z",
+      "thumbnailUrl": "/media/meta/meta_1634872498284669.jpg"
+    },
+    "meta_1645291597249180": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/842610851_1381628614053648_7986344520076924207_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5L5GAcnJAD0Q7kNvwHHYHlx&_nc_oc=Adprnen85_Ky-S85LCkv5UbT1R7pyVXX1wAb4xSDKaNuyqEatqKkPeE8LngvQXHZQW8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Enk6yJtnW7PSMFwRp9eAsw&_nc_ss=70289&oh=00_AQOZ_Y3-zAxzjUBnz8gx3A5sHQssdWKaZiDjAmbwU2atmQ&oe=6AD00501",
+          "thumbnailUrl": "/media/meta/meta_1645291597249180.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/842611602_1635033714668519_6480025294475773777_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=a7WdzHEq2PIQ7kNvwEy7lVM&_nc_oc=AdpgScRycV6pOJMCysdro7nwGk6DbvXgvHCZlJ0vJxRF7LVHEYEXSmXHzjMGSRYvga8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Enk6yJtnW7PSMFwRp9eAsw&_nc_ss=70289&oh=00_AQPH6ASuyO5oc3QpSakKIqz_gD7Tj1CWDWphSPMQNRG6KQ&oe=6ACFF1A2",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841412614_2064002420918098_3907441672784233141_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=IPRtx0Y6FlYQ7kNvwFfAbSK&_nc_oc=AdopaazW5srYgxndHBpy6JLMV0obVetVOrsciAo4HiYs6rod3uP2uZH0yJZKKBBnEPs&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=Enk6yJtnW7PSMFwRp9eAsw&_nc_ss=70289&oh=00_AQPqt3GvLNtSyKZ8EvIO57a6tfOhsb2Vdb7PNmTwcGzE6g&oe=6AD0248B"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Learn more about Puttshack. More than Mini Golf: Turn your passion into a career at Puttshack.",
+      "headline": "See Open Roles",
+      "cta": "Learn more",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:18:26.000Z",
+      "fetchedAt": "2026-10-10T13:04:02.543Z",
+      "thumbnailUrl": "/media/meta/meta_1645291597249180.jpg"
     },
     "meta_1646235657010563": {
       "media": [
@@ -3604,6 +4209,35 @@
       "fetchedAt": "2026-10-10T12:58:52.340Z",
       "thumbnailUrl": "/media/meta/meta_1690381158754205.jpg"
     },
+    "meta_1695461131999698": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841121604_1982181782418055_3855335680814256805_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vNeQUA1LktcQ7kNvwE4qm8G&_nc_oc=AdptUAdv6rF_tKQwPabsCtyW2alfM8-7ps_VMH4dQft-CJqzF60QNezKWIfXjQoCmPs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=9Ycx6ENlJ0QzAhbgK-6E7g&_nc_ss=70289&oh=00_AQPK4GBwEEyEpFDIcRq2pXlucqMDI4AZeIp9Tlcahk5Ccg&oe=6AD01747",
+          "thumbnailUrl": "/media/meta/meta_1695461131999698.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/843534162_2337846917029991_7318523488458683984_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Ue0jClkhyJ0Q7kNvwGh1Rds&_nc_oc=Adr379M73UH12THsxrRJFmc2o2A9CAdmK5LdLQq3TE5DLltfFRxFabPkpxsrIj76_3I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=9Ycx6ENlJ0QzAhbgK-6E7g&_nc_ss=70289&oh=00_AQP-2bHj4TmQU9oi2i13joz7XlH8SywxvafXUoY_adLvYA&oe=6AD024D9",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841230049_1106594451729856_2425158821050249607_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=XcDJxBNxPxgQ7kNvwFrJYt7&_nc_oc=AdrB8Zh2ClL8B8O05p0jcQmRjexEVbOYlY7dLIiXb3fnV_k08GP4_Q2w7Fj1sr968gI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=9Ycx6ENlJ0QzAhbgK-6E7g&_nc_ss=70289&oh=00_AQOIOEwCh4UyRDHXw2CR8eN4VIlA_A6XwU1CsP-vr82FMQ&oe=6ACFFEF6"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Your family recipe has history. Your cookware should have receipts. Caraway’s signature ceramic coating is third-party tested for 600+ types of PFAS with zero detected. Add even heating, smooth food release, faster cleanup, and 200K+ verified five-star reviews.",
+      "headline": "Make the Switch to Caraway",
+      "cta": "Shop now",
+      "landingUrl": "https://www.carawayhome.com/products/deluxe-cookware-set",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:25:21.000Z",
+      "fetchedAt": "2026-10-10T13:03:15.764Z",
+      "thumbnailUrl": "/media/meta/meta_1695461131999698.jpg"
+    },
     "meta_1697743278218571": {
       "media": [
         {
@@ -3811,6 +4445,38 @@
       "fetchedAt": "2026-10-10T12:49:11.874Z",
       "thumbnailUrl": "/media/meta/meta_1745536213171530.jpg"
     },
+    "meta_1749734559421954": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825329920_1411470857051316_1509366410855452539_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Voy6G2ruABkQ7kNvwFgXzLx&_nc_oc=Ado9au06mbJ_sArOnLmreFE1qIdrFLCGLdPkn-V2gTrn7IL7Rm5hiXsjoMGIYjwxIhI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=pEbCVegWWiJDbRcx6iVXmQ&_nc_ss=70289&oh=00_AQOd5x-O63VZLTGJ1kqX6YYMam0H_T7pc-txx3F-dk6m6Q&oe=6AD004F2",
+          "thumbnailUrl": "/media/meta/meta_1749734559421954.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPxY5KNihROa9G1YYkgrhY3ZLlAreX_Aw81OgqRFedQ_MOf-vA-c1IQWcyoG3OtEDF5kSBj7rlp8KNnEVb8BZWgFaNSGDgyUFf2WCW4FfBuRQ.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=OWvDbBl3FxAQ7kNvwHWvCAH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1MzczOTI4ODE0NDQ5NzgsImFzc2V0X2FnZV9kYXlzIjoxMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=f41f31e0c273e37a&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81QUNEQzhDRTc0NUY0QUU0QTFBOEM0RUYwMTU1OTYzQ19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzMwQ0QyNEUzREY2ODQ4MjRCRUY2OUNFN0JEMDMzMzQzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbkoaHJhZC7BRUCKAJDMywXQCZ3S8an754YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=pEbCVegWWiJDbRcx6iVXmQ&_nc_ss=70289&_nc_zt=28&oh=00_AQP9Z3JYMs1uWvYUpTFdy0g7W6hYuJKluR7CeX8wSOCTXw&oe=6ACFFF20",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825329732_1099924725859189_8953270742890843222_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=xLGHAx_wgfgQ7kNvwFlfHKx&_nc_oc=Adp3y9pwk54ijexH8E6dtFQtDAnHjM5JokhVQXJByyr9G-E_P3JocE6FWoL7_Q0V5Wg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=pEbCVegWWiJDbRcx6iVXmQ&_nc_ss=70289&oh=00_AQPQDuw7VTHnXzidhEGV6mgTEtW2z67s9IsJkzwPJtQZVg&oe=6AD011FA"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825329942_970717696089792_4346670143576371625_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4xWI6gpqI4EQ7kNvwGu04Ww&_nc_oc=AdriQwcLchCYqxgLjAUCKSsqYNzz_BS6b55Tg29dapFaD2rcQ_pSbQm1PT5GXRRiHvU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=pEbCVegWWiJDbRcx6iVXmQ&_nc_ss=70289&oh=00_AQPPhiuzGPGLL117HvnuOcR8w12GUHUj-Rob8KRpxZc9-w&oe=6ACFFD0F",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825329891_919203454323541_3332335101400104633_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=rZ_Hoj_15A0Q7kNvwFejUtR&_nc_oc=AdrvfM4MfBVOyWoULK3zgpDmcCF8lPg0yBWOitPgLJWjKMcoEV7w_KSX1x5PLgVkJa0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=pEbCVegWWiJDbRcx6iVXmQ&_nc_ss=70289&oh=00_AQMO5N4f1Kb-4ScLgCo6P1JEzPDCo3Z70Wj33r8Vf7vhGA&oe=6AD02453"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "The Iced Protein Matcha and Iced Vanilla Protein Latte look like your usual… but they’ve got protein built in.\n\n*Grams of protein approximate. Assumes Grande size.",
+      "headline": "Get more from your usual",
+      "cta": "See menu",
+      "landingUrl": "https://starbucks.app.link/z4XLfcSjx6b?%243p=a_facebook&%24deeplink_no_attribution=true&~customer_placement=meta&~campaign=fy27proteinsocial&~creative_name=proteindrinks",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:07:11.000Z",
+      "fetchedAt": "2026-10-10T13:03:37.306Z",
+      "thumbnailUrl": "/media/meta/meta_1749734559421954.jpg"
+    },
     "meta_1750250906185952": {
       "media": [
         {
@@ -3890,6 +4556,35 @@
       "mediaExpiresAt": "2026-10-14T22:18:27.000Z",
       "fetchedAt": "2026-10-10T12:41:32.731Z",
       "thumbnailUrl": "/media/meta/meta_1755778079010520.jpg"
+    },
+    "meta_1756196475604681": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841262169_2598476123928620_3096062618559192504_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=bQFxcLgsRSAQ7kNvwE0UWOk&_nc_oc=AdpmjAfZIBcGzU4Fa6VZX2Kyyp9ggvO4vAWL5bWUwJxfI-nfPnpSmKNc9XmTixmv_x8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DMpXYxNDnpu198tuuXxhyQ&_nc_ss=70289&oh=00_AQPBvLakmd1Z46KjD7eeNu9Uu7gwtNz2xqplJP9xTkWNBw&oe=6ACFF2E0",
+          "thumbnailUrl": "/media/meta/meta_1756196475604681.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/836515345_1113794487862470_1679823571624029797_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Kp12qAam8jcQ7kNvwFag-pK&_nc_oc=AdplxRPCwMaSzXvodU9pUPpExNXRgWiXiewSQ2tFPIxF5-OdPbfqSjly0Sg2KIzqay8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=DMpXYxNDnpu198tuuXxhyQ&_nc_ss=70289&oh=00_AQNI4jKj0Xgd5g9YuuP4tqB1Ps55GojoAXQIdC52lsPr1g&oe=6AD000D8",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/837094144_2026247244761571_6093928729363773649_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=AW3yzYLtTGYQ7kNvwHDYcsX&_nc_oc=AdqqSwCEmcEvOa2srtgrbHKmwU0YBNwLP-4f80_XZSI5-2Jp4Yusa-mG_FWkBRhHXZc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=DMpXYxNDnpu198tuuXxhyQ&_nc_ss=70289&oh=00_AQPc5RYINfv8Xd4tcpcEyI-lMmIFB4rQB0sEasasm-xofQ&oe=6ACFFF84"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "🌴 Sail from the Caribbean to the Pacific through rainforest-lined waterways, tranquil lakes and the iconic Panama Canal itself. Tropical port days, open-ocean relaxation and 16 nights to soak it all in.\n\nWhat's included:\n🚢 Inside cabin on Crown, Island, Coral or the new Star Princess\n⚓ Caribbean and Central American ports\n💳 $60 onboard credit\n🎟️ $900 coupon book for dining, casino and shops",
+      "headline": "🚢 16-Night Panama Canal Cruise — $63/Night",
+      "cta": "Learn more",
+      "landingUrl": "https://www.travelzoo.com/cruises/europe/-63-night-Panama-Canal-16-night-cruises-3289174/?&utm_source=facebook&utm_medium=paid_social&utm_campaign=member_acquisition&utm_content=63_panamacanal&offerid=49&source=p1fb641crpanama",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:23:44.000Z",
+      "fetchedAt": "2026-10-10T13:02:15.956Z",
+      "thumbnailUrl": "/media/meta/meta_1756196475604681.jpg"
     },
     "meta_1757934342187347": {
       "media": [
@@ -3984,6 +4679,35 @@
       "fetchedAt": "2026-10-10T12:43:40.444Z",
       "thumbnailUrl": "/media/meta/meta_1766018275076926.jpg"
     },
+    "meta_1768613061113179": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/843205867_1118912377504465_8570337933774150804_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=D2qnmMAN6LEQ7kNvwFdkdcD&_nc_oc=Adqh7N1LMqIh_irIUd1jJhEyd8zYh9B6zZ9w70LtW60XTA_h-7wB5JQiLAknVSLgU4Y&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=6K6kubQ2aKLGLs0u0eG7dA&_nc_ss=70289&oh=00_AQNlcuqivu9Spcyf1a7HS3GKcDthsrO4Oha_EdnJ4p0txw&oe=6ACFF5F6",
+          "thumbnailUrl": "/media/meta/meta_1768613061113179.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841248983_1930950874977764_1635755064763513402_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=DCmnX_nD72IQ7kNvwH8y3j6&_nc_oc=AdrPnLYOC9wl-gToNfAHRErm8xOibGkuNgC2lKpJqh6ePN8sLvOWhFWqv0LPq83h0DQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=6K6kubQ2aKLGLs0u0eG7dA&_nc_ss=70289&oh=00_AQO2QscS6LJdCXFCZgbCWtpGlwxHVd1aTwXBiFb3OYIpyQ&oe=6AD01E35",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841640195_1109914618102121_4793683207424839154_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=CHYDYcTlyKYQ7kNvwGBHYrP&_nc_oc=AdpiElhwobrXBpkqZJ3GVDZ9_8gl7-Idm6DzlzzDPLy2aywiF7HXkpzpNGfJ_oizOOo&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=6K6kubQ2aKLGLs0u0eG7dA&_nc_ss=70289&oh=00_AQNCm0i_PYLXSbb_aSXondWk8s1mn8r_JSdrWNkufyq7YA&oe=6AD00BFA"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Bump up your pregnancy support with Ritual. Pair the clinically backed Essential Prenatal Multivitamin with Natal Choline.*",
+      "headline": "Essential Prenatal Starter Set",
+      "cta": "Shop now",
+      "landingUrl": "https://ritual.com/pages/essential-prenatal-starter-set/?starter_set=prenatal",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:36:54.000Z",
+      "fetchedAt": "2026-10-10T13:03:25.434Z",
+      "thumbnailUrl": "/media/meta/meta_1768613061113179.jpg"
+    },
     "meta_1772190107424819": {
       "media": [
         {
@@ -4028,6 +4752,33 @@
       "mediaExpiresAt": "2026-10-14T22:01:28.000Z",
       "fetchedAt": "2026-10-10T12:40:46.107Z",
       "thumbnailUrl": "/media/meta/meta_1803993240952774.jpg"
+    },
+    "meta_1810349230386848": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825266224_28010661295283763_3177063085353968544_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pqEJEwSWxNMQ7kNvwGTeTIK&_nc_oc=AdqPjQZwKia8UyO_M08OgYiiRtRPwGPpi-ExdsRlOgqQXBWjTUPjoeU8W5ZqExCBePo&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ohCOATIq6idBoDMFDSav1A&_nc_ss=70289&oh=00_AQPR-jmrK3tTmm8CwCabEbss5L4yYZzSxpNOnc5N4NeDHQ&oe=6AD01FC3",
+          "thumbnailUrl": "/media/meta/meta_1810349230386848.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825266477_1366749195205364_6223155612525935004_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=L-_qR5KHG58Q7kNvwFjxkTk&_nc_oc=Adqi0vXnt5cr-MlFeqw4JgknS76QU4IHZ1JXaEpQ9rThaNXy-wku8X4U12CNxr-L_LI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ohCOATIq6idBoDMFDSav1A&_nc_ss=70289&oh=00_AQMsE_yWu3Tk19UnefqADHMZ750v5QM_KBGpIQwoNPDQmg&oe=6AD0258A",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825266558_2273239323429206_5791951716342193811_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=2MaEH1CNOtQQ7kNvwG-axje&_nc_oc=AdpMndTZ1asrPAF_b9LTeqeyfns3gvSS6jk0I0wFrfC7O4HFXGBZ9NlnF_EQ8SCgxBU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ohCOATIq6idBoDMFDSav1A&_nc_ss=70289&oh=00_AQPuneIsAmGCRiKhdjYmQaIFUn9D9R4I1wVyC0srbVYYUg&oe=6AD00116"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Finance your Carnival cruise vacation with Flex Pay.  Terms and conditions: https://www.upgrade.com/flex-pay/carnival-disclosure/",
+      "headline": "Cruise Now, Pay Over Time",
+      "cta": "Get offer",
+      "landingUrl": "https://ad.doubleclick.net/ddm/trackclk/N1385376.158605FACEBOOK/B34638683.434295586;dc_trk_aid=627655184;dc_trk_cid=245555408;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:24:22.000Z",
+      "fetchedAt": "2026-10-10T13:04:13.027Z",
+      "thumbnailUrl": "/media/meta/meta_1810349230386848.jpg"
     },
     "meta_1814999776165483": {
       "media": [
@@ -4091,6 +4842,35 @@
       "mediaExpiresAt": "2026-10-14T21:40:17.000Z",
       "fetchedAt": "2026-10-10T12:38:59.519Z",
       "thumbnailUrl": "/media/meta/meta_1818306129052529.jpg"
+    },
+    "meta_1821301418906304": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMO4fDpPXOkBc_11SX8VjlFgSWQVM1UJmEhdJCMYfFO1K01Xi4x8j2-I9CqUkELjqm7Vd83I6fbu_mZxVtYXhSLq5iZcwguIgxSzXyqdUW5aw.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=JzLbCiuNCEsQ7kNvwH00DpA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0MDI1MDM4MzU0Mjk0NzIsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=3b71f6b163bb5246&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9ENTM5M0REQkI0ODg0MDg4QTAxRTNDOUE1RjYxOUM3RF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0Y3NzJDQUVGNDQ5MTQ2QkY4RDUzMUM1NjkyQ0ZFQkI5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbAqcHuu-T9BBUCKAJDMywXQC4HrhR64UgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=i3BQoFooXEckrtn8ujqj9Q&_nc_ss=70289&_nc_zt=28&oh=00_AQPBKYh3w4AdFkckRPQ9WPluDDNxKGJsBlg4Uq3uRHVuHg&oe=6AD00C3C",
+          "thumbnailUrl": "/media/meta/meta_1821301418906304.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQO661XajegD6gTz4NLdexlPzZWG4PhA6TOuYtjw3Sin1ODDG-xPuz5IZMPmRhH4JXwljnWFqkr_2Ibr79jBLW9-KnfM7vlQkftA4fnXWTNliQ.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=yAJ5awVSYw4Q7kNvwHfUpU2&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjExMDQwNzIxODU5MjUwODIsImFzc2V0X2FnZV9kYXlzIjo0LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=469a05924130e5ca&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FMkRBMTJERDk2RDg0ODI5QjA4QjczOUQ4MzcxQzM0RV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzZBNzhCNjhCNUExQzRFRTg5ODdEMzMzQjlEREYzNUU3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0t5bnuon2AxUCKAJDMywXQC4HrhR64UgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=i3BQoFooXEckrtn8ujqj9Q&_nc_ss=70289&_nc_zt=28&oh=00_AQO9qtTeFB-WLdwXsKXCotfzx3xDUyOoG-hWbWz-V5nZwg&oe=6AD011D4",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/840465989_4394400450821962_561383910648754650_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_76dVBG7C-IQ7kNvwEh4OC5&_nc_oc=AdqpMePIYcPHqa0Ml5_af6hHUP8PVv1DdtgJf47FMZfMVijoymLGId4msuz1N00yQ2A&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=i3BQoFooXEckrtn8ujqj9Q&_nc_ss=70289&oh=00_AQPt28JrfREgUq4Qqp8m-_sSTpGY1YvXZd_lHjzCPGuaSg&oe=6AD0083E"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Hugh Jackman has been drinking AG1 since 2021, but he doesn’t make some big song & dance about all the health benefits. Or does he?",
+      "headline": "Good Morning, AG1",
+      "cta": "Shop now",
+      "landingUrl": "https://drinkag1.com/products/greens-powder-pouch",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:41:41.000Z",
+      "fetchedAt": "2026-10-10T13:03:00.221Z",
+      "thumbnailUrl": "/media/meta/meta_1821301418906304.jpg"
     },
     "meta_1862203554933035": {
       "media": [
@@ -4159,6 +4939,36 @@
       "mediaExpiresAt": "2026-10-14T22:13:53.000Z",
       "fetchedAt": "2026-10-10T12:49:10.955Z",
       "thumbnailUrl": "/media/meta/meta_1882125542751809.jpg"
+    },
+    "meta_1886382896073954": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/657718841_1638224710701888_223370222046264952_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=y7lP4OgdQnsQ7kNvwFbgdvW&_nc_oc=AdrrdILvZViPdiIklNzoLCliQR9Grb2OsCKz5M6wAvERmrjX-5vez81Oo6YYHuvPpPE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=u6YtP6egwB2Iy-AjvBL_KQ&_nc_ss=70289&oh=00_AQMH4eqzB-aAoOw7qkZLA2TxHESp05HwiZb2FR6PFG7Wyg&oe=6AD00512",
+          "thumbnailUrl": "/media/meta/meta_1886382896073954.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/656116396_972298345224585_2075034459412236412_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TxcW6SjUsrUQ7kNvwHQHUga&_nc_oc=AdreLBTdkSBG2A8jnSy89iXTJW_bBfCz38AQHsGZN7hHeKOnN4T-lgfDF25akbLAYAs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=u6YtP6egwB2Iy-AjvBL_KQ&_nc_ss=70289&oh=00_AQO9w_MS664IMl9sIKRD39atWUYDIcKA1R7Q_PFAKECq5w&oe=6AD00F11",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/656116396_972298345224585_2075034459412236412_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TxcW6SjUsrUQ7kNvwHQHUga&_nc_oc=AdreLBTdkSBG2A8jnSy89iXTJW_bBfCz38AQHsGZN7hHeKOnN4T-lgfDF25akbLAYAs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=u6YtP6egwB2Iy-AjvBL_KQ&_nc_ss=70289&oh=00_AQM4XP2G-7Mbzo56DRQNAcd8KjYLOaNL71PCqAk6pk_1mQ&oe=6AD00F11"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "IMAGE",
+      "body": "The pieces everyone keeps reaching for. And we don’t blame them.",
+      "headline": "Shop Jewelry You Can Live In",
+      "cta": "Shop now",
+      "landingUrl": "https://fb.com/canvas_doc/3977528992539387",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:41:22.000Z",
+      "fetchedAt": "2026-10-10T13:04:08.849Z",
+      "thumbnailUrl": "/media/meta/meta_1886382896073954.jpg"
     },
     "meta_1908209329984920": {
       "media": [
@@ -4405,6 +5215,64 @@
       "mediaExpiresAt": "2026-10-14T21:05:38.000Z",
       "fetchedAt": "2026-10-10T12:45:28.554Z",
       "thumbnailUrl": "/media/meta/meta_1951671219571899.jpg"
+    },
+    "meta_1953557462707110": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/842421807_2354013872083006_6001905769473200794_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Us4_iUMTKlYQ7kNvwEvr57C&_nc_oc=AdpLnKfBAO6ao8kvlPC7-FDu831YQPWtnXOdcYcqEqW8F4XH6PJixfMulUU4TeLAMm0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=SNR1AAg_UNsXMw748q7FBg&_nc_ss=70289&oh=00_AQNazfn4pOODA1Jgb7EtUnQdOcWrfcqMaQ0ILkr6UUgm8g&oe=6ACFFD74",
+          "thumbnailUrl": "/media/meta/meta_1953557462707110.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/842678203_1423554699746953_3800534168080447178_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=irwOiMyb5LQQ7kNvwE8wbEd&_nc_oc=AdocSzyy_yjdgYNwuVilEv4WxxhdmCcdTIhHWYQB5dpHu6e12SGhQ9ToEL5KdX9OX3Y&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=SNR1AAg_UNsXMw748q7FBg&_nc_ss=70289&oh=00_AQMJLvJeXB-_6SvJuelLZbXSgsFhqpKNVupRvo4K2DSoFA&oe=6AD0094C",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/843405091_2052592908717923_6007166525780677407_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=WIfzRDcBgDwQ7kNvwFCz7zS&_nc_oc=AdqjSrtpB_AklvL1_phYBf0BXcHPF5XaB6vKPSxJIIYmB_77hIkcKVTIC9GW2uaUMuM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=SNR1AAg_UNsXMw748q7FBg&_nc_ss=70289&oh=00_AQOrp_9Bp3PHRN64pVwmjCsr7BiYBAHwtZo_Wa1cuUeWYA&oe=6ACFEEDE"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Meet Caraway's Ceramic-Coated Cookware: designed to be equal parts durable and beautiful, and made without PTFE, PFOA, or PFAS.\n\n🌟 Eight gorgeous colors\n🌟 Sets come with free storage \n🌟 200K+ five-star reviews\n🌟 Third-party tested for safety\n🌟 Free shipping & returns\n🌟 30-day trial",
+      "headline": "One Life-Changing Upgrade: Quality Cookware",
+      "cta": "Shop now",
+      "landingUrl": "https://carawayhome.com/pages/5-reasons-to-love-caraway-cookware",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:06:38.000Z",
+      "fetchedAt": "2026-10-10T13:03:16.229Z",
+      "thumbnailUrl": "/media/meta/meta_1953557462707110.jpg"
+    },
+    "meta_1954196369182243": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/836960026_1773550797304885_3551526475272169029_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GT0Xne3pgBIQ7kNvwG_KSjq&_nc_oc=Adpbxn19UL1LOkm1wQ1KV26bbOiKEhTiTBz7J4gzkDMbVmlFg8sV8UJPZN-qHwqDQjI&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ffi3Yspr71ZqL2vSvS9LFg&_nc_ss=70289&oh=00_AQP3VRgGQAV0uGE18rhVyWW-okFgYr4pVdT4BVmZxsDzog&oe=6ACFFE2D",
+          "thumbnailUrl": "/media/meta/meta_1954196369182243.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839594581_28534281612865812_8853106846897963792_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=5dX0rI0VPbMQ7kNvwFTmfFz&_nc_oc=Adr_FVA_sxXSKCcafJmtMO2a22QTZX7wi9D08vCqUh3ax_FQETJy-o2NEfphXeYrhhM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ffi3Yspr71ZqL2vSvS9LFg&_nc_ss=70289&oh=00_AQPVz-LqJ-8uWJejcxOPrz25rP4pP7i7RrtqPBsBERxtSw&oe=6AD01759",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/836438455_1822094222549486_4169583936848784734_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JqSBPCq8rlEQ7kNvwERSfXx&_nc_oc=AdoBpdDYk0DQyxqKavXQSzGG9p0s_C0sp2tEGEjIj9SZYLVb-fvpmc8jC6kB12lpk6A&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ffi3Yspr71ZqL2vSvS9LFg&_nc_ss=70289&oh=00_AQOWqdchzRTNN6q5yev3LdNDObFPS4YV1JlcdQlJzHc9ww&oe=6AD0036E"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Atlantic City, it's time to celebrate! Earth, Wind & Fire are coming. Get tickets now!",
+      "headline": "Earth, Wind & Fire Live!",
+      "cta": "Shop now",
+      "landingUrl": "https://www.ticketmaster.com/earth,-wind-&-fire-tickets/artist/734980?venueId=17092",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:11:57.000Z",
+      "fetchedAt": "2026-10-10T13:02:23.064Z",
+      "thumbnailUrl": "/media/meta/meta_1954196369182243.jpg"
     },
     "meta_1954972825141130": {
       "media": [
@@ -4859,6 +5727,54 @@
       "fetchedAt": "2026-10-10T12:49:02.148Z",
       "thumbnailUrl": "/media/meta/meta_2082105655829812.jpg"
     },
+    "meta_2116217452299145": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825353419_1601264684194657_8435071885630354217_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=0PWknMhgxwkQ7kNvwGjJvnD&_nc_oc=AdqawAoZMuRcspnWcSfFmPTfZX6YLR4Z4dhCJsAAC5mCBTHn0c4zjRxJD0bvyahS_5A&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQNpb49J1ZFbzWlOiHqFmhpDHOskaOxPBVlTTzeOFDuv8Q&oe=6AD0062B",
+          "thumbnailUrl": "/media/meta/meta_2116217452299145.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839047594_3569706233219803_9099973337432416512_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yzPAbaEboQoQ7kNvwEZ6Fux&_nc_oc=AdoVZNMKeBugVf6vKD7bVmucthOS8uDJIpDGnbvBP74c4V5GtT8TcA8Lpvc3ih5GzBA&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQPtcEGK380uXr4mrVd4dhWOrF6zXnF4S3XeW-bv-yJdCQ&oe=6AD0062A",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839047594_3569706233219803_9099973337432416512_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yzPAbaEboQoQ7kNvwEZ6Fux&_nc_oc=AdoVZNMKeBugVf6vKD7bVmucthOS8uDJIpDGnbvBP74c4V5GtT8TcA8Lpvc3ih5GzBA&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQMkhdb0EFF5HCG0nzdMJqWGkFiJUduChNDLoEwgUbobmw&oe=6AD0062A"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/828391721_1643467194168010_6418549191110604581_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JD-Rcw_C0sIQ7kNvwFrUcBh&_nc_oc=AdpHAvQVclpQQJN9qq8oBLZ75f79FNHHONchR89SsLYlNXlFFfmMe6ApoXTSO3vsPXQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQM_Z9m7MR4EGpg260W20cT3yqQwIJjB6H-rn6P_OzHiVQ&oe=6ACFF8BC",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/828391721_1643467194168010_6418549191110604581_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JD-Rcw_C0sIQ7kNvwFrUcBh&_nc_oc=AdpHAvQVclpQQJN9qq8oBLZ75f79FNHHONchR89SsLYlNXlFFfmMe6ApoXTSO3vsPXQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQPsj6nrWGFud-YNsFNx6xfVl47ajE07P2tjjeZ2P8F9TA&oe=6ACFF8BC"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825353419_1051732427867602_5930930799143815529_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=M_OGV_5X-FgQ7kNvwEDhlVy&_nc_oc=AdqGGR3hZLuh5jkuJyJ3OTeBeO5sEoLrHPzWU--KNGXokV99X6O97Mye4AA95JjlLIk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQPXQ5SZ_aGgS2SGIJOnNAREqQhtEyVJ_0ZzgKKvzZLYNA&oe=6AD01531",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/825353419_1051732427867602_5930930799143815529_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=M_OGV_5X-FgQ7kNvwEDhlVy&_nc_oc=AdqGGR3hZLuh5jkuJyJ3OTeBeO5sEoLrHPzWU--KNGXokV99X6O97Mye4AA95JjlLIk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQNN_dwbRqBTVmI1qiUhaGJ5uUO-JO5RWgmS0sDwh8R4EA&oe=6AD01531"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/831012372_28579932038365508_4133109008269958149_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JhWmF9q85TYQ7kNvwEk_QR_&_nc_oc=AdoxnI1uw03odf4VtOMZ2HFPrHY2M7Aw521OOdzW-ntJ8pFCRH2qGNp_61JuPeEvmjU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQMGqpBACwqhyKrXgOlZJ3-6nzEZZyt-9-L5YI9Bf0puuw&oe=6AD019C4",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/831012372_28579932038365508_4133109008269958149_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=JhWmF9q85TYQ7kNvwEk_QR_&_nc_oc=AdoxnI1uw03odf4VtOMZ2HFPrHY2M7Aw521OOdzW-ntJ8pFCRH2qGNp_61JuPeEvmjU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQOT2Bfgex_NtjQQJacnqCEW3CcBOEgm8oPtSN8i3-UUbw&oe=6AD019C4"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/834019201_1803994774070018_2392185990097550721_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pE2r1vYLxvoQ7kNvwHhA0ec&_nc_oc=AdqEzv8QKTfu65PeeYJnjx6cmnro0a88sSKZDC1_lwfyBjFgK7bqm6Ks7uQI-MpydUk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQMqhzNb20IwuHu2ag4IBlBiqyGDSdmYST1olN16TA6iOw&oe=6AD012EA",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/834019201_1803994774070018_2392185990097550721_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=pE2r1vYLxvoQ7kNvwHhA0ec&_nc_oc=AdqEzv8QKTfu65PeeYJnjx6cmnro0a88sSKZDC1_lwfyBjFgK7bqm6Ks7uQI-MpydUk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zqCCDCJWrGuG0--_A0GzkA&_nc_ss=70289&oh=00_AQOysADjm6EVcG3geEZB78YasfFS0QyjRpjUSaKSl32F_A&oe=6AD012EA"
+        }
+      ],
+      "format": "carousel",
+      "displayFormat": "DPA",
+      "body": "30% off every order + VIP treatment? That’s hydration that travels well, keeps your wallet happy, and comes with even more perks.",
+      "headline": "Liquid I.V.® Watermelon Powdered Hydration Multiplier® (16 pack)",
+      "cta": "Subscribe",
+      "landingUrl": "http://www.liquid-iv.com/",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:48:44.000Z",
+      "fetchedAt": "2026-10-10T13:02:32.426Z",
+      "thumbnailUrl": "/media/meta/meta_2116217452299145.jpg"
+    },
     "meta_2116316412611286": {
       "media": [
         {
@@ -4994,6 +5910,34 @@
       "fetchedAt": "2026-10-10T12:46:11.661Z",
       "thumbnailUrl": "/media/meta/meta_2142715693265688.jpg"
     },
+    "meta_2145076306085358": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOmRMPBKWYyG840PlH7U1l_jiyrMjXmha3BaRT_tloZ_-YCKME0-QOELMvBueVlc0oUiEztjOBKl1RSaqjty1ZR1QLd8x-pQdXl06N4NArKVg.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=VjI8-4BpA7kQ7kNvwFHxFDM&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzE2LmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjgwNTUyOTQ2MjU3NjYyMSwiYXNzZXRfYWdlX2RheXMiOjIxMSwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c7bc73814817c62f&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yMjRFRTk0NUMzNjlGREE1RTlBQURGNDBCMzQ0NDQ4Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0Q2NDZDNDAzQzQ3OTA5NzNBOTlFNkJEOTMzMEEzNkI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACba18iX_qfuAhUCKAJDMywXQCfAAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=4-VB-wM-onHLl2OZZWs5Aw&_nc_ss=70289&_nc_zt=28&oh=00_AQPFhANGLnVhu3THkdtrcxA0nnRfSipX-QsbmhK-PZh0Sg&oe=6AD001AB",
+          "thumbnailUrl": "/media/meta/meta_2145076306085358.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMJ1RhYtOunto-Xa0UGczSBgxMplbH6msQQME7Dcl9nsTL9f_Q8ow7vbrd8Vgh_xTWzRHbfCKEGzqtiBzKjUq58WZq92B1kRYUwhD1yo3wPWw.mp4?_nc_cat=109&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=cCwuEVcn_u8Q7kNvwHpYGYs&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0NDA5NjE3ODEwNTYwNjMsImFzc2V0X2FnZV9kYXlzIjoyMTEsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=77c05071f1c02a1f&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80NzQ3MkNEMDVBM0RDRjA3RjVBQkQzRUY3RkE5NDdBOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M1NDNBMjlDNkY4ODU5QUZFRDdBMEJCQjRCRDUyNUIxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb-iMLxgaOPBRUCKAJDMywXQCfAAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=4-VB-wM-onHLl2OZZWs5Aw&_nc_ss=70289&_nc_zt=28&oh=00_AQOHnSZmi6p2J-zuqiM56l-c7bIS5WgDTXEKrbRGQelDSA&oe=6AD012FB",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/842650433_3621728347974442_4991405839195797748_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4DGGt_FbN0wQ7kNvwEYDbIQ&_nc_oc=Adpv8YH4T0QE9EYdZg4VgWteHU4pXT6ClVDIgM-7g_0jYyA7K5kignBp9rlLlbmJkjM&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4-VB-wM-onHLl2OZZWs5Aw&_nc_ss=70289&oh=00_AQOGOPsNgdtBoL506PBSCCzrse0l4f-_uzifIpC1LfNVGA&oe=6ACFEEA0"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Most grinders were built to get by, but HexClad HexMills were built to outperform.\n\nEngineered for control, consistency, and durability, the HexMill is designed to perform beautifully in your kitchen for decades. \n\n✔️ 10 adjustable grind setting, from delicate to boldly cracked\n✔️ Deliver more pepper with every turn with less effort\n✔️ Solid-milled aluminum construction for elevated weight and balance\n✔️ Fully enclosed base for a cleaner countertop\n✔️ Effortless, wide-mout refills\n✔️ Backed by a lifetime warranty\n\nThis isn't a disposable kitchen tool. It's a permanent upgrade.",
+      "headline": "BUILT ONCE. USED FOR LIFE.",
+      "cta": "Shop now",
+      "landingUrl": "https://hexclad.com/pages/hexmill-lp",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:05:36.000Z",
+      "fetchedAt": "2026-10-10T13:03:08.326Z",
+      "thumbnailUrl": "/media/meta/meta_2145076306085358.jpg"
+    },
     "meta_2153023761944028": {
       "media": [
         {
@@ -5106,6 +6050,64 @@
       "fetchedAt": "2026-10-10T12:45:22.968Z",
       "thumbnailUrl": "/media/meta/meta_2215045386095421.jpg"
     },
+    "meta_2225569458014045": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/837039843_2090664841560876_2723434159969019003_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=uzEwmZxGwocQ7kNvwF9wzD3&_nc_oc=Ado0gh3-AUalH-ZyqZpH3_tFOo4nKSj0tao-mCQ41Ocb2nKMbnxffvOg4xewQgOd0Xc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=KvUO-8NRSQ7ZZe6edY7ndg&_nc_ss=70289&oh=00_AQOc1h3YoRtsbjU2aWalKNfHeKibdYnf4luCQ4gcuhx7ZQ&oe=6AD0052B",
+          "thumbnailUrl": "/media/meta/meta_2225569458014045.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/833785511_1824368432029064_3186482465303837357_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=_cYXIi0sPK8Q7kNvwHXnwgn&_nc_oc=AdpqzBrjzE7TpGjrs0NtufSdXTGlOz8MjQ_aoPtLWEjt4VvniafTNQxe6e3ranck4f8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=KvUO-8NRSQ7ZZe6edY7ndg&_nc_ss=70289&oh=00_AQO9_rdLDcduzf9k9cRoBBhTC3DsOo7n1-YGZWWLswxT5g&oe=6AD01E88",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840363812_1829004748132231_2611148832510405533_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ruLQV0We-SoQ7kNvwEBJNHU&_nc_oc=AdoNW-AzF-v2ycuyvSF9BmclIETlu4euFekTkhVfOigb_SAVwMWj8mNniVU3zFunnKs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=KvUO-8NRSQ7ZZe6edY7ndg&_nc_ss=70289&oh=00_AQN94_HlzQ0VI9D4i0LPyn6ARqDL5-TwP5j1qKN6B5oyWA&oe=6ACFF8A6"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "From keychains to crafting must-haves, shop tiny treasures and more from Michaels on Pinterest.",
+      "headline": "Get crafty",
+      "cta": "Use app",
+      "landingUrl": "http://play.google.com/store/apps/details?id=com.pinterest",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:48:22.000Z",
+      "fetchedAt": "2026-10-10T13:03:50.303Z",
+      "thumbnailUrl": "/media/meta/meta_2225569458014045.jpg"
+    },
+    "meta_2261208577780284": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841283595_2081848165853735_4569976472223273750_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=H1CqL15Shf8Q7kNvwFqxZ7j&_nc_oc=AdojfArO-OLt-y6q9qCFCv-35hHigTpgBeYr56HEpAXi8BvOhAO4yLK7IjcLccD-kTQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=LkMWe9tW2Ez3LQd9aIjJgw&_nc_ss=70289&oh=00_AQMrHOv0_9vXHoh3Jx9aKJ95Wc0Kc8YStUZ5aiFJIhqmDA&oe=6AD01D97",
+          "thumbnailUrl": "/media/meta/meta_2261208577780284.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841645330_1142761581516767_1940919855782471874_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yqZc5jybVowQ7kNvwGvciAq&_nc_oc=Adq_7T7LjZh2-8Vp79wGYeu0Ys1s5bwKU9QRT8N0mN9qDITgroY4WEPJ0VpstQlbTYM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=LkMWe9tW2Ez3LQd9aIjJgw&_nc_ss=70289&oh=00_AQN3pe9xY-izFNVp23MUdKWgQVXmBHMGhNT8S4Mh-70Rsw&oe=6AD0090F",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/842329001_1417955073113439_69848169808646242_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=w3livXEUiTQQ7kNvwHTlfOQ&_nc_oc=AdpdcvbDVEPRn38QSwefyeEgZsQpqSEE915gnYixIji9D4SuI1cxmzk-Kasvk8b86Wc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=LkMWe9tW2Ez3LQd9aIjJgw&_nc_ss=70289&oh=00_AQMyIIIzwxyONrsSVmH-XHXv43ubUiYxsFoMR7TvUBzL7A&oe=6AD004E6"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Create a scary scene in your space with Halloween home decor ideas on Pinterest.",
+      "headline": "Decorate if you dare",
+      "cta": "Use app",
+      "landingUrl": "http://play.google.com/store/apps/details?id=com.pinterest",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:40:38.000Z",
+      "fetchedAt": "2026-10-10T13:03:56.272Z",
+      "thumbnailUrl": "/media/meta/meta_2261208577780284.jpg"
+    },
     "meta_2281953876039930": {
       "media": [
         {
@@ -5159,6 +6161,35 @@
       "fetchedAt": "2026-10-10T12:49:07.514Z",
       "thumbnailUrl": "/media/meta/meta_2284084392131909.jpg"
     },
+    "meta_2294889704637668": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNgj1xocQDd-hpND3o0rXzAtR2-zxuq7XoUpwNGqXL6NfyNpqfEkHWb_WzeOrB2yxB-nXssV4urfdOJc5HbBYFqXAod2CNW24SeknDuFwkEHw.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=YKHKt17BvAoQ7kNvwGtUq0l&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIxNjYxNDMyNDc2Mzg1MzUsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=53e144e22742a029&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC82NDgwNEYyNTIxMDg0MjU0OUNFNjMwRkJCRTkxMzAwMV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0EyN0YyNjk1NjlCNjRFRUNCRjAzRTcwQjY3ODQ3MkVGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaOgPfskIbZBxUCKAJDMywXQDKIcrAgxJwYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=HqUiJSW7gqf9U4SRD46R6w&_nc_ss=70289&_nc_zt=28&oh=00_AQNSzakeqZfHNQmUtjxt5xZLyX2xP10P-jtJ0RQHgGe_sg&oe=6ACFF3F6",
+          "thumbnailUrl": "/media/meta/meta_2294889704637668.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQP1WRqPoGu_CP_onJjgc-hH4cD5OvWK9PPypseWgLahIqRzJ9wWdfu4NYCaN1EheZseloHA_kJr8nCag45_4IUPhTW9VayA6d3SDPo3gPNC1Q.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=TO9VIvStmDwQ7kNvwHXwBQq&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3ODIxMDg5NjYzNTk1MTQsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ce9f37214b3c7a2b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC83MjY3MEE0MDExNkU0MDJEOUQzNkI1OEFFM0VFRUJFRF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzREOTYzMTM1QkVENzRDOTY4OTNDMEQ1MDM2NUM1ODFEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa0x6C-srSqBhUCKAJDMywXQDKIcrAgxJwYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=HqUiJSW7gqf9U4SRD46R6w&_nc_ss=70289&_nc_zt=28&oh=00_AQN1p1eliJgkMAPlp_xvApXnFR49HdNtgIVNDEDGEeVEyg&oe=6AD00526",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/843048496_2267679417106153_4823420296388835799_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GCeI0FBDVVQQ7kNvwF264UB&_nc_oc=Adp0zRqvmYMl0MI7oE40K3jP3DbkVDaKOf8QtYJi2myIB6P-eyGI4y23zy0bMFDNZrQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=HqUiJSW7gqf9U4SRD46R6w&_nc_ss=70289&oh=00_AQPeM_8re96b3O6u9fg9sCpz2mhEnEHJzsyTK3XVHE_S4g&oe=6AD01EEF"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Feeling the slump? AG1 Next Gen supports energy with bioavailable nutrients and essential B vitamins — all in one scoop, backed by clinical research.\n\n⚡ Supports daily energy, without the crash\n💚 Clinically shown to help fill nutrient gaps†\n🥄 One scoop replaces multiple supplements\n💼 Easy to use at home or on the go\n\nSubscribe now and get:**\n✔️ 3 FREE Travel Packs\n✔️ FREE Vitamin D3+K2 Drops\n✔️ FREE Canister + Shaker\n\n† Based on clinical studies in healthy adults ages 18–59, evaluating nutrient biomarkers, microbiome shifts, and bioavailability. Study designs and durations varied. For more information, visit our website.\n* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.\n**Offer Valid For New Subscribers Only",
+      "headline": "Welcome to the Next Gen of Wellness",
+      "cta": "Shop now",
+      "landingUrl": "https://drinkag1.com/best-green-powder-offers",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:28:22.000Z",
+      "fetchedAt": "2026-10-10T13:02:26.652Z",
+      "thumbnailUrl": "/media/meta/meta_2294889704637668.jpg"
+    },
     "meta_2297771140991935": {
       "media": [
         {
@@ -5201,6 +6232,55 @@
       "mediaExpiresAt": "2026-10-14T23:13:19.000Z",
       "fetchedAt": "2026-10-10T12:45:43.989Z",
       "thumbnailUrl": "/media/meta/meta_2301361807314369.jpg"
+    },
+    "meta_2314237856081714": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/802459106_1957758321558605_9052810760098760231_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=KYtx4Ike8ysQ7kNvwG7IvbG&_nc_oc=Adq2waQ86ZOm7RvKUHkK-5gMcULBDDpzymsYUvTFcy-M7mevnzTBGd_PgXMyipx7pU0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQPxvI58DIZ2R89DkwIVfgLmHHYEKcnSSA6hNXDOwv-UiA&oe=6AD00243",
+          "thumbnailUrl": "/media/meta/meta_2314237856081714.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/802597257_2454893465006154_9040062635516548802_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-LtNW3MYOhIQ7kNvwHLfUEt&_nc_oc=AdoqSIfIjfEV_8MKgnnHk433hGqo_ONxqpSwd6domZlu7BUPUpY49gpGLAw9U9Rfr24&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQN4FOLKERiI2VVxnCb2e1A5Z1Ug6MhFGi-U2MmfeMSsZg&oe=6ACFFF78",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/802597257_2454893465006154_9040062635516548802_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=-LtNW3MYOhIQ7kNvwHLfUEt&_nc_oc=AdoqSIfIjfEV_8MKgnnHk433hGqo_ONxqpSwd6domZlu7BUPUpY49gpGLAw9U9Rfr24&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQNq7l-M4417-bhoWdOImRlPvERDuLoBLK_2Sl9_KnlcKg&oe=6ACFFF78"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/802459121_899190426381634_4027672507815856218_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ue1lBevgD9cQ7kNvwGTKtnk&_nc_oc=AdpyD3dzyZ-Hs2fBbK8M3b0OLx0VXzibmEF0rM05Mt1I1mgxHnqyDwVqYxx6N8wJadw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQN94GBcH956zi6z77UoDGHj4_Yim9ww47Joz4Hl-Y2ZMg&oe=6ACFFBDF",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/802459121_899190426381634_4027672507815856218_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ue1lBevgD9cQ7kNvwGTKtnk&_nc_oc=AdpyD3dzyZ-Hs2fBbK8M3b0OLx0VXzibmEF0rM05Mt1I1mgxHnqyDwVqYxx6N8wJadw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQNyrE8wG_ujDVIGi5uT22XdpTQxZg6U--sskIRt3bcjmQ&oe=6ACFFBDF"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/803226769_1997602934225059_26582694599654683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mj9WPhl9YYgQ7kNvwGWfLd7&_nc_oc=Adp6U7lqedh4YplFIlNgz-BhkSEehOU6_hLj0j5w_a1UrGDMCIJi_Hv7soDy-XMPPKc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQNJuHVOidt7zME_fDME06WDugjjyU17ZxysJ85xtHKP-g&oe=6AD01B64",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/803226769_1997602934225059_26582694599654683_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mj9WPhl9YYgQ7kNvwGWfLd7&_nc_oc=Adp6U7lqedh4YplFIlNgz-BhkSEehOU6_hLj0j5w_a1UrGDMCIJi_Hv7soDy-XMPPKc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQNdL3ktbUPLUP5PP6xmxV7NOl8xgCOgxof7Oc8TSMlXcA&oe=6AD01B64"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/802357012_1763181094799086_6248548448927669578_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wtT_VpCysVcQ7kNvwGZp9ak&_nc_oc=AdrcYaVcjZOPptITfFH-d2ZY6IaGSad4OIRnDmB3S16z7jzGoBZWiT6nVpnwvkzHouc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQPBgCKhb-uLuSIZfiFV5o2klrB2963diSYqMn8IQ5qFQA&oe=6AD010B0",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/802357012_1763181094799086_6248548448927669578_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wtT_VpCysVcQ7kNvwGZp9ak&_nc_oc=AdrcYaVcjZOPptITfFH-d2ZY6IaGSad4OIRnDmB3S16z7jzGoBZWiT6nVpnwvkzHouc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQMAEDXa1jnfyM3FUF1usV9eVUrXwsu1VqAID829kL6UBA&oe=6AD010B0"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/803267818_3026530194351721_7799315960636238624_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=opRBSa7iY2sQ7kNvwErRGM2&_nc_oc=Adp-AtBMk9YmffmZdO5TfwM2ge8BMbdjfgneGHrgVJQIprAuFG-wLeNp7NNWL9WaEZg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQNh3mi70-nPE0ZVN1YzjspmB5QIS5oVVzzsXAK-L5bj9A&oe=6AD01021",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/803267818_3026530194351721_7799315960636238624_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=opRBSa7iY2sQ7kNvwErRGM2&_nc_oc=Adp-AtBMk9YmffmZdO5TfwM2ge8BMbdjfgneGHrgVJQIprAuFG-wLeNp7NNWL9WaEZg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=3aG7vN35G5BKOOopnrAoLA&_nc_ss=70289&oh=00_AQOsO1cW9o4T1HVXFcyypV-1YVJ4Yznsioky_bkniM3w5Q&oe=6AD01021"
+        }
+      ],
+      "format": "carousel",
+      "displayFormat": "DPA",
+      "body": "This investment kitchenware is worth every penny. Explore clean, durable materials and thoughtful designs meant to use daily.",
+      "headline": "Premium Kitchenware For Less",
+      "cta": "Shop now",
+      "landingUrl": "https://www.carawayhome.com/collections/best-sellers",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:02:07.000Z",
+      "fetchedAt": "2026-10-10T13:04:17.742Z",
+      "thumbnailUrl": "/media/meta/meta_2314237856081714.jpg"
     },
     "meta_2314492242620326": {
       "media": [
@@ -5615,6 +6695,35 @@
       "fetchedAt": "2026-10-10T12:48:49.282Z",
       "thumbnailUrl": "/media/meta/meta_2599405553837467.jpg"
     },
+    "meta_2599484080491835": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/843520087_1090601410389935_2811067576262250307_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8UeW6rThR-AQ7kNvwHEfKH2&_nc_oc=AdrN_fi8ty-00ubkFG6UvV2rp6cX8bAkgY-_oJMSj9C8_ggVJFLiZnPPD74YlOFrOTc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=FDtU9Ie5Rwe4L-IFpZZLBg&_nc_ss=70289&oh=00_AQPj1IIPdR8V0XmGKDbMmqJyjPBImKXgSFN5SRkQP-WQzA&oe=6ACFFCC1",
+          "thumbnailUrl": "/media/meta/meta_2599484080491835.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/842555163_1443688630978403_4969882667676484662_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=1s_xwXPKXs0Q7kNvwHFDmrW&_nc_oc=Adp0A6NiGduozwnPOXhDXwVLa4Twfj9Ec-5P1IPJTAniwYOef1n2XAX-uYcxS5OFvRo&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=FDtU9Ie5Rwe4L-IFpZZLBg&_nc_ss=70289&oh=00_AQNKBxec_OzVmQ5m47oOXhGxM1SEtBTqmqhXkCjDHDLlDg&oe=6AD00CA6",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/843324390_2282546475842932_1667540537964330885_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dMFEzEgLihIQ7kNvwHuvr8l&_nc_oc=AdqvbkkpanUp3s4wRXiCdbeDaXgMnE0ROCdpvJFAq_s0PdNtvDUZhQQKInSwNv8Te0Y&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=FDtU9Ie5Rwe4L-IFpZZLBg&_nc_ss=70289&oh=00_AQMFcYSAncNRQKj2Ie2NRAYT-dY_XAtOuu51F-UrxTVggw&oe=6AD00BED"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "From small snacks to big bites, find Halloween-ready recipes on Pinterest.",
+      "headline": "Feast your eyes",
+      "cta": "Use app",
+      "landingUrl": "http://play.google.com/store/apps/details?id=com.pinterest",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:05:53.000Z",
+      "fetchedAt": "2026-10-10T13:03:50.161Z",
+      "thumbnailUrl": "/media/meta/meta_2599484080491835.jpg"
+    },
     "meta_2607790913009461": {
       "media": [
         {
@@ -5651,6 +6760,35 @@
       "mediaExpiresAt": "2026-10-14T21:08:57.000Z",
       "fetchedAt": "2026-10-10T12:45:15.099Z",
       "thumbnailUrl": "/media/meta/meta_2607790913009461.jpg"
+    },
+    "meta_2630061610741319": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841736625_1672835077893403_934786214524084427_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zTgn3lVIQ6cQ7kNvwHp0aNv&_nc_oc=AdrqFpCFyHFQ1o5jGHO7q16ipoLAk5Y8WOqEpajHZnIeb2BxFKORk5WgDob94UiosmM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=iufsSnWRIJzxJ3je4zvAng&_nc_ss=70289&oh=00_AQNmcURB1I296-Od7Dhju2YwmdTt7MbeMxkySVC733Us6g&oe=6AD023BE",
+          "thumbnailUrl": "/media/meta/meta_2630061610741319.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/844380778_28891484047143878_3743699372145235799_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fYwsTtPWE34Q7kNvwE0ml41&_nc_oc=AdoqHUKgOZD4NDyEkJPzyEBdssm_8Lge9vilRjQxpQpCBD83yOWh8t-Fk-HBmUEnuz0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=iufsSnWRIJzxJ3je4zvAng&_nc_ss=70289&oh=00_AQNuhfReGG441rw-dbiFTqTjLewRhHNJRJbg-H8RsMF1MA&oe=6AD002D6",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841500168_1845165719959589_5259085064944644527_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=6GWAx2FSCSsQ7kNvwFxHvec&_nc_oc=AdoW4DjwHC0haCh4K-lbsmvES9dsotBGPUo-k7uONhUQk21ylT02586ElKoIH7eQO-g&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=iufsSnWRIJzxJ3je4zvAng&_nc_ss=70289&oh=00_AQOTD8ZaQfTuwlLiHzDS5CAqddvkKUDjFpTrBjFjHI_XLg&oe=6AD01E5E"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "From sharp stilettos to monster-themed manis, find Halloween nail art inspo on Pinterest.",
+      "headline": "Creep it cute",
+      "cta": "Use app",
+      "landingUrl": "http://play.google.com/store/apps/details?id=com.pinterest",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:01:03.000Z",
+      "fetchedAt": "2026-10-10T13:03:56.850Z",
+      "thumbnailUrl": "/media/meta/meta_2630061610741319.jpg"
     },
     "meta_2633328070460725": {
       "media": [
@@ -5819,6 +6957,30 @@
       "fetchedAt": "2026-10-10T12:41:54.411Z",
       "thumbnailUrl": "/media/meta/meta_2818286621886408.jpg"
     },
+    "meta_28201887922798509": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNpW0nke2DfO-glnzNVJwQPtgK1xfTDvINOx3M7Vvxf40clNtRY7Bs42w3SXL6NOIuRqou_j5v7MJi1KNrVl5PWjy3RweJq21vtGfFfSv1OOA.mp4?_nc_cat=102&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=eRQw77tKS1kQ7kNvwFkOYaV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIxMjYwODM3NjgxNzUxODAsImFzc2V0X2FnZV9kYXlzIjoxNDksInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjoxMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=7fe60344f252045f&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GMTQ0MDMzODNFNUM5RDI1Mjg5RDc2M0EwM0Q2OERCMF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVFNDVFOUE3RUVGNjlBRjdGMzc3QUE5OUUyQkE5QUE5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaYqZ68rurGBxUCKAJDMywXQCW7ZFocrAgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=xgTeQheJMyV9DTcVJNEORQ&_nc_ss=70289&_nc_zt=28&oh=00_AQMPczoGlf2gqWBXBr1nbMQxiSQ-L1S_ynG3sZLbC7E2mw&oe=6AD018B2",
+          "thumbnailUrl": "/media/meta/meta_28201887922798509.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "The biggest complaint couples have about their wedding day? It’s over in a blur.\n\nYou spend 12 months planning a 5-hour reception, and barely get 3 minutes to speak to your favorite people.\n\nAt Araya Resort, we believe your wedding shouldn't be a race to the finish line.\n\nInstead of a rushed evening, imagine a 3-day destination experience with your closest friends and family. \n\nWelcome drinks by the infinity pool on Friday. \n\nA breathtaking oceanfront ceremony on Saturday. \n\nA relaxed farewell brunch on Sunday.\n\nGive yourself the time and space to actually be present for the best weekend of your life.",
+      "headline": "Turn Your Wedding Into a Destination Experience",
+      "cta": "Learn more",
+      "landingUrl": "https://arayaresort.com/plan-your-event/",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "whatsapp"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:17:15.000Z",
+      "fetchedAt": "2026-10-10T13:04:11.770Z",
+      "thumbnailUrl": "/media/meta/meta_28201887922798509.jpg"
+    },
     "meta_28222951584070377": {
       "media": [
         {
@@ -5944,6 +7106,37 @@
       "mediaExpiresAt": "2026-10-14T21:28:44.000Z",
       "fetchedAt": "2026-10-10T13:01:14.620Z",
       "thumbnailUrl": "/media/meta/meta_28416405714727664.jpg"
+    },
+    "meta_28569280839347736": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/831906400_1096911633328084_4040922841997979762_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=kVChQS8mjHEQ7kNvwHYkIhO&_nc_oc=Adr7kb8axV2OhnwZ1056EkHGCVLlNkQFmG0tb7UkKMWMyCtZ7VCkY-Rw9eQq5Kfcxj0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=GnLwHwt3GNu-fJYRGXbEYw&_nc_ss=70289&oh=00_AQO934FsjoSF1gDqVN1VqiySXXLh3cNbrudLs8rDJsBtvg&oe=6AD010C8",
+          "thumbnailUrl": "/media/meta/meta_28569280839347736.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/830617010_955357880402769_1727454828058121713_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=sSkEmaO4hM4Q7kNvwG_ekCu&_nc_oc=AdqNffh6RGr_NmYSZS4qJ92-1LXqRzwS1jkPRvzI6Zwdiia5w23sMqImjP23KA1eSEM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=GnLwHwt3GNu-fJYRGXbEYw&_nc_ss=70289&oh=00_AQN4eDA-72R9Phs28Mx2s7FnD7PSWKNbBAbHcdE0cimp8g&oe=6AD025B9",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/830715883_4713405248893226_6706410118250254048_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=v2VBQpTLT5IQ7kNvwEd1seM&_nc_oc=AdrES_SUSPkR4l6P0PaEzxMCB5ELVh88aU6igyGdrqgpECwW71jQyQOCaaPjh82XIOA&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=GnLwHwt3GNu-fJYRGXbEYw&_nc_ss=70289&oh=00_AQN_USoMSUi0BvAwZ5N1xHSvDbcVjZ5B6S_4VwMPk5z-Ng&oe=6AD0118E"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/831068099_1105672138773999_3591678308699972708_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=L-__CD6aSRIQ7kNvwFoxaVh&_nc_oc=AdqANY_szzMkEKYPiy8ThpY_lWe3naAiYedvK8hAUVxUIg7YJyMEdViD8dDeNZhe0j4&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=GnLwHwt3GNu-fJYRGXbEYw&_nc_ss=70289&oh=00_AQMGWcZy8xpTpsDPMYCz-3nQTSK6ETDrc--hlSPzRsQ-eQ&oe=6AD01E99",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/830670755_1794089585225280_5795605635052706093_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Tb-uGiGjL0kQ7kNvwG4l7DB&_nc_oc=AdrKJkVu-vBkXBvc0lnGJZberC3kk_ruBH5gLOu5UAjZk1j1s22BpnxzRbnnQ7KwaNg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=GnLwHwt3GNu-fJYRGXbEYw&_nc_ss=70289&oh=00_AQPNiPCOMrSEAWx-BHHF50lUHO9Cr164i0x97OPd1HxDLw&oe=6ACFF748"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "headline": "Men's Best Sellers - Clothing – Vuori",
+      "cta": "Shop now",
+      "landingUrl": "https://vuoriclothing.com/collections/mens-best-seller-gifts",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:42:32.000Z",
+      "fetchedAt": "2026-10-10T13:04:08.364Z",
+      "thumbnailUrl": "/media/meta/meta_28569280839347736.jpg"
     },
     "meta_2867615980304583": {
       "media": [
@@ -6546,6 +7739,48 @@
       "fetchedAt": "2026-10-10T13:01:34.451Z",
       "thumbnailUrl": "/media/meta/meta_4619248545017762.jpg"
     },
+    "meta_4784012278500368": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/841013675_1789126508882360_5208498373109625196_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=v9BA8QJUUfAQ7kNvwGiagKR&_nc_oc=AdrFuJAj9rjT1hM9k9pS-c9VNO7GGlQTKM0am3N-De6jfX_9LPC1fXpbZJmrZReRYmU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQOQHpCQKgn66jV01CgFOCdXZno4ZQYpN2iEPKWAXzNRVA&oe=6AD021B5",
+          "thumbnailUrl": "/media/meta/meta_4784012278500368.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/838716754_1555695422976175_7244021557683758033_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=H92TadKvDmoQ7kNvwHJCA4d&_nc_oc=Adr15wNf0-braAr9cGqajBV78mMBnaMMXHi7DojUA_-O3-BEj19XGvtnnuCWUBhGnq4&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQPVPTXFHvser0jt7d9GNuYcpCRDasqqCl6ATNC2SffMug&oe=6AD00A05",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/840809295_1848213479882519_1677413265395763332_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ajaGJ2pYsnMQ7kNvwHTU87v&_nc_oc=AdppNKo4fzPQNlB360t9eT6uTd1h0FnWcZj3EC9jOUp7YERfxG__vVP_ghc73vn1vxc&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQMtpob0PfwapEQFn3r6QrWFKLXv8IXI_oTpsG4ylEFZvw&oe=6AD00AF5"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840909011_1462366295789813_3050623544262901306_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=21aSUjkeJx0Q7kNvwHKqzlu&_nc_oc=AdpEqaEvQ-ENAIDvcUYuBR2VgjQJCxtTqHzFNnDOhAcM0zOX24YJ1gZvUg-NTiBYqMk&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQMXdiAhKEWPrz1g1d7J43c-RYltNrCI_tkDMj9wMv8BQg&oe=6AD005DF",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/838434876_1100617925891639_5006741089594115306_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=f-FQHjveDekQ7kNvwHxxXh4&_nc_oc=Adr36agDdUSV1fmYUo6tIaFg1D21hYe3Eips5v0B8nCCpD8l1ZSJ4t30sB7aUBDjPuY&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQPsEH8LNRek5zLhVpfgenA_vO6jvWlWiss6OlsW_CXprg&oe=6ACFFF21"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840233193_1666047055237929_3664508486648125949_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=YmhWk6wmajoQ7kNvwH9VyDR&_nc_oc=AdqwbaWKiK_shPLFu6PA8mEZcV8Cln8WHgphLa5hHl5BJEAW5kE2LkxozazdJTdzv5Q&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQNAcckVb3ggsL6upVWixRHNj71Lc3yOvm9q2BhhGb517w&oe=6AD021D0",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839012383_2485843911904103_4417506803674096679_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=J6KAuxWaqV8Q7kNvwE0pWx7&_nc_oc=AdqfKSbBEKSgM5w50QR2G6XDulABeEyMJaaM8ZbQa-wKDdxenbIb8j_M_m7-97vLfiw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQMH3uKz_mcOjPm9Sh_48F4n_jyiK1xojTDMpBl5R7HH_A&oe=6AD00552"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/841439166_1114212721298438_8532002335565224302_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Nn7rjdpjadwQ7kNvwGocYQE&_nc_oc=AdqsWgT8AY7ntsmPo9Ca4rGlD8TsfeCBAwTH036VjwTio1-P-oliMj8rOLTAbmCmFOQ&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQNgAfqPnrrsabhmah0eAiZ18GYLWvvUG2KiOqeDy05hOA&oe=6AD004DB",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839414834_4634509000106025_7672822100895731225_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=efd852CCF8QQ7kNvwEf5IC2&_nc_oc=AdoU3Ys9L_Snc2hJ94zBjiKpHgsEWIGqmj4kHrQMTkhkwNRhJbhvneQmyXAC_C8zXY8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=y7zQ-7u55P8l7XczyYrETA&_nc_ss=70289&oh=00_AQNtj_8G6Fvv0kDVis2MTAYVfRgusz9eS8oRplUZS-Todw&oe=6AD01984"
+        }
+      ],
+      "format": "carousel",
+      "displayFormat": "CAROUSEL",
+      "body": "Escape to Great Lakes nature. Thoughtfully designed cabins with modern comforts and amenities across Michigan, Illinois, and Wisconsin.",
+      "headline": "Outdoor Collection by Marriott Bonvoy",
+      "cta": "Book now",
+      "landingUrl": "https://ad.doubleclick.net/ddm/trackclk/N4406.126603.FACEBOOK/B37104207.459457521;dc_trk_aid=653764486;dc_trk_cid=266270840;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:16:01.000Z",
+      "fetchedAt": "2026-10-10T13:03:09.435Z",
+      "thumbnailUrl": "/media/meta/meta_4784012278500368.jpg"
+    },
     "meta_785939991204111": {
       "media": [
         {
@@ -7072,6 +8307,9 @@
     "meta_1805240233826434": "Meta: NOT_IN_LIBRARY",
     "meta_1041133755629051": "Meta: NOT_IN_LIBRARY",
     "meta_1673800827497632": "Meta: NOT_IN_LIBRARY",
-    "meta_1630229678896950": "Meta: NOT_IN_LIBRARY"
+    "meta_1630229678896950": "Meta: NOT_IN_LIBRARY",
+    "meta_1644652087372626": "Meta: NOT_IN_LIBRARY",
+    "meta_4669970566556351": "Meta: NOT_IN_LIBRARY",
+    "meta_1316244960517343": "Meta: NOT_IN_LIBRARY"
   }
 }

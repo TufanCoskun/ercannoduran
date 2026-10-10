@@ -1663,5 +1663,133 @@
     "searchTerms": [
       "State Farm"
     ]
+  },
+  {
+    "name": "Alivia",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "mens-health",
+    "metaPageId": "1347647888430817",
+    "searchTerms": [
+      "Alivia"
+    ]
+  },
+  {
+    "name": "Cadence",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "travel-accessories",
+    "metaPageId": "2122106681146355",
+    "searchTerms": [
+      "Cadence capsules",
+      "Cadence travel containers"
+    ]
+  },
+  {
+    "name": "Everyday Dose",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "coffee",
+    "metaPageId": "102454544917397",
+    "searchTerms": [
+      "everydaydose",
+      "Everyday Dose"
+    ]
+  },
+  {
+    "name": "GroundingWell",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "wellness",
+    "metaPageId": "107085495749996",
+    "searchTerms": [
+      "groundingwell"
+    ]
+  },
+  {
+    "name": "Javvy Coffee",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "coffee",
+    "metaPageId": "109899597504831",
+    "searchTerms": [
+      "Javy coffee",
+      "Javvy"
+    ]
+  },
+  {
+    "name": "Kind Patches",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "wellness",
+    "metaPageId": "114284924983655",
+    "searchTerms": [
+      "kindpatches",
+      "Kind Patches"
+    ]
+  },
+  {
+    "name": "Lume Deodorant",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "personal-care",
+    "metaPageId": "1968343433393769",
+    "searchTerms": [
+      "Lume deodorant"
+    ]
+  },
+  {
+    "name": "MARS by GHC",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "mens-health",
+    "metaPageId": "168479659686677",
+    "searchTerms": [
+      "Mars Men",
+      "marsghc.com",
+      "The Daily Gummy For Men"
+    ]
+  },
+  {
+    "name": "Primal Herbs",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "mens-health",
+    "metaPageId": "404481016080526",
+    "searchTerms": [
+      "primalherbs"
+    ]
+  },
+  {
+    "name": "Primal Queen",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "supplements",
+    "metaPageId": "125572610639402",
+    "searchTerms": [
+      "Primal Queen"
+    ]
+  },
+  {
+    "name": "RYZE",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "coffee",
+    "metaPageId": "107940537227344",
+    "searchTerms": [
+      "RYZE mushroom coffee",
+      "RYZE Superfoods"
+    ]
+  },
+  {
+    "name": "Smooche",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "beauty",
+    "metaPageId": "114830840156278",
+    "searchTerms": [
+      "Smooche",
+      "Smoochie"
+    ]
   }
 ]

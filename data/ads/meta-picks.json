@@ -1,0 +1,1569 @@
+{
+  "generatedAt": "2026-10-10T13:03:36.000Z",
+  "ads": [
+    {
+      "id": "meta_2028020181185827",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Primal Queen",
+        "pageId": "125572610639402"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Learn the benefits of female-focused beef organs →",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-04T21:47:44.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 35,
+      "variations": 50,
+      "performance": {
+        "score": 55,
+        "reasons": [
+          "30+ gün yayında",
+          "Hâlâ yayında",
+          "50 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2028020181185827",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1054976224012239",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "GroundingWell",
+        "pageId": "107085495749996"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get Grounded While You Sleep!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-14T06:23:57.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 26,
+      "variations": 25,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "25 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1054976224012239",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1407257581544549",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "telehealth",
+      "brand": {
+        "name": "Hims",
+        "pageId": "355136938262536"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get started today",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-23T20:09:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 49,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "49 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1407257581544549",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1435356945326063",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Primal Queen",
+        "pageId": "125572610639402"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Try it risk-free for a year",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-25T17:30:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 14,
+      "variations": 26,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "26 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1435356945326063",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1424907229774505",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beauty",
+      "brand": {
+        "name": "Smooche",
+        "pageId": "114830840156278"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "The viral skin-tone adapting foundation",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-28T17:34:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 11,
+      "variations": 35,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "35 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1424907229774505",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1801592224193137",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "coffee",
+      "brand": {
+        "name": "Everyday Dose",
+        "pageId": "102454544917397"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Pour Yourself Coffee That Does More ☕",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-01T03:34:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 9,
+      "variations": 43,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "43 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1801592224193137",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_2045497422799591",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "telehealth",
+      "brand": {
+        "name": "Hers",
+        "pageId": "1816011248420064"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get started today",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-01T21:24:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 49,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "49 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2045497422799591",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_3291753804364659",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "coffee",
+      "brand": {
+        "name": "RYZE",
+        "pageId": "107940537227344"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Pour Yourself a Better Cup of Coffee ☕️",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-03T05:26:39.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 50,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "50 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3291753804364659",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1071550398988148",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "travel-accessories",
+      "brand": {
+        "name": "Cadence",
+        "pageId": "2122106681146355"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "One Container. Every Trip.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T21:39:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 13,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "13 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1071550398988148",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1591840285739794",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "Primal Herbs",
+        "pageId": "404481016080526"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Say NO to ED 👀",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T15:11:52.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 40,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "40 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1591840285739794",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1718235225942367",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "Kind Patches",
+        "pageId": "114284924983655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Bloat Relief in One Patch",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T23:14:52.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 12,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "12 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1718235225942367",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1400513448900977",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "Kind Patches",
+        "pageId": "114284924983655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Quiet the Food Noise",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T23:15:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 10,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "10 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1400513448900977",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_3570227179818479",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "Kind Patches",
+        "pageId": "114284924983655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Start feeling better today ⭐️",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T05:40:35.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 10,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "10 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3570227179818479",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1592366155160944",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "Primal Herbs",
+        "pageId": "404481016080526"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Fix The Real Problem",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T15:00:25.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 10,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "10 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1592366155160944",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_990264950114355",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beauty",
+      "brand": {
+        "name": "Smooche",
+        "pageId": "114830840156278"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Collagen creams can't absorb. This serum can.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T23:46:07.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 46,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "46 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=990264950114355",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1426008863005221",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "Alivia",
+        "pageId": "1347647888430817"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Thinking of your first love-🎁",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T09:50:08.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 18,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "18 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1426008863005221",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1641849947333159",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "coffee",
+      "brand": {
+        "name": "Javvy Coffee",
+        "pageId": "109899597504831"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "🚨 LAST CHANCE UNTIL 2027!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T02:15:14.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 42,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "42 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1641849947333159",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_3289066671291174",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "Kind Patches",
+        "pageId": "114284924983655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Menopause Support Made Simple 🌸",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T07:52:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 13,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "13 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3289066671291174",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_28443368221959124",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Lume Deodorant",
+        "pageId": "1968343433393769"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "For Boobs That Run Hot",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T18:47:19.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 19,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "19 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28443368221959124",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1085070987765679",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Lume Deodorant",
+        "pageId": "1968343433393769"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Save over 30% + 2 FREE Items",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T23:19:35.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 19,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ yayında",
+          "19 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1085070987765679",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1665189901991929",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "GroundingWell",
+        "pageId": "107085495749996"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Click to learn more about Grounding",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-11T12:32:21.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 29,
+      "variations": 8,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1665189901991929",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_3540409836119000",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "GroundingWell",
+        "pageId": "107085495749996"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get Grounded Today",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-13T16:03:34.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 26,
+      "variations": 3,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3540409836119000",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_2615450638876239",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "coffee",
+      "brand": {
+        "name": "Javvy Coffee",
+        "pageId": "109899597504831"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "This one adds 14g of collagen protein 👏",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-24T01:04:09.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 9,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "9 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2615450638876239",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1804862667609237",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "telehealth",
+      "brand": {
+        "name": "Hims",
+        "pageId": "355136938262536"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "FDA-Approved",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-24T16:59:58.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 15,
+      "variations": 3,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1804862667609237",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1426808432887696",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "travel-accessories",
+      "brand": {
+        "name": "Cadence",
+        "pageId": "2122106681146355"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Extremely Limited Quantity",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-02T23:18:40.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 3,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1426808432887696",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1029050880155175",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "travel-accessories",
+      "brand": {
+        "name": "Cadence",
+        "pageId": "2122106681146355"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Cadence",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T21:28:34.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 5,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1029050880155175",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1426272973029896",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "coffee",
+      "brand": {
+        "name": "Everyday Dose",
+        "pageId": "102454544917397"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "65% OFF + FREE Pumpkin Spice 🎃",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T23:07:20.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 6,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1426272973029896",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1741317823993670",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "telehealth",
+      "brand": {
+        "name": "Hers",
+        "pageId": "1816011248420064"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Start My Hair Quiz ✅",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T21:55:08.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 5,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1741317823993670",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1119862844335942",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "Kind Patches",
+        "pageId": "114284924983655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Happy Burn Bundle 🔥",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T04:02:06.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 7,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "7 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1119862844335942",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1656004812810251",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Primal Queen",
+        "pageId": "125572610639402"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Your Joints Don't Need 7 Supplements. They Need 1 That Works.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T21:01:03.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 6,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1656004812810251",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_2386374495524889",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Lume Deodorant",
+        "pageId": "1968343433393769"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "LIMITED TIME ONLY ✨",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T18:52:59.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 5,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2386374495524889",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_968179286307463",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Lume Deodorant",
+        "pageId": "1968343433393769"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Deo that doesn’t disappoint.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T23:10:09.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 8,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=968179286307463",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_912927988440610",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beauty",
+      "brand": {
+        "name": "Smooche",
+        "pageId": "114830840156278"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Secret deals — Up To 60% Off Today",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T19:06:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 30,
+        "reasons": [
+          "Hâlâ yayında",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=912927988440610",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_2303782703770614",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "GroundingWell",
+        "pageId": "107085495749996"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Try Grounding Today",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-13T05:59:51.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 27,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2303782703770614",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1737983451338774",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "MARS by GHC",
+        "pageId": "168479659686677"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Flash Sale Is Heating Up ⚡",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-12T18:45:48.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 27,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1737983451338774",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1090376950409623",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "GroundingWell",
+        "pageId": "107085495749996"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Tired All the Time? Embrace Earth’s Healing Energy!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-15T06:48:03.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 25,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1090376950409623",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1098629776465884",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "GroundingWell",
+        "pageId": "107085495749996"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "#1 Best Selling Grounding Sheet. 90 Nights to Prove It.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-17T11:04:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 23,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1098629776465884",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_4599139590361636",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "coffee",
+      "brand": {
+        "name": "Javvy Coffee",
+        "pageId": "109899597504831"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "More Than Just Caffeine ⚡️",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-23T03:28:41.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 17,
+      "variations": 2,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4599139590361636",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1666999334766602",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "MARS by GHC",
+        "pageId": "168479659686677"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "CRAZY DEAL: Buy 5, save huge.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-23T14:37:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1666999334766602",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1059326630068165",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "MARS by GHC",
+        "pageId": "168479659686677"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Feel the Flow. Thank Your Strength.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-23T22:03:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1059326630068165",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1786663353464184",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "MARS by GHC",
+        "pageId": "168479659686677"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "🍂 Bring Championship Energy This Thanksgiving",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-24T01:10:04.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1786663353464184",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_2891577561202945",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "MARS by GHC",
+        "pageId": "168479659686677"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "My Knee Pain Is GONE After 4 Weeks!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-25T07:51:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 15,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2891577561202945",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1063353316500907",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mens-health",
+      "brand": {
+        "name": "MARS by GHC",
+        "pageId": "168479659686677"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Buy 3 for $85",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-25T13:34:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 14,
+      "variations": 2,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1063353316500907",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1421697300142474",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "travel-accessories",
+      "brand": {
+        "name": "Cadence",
+        "pageId": "2122106681146355"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "4 sizes. Endlessly modular.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T21:35:08.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 2,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1421697300142474",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1061720466831442",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "telehealth",
+      "brand": {
+        "name": "Hims",
+        "pageId": "355136938262536"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "A gentler start",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T22:02:34.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1061720466831442",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_38966108869699825",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "travel-accessories",
+      "brand": {
+        "name": "Cadence",
+        "pageId": "2122106681146355"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "The world's best travel containers",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T01:44:06.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=38966108869699825",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1607833824086424",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "travel-accessories",
+      "brand": {
+        "name": "Cadence",
+        "pageId": "2122106681146355"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Leakproof. Magnetic. TSA-ready.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T22:52:38.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1607833824086424",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1588538125771779",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "telehealth",
+      "brand": {
+        "name": "Hers",
+        "pageId": "1816011248420064"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "FDA-Approved",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T16:30:54.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1588538125771779",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_1694271535541300",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "wellness",
+      "brand": {
+        "name": "Kind Patches",
+        "pageId": "114284924983655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Magnesium-Powered Sleep Support 🌙",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T23:23:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 2,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1694271535541300",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_970430082132797",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Primal Queen",
+        "pageId": "125572610639402"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "[QUIZ] Are You Missing the Nutrients Your Body Is Starving For?",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T18:44:29.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 2,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=970430082132797",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    },
+    {
+      "id": "meta_2354814168591730",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "coffee",
+      "brand": {
+        "name": "Everyday Dose",
+        "pageId": "102454544917397"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Your morning coffee, upgraded ☕️✨",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:26:43.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 20,
+        "reasons": [
+          "Hâlâ yayında"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2354814168591730",
+      "collectedAt": "2026-10-10T13:03:36.000Z"
+    }
+  ]
+}
