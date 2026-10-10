@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:14:52.735Z",
+  "generatedAt": "2026-10-10T13:17:57.973Z",
   "items": {
     "meta_1004724955971367": {
       "media": [
@@ -731,6 +731,33 @@
       "mediaExpiresAt": "2026-10-14T21:05:37.000Z",
       "fetchedAt": "2026-10-10T12:48:19.329Z",
       "thumbnailUrl": "/media/meta/meta_1065420202951745.jpg"
+    },
+    "meta_1065833232766769": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQOb-M3VJjo0A53TXruo25-kmH9TinzI1hHVIrgZTPMjm9eiSXUwE67sjkl8RU0r9lTZbLCayuP0ms690NzZ77nZvLPvYiA0nZRSfHkot6FpoQ.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=_MzvUi-aFTEQ7kNvwFVWjPn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE3ODA3ODQzMTAwMjU1OTgsImFzc2V0X2FnZV9kYXlzIjo2OCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=d47cfe96758d0cb8&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC85MzQ5RDE2NjM3MUYxQUVGMTcwRTI3Njg3OEI4RTJCN19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzNBNDNERTBFREFBQ0IxQjFFQUQ4RURBQTE1NUQ5MEI0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb89cODpeepBhUCKAJDMywXQEdR64UeuFIYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=v0f5kOIDqEXyeWbF_LGABg&_nc_ss=70289&_nc_zt=28&oh=00_AQOC5XsG-WSwgyhtJa5ClRM8y0imKgLFqFyXcMdQUn1Naw&oe=6ACFFBD5",
+          "thumbnailUrl": "/media/meta/meta_1065833232766769.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNyqFdcDiIf9ncIlKgeo5kMrNRGyF3fRkDRSLucWyKbObVV3ljcCoquZQqCggYs8H-4Kx5sgVsOCSc2VxPNy0D2v-35Y_ykQDCRXk1n9OofJQ.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Aux7ttGMXAsQ7kNvwHIgvAD&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNDI4NTA3NTE5NjYyMjksImFzc2V0X2FnZV9kYXlzIjo2OCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjQ2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=efd9ade540da90b6&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC82MjRGQjJCQjVEMDQ3RUVFRDNFREMyRkUyNjkxMzM5NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzVENDQ1MEYyMTE0OUQ1RkMyNUIzNjBBN0RBNTE5NzlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaqsP_J853aAxUCKAJDMywXQEdR64UeuFIYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=v0f5kOIDqEXyeWbF_LGABg&_nc_ss=70289&_nc_zt=28&oh=00_AQPz9-YWHgw6e5s3ndNFroiX-uhqzogI1sz3DasffDOEOg&oe=6ACFF876",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/762108018_1076698738129458_6346525341434540244_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TFpPWKjr6KMQ7kNvwFUT_2Z&_nc_oc=AdqZsl7_XMAfW69S08yB3Hj2X-UNmKYJLUlsl6wsgwSMRjzRGQHh2y8jarf1l0YurhM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=v0f5kOIDqEXyeWbF_LGABg&_nc_ss=70289&oh=00_AQOE1Gs_IP8tZb4hDJ7zJpohQclcbrv3eOTLj2zTqqYNpw&oe=6ACFFA2C"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Grow visibly thicker, fuller-looking hair with Hims.\nOur treatments use doctor-trusted ingredients designed to support regrowth in 3 to 6 months.\nSimple online consultation. Discreet delivery.\n\n💬 100% online\n📦 Free delivery\n\nStart today.",
+      "headline": "Time to see the difference!",
+      "cta": "See details",
+      "landingUrl": "https://try.forhims.co.uk/hl/meta/tof/",
+      "platforms": [
+        "facebook",
+        "instagram"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:47:34.000Z",
+      "fetchedAt": "2026-10-10T13:17:39.675Z",
+      "thumbnailUrl": "/media/meta/meta_1065833232766769.jpg"
     },
     "meta_1071550398988148": {
       "media": [
@@ -5373,6 +5400,35 @@
       "fetchedAt": "2026-10-10T12:58:48.537Z",
       "thumbnailUrl": "/media/meta/meta_1610445534040717.jpg"
     },
+    "meta_1611087097212684": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/774052997_1960863341145642_645555433275770071_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hIkfYx6OAk0Q7kNvwG_zs7h&_nc_oc=AdoDSqSkrJia65hIRDxk8HebPe7XTi3dK1ggx8FXbAYiTLq3EIQTFPHqD5cfFijAD7g&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=PfIwt51bTKO3UCntpwg0xw&_nc_ss=70289&oh=00_AQML85KqGSSSvpIu8V98Lg9zKar6AvqFwp4cRK3zVHvD1w&oe=6ACFF56D",
+          "thumbnailUrl": "/media/meta/meta_1611087097212684.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/774157153_3309716035867577_2228906176080049416_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=h_GhK29ILlIQ7kNvwF02rB-&_nc_oc=AdpcEL1QksaXuPgYYhavw3LYrE7SclV06BrvV6BEbOSWfM_PJ72yO1FARKR7THTzLi8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=PfIwt51bTKO3UCntpwg0xw&_nc_ss=70289&oh=00_AQMUZg85JgBX49sOa4fpODM9SyzvmtmAVQ6HuRV1XNibdQ&oe=6AD00DBA",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/774173373_2570413850034400_3193420802047979185_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=dpverUBDOMYQ7kNvwFGdUaF&_nc_oc=AdovwT20HVa15PqVrvBSB53nM6GjdYI5Zb4BC_bwNTcu0CPJXHagK84oXSA1TUorsKk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=PfIwt51bTKO3UCntpwg0xw&_nc_ss=70289&oh=00_AQNeTB8nxusUNwkKX6CjMIdPYCZ_E5q2W0ZdYpAV8CJDWw&oe=6AD00C3B"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "HexClad hybrid cookware combines the best parts of stainless steel, cast iron, and non-stick into one genius pan. 🔥\n\nHere's why over 1,000,000 home cooks swear by HexClad:\n\n✔️ Non-stick for easy cleaning\n✔️ Even heat distribution\n✔️ Sears to perfection\n✔️ Dishwasher-Safe\n✔️ Oven-Safe \n✔️ Lifetime Warranty*\n✔️ Free Shipping\n\nTry HexClad and find out why these pans have 50K+ ⭐️⭐️⭐️⭐️⭐️ reviews worldwide!\n\n*Lifetime warranty against manufacturer’s defects",
+      "headline": "💪 LIFETIME WARRANTY*",
+      "cta": "Shop now",
+      "landingUrl": "https://hexclad.eu/pages/premium-cookware-set-V1",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:34:37.000Z",
+      "fetchedAt": "2026-10-10T13:14:55.289Z",
+      "thumbnailUrl": "/media/meta/meta_1611087097212684.jpg"
+    },
     "meta_1612394329736390": {
       "media": [
         {
@@ -9135,6 +9191,35 @@
       "fetchedAt": "2026-10-10T13:09:25.018Z",
       "thumbnailUrl": "/media/meta/meta_2386374495524889.jpg"
     },
+    "meta_2419365958571026": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/710613424_1672896610643473_1396788131265893044_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Mhev4onOG44Q7kNvwHG1yC2&_nc_oc=Ado0GP15K_hzeDowhYZIiwdggkxcAWhVBZhwLp_Dq0EKHyT7JQSiREo_z0UUcynLpsY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-xA70s_DekiY_DX17u-3WA&_nc_ss=70289&oh=00_AQN5nL9JjyDBmlieXHm7Xcthd2TirGkJwS7a7sGLviNoYg&oe=6AD0259D",
+          "thumbnailUrl": "/media/meta/meta_2419365958571026.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/708216693_1310484457202189_4507896556038044463_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tWhtOhlp8KwQ7kNvwGL7L01&_nc_oc=AdoTC2aX2f-fNmhn-GoNCJ00pcQtucxmf2sQDUikMYJ3eKJKmcjntCSU9ZWHi8E526E&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=-xA70s_DekiY_DX17u-3WA&_nc_ss=70289&oh=00_AQNZPHBXfqGty7wgwGiLngc3vMmxRRrPT9thsG-0eVwVvA&oe=6AD00F18",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/710710199_1291590826510329_2224679079622606083_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=106&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=8wlFGji_4pUQ7kNvwErNkvs&_nc_oc=AdrKe3J49CAuK2SCXXZpjrXZdfZJ3mUV-oLz57bSGZFzKFoQGOmURedL1wvIBM2ecjk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=-xA70s_DekiY_DX17u-3WA&_nc_ss=70289&oh=00_AQNJJveALG-EDWUZ6cI4PcsAKnaFIwL6txpbcTZ8gHQLgw&oe=6AD0281A"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Your potential is capped by your foundation. If your nutrition is inconsistent, your output will be, too. ⚠️\n\nAG1 is designed to be your Daily Nutrient Insurance. We’ve packed 70+ high-quality vitamins, minerals, and whole-food sourced ingredients into one simple habit.\n\nNo more complex supplement cabinets. No more morning friction. Just one scoop for:\n⚡ Sustained energy\n🧠 Mental clarity\n🛡️ Immune support\n\n💚 Raise your baseline with AG1.",
+      "headline": "Stop managing your baseline. Start raising it.",
+      "cta": "Shop now",
+      "landingUrl": "https://drinkag1.com/en-eu/campaign/immunity/ctr-m-v1",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T23:24:08.000Z",
+      "fetchedAt": "2026-10-10T13:15:51.484Z",
+      "thumbnailUrl": "/media/meta/meta_2419365958571026.jpg"
+    },
     "meta_2421245518374051": {
       "media": [
         {
@@ -9307,6 +9392,31 @@
       "fetchedAt": "2026-10-10T13:11:24.167Z",
       "thumbnailUrl": "/media/meta/meta_2516795842134636.jpg"
     },
+    "meta_2531761340615297": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPwdu9oTEm5DacrN7d8oEbRCBOhACzrIAje0N9WK1r7gFzBcs4cV0-duPitUFMlVFzHVIyXRWpEDqjAmNpdoIqER565X_h1aT_3IvO5kMMAJw.mp4?_nc_cat=107&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=od2nvxfjDc0Q7kNvwG9qZMF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjY0Njc3NDc3MTI4MjUzNiwiYXNzZXRfYWdlX2RheXMiOjQxNywidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjQxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=8007426145bcb85b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC85NzQ2QkE4Njc3OEI5NEM0NzU1MTA2RDc3QTc2NEQ4Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I3NEY1MEUzQUI5QjExOEY1MDMyQTQ1NTFGOEVGN0E4X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbQye_Hn4-mAhUCKAJDMywXQESA5WBBiTcYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=2cptdfewTv7ZkqIEF21Qwg&_nc_ss=70289&_nc_zt=28&oh=00_AQM-eOlKVsePd0YrIot1omJDBN2GI63-CkK3w5rpQhLb1A&oe=6ACFF471",
+          "thumbnailUrl": "/media/meta/meta_2531761340615297.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Meet the Aeris™ cooling tech made for hot sleepers. Lightweight, cooling and breathable fabric. Sleep cooler. Rest better.",
+      "headline": "Hot Nights? Stay Cool with Aeris™ ❄️",
+      "cta": "Shop now",
+      "landingUrl": "https://doreandrose.com/pages/sleep-scientists-confirm-night-heat-is-destroying-your-sleep",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:30:25.000Z",
+      "fetchedAt": "2026-10-10T13:15:57.638Z",
+      "thumbnailUrl": "/media/meta/meta_2531761340615297.jpg"
+    },
     "meta_2535354696956543": {
       "media": [
         {
@@ -9445,6 +9555,28 @@
       "mediaExpiresAt": "2026-10-14T21:08:57.000Z",
       "fetchedAt": "2026-10-10T12:45:15.099Z",
       "thumbnailUrl": "/media/meta/meta_2607790913009461.jpg"
+    },
+    "meta_2610048549414833": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/758264870_2729855900741617_7149598278285025884_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=B0tWVKi2aZEQ7kNvwEaGipM&_nc_oc=AdpCsxm7ybN_BzVQUyvYBeJLBDQ3bsPKcEQI18hpu6nov-U9RhnLDur1_eOG9oS9wy4&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ek1R6MpjDyZNHOirkTLACg&_nc_ss=70289&oh=00_AQNVb_SLUf7B5HJr0NnoYtKRayqpfbSbbu3I9VvC2MOxrA&oe=6AD00C84",
+          "thumbnailUrl": "/media/meta/meta_2610048549414833.jpg"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "IMAGE",
+      "body": "Stop wasting budget on UGC that doesn’t perform. Get creators who deliver real results for your brand.",
+      "headline": "Get UGC that actually drives ROI",
+      "cta": "Sign up",
+      "landingUrl": "http://fb.me/",
+      "platforms": [
+        "facebook",
+        "audience_network"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:22:16.000Z",
+      "fetchedAt": "2026-10-10T13:17:46.017Z",
+      "thumbnailUrl": "/media/meta/meta_2610048549414833.jpg"
     },
     "meta_2615450638876239": {
       "media": [
@@ -9592,6 +9724,65 @@
       "mediaExpiresAt": "2026-10-14T21:34:24.000Z",
       "fetchedAt": "2026-10-10T12:45:19.613Z",
       "thumbnailUrl": "/media/meta/meta_2696696594118336.jpg"
+    },
+    "meta_27084747534490806": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/710059069_1016718870825027_1749451170772449800_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=HZ9XvG3UNvkQ7kNvwHiEFcK&_nc_oc=AdpaEY-Rtje7D_pBEutqhhiVDPBJ_YBLy4kQKXBS6mH9EqatRVF96CVieethih1TNog&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=7DmXkcDu0D9PUNPjMyxQ-w&_nc_ss=70289&oh=00_AQPxvxZgtYpttPNRppiFo3rhw0jcAkPjBIvdh1BOeswcgw&oe=6AD0072E",
+          "thumbnailUrl": "/media/meta/meta_27084747534490806.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/711348931_27019391147729037_8446381544819329524_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Tl-49Wo8GjcQ7kNvwGnGEIp&_nc_oc=AdpLez48i_5wP0RG2cmKD3RNw3zfPvtQPiz68Pq51vuf5EmRn_A63kz9P3i-vIDN0Rw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=7DmXkcDu0D9PUNPjMyxQ-w&_nc_ss=70289&oh=00_AQONXZi_2l7tDoGrBjiFXnH9cHBOli0SS_1oZ5ZuQd8eSQ&oe=6ACFFF75",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/710474290_1312492503642982_943276365904049635_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=GLW8Ji8_y84Q7kNvwH-pY3T&_nc_oc=AdpwSefgNkujsJRrGJhZ9NBrQcmBP72mWb_1T5aRo9UmbxsDwuke3L_Yzy8hKMsqXkY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=7DmXkcDu0D9PUNPjMyxQ-w&_nc_ss=70289&oh=00_AQMpPnO883tEbQQHVn8BC2NOjw9yd1v8OwD5_R_Bg99XIQ&oe=6ACFFE57"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Introducing our newest collection. Designed to make you feel confident in everything you do.",
+      "headline": "New In: Muscle Fit Essentials",
+      "cta": "Shop now",
+      "landingUrl": "https://tailoredathlete.co.uk/collections/new-in",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:12:39.000Z",
+      "fetchedAt": "2026-10-10T13:16:17.526Z",
+      "thumbnailUrl": "/media/meta/meta_27084747534490806.jpg"
+    },
+    "meta_27211859015181890": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQOfOXTQXdza0wG7DE58QqzeFyJQJ89epR6K_vUUhhipagmidvBxbfHSruzXZmreihcJTfTYdOOV1rX9GYgH79i14u1Cjq3FQnqx3zVoNQ.mp4?_nc_cat=105&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=S6gim2XYtSYQ7kNvwGn7-Xz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6MTg3OTg5OTM1NjI2Njk5OSwiYXNzZXRfYWdlX2RheXMiOjM3MiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjEwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&_nc_gid=_J-JyzLmwkIvqjo3aa_GCA&_nc_ss=70289&_nc_zt=28&oh=00_AQP0g9RlvtGDp2UkMlJ3xKcVPUlyVOslP27iGAQ2DX9ZAQ&oe=6ACFF5CD",
+          "thumbnailUrl": "/media/meta/meta_27211859015181890.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m412/AQMUCtyhF7B9HqrM6PhTK1udiiJj82uGfwIqv4Y-vSnKcuc-bIYOtKWiEW8fJXKcS9yaZTfVvzS7x9gHrrKcxwTJiIztPslswWYO3IiRtw.mp4?_nc_cat=103&_nc_sid=ef5aa3&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=GXQNfHnlgekQ7kNvwFbJBWg&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6Nzc1NDY5MDE4NzE3MDI0LCJhc3NldF9hZ2VfZGF5cyI6MzcyLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=_J-JyzLmwkIvqjo3aa_GCA&_nc_ss=70289&_nc_zt=28&oh=00_AQNVrR-VgANgPQPfoDkqfNQtpSvLfqXGZGYdiYn9xgyzDg&oe=6AD01003",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/560629922_2937039489816579_1027853262218111676_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=hkcREOyFGWQQ7kNvwEydq-C&_nc_oc=AdqvdvJAgRtfqOKWcbBZQ-xU2Zz-fZv1p_Zx_UV4BSfDYLF4BmeATtdyMiUnmwUbvQw&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=_J-JyzLmwkIvqjo3aa_GCA&_nc_ss=70289&oh=00_AQMT4WHGbUvYaSxyk493SDgPFCekfsr4-RY6f_1oWhB2rg&oe=6AD0157A"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Meet the Aeris™ cooling tech made for hot sleepers. Lightweight, cooling, and breathable fabric. Sleep cooler. Rest better.",
+      "headline": "Goodbye Sticky Sheets 👋❄️",
+      "cta": "Shop now",
+      "landingUrl": "https://doreandrose.com/products/aeris-cooling-comforter-beige?variant=52643001925964",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:36:13.000Z",
+      "fetchedAt": "2026-10-10T13:16:22.436Z",
+      "thumbnailUrl": "/media/meta/meta_27211859015181890.jpg"
     },
     "meta_27626879226980807": {
       "media": [
@@ -10336,6 +10527,35 @@
       "fetchedAt": "2026-10-10T12:43:45.621Z",
       "thumbnailUrl": "/media/meta/meta_3318192581901504.jpg"
     },
+    "meta_3345968908908478": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/710021954_26708285142207410_1694220449300963902_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=zgJPNLQHeekQ7kNvwGkaGxJ&_nc_oc=Adp6dQvtckJcxOgcbqRkfVj6T_v5XlF1R_9OBZz9sOe2Jext925Zp_5MvN1mM6vR7xk&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=9Y5fB1LGMaKAqW6TqHsEDg&_nc_ss=70289&oh=00_AQPUp8XqqtlEstnJsiVzvy3fZ-opqbWr1gXI9EHsbGjtnA&oe=6AD005F6",
+          "thumbnailUrl": "/media/meta/meta_3345968908908478.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/707775295_1696566275026805_4003526142449545504_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=BxcC0J0WhVoQ7kNvwELPg00&_nc_oc=AdqJ-nELuEh9WlJKekkAJg8A8DKbMyr6TPr19VkT1SLfry7r8MntrY5jxq968I6hZbs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=9Y5fB1LGMaKAqW6TqHsEDg&_nc_ss=70289&oh=00_AQM3h12nU-opdDes4NCw0tVMMxaB6JcBavbAWAJHg5uJNA&oe=6AD013B3",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/709647206_1702818164055564_6886248463450479018_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ysJjxEZbTM8Q7kNvwE50tBP&_nc_oc=AdoHcCFyyaV9rYm4SJHBL5_xObrDyGhW8ZPO-F6bZ7VdFK1CqLro5ZYqobztZDifdH8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=9Y5fB1LGMaKAqW6TqHsEDg&_nc_ss=70289&oh=00_AQNSXlRa4vYWdGtjcaQbtULE5GszLsrCMuRBb6Wr0RjCLg&oe=6ACFFD3A"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Your potential is capped by your foundation. If your nutrition is inconsistent, your output will be, too. ⚠️\n\nAG1 is designed to be your Daily Nutrient Insurance. We’ve packed 70+ high-quality vitamins, minerals, and whole-food sourced ingredients into one simple habit.\n\nNo more complex supplement cabinets. No more morning friction. Just one scoop for:\n⚡ Sustained energy\n🧠 Mental clarity\n🛡️ Immune support\n\n💚 Raise your baseline with AG1.",
+      "headline": "Stop managing your baseline. Start raising it.",
+      "cta": "Shop now",
+      "landingUrl": "https://drinkag1.com/en-eu/campaign/immunity/ctr-m-v1",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:07:54.000Z",
+      "fetchedAt": "2026-10-10T13:16:27.684Z",
+      "thumbnailUrl": "/media/meta/meta_3345968908908478.jpg"
+    },
     "meta_3473101152852799": {
       "media": [
         {
@@ -10664,6 +10884,59 @@
       "fetchedAt": "2026-10-10T13:00:28.212Z",
       "thumbnailUrl": "/media/meta/meta_4513488538919399.jpg"
     },
+    "meta_4516423442013586": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQP2QmMKDsaBxMRojVLASPMhWMJZe0-uAQ1m6lexK8mf9hfDWRHkJLYy84549GzWl_JWvf56_JG8xjRV1-cPxKjzRdhTEESqLHEZRcn0UKPktQ.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=MNtINnoq4qUQ7kNvwHC5G_I&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE5OTg5MjcwMDc2ODA5NTAsImFzc2V0X2FnZV9kYXlzIjoxMzMsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjoyMiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=e80cab4f33103ea7&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CRDQ3MEZGRUJCNEEyNzcyOTQzODk0NzFFQ0Q1OTlCMF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBBNDgwQzE3N0RERDFGQUZFRjFCQzU5OEU2NTNGQzgzX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbspszj7oCNBxUCKAJDMywXQDZqfvnbItEYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=UM256QmRgAvvgiipXhB18Q&_nc_ss=70289&_nc_zt=28&oh=00_AQM4J_DNsmHcpNpDZ1TXFOeothIZeyOrToGBzsGcT6p8Cg&oe=6AD00090",
+          "thumbnailUrl": "/media/meta/meta_4516423442013586.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNvK-x1ERM6Mm4tDWADeul0KRu9yly6vFeF0liCk3xGwbXf24As4p6le9LVkGAX4ULHEEGdOIP7fix_TdNuHjLJ_5vhHXbisNzRFBDfALef2g.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Uh3ZBzt3OzQQ7kNvwH0z9qy&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjk3ODA2ODc2NTA2NjEyNiwiYXNzZXRfYWdlX2RheXMiOjEzMywidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjIyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=eec0960ce4c4a3ea&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xODQ5MEVDNUVEMTE4NzY2QkUzMjFDQ0ZCMDA5RUJBN19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0ZENEM5OThFMEVDQjQ2MzlFODE5MTI1N0JFMTNFRTk0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACacjvaUjOO8AxUCKAJDMywXQDZqfvnbItEYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=UM256QmRgAvvgiipXhB18Q&_nc_ss=70289&_nc_zt=28&oh=00_AQPG5qwaVnPHHrHrCfFsu_MJQhga2JsfBkykCB7GY_A_eg&oe=6AD0096D",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/743942337_1387013336616482_3317268259815746189_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=LIhYxx6w8LYQ7kNvwGKQizp&_nc_oc=AdoFXGwjVWpJqbwqftU8CwLBbhZ7jBeJBKzxC6apvU8qepTaw7QZ9zCZLSNdFqGTTys&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=UM256QmRgAvvgiipXhB18Q&_nc_ss=70289&oh=00_AQMYbjdBkmJKkX9V4ULqHxZsHadDOejdaxEtGp6OzFBzQA&oe=6AD0025C"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "headline": "Stop managing your baseline. Start raising it.",
+      "cta": "Shop now",
+      "landingUrl": "https://drinkag1.com/en-eu/campaign/immunity/ctr-m-v1",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:22:08.000Z",
+      "fetchedAt": "2026-10-10T13:16:33.333Z",
+      "thumbnailUrl": "/media/meta/meta_4516423442013586.jpg"
+    },
+    "meta_4535269223426577": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOGunqubuLyV1hzTymmsQearTUA3WVUYTrdtxRj40brtu9bpd4sn3rAfRs2A2X-dy_gn1YSanaI2cLVCVzv8UjD5JsqhTxq7KnGm42Fh9HVxQ.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=1k1bSa4ESP0Q7kNvwEgBpjf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjY3NzI4MzM4ODMzNTM5NSwiYXNzZXRfYWdlX2RheXMiOjUyNywidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjMxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c79525f1b5dfef2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zOTQ1OEY2NjI3ODAzQzg0NTg5QjU4MDMwOERBRTlBNV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg1ZmJfcGVybWFuZW50LzIxNzkzNjMzMjI1MDc0NzlfNjQ3MzM1MDA5OTQxMzg5NzUyNC5tcDQVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmxpSxvIr_swIVAigCQzMsF0A_TMzMzMzNGBlkYXNoX2gyNjQtYmFzaWMtZ2VuMl83MjBwEQB1AGW2ngEA&_nc_gid=tFxrYUHYsphJbZYu6KONhw&_nc_ss=70289&_nc_zt=28&oh=00_AQOn448Fp8kWk-pjPHsCDCoSMjrjrWZTP7qrJUnppze8ww&oe=6AD0063B",
+          "thumbnailUrl": "/media/meta/meta_4535269223426577.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "This ain't that old west denim. This is the fit and feel made for modern guys.",
+      "headline": "The Denim Hype Is Real.",
+      "cta": "Shop now",
+      "landingUrl": "https://www.trueclassictees.com/products/black-wash-jeans",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:24:02.000Z",
+      "fetchedAt": "2026-10-10T13:16:36.943Z",
+      "thumbnailUrl": "/media/meta/meta_4535269223426577.jpg"
+    },
     "meta_4599139590361636": {
       "media": [
         {
@@ -10830,6 +11103,31 @@
       "mediaExpiresAt": "2026-10-14T21:27:09.000Z",
       "fetchedAt": "2026-10-10T13:12:13.593Z",
       "thumbnailUrl": "/media/meta/meta_505853671441951.jpg"
+    },
+    "meta_724460523941989": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNStH-cqYPxS-sOQPtHq565yn8XQn-AKu4E61rIWeBbADDCBFqtd2TAWKYxEdpM-tuBtfby_AN0j0v-U_hQsmzgf-OOJo1jrHC0QKU1y0JU-Q.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=npwesbtSQhwQ7kNvwFIA7K4&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEyMDgxMzAzNjEzNDE4ODUsImFzc2V0X2FnZV9kYXlzIjozODgsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjo0MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=58ca1ab1260f0225&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80NjRENTc5NzBCRDBERjNEQzE4NkU3QUNBNjc2QjU5Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzA1NEI1M0Q2RjFERjVGOUE1Q0JENDQ0NEEyN0M5Q0JGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb63r3QuLKlBBUCKAJDMywXQEQVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=J93uKybocPHEbkvDxGRU8g&_nc_ss=70289&_nc_zt=28&oh=00_AQPUmI4uW6ZjnMSMQWq44OsupKwUYOx5HDqiQQXKHjqm7Q&oe=6AD0037B",
+          "thumbnailUrl": "/media/meta/meta_724460523941989.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "We’re hosting a private session at Acquisition.com’s Las Vegas HQ to show entrepreneurs the exact methods we use to scale businesses.\n\nWant to be in the room?\n\nClick below to see if you’re a fit.\nAdvantage+ creative text generation",
+      "headline": "Learn How to Scale Your Business",
+      "cta": "Learn more",
+      "landingUrl": "https://www.acquisition.com/workshop-km",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:34:35.000Z",
+      "fetchedAt": "2026-10-10T13:16:46.068Z",
+      "thumbnailUrl": "/media/meta/meta_724460523941989.jpg"
     },
     "meta_785939991204111": {
       "media": [
@@ -11008,6 +11306,35 @@
       "fetchedAt": "2026-10-10T12:38:16.495Z",
       "thumbnailUrl": "/media/meta/meta_899061425921421.jpg"
     },
+    "meta_912059768645417": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNuDZaYF7if3kqZAeqmug213awjLvYq3cJtRMi1SisVtAh3goBzvISU3zfoYCn5xocVF9B09VwaUiGh81MTCSxoznLBSiG3yZNjjSoX2_OW8A.mp4?_nc_cat=106&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=HOBjFTHlJjwQ7kNvwHaqdJF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1NzczNzQ3NDcwNjY3NjgsImFzc2V0X2FnZV9kYXlzIjo3MywidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2a58ae0447efcbec&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FMjQ2NEM1N0M3REY5MkE5MjUyOUQzNTY4REM5QUJBN19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzhENDYxNEEwQjgzRDQyNjhCRDc4QUNFNDQzMTc5NUEyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaghtDXpafNBRUCKAJDMywXQCfdsi0OVgQYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=b5cdou_92LTuzxn5mB-srw&_nc_ss=70289&_nc_zt=28&oh=00_AQOcS1CmVtr49IHazvonVBmfoB_mkgtrM2rMfYwb1IjcAA&oe=6AD024BA",
+          "thumbnailUrl": "/media/meta/meta_912059768645417.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQO9AodlUAvhdmv9l-voZ2pwjXYVd0nu37qEsdiCUs8UxGEyAu6jr43bnJwm6azknKtrH59yggF1_FNLrs3GHF2GXZf-osNL4ajjTXCR8dYEVA.mp4?_nc_cat=110&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=DxodWt7HwbkQ7kNvwFvOE7j&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMzQwNjA1ODU4OTE0ODgsImFzc2V0X2FnZV9kYXlzIjo3MywidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=b501e3830209455b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yMzRCRERBMDkxN0JBNzg0Nzg4QjJGREM3RDNCNzFCOF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzYzNDY3QzFDQjNBRTYwQ0EwQTA2RUQ4RjMwNUM5RDhFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbA2q_en57WAxUCKAJDMywXQCfdsi0OVgQYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=b5cdou_92LTuzxn5mB-srw&_nc_ss=70289&_nc_zt=28&oh=00_AQPHQ9SsZbqYDpKKbm08bBM90xnME5o4pb7E1MsVDmCEtw&oe=6AD009BE",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/763944460_1617640976441634_5969824972363907479_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ygIno-ycGYgQ7kNvwEFe7aR&_nc_oc=AdoAl5pwejnnccTR0XldgdNxNE_IBm1OOK1pnBS4P1y7Yzjv1FPsosm4nNoyhUN7AiU&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=b5cdou_92LTuzxn5mB-srw&_nc_ss=70289&oh=00_AQM3kRLtvt2gDYwukm1XYYcXhhXszIge1sPTekBiHrC6xw&oe=6AD025CC"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "\"These pots and pans truly sell themself!\" - Cynthia S.\n\nThere's a reason why over 1.000.000 home cooks trust HexClad hybrid cookware. Its hybrid technology combines the ease of non-stick, the searing power of stainless steel, and the durability of cast iron into the last pan you'll ever need to buy!\n\n✔️ Lifetime Warranty*\n✔️ Non-stick \n✔️ Scratch-Resistant\n✔️ Dishwasher-Safe\n✔️ Backed by Gordon Ramsay \n✔️ 55,000+ Five-Star Reviews Worldwide\n\n*Lifetime warranty against manufacturer’s defects",
+      "headline": "Worth every penny! 🤌",
+      "cta": "Shop now",
+      "landingUrl": "https://hexclad.eu/pages/premium-cookware-set-V1",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T23:01:18.000Z",
+      "fetchedAt": "2026-10-10T13:17:22.400Z",
+      "thumbnailUrl": "/media/meta/meta_912059768645417.jpg"
+    },
     "meta_912927988440610": {
       "media": [
         {
@@ -11030,6 +11357,35 @@
       "mediaExpiresAt": "2026-10-15T00:26:58.000Z",
       "fetchedAt": "2026-10-10T13:09:29.409Z",
       "thumbnailUrl": "/media/meta/meta_912927988440610.jpg"
+    },
+    "meta_913059344527429": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m69/AQMvtltPMVXvJ8rmr_cpUP40qt0gOD5znlJAshYJVluJhyqVzsDTHR57CAI9KtSa5fd3zV1t-VOTgAaqLKAiajXn.mp4?strext=1&_nc_cat=111&_nc_sid=ef5aa3&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=49gIhiGi-_0Q7kNvwFqvpSG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuMzYwLnN2ZV9zZCIsInhwdl9hc3NldF9pZCI6NTY0MTM4MzQyNzkwOTc0LCJhc3NldF9hZ2VfZGF5cyI6NzI0LCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&_nc_gid=E0Df6a2nCN0_fztbKEzVyw&_nc_ss=70289&_nc_zt=28&oh=00_AQOqPVHdxvfCIQEo5C00LBDmgfFwYUEVaMAwfpbNAgimaw&oe=6AD00E67",
+          "thumbnailUrl": "/media/meta/meta_913059344527429.jpg"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMRuI8cSKpxYe1gbzNx1aDN7-NTDi3gKZZwcF4h2XxSmXT817XjBoR_9uHJqFVymibyNI0dSZ8fWYjbjxNVp8uUhE3OGgEynSw0C86EWIhSCw.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=KpiNtddfwuoQ7kNvwGN0Qsf&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIzNDUxOTU3MjkxNjU4NTYsImFzc2V0X2FnZV9kYXlzIjo3MjQsInZpX3VzZWNhc2VfaWQiOjEwNzk5LCJkdXJhdGlvbl9zIjozOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c7aff2ad6cda6157&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wMDQ2QUUwNTMzMkE1Q0QwNjlDNEY2MjZCRDdCMDFCNl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dEOFluQnV0WFdDb2xwRUVBQWpqWEw4NkhBbGFidjRHQUFBRhUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbA-OzlrbyqCBUCKAJDMywXQEORBiTdLxsYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=E0Df6a2nCN0_fztbKEzVyw&_nc_ss=70289&_nc_zt=28&oh=00_AQMDkzSQmhL-aflDrwPRNQQemka0gub3CEmIRD6I6I7xgA&oe=6AD00377",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/725664399_1001651482789196_3289177713400924103_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=oRlQhbmYBZUQ7kNvwGW77dd&_nc_oc=AdqZI_iRGXLc4cbDgSggno5tdC6B8cU2HfL2OalkDbsCeY2zkgF5eox3NViWxAylvyY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=E0Df6a2nCN0_fztbKEzVyw&_nc_ss=70289&oh=00_AQNlefAUQQDhKMX2dkhYLtu4OzGcQVLhy30gvN2QJ6Tfyw&oe=6AD0179D"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "DCO",
+      "body": "Looking for new cookware that works on induction, gas and all cooktops? Then it's time to upgrade your kitchen with amazing non stick cookware built to last. \n✔️ Metal utensil safe \n✔️ Dishwasher safe \n✔️ Oven safe up to 260°C\" \n✔️ Liftetime Warranty",
+      "headline": "Elevate your kitchen game",
+      "cta": "Learn more",
+      "landingUrl": "https://hexclad.eu/",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:34:31.000Z",
+      "fetchedAt": "2026-10-10T13:17:25.840Z",
+      "thumbnailUrl": "/media/meta/meta_913059344527429.jpg"
     },
     "meta_916057501544647": {
       "media": [
@@ -11103,6 +11459,51 @@
       "mediaExpiresAt": "2026-10-14T20:46:41.000Z",
       "fetchedAt": "2026-10-10T12:42:54.604Z",
       "thumbnailUrl": "/media/meta/meta_933639956479948.jpg"
+    },
+    "meta_935988989149698": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/644686747_920028210807213_2288669936597386849_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=n_0x2LcyzJ8Q7kNvwFhK3ET&_nc_oc=AdpaOeALB2nbFrap5xjgZBFs6Ve4BzBsJIVERciKPW_6YtKeOWtgR1WRwioqRpjKnh8&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQMTLtGHU7MGDbq3fMyUxBeRnrtvMa8c7oaqhCLPP-G1DA&oe=6AD018C7",
+          "thumbnailUrl": "/media/meta/meta_935988989149698.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/643909164_1610731023300600_8906185121322564335_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=j9ZbFgaTvygQ7kNvwF2P-rs&_nc_oc=AdpQ4c-_NWJfscmrZICns3Q96Kx-fZQKZIt-SUNonmRKqq4-aelrGci_rl-zAYGguZI&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQPD0hJMgaS0Bg71_9hZUd45jf5OeH9TDRxDjmIZux6q-w&oe=6AD010D1",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/645596441_764026706781839_6262588370982373677_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=g9VqS_M-5AcQ7kNvwGY5Aoh&_nc_oc=AdoedeiCtjWGkcKkWKerc82xZAe23bVX7b8XLEHMpGFZ6llLXDxq-uK3kU8sjStC8n0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQMewH2cbteE1j2R9kWCTJO1IBu-a8aFS3YJAFyDP8QgSQ&oe=6ACFF2DD"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/643913107_3975960426035401_130776991669295530_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=wU9hTq5wkQwQ7kNvwEDn0mP&_nc_oc=AdpC00G6DOv8VkbDSJiAM1IHRDKbayItcTDKxUz89M7qprbUUjt9OG8Xjukxcz_OF1g&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQPWS8wQXey8B9YbpBJ731kipgKbu8lAs6Cy23FyX0zBtA&oe=6AD02603",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/646370306_1564167878208229_832238039746485413_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4JcvKjIFxCMQ7kNvwE9xzY3&_nc_oc=AdoSj5LHXbimjD1osp7jxvm3yfxen7SYndEVYRBgUYoVaLO0fSzpwZJEIarPpLpbmpc&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQM6Ot511-IeE1_r1CO-jS-TTVvUiO7aTHOneEJ-iIReSQ&oe=6ACFFFFA"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/646364845_1218515133825882_318328863486451824_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=fnUNEJvKTn8Q7kNvwFRnpu5&_nc_oc=Adq3IvMVGzDruRvCL3v9hQ7mih9OAY8hDINpwV8nYT1pyVD0Omkb4ywBtai2tE2tPek&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQOdOOqBJb9z_RqhVeTf7nYZzNp09KkyDpFgr2VCTuwxfA&oe=6AD024BE",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/645438333_803803248779347_4920682909153849600_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=QvQxjdansdAQ7kNvwHoxcZX&_nc_oc=AdrFzI-xevs6AOdYdcxz7Z8Lg9eMuVroPoIkLKSqAjyr_XCVK41Gll4iYgV9hS3xdh8&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQNZ8CZZ2V7Ep9YETLNFynTBnd5aohjObnwXAFg_JDk0Hg&oe=6AD00F91"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/645935023_810999967957072_7069631774467286134_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=X_KPCB4AbhkQ7kNvwGbOmb4&_nc_oc=AdqKb4q4mhgdQnJWllvk1e-bjblDn68HvADe2xDogERjj4yR0KFgdFSkOlgBbNBYd0g&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQMs1qXik5FFTsLmHp7ETb_mjN6W0TjOu_vt7qyE-fPARg&oe=6ACFF195",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/644927331_1676794803494924_400206130845232621_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ZuKHqPG4M-wQ7kNvwHcfC_0&_nc_oc=AdrWhWO0IX5CVswczlszQ-ciqOlOLEyaMCYZuYEBGplG43eCBkRAiC57xjRW1aF6DWs&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=gnIGJaDWM20SA1u5YSTSDA&_nc_ss=70289&oh=00_AQPdBPcTC4j6cS3GxQSiXgvzO_8llEiSD_2Z-W_c-xF2Dg&oe=6AD01F5B"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "DCO",
+      "body": "Say Goodbye to Hair Loss – Hello to Thicker, Fuller Hair! 🌟\nStop hair loss and see real results in 3-6 months 🚀\n\nGet personalised hair loss treatments tailored to suit your needs. Made with the care and results you deserve.\n\nStart your hair regrowth journey today.",
+      "headline": "Take control of your hair loss today!",
+      "cta": "Learn more",
+      "landingUrl": "https://try.forhims.co.uk/hl/meta/hh/",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:18:13.000Z",
+      "fetchedAt": "2026-10-10T13:17:29.566Z",
+      "thumbnailUrl": "/media/meta/meta_935988989149698.jpg"
     },
     "meta_955160157662630": {
       "media": [
@@ -11593,6 +11994,76 @@
     "meta_1552599086282284": "Meta: NOT_IN_LIBRARY",
     "meta_1568451768213057": "Meta: NOT_IN_LIBRARY",
     "meta_1584746802752523": "Meta: NOT_IN_LIBRARY",
-    "meta_1592892672186305": "Meta: NOT_IN_LIBRARY"
+    "meta_1592892672186305": "Meta: NOT_IN_LIBRARY",
+    "meta_1601153114864188": "Meta: NOT_IN_LIBRARY",
+    "meta_1626852345077799": "Meta: NOT_IN_LIBRARY",
+    "meta_1626015321818099": "Meta: NOT_IN_LIBRARY",
+    "meta_1656727465543164": "Meta: NOT_IN_LIBRARY",
+    "meta_1660612725211645": "Meta: NOT_IN_LIBRARY",
+    "meta_1703126030822348": "Meta: NOT_IN_LIBRARY",
+    "meta_1748063093116921": "Meta: NOT_IN_LIBRARY",
+    "meta_1706609670533549": "Meta: NOT_IN_LIBRARY",
+    "meta_1773751890294922": "Meta: NOT_IN_LIBRARY",
+    "meta_1776579700379050": "Meta: NOT_IN_LIBRARY",
+    "meta_1799493097850243": "Meta: NOT_IN_LIBRARY",
+    "meta_2021806188442861": "Meta: NOT_IN_LIBRARY",
+    "meta_2009887886230286": "Meta: NOT_IN_LIBRARY",
+    "meta_2070897586796265": "Meta: NOT_IN_LIBRARY",
+    "meta_2070665070509161": "Meta: NOT_IN_LIBRARY",
+    "meta_2107846520160835": "Meta: NOT_IN_LIBRARY",
+    "meta_2108267710119383": "Meta: NOT_IN_LIBRARY",
+    "meta_2135778620336491": "Meta: NOT_IN_LIBRARY",
+    "meta_2241738276640152": "Meta: NOT_IN_LIBRARY",
+    "meta_2319080995507684": "Meta: NOT_IN_LIBRARY",
+    "meta_2243071229850827": "Meta: NOT_IN_LIBRARY",
+    "meta_2334574680682325": "Meta: NOT_IN_LIBRARY",
+    "meta_2348836802313274": "Meta: NOT_IN_LIBRARY",
+    "meta_2378494629300255": "Meta: NOT_IN_LIBRARY",
+    "meta_2438118450008730": "Meta: NOT_IN_LIBRARY",
+    "meta_24655584544119144": "Meta: NOT_IN_LIBRARY",
+    "meta_2559727937782729": "Meta: NOT_IN_LIBRARY",
+    "meta_2616439808758203": "Meta: NOT_IN_LIBRARY",
+    "meta_26467804712920411": "Meta: NOT_IN_LIBRARY",
+    "meta_2571404980004551": "Meta: NOT_IN_LIBRARY",
+    "meta_2676737052727408": "Meta: NOT_IN_LIBRARY",
+    "meta_26847713038240111": "Meta: NOT_IN_LIBRARY",
+    "meta_2872774149767940": "Meta: NOT_IN_LIBRARY",
+    "meta_2954294008339682": "Meta: NOT_IN_LIBRARY",
+    "meta_3262557583931572": "Meta: NOT_IN_LIBRARY",
+    "meta_3994348967535545": "Meta: NOT_IN_LIBRARY",
+    "meta_653435801040299": "Meta: NOT_IN_LIBRARY",
+    "meta_671793389087479": "Meta: NOT_IN_LIBRARY",
+    "meta_6847763055455865": "Meta: NOT_IN_LIBRARY",
+    "meta_764218956440037": "Meta: NOT_IN_LIBRARY",
+    "meta_810091472071686": "Meta: NOT_IN_LIBRARY",
+    "meta_807970942406052": "Meta: NOT_IN_LIBRARY",
+    "meta_811422555275503": "Meta: NOT_IN_LIBRARY",
+    "meta_811700211277880": "Meta: NOT_IN_LIBRARY",
+    "meta_811896231184828": "Meta: NOT_IN_LIBRARY",
+    "meta_819923411200621": "Meta: NOT_IN_LIBRARY",
+    "meta_821517984097876": "Meta: NOT_IN_LIBRARY",
+    "meta_823281923614411": "Meta: NOT_IN_LIBRARY",
+    "meta_825024450270130": "Meta: NOT_IN_LIBRARY",
+    "meta_826034080301531": "Meta: NOT_IN_LIBRARY",
+    "meta_856905330689664": "Meta: NOT_IN_LIBRARY",
+    "meta_868372925655586": "Meta: NOT_IN_LIBRARY",
+    "meta_879168991695196": "Meta: NOT_IN_LIBRARY",
+    "meta_895288463634119": "Meta: NOT_IN_LIBRARY",
+    "meta_895770809667487": "Meta: NOT_IN_LIBRARY",
+    "meta_914425814555582": "Meta: NOT_IN_LIBRARY",
+    "meta_920391753791791": "Meta: NOT_IN_LIBRARY",
+    "meta_958589906617529": "Meta: NOT_IN_LIBRARY",
+    "meta_964011866433610": "Meta: NOT_IN_LIBRARY",
+    "meta_991647796577001": "Meta: NOT_IN_LIBRARY",
+    "meta_998426873089478": "Meta: NOT_IN_LIBRARY",
+    "meta_1725790298560927": "Meta: NOT_IN_LIBRARY",
+    "meta_1787712249263223": "Meta: NOT_IN_LIBRARY",
+    "meta_2351999931877343": "Meta: NOT_IN_LIBRARY",
+    "meta_2440757332988207": "Meta: NOT_IN_LIBRARY",
+    "meta_2766643047038827": "Meta: NOT_IN_LIBRARY",
+    "meta_3492085857626821": "Meta: NOT_IN_LIBRARY",
+    "meta_4336438213298126": "Meta: NOT_IN_LIBRARY",
+    "meta_4387109641543409": "Meta: NOT_IN_LIBRARY",
+    "meta_995595409515353": "Meta: NOT_IN_LIBRARY"
   }
 }

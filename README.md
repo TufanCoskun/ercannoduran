@@ -20,7 +20,7 @@
 
 ## Nasıl denerim?
 
-**Demo:** (link yakında)
+**Demo:** 👉 **[adgym-ipek-palas.vercel.app](https://adgym-ipek-palas.vercel.app)** — telefondan aç, kaydırmaya başla.
 
 Telefonda aç ve yukarı kaydır. Videolar sessiz başlar, sesi açmak için **"Sesi aç"** düğmesine dokun. Videoya dokunursan durur ya da devam eder.
 Masaüstünde `↑ / ↓` (ya da `j / k`) ile gezinebilir, `s` ile kaydedebilir, `m` ile sesi açıp kapatabilirsin.
