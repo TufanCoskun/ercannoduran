@@ -5,6 +5,7 @@ import { useRef, useState, type RefObject } from "react";
 import type { Ad } from "@/lib/types";
 import { addNote, moveAd, type Collection, type SavedItem } from "@/lib/saved";
 import { startAnalysis, useAnalysisJob } from "@/lib/analyze-client";
+import { useCanAnalyze } from "@/lib/role-client";
 import { adPath, daysLabel, libraryLabel, platformLabel, previewImage, scoreText } from "@/lib/format";
 import { SEGMENT_LABEL } from "@/lib/filters";
 import { adYouTubeId, isYouTubeUrl } from "@/lib/youtube";
@@ -20,6 +21,7 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
   const videoRef = useRef<HTMLVideoElement>(null);
   const notesRef = useRef<HTMLDivElement>(null);
   const job = useAnalysisJob(ad.id);
+  const canAnalyze = useCanAnalyze();
   const [confirmRerun, setConfirmRerun] = useState(false);
   const [bodyOpen, setBodyOpen] = useState(false);
 
@@ -84,7 +86,7 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
       <section aria-label="Gemini özeti">
         <div className="mb-3 flex items-center justify-between gap-2">
           <h3 className="text-[11px] font-bold uppercase tracking-[0.14em] text-volt">✨ Özet</h3>
-          {item.analysis && job.status !== "running" && (
+          {canAnalyze && item.analysis && job.status !== "running" && (
             confirmRerun ? (
               <span className="flex items-center gap-1.5 text-[11.5px] text-zinc-400">
                 Yeni bir ücretli çağrı yapılır.
@@ -122,7 +124,9 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
           </>
         ) : (
           <div className="rounded-3xl border border-dashed border-line p-4">
-            {job.status !== "running" && (
+            {!canAnalyze ? (
+              <p className="text-[13px] leading-relaxed text-zinc-500">Bu hesapta Gemini özetleme kapalı.</p>
+            ) : job.status !== "running" && (
               <p className="mb-3 text-[13px] leading-relaxed text-zinc-400">
                 Gemini reklamı sahne sahne çözer: hook, transkript, yapı, neden kazandığı ve sana özel 3 remix fikri. Sadece bastığında çalışır (ücretli çağrı).
               </p>

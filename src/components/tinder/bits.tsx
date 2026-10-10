@@ -1,12 +1,13 @@
 "use client";
 
-import type { SVGProps } from "react";
+import { useState, type SVGProps } from "react";
 import type { Ad } from "@/lib/types";
-import { daysLabel } from "@/lib/format";
+import { daysLabel, previewImage } from "@/lib/format";
+import { effectiveFormat } from "@/lib/filters";
 import { useSaved } from "@/lib/saved";
-import { AdThumb } from "../AdThumb";
 import { BrandAvatar } from "../Bits";
-import { BookmarkIcon, FlameIcon, ShareIcon } from "../Icons";
+import { BookmarkIcon, FlameIcon, PlaySolidIcon, ShareIcon } from "../Icons";
+import { TextCard } from "../TextCard";
 import { useUI } from "../UIProvider";
 
 type P = SVGProps<SVGSVGElement> & { size?: number };
@@ -75,11 +76,11 @@ export function BrandLine({ ad, size = 26 }: { ad: Ad; size?: number }) {
   );
 }
 
-export function SaveShareIcons({ ad, className = "", dark }: { ad: Ad; className?: string; dark?: boolean }) {
+export function SaveShareIcons({ ad, className = "", dark, small }: { ad: Ad; className?: string; dark?: boolean; small?: boolean }) {
   const ui = useUI();
   const saved = useSaved();
   const isSaved = Boolean(saved.items[ad.id]);
-  const btn = `grid size-8 place-items-center rounded-full ring-1 transition ${dark ? "bg-black/40 ring-white/10 backdrop-blur-sm hover:bg-black/60" : "bg-white/[0.06] ring-white/10 hover:bg-white/[0.12]"}`;
+  const btn = `grid ${small ? "size-7" : "size-8"} place-items-center rounded-full ring-1 transition ${dark ? "bg-black/40 ring-white/10 backdrop-blur-sm hover:bg-black/60" : "bg-white/[0.06] ring-white/10 hover:bg-white/[0.12]"}`;
   return (
     <span className={`flex items-center gap-1.5 ${className}`}>
       <button
@@ -97,7 +98,7 @@ export function SaveShareIcons({ ad, className = "", dark }: { ad: Ad; className
         title={isSaved ? "Kayıtlı" : "Kaydet"}
         className={`${btn} ${isSaved ? "!bg-volt/15 text-volt !ring-volt/40" : "text-white"}`}
       >
-        <BookmarkIcon size={15} filled={isSaved} />
+        <BookmarkIcon size={small ? 13 : 15} filled={isSaved} />
       </button>
       <button
         type="button"
@@ -109,27 +110,49 @@ export function SaveShareIcons({ ad, className = "", dark }: { ad: Ad; className
         title="Paylaş"
         className={`${btn} text-white`}
       >
-        <ShareIcon size={14} />
+        <ShareIcon size={small ? 12 : 14} />
       </button>
     </span>
+  );
+}
+
+/** Compact 4:5 preview (image / video poster, else a mini text card) with a small ▶ for videos. */
+export function TileThumb({ ad, className = "" }: { ad: Ad; className?: string }) {
+  const src = previewImage(ad);
+  const [failed, setFailed] = useState(false);
+  return (
+    <div className={`relative aspect-[4/5] overflow-hidden bg-ink-3 ${className}`}>
+      {src && !failed ? (
+        <img src={src} alt="" loading="lazy" referrerPolicy="no-referrer" draggable={false} onError={() => setFailed(true)} className="h-full w-full object-cover" />
+      ) : (
+        <TextCard ad={ad} reason={src ? "expired" : "missing"} compact />
+      )}
+      {effectiveFormat(ad) === "video" && src && !failed && (
+        <span className="absolute left-1.5 top-1.5 grid size-5 place-items-center rounded-full bg-black/60 text-white backdrop-blur" aria-label="Video">
+          <PlaySolidIcon size={9} className="translate-x-px" />
+        </span>
+      )}
+    </div>
   );
 }
 
 /** Thumbnail tile used in the Round 1 summary, the winner screen and the history. */
 export function AdTile({ ad, onOpen, tag, highlight }: { ad: Ad; onOpen: (ad: Ad) => void; tag?: string; highlight?: boolean }) {
   return (
-    <li className={`group relative flex flex-col overflow-hidden rounded-2xl border bg-ink-2 ${highlight ? "border-amber-300/60" : "border-line"}`} data-tile={ad.id}>
-      <button type="button" onClick={() => onOpen(ad)} className="relative block text-left" aria-label={`${ad.brand.name} detayları`}>
-        <AdThumb ad={ad} />
-        <span className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
-        <span className="absolute bottom-2 left-2">
-          <DaysBadge ad={ad} />
-        </span>
-        {tag && <span className="absolute right-2 top-2 rounded-full bg-black/65 px-2 py-0.5 text-[10px] font-bold text-white backdrop-blur">{tag}</span>}
-      </button>
-      <div className="flex items-center gap-1.5 px-2 py-2">
-        <span className="min-w-0 flex-1 truncate text-[13px] font-semibold">{ad.brand.name}</span>
-        <SaveShareIcons ad={ad} />
+    <li className={`relative flex min-w-0 flex-col overflow-hidden rounded-2xl border bg-ink-2 ${highlight ? "border-amber-300/70" : "border-line"}`} data-tile={ad.id}>
+      <div className="relative">
+        <button type="button" onClick={() => onOpen(ad)} className="relative block w-full text-left" aria-label={`${ad.brand.name} detayları`}>
+          <TileThumb ad={ad} />
+          <span className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
+          <span className="absolute bottom-1.5 left-1.5">
+            <DaysBadge ad={ad} />
+          </span>
+        </button>
+        <SaveShareIcons ad={ad} dark small className="absolute right-1.5 top-1.5 !flex-col" />
+      </div>
+      <div className="px-2 py-1.5">
+        <p className="truncate text-[13px] font-semibold leading-tight">{ad.brand.name}</p>
+        {tag && <p className="mt-0.5 truncate text-[10px] font-bold uppercase tracking-wide text-amber-300">{tag}</p>}
       </div>
     </li>
   );

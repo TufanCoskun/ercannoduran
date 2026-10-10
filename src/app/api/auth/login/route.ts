@@ -4,6 +4,7 @@ import {
   createSessionToken,
   getAuthConfig,
   MISCONFIGURED_MESSAGE,
+  ROLE_COOKIE,
   safeNextPath,
   SESSION_COOKIE,
   SESSION_TTL_SECONDS,
@@ -46,9 +47,9 @@ export async function POST(req: NextRequest) {
   }
 
   const input = await readInput(req);
-  const ok = input.username.length > 0 && input.password.length > 0 && (await checkCredentials(input.username, input.password, cfg));
+  const role = input.username.length > 0 && input.password.length > 0 ? await checkCredentials(input.username, input.password, cfg) : null;
 
-  if (!ok) {
+  if (!role) {
     // Simple brute-force friction.
     await new Promise((r) => setTimeout(r, FAILURE_DELAY_MS));
     if (wantsJson(req)) {
@@ -60,7 +61,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.redirect(url, 303);
   }
 
-  const token = await createSessionToken(cfg.username, cfg.secret);
+  const token = await createSessionToken(input.username, role, cfg.secret);
   const res = wantsJson(req)
     ? NextResponse.json({ ok: true, next: input.next }, { headers: { "cache-control": "no-store" } })
     : NextResponse.redirect(new URL(input.next, req.nextUrl.origin), 303);
@@ -73,6 +74,16 @@ export async function POST(req: NextRequest) {
     sameSite: "lax",
     path: "/",
     // "Beni hatırla" → persistent 30-day cookie; otherwise a browser-session cookie.
+    ...(input.remember ? { maxAge: SESSION_TTL_SECONDS } : {}),
+  });
+  // Display-only role hint for the UI; the server always re-checks the signed session.
+  res.cookies.set({
+    name: ROLE_COOKIE,
+    value: role,
+    httpOnly: false,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+    path: "/",
     ...(input.remember ? { maxAge: SESSION_TTL_SECONDS } : {}),
   });
   return res;

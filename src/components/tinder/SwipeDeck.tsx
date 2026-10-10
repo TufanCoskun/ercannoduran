@@ -10,6 +10,8 @@ import { InfoIcon, MuteIcon, VolumeIcon, XIcon } from "../Icons";
 import { useUI } from "../UIProvider";
 import { BrandLine, CrossIcon, HeartIcon, SaveShareIcons, UndoIcon } from "./bits";
 
+/** Carousel arrows sit under the gesture layer and can't be clicked here — hide them. */
+const NO_ARROWS = "[&_button[aria-label$='görsel']]:!hidden";
 const FLING_MS = 260;
 
 type CardApi = { fling: (dir: SwipeDir, from?: { dx: number; dy: number; vx?: number }) => void };
@@ -387,7 +389,7 @@ function SwipeCard({
       data-depth={depth}
     >
       <div ref={card} className="relative h-full w-full overflow-hidden rounded-[1.75rem] bg-ink-2 shadow-2xl shadow-black/60 ring-1 ring-white/10 will-change-transform">
-        <div className="absolute inset-0">
+        <div className={`absolute inset-0 ${NO_ARROWS}`}>
           <AdMediaView ad={ad} active={isTop} preload={preload} muted={muted || !isTop} onMode={onMode} />
         </div>
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[30%] bg-gradient-to-t from-black/85 via-black/35 to-transparent" />

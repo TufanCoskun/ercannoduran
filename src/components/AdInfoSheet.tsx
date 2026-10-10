@@ -5,6 +5,7 @@ import type { Ad } from "@/lib/types";
 import { FORMAT_LABEL, MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, effectiveFormat, verticalLabel } from "@/lib/filters";
 import { adPath, brandFeedPath, daysLabel, displayReasons, formatDate, libraryLabel, platformLabel } from "@/lib/format";
 import { useSaved } from "@/lib/saved";
+import { AnalyzeButton } from "./AnalyzeButton";
 import { AdScore, BrandAvatar, Chip } from "./Bits";
 import { BookmarkIcon, ExternalIcon, FlameIcon, ShareIcon } from "./Icons";
 import { Sheet } from "./Sheet";
@@ -159,6 +160,7 @@ function InfoBody({ ad, onNavigate }: { ad: Ad; onNavigate: () => void }) {
           Detay
         </Link>
       </div>
+      {isSaved && <AnalyzeButton adId={ad.id} variant="block" />}
     </div>
   );
 }

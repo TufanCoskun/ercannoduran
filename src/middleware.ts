@@ -1,5 +1,15 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { getAuthConfig, isApiPath, MISCONFIGURED_MESSAGE, safeNextPath, SESSION_COOKIE, verifySessionToken } from "@/lib/auth";
+import {
+  canAnalyze,
+  FORBIDDEN_ANALYZE_MESSAGE,
+  getAuthConfig,
+  isApiPath,
+  MISCONFIGURED_MESSAGE,
+  ROLE_COOKIE,
+  safeNextPath,
+  SESSION_COOKIE,
+  verifySessionToken,
+} from "@/lib/auth";
 
 /** Static assets that are always public (posters/media can be public). */
 function isPublicAsset(pathname: string): boolean {
@@ -52,7 +62,8 @@ export async function middleware(req: NextRequest) {
     });
   }
 
-  const authed = await verifySessionToken(req.cookies.get(SESSION_COOKIE)?.value, cfg);
+  const session = await verifySessionToken(req.cookies.get(SESSION_COOKIE)?.value, cfg);
+  const authed = session !== null;
 
   if (isAuthRoute(pathname)) {
     // Already signed in: skip the login form.
@@ -63,7 +74,21 @@ export async function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  if (authed) return NextResponse.next();
+  if (session) {
+    // Defense in depth; /api/analyze checks the role itself too.
+    if (pathname === "/api/analyze" && !canAnalyze(session)) {
+      return NextResponse.json(
+        { ok: false, code: "forbidden", error: FORBIDDEN_ANALYZE_MESSAGE },
+        { status: 403, headers: { "cache-control": "no-store" } },
+      );
+    }
+    const res = NextResponse.next();
+    // Keep the display-only role hint in sync (covers sessions issued before roles existed).
+    if (req.cookies.get(ROLE_COOKIE)?.value !== session.r) {
+      res.cookies.set({ name: ROLE_COOKIE, value: session.r, path: "/", sameSite: "lax", secure: process.env.NODE_ENV === "production" });
+    }
+    return res;
+  }
 
   if (isApiPath(pathname)) {
     return NextResponse.json({ error: "Giriş gerekli" }, { status: 401, headers: { "cache-control": "no-store" } });

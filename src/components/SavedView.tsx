@@ -23,15 +23,19 @@ import { SavedDetail } from "./SavedDetail";
 import { BookmarkIcon, PencilIcon, PlusIcon, TrashIcon, XIcon } from "./Icons";
 import { Sheet } from "./Sheet";
 import { useUI } from "./UIProvider";
+import { TinderHistory } from "./tinder/TinderHistory";
+import { historySessions, useTinder } from "@/lib/tinder";
 
 const ALL = "__all";
 const ANALYZED = "__analyzed";
+const TINDER = "__tinder";
 
 export function SavedView() {
   const hydrated = useHydrated();
   const state = useSaved();
   const ui = useUI();
   const [selected, setSelected] = useState<string>(ALL);
+  const tinderCount = historySessions(useTinder()).length;
   const [creating, setCreating] = useState(false);
   const [renaming, setRenaming] = useState(false);
   const [name, setName] = useState("");
@@ -39,12 +43,13 @@ export function SavedView() {
   const [openId, setOpenId] = useState<string | null>(null);
   const [backupOpen, setBackupOpen] = useState(false);
 
-  // Deep links: /saved?ad=<id> opens a detail, /saved?tab=ozetler opens the "Özetler" tab.
+  // Deep links: /saved?ad=<id> opens a detail, /saved?tab=ozetler opens "Özetler", /saved?tab=tinder opens "Tinder özetleri".
   useEffect(() => {
     const q = new URLSearchParams(window.location.search);
     const ad = q.get("ad");
     if (ad) setOpenId(ad);
     if (q.get("tab") === "ozetler") setSelected(ANALYZED);
+    if (q.get("tab") === "tinder") setSelected(TINDER);
   }, []);
 
   const items = useMemo(() => Object.values(state.items).sort((a, b) => b.savedAt.localeCompare(a.savedAt)), [state.items]);
@@ -58,7 +63,7 @@ export function SavedView() {
     return c;
   }, [items]);
   const current = state.collections.find((c) => c.id === selected);
-  const sel = selected !== ALL && selected !== ANALYZED && !current ? ALL : selected; // collection deleted elsewhere
+  const sel = selected !== ALL && selected !== ANALYZED && selected !== TINDER && !current ? ALL : selected; // collection deleted elsewhere
   const visible = sel === ALL ? items : sel === ANALYZED ? analyzed : items.filter((it) => it.collectionId === sel);
   const openItem = openId ? state.items[openId] : undefined;
 
@@ -102,9 +107,12 @@ export function SavedView() {
         <button
           type="button"
           onClick={() => setBackupOpen(true)}
+          aria-label="Yedekle / Geri yükle"
+          title="Yedekle / Geri yükle"
           className="shrink-0 rounded-full bg-white/[0.06] px-3.5 py-2 text-[13px] font-semibold text-zinc-200 ring-1 ring-white/10 hover:bg-white/[0.1]"
         >
-          Yedekle / Geri yükle
+          <span className="sm:hidden">Yedek</span>
+          <span className="hidden sm:inline">Yedekle / Geri yükle</span>
         </button>
       </header>
 
@@ -115,6 +123,9 @@ export function SavedView() {
         </Tab>
         <Tab on={sel === ANALYZED} onClick={() => setSelected(ANALYZED)} count={analyzed.length} accent>
           ✨ Özetler
+        </Tab>
+        <Tab on={sel === TINDER} onClick={() => setSelected(TINDER)} count={tinderCount}>
+          🔥 Tinder özetleri
         </Tab>
         {state.collections.map((c) => (
           <Tab key={c.id} on={sel === c.id} onClick={() => setSelected(c.id)} count={counts[c.id] ?? 0}>
@@ -158,7 +169,9 @@ export function SavedView() {
         </div>
       )}
 
-      {visible.length === 0 ? (
+      {sel === TINDER ? (
+        <TinderHistory />
+      ) : visible.length === 0 ? (
         sel === ANALYZED ? (
           <div className="grid place-items-center rounded-3xl border border-dashed border-line px-6 py-16 text-center">
             <div className="mb-4 grid size-14 place-items-center rounded-2xl bg-volt/10 text-2xl">✨</div>
@@ -281,7 +294,7 @@ function SavedCard({ item, showHook, onOpen, onRemove }: { item: SavedItem; show
   const lastNote = notes[notes.length - 1];
 
   return (
-    <li className="flex flex-col overflow-hidden rounded-3xl border border-line bg-ink-2">
+    <li data-saved-card={ad.id} className="flex flex-col overflow-hidden rounded-3xl border border-line bg-ink-2">
       <div className="flex gap-3 p-3">
         <button type="button" onClick={onOpen} aria-label={`${ad.brand.name} detayını aç`} className="w-24 shrink-0 overflow-hidden rounded-2xl text-left sm:w-28">
           <AdThumb ad={ad} />

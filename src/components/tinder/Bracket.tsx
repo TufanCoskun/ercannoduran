@@ -6,10 +6,11 @@ import { adTitle, firstLine } from "@/lib/format";
 import { canUndoPick, currentMatch, currentRound, pick, resolveAd, undoPick, type TinderSession } from "@/lib/tinder";
 import { AdMediaView, type MediaMode } from "../AdMediaView";
 import { AdInfoSheet } from "../AdInfoSheet";
-import { AdThumb } from "../AdThumb";
 import { InfoIcon, MuteIcon, TrophyIcon, VolumeIcon, XIcon } from "../Icons";
-import { BrandLine, SaveShareIcons, UndoIcon } from "./bits";
+import { BrandLine, SaveShareIcons, TileThumb, UndoIcon } from "./bits";
 
+/** Carousel arrows sit under the gesture layer and can't be clicked here — hide them. */
+const NO_ARROWS = "[&_button[aria-label$='görsel']]:!hidden";
 const PICK_MS = 420;
 
 /**
@@ -180,7 +181,7 @@ export function Bracket({
                 const e = resolveAd(session, id, live);
                 return e ? (
                   <li key={id} className={`w-14 overflow-hidden rounded-xl ring-1 ${id === round.bye ? "ring-amber-300/70" : "ring-white/10"}`}>
-                    <AdThumb ad={e} />
+                    <TileThumb ad={e} />
                   </li>
                 ) : null;
               })}
@@ -236,7 +237,7 @@ function Half({
       data-half={side}
       data-ad={ad.id}
     >
-      <div className="absolute inset-0">
+      <div className={`absolute inset-0 ${NO_ARROWS}`}>
         <AdMediaView ad={ad} active={!paused} preload="auto" muted={!soundOn} onMode={onMode} />
       </div>
       <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[38%] bg-gradient-to-t from-black/85 via-black/35 to-transparent" />

@@ -80,8 +80,8 @@ export function WinnerView({
         </p>
       </header>
 
-      <div className="tdr-rise relative mt-6 grid items-start gap-6 lg:grid-cols-[minmax(0,420px)_1fr]" style={{ animationDelay: "120ms" }}>
-        <div className="relative mx-auto aspect-[9/16] max-h-[68dvh] w-full max-w-[420px] overflow-hidden rounded-[1.75rem] bg-ink-2 shadow-[0_30px_100px_-20px_rgba(255,197,61,0.35)] ring-2 ring-amber-300/60">
+      <div className="tdr-rise relative mt-6 grid items-start gap-6 lg:grid-cols-[auto_1fr]" style={{ animationDelay: "120ms" }}>
+        <div className="relative mx-auto aspect-[9/16] h-[62dvh] max-h-[760px] max-w-full overflow-hidden lg:h-[72dvh] rounded-[1.75rem] bg-ink-2 shadow-[0_30px_100px_-20px_rgba(255,197,61,0.35)] ring-2 ring-amber-300/60">
           <AdMediaView ad={ad} active preload="auto" muted={muted} onMode={onMode} />
           {mode === "video" && (
             <button

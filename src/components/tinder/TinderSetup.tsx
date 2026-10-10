@@ -94,7 +94,7 @@ export function TinderSetup({
   const resumeDone = resume ? resume.pool.length - remainingIds(resume).length : 0;
 
   return (
-    <div className="mx-auto max-w-2xl px-4 pb-36 pt-5 lg:px-8 lg:pb-16 lg:pt-10">
+    <div className="mx-auto max-w-2xl px-4 pt-5 lg:px-8 lg:pt-10">
       <header className="mb-6">
         <div className="flex items-center gap-3">
           <span className="grid size-12 place-items-center rounded-2xl bg-gradient-to-br from-rose-500 to-orange-400 text-white shadow-[0_10px_40px_-10px_rgba(244,63,94,0.7)]">
@@ -252,8 +252,8 @@ export function TinderSetup({
       </div>
 
       {/* sticky start bar */}
-      <div className="fixed inset-x-0 bottom-0 z-20 bg-gradient-to-t from-ink via-ink/95 to-transparent px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-8 lg:static lg:mt-8 lg:bg-none lg:p-0">
-        <div className="mx-auto max-w-2xl">
+      <div className="sticky bottom-0 z-20 -mx-4 mt-4 bg-gradient-to-t from-ink from-75% to-ink/0 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-6 lg:-mx-8 lg:px-8 lg:pb-6">
+        <div>
           <p className="mb-2 text-center text-sm text-mist" data-pool-size={max}>
             Havuzda <span className="font-bold tabular-nums text-white">{max}</span> reklam var
             {max > 0 && count > max ? <span className="text-zinc-500"> · hepsi gelir</span> : null}

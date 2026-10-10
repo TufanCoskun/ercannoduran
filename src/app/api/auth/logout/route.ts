@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { SESSION_COOKIE } from "@/lib/auth";
+import { ROLE_COOKIE, SESSION_COOKIE } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
@@ -14,6 +14,7 @@ function logout(req: NextRequest) {
     path: "/",
     maxAge: 0,
   });
+  res.cookies.set({ name: ROLE_COOKIE, value: "", path: "/", maxAge: 0 });
   res.headers.set("cache-control", "no-store");
   return res;
 }
