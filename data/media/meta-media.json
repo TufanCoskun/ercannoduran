@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T13:09:07.357Z",
+  "generatedAt": "2026-10-10T13:09:58.143Z",
   "items": {
     "meta_1004724955971367": {
       "media": [
@@ -118,6 +118,61 @@
       "mediaExpiresAt": "2026-10-15T00:01:09.000Z",
       "fetchedAt": "2026-10-10T13:02:31.026Z",
       "thumbnailUrl": "/media/meta/meta_1021774717542892.jpg"
+    },
+    "meta_1029050880155175": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/839264966_1081300564828616_9017990753960728779_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=mVNKauM8ewQQ7kNvwFLdyOc&_nc_oc=AdrVZnoROWMjoc94UZkOJGqqBa2kVZEOQjDSLqZ6lsxicH4HofjTXCsUHmQCCLZXql0&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQOob5LJhWg2URFs-Tmw00I42VZuVA_iYpXjn5fUOVA1QA&oe=6ACFF645",
+          "thumbnailUrl": "/media/meta/meta_1029050880155175.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/839617584_2087197758670261_737048258334830662_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=I5HvcrTqpVsQ7kNvwE1m-Hc&_nc_oc=AdpVv-GNzQ4qp0Dp3WLbTUYIxt-_WEo7J5egM-7dl4I5udvOvC6ZAF2ggRVDgH20e90&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQNbkRZpfNfm4-xsl0tHuIPiB7KA8bVvIUtp-8DhZtgbzQ&oe=6AD018D1",
+          "thumbnailUrl": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/839617584_2087197758670261_737048258334830662_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=I5HvcrTqpVsQ7kNvwE1m-Hc&_nc_oc=AdpVv-GNzQ4qp0Dp3WLbTUYIxt-_WEo7J5egM-7dl4I5udvOvC6ZAF2ggRVDgH20e90&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQP8U1kq1Ke-FinVEE2HR59fz2iQf2Tn6tQdVHVh9yLYOA&oe=6AD018D1"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/836615303_1349888833889349_1608558750537584386_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jkhACsmjkk0Q7kNvwFCVfj-&_nc_oc=Adop1qc4qkZYvLHAIBNz8xgyhPhS-TB1RZiy5Cu04DE6ehw3IuF9DK8EQpsvrGZwI5s&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQO6maVXnrXfWMt-NzxMosp-YYQoak3vn16nd_WCH10Dgw&oe=6AD022F1",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/836615303_1349888833889349_1608558750537584386_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=jkhACsmjkk0Q7kNvwFCVfj-&_nc_oc=Adop1qc4qkZYvLHAIBNz8xgyhPhS-TB1RZiy5Cu04DE6ehw3IuF9DK8EQpsvrGZwI5s&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQOi-oLOBq7oanYeCVB4r-Rn9CfJZf4NF66RR0BoB6YGFA&oe=6AD022F1"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839010430_1091992990130063_7897304325088216864_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ns3VIetV1bkQ7kNvwF-Ip0R&_nc_oc=AdoJKsP_KGpwvg_8YSv8pBo7GJ62cOWnmtHS05zG3MDwGOIKxPXWWTEtPgcvYGSMLII&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQPT4eutZCDgkk9JjzvReDiSp8QevaX1dZRgsjVhixYpuw&oe=6AD01B22",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/839010430_1091992990130063_7897304325088216864_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ns3VIetV1bkQ7kNvwF-Ip0R&_nc_oc=AdoJKsP_KGpwvg_8YSv8pBo7GJ62cOWnmtHS05zG3MDwGOIKxPXWWTEtPgcvYGSMLII&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQNlpiftiTLw5BfzwItFmQ0lpCnStJn_7RXLFMwC86uA3g&oe=6AD01B22"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/838645604_1122480580342281_5445443224182838481_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RpcPXoukQPIQ7kNvwEf7I21&_nc_oc=AdrgIBLdtFhTMP55_P091mbma_k6lbSMgZQjDuL296psA5BkxPrnrZlBzksM7tfsSXY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQNUSjZEgseUmfsol1bpmpzseOOt_SlZ09Utoezl2Bflkg&oe=6AD0190E",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/838645604_1122480580342281_5445443224182838481_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=RpcPXoukQPIQ7kNvwEf7I21&_nc_oc=AdrgIBLdtFhTMP55_P091mbma_k6lbSMgZQjDuL296psA5BkxPrnrZlBzksM7tfsSXY&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQPc3KgVOt2GVUPOz3ZSTLxnUTJwdwggy5Il4BpFN53jIA&oe=6AD0190E"
+        },
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/837857863_29405906785676546_8976604684328229455_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=acICmwP9pAgQ7kNvwEyQagO&_nc_oc=AdorOV7zqVDg6aJoFhPMROJFsSAlHsg4xD2HIaR9I6iO_-G85vWvR_cfAmfidLqF5es&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQOE4EAHWqgjKoih6peDIYtbylKN0R-2SeTXUtmLGSr6oQ&oe=6ACFEFF0",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/837857863_29405906785676546_8976604684328229455_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=111&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=acICmwP9pAgQ7kNvwEyQagO&_nc_oc=AdorOV7zqVDg6aJoFhPMROJFsSAlHsg4xD2HIaR9I6iO_-G85vWvR_cfAmfidLqF5es&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQMRkFtfJhKFVAhMFo09dyfnQgF1fBfRl0lYKQsJFhm2Yg&oe=6ACFEFF0"
+        },
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNBplJEjQ0zkKxfUNUEDHAkc_-9BKfeLwULaoyDivWC2JtpH4ojc8cPwTfCLEZwKq44VhAh1zmNnBTrORJb9Ouho03dLqk5o1b37qbzltRbVg.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=3ph3JUp8sVQQ7kNvwFzf5sT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjExMzIwOTMzMzYwMjAyMzgsImFzc2V0X2FnZV9kYXlzIjozLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=8a7b4c684dd5b656&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC82RDg1NTUwQkQ1QUE0NUM1OTFFMDQxRjEwNjQ0RjQ1MV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0U4RTM0MDExMDAxODREOTdCMTRFMUVCNzAyOUFBRkY0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaclKvSwOiCBBUCKAJDMywXQAgAAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&_nc_zt=28&oh=00_AQO79NjQqGaxCug5MC1zecq3rW1lJhWBg2b3nRqz811-dg&oe=6AD00D54",
+          "thumbnailUrl": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/838612085_1088337127272010_1123058426573886154_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=vc6u3sK_eM0Q7kNvwGGKfWK&_nc_oc=AdrnB457BfA5So3DLIBsTrTR_QeHTcCdAEPT1sVzwnB38Sj3a_Ts9bJ5u1P4S9vDb1E&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=4XFzrT_6OYaBRuzbJsre-w&_nc_ss=70289&oh=00_AQMvGYt-W_3vPYQN8oh5WuLfGMmjchMYCETquKXIoaJ6Ew&oe=6AD01FB6"
+        }
+      ],
+      "format": "carousel",
+      "displayFormat": "DPA",
+      "body": "The Capsules in Jade, back for a very limited time.",
+      "headline": "Cadence",
+      "cta": "Shop now",
+      "landingUrl": "https://keepyourcadence.com/products/the-capsules-in-jade",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:11:12.000Z",
+      "fetchedAt": "2026-10-10T13:09:16.079Z",
+      "thumbnailUrl": "/media/meta/meta_1029050880155175.jpg"
     },
     "meta_1029831252916541": {
       "media": [
@@ -408,6 +463,18 @@
       "fetchedAt": "2026-10-10T12:41:17.570Z",
       "thumbnailUrl": "/media/meta/meta_1061323236575466.jpg"
     },
+    "meta_1061720466831442": {
+      "media": [],
+      "format": "text",
+      "displayFormat": null,
+      "body": "Wegovy® Pill Microdose Plan is here with Hims. Built for guys with less weight to lose — a gentler way to start with a 1.5mg once-daily pill.\n\nWhy Hims?\n✅ Once-daily oral pill, 1.5mg starting dose\n✅ Membership: $39 first month, then $149/month\n✅ 100% online, no insurance required\n\nSee if you qualify.\n\nWegovy® is a registered trademark of Novo Nordisk A/S. *Price includes membership fee only. Membership is billed separately and does not include or guarantee a prescription. Medication is not available without a membership. Wegovy® (semaglutide) is FDA-approved for weight loss when used as directed. Microdosing is off-label but may be prescribed by a provider if appropriate. Lower doses are unstudied for weight loss and may be less effective.\nNot available in all 50 states. Prescription required. Weight Loss by Hims is a holistic program that includes nutrition support, technological tools, and medications prescribed based on what your provider determines is medically appropriate and necessary for you. See website for full details, important safety information, and restrictions.",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "fetchedAt": "2026-10-10T13:09:44.444Z"
+    },
     "meta_1061922636555039": {
       "media": [
         {
@@ -484,6 +551,30 @@
       "mediaExpiresAt": "2026-10-14T21:10:21.000Z",
       "fetchedAt": "2026-10-10T13:04:32.147Z",
       "thumbnailUrl": "/media/meta/meta_1062812603405611.jpg"
+    },
+    "meta_1063353316500907": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/825229322_1549527976977878_1416969641929868144_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=55i5P-2hfX4Q7kNvwElqL0X&_nc_oc=AdpFj5WehcwyyJ4gev05UmXhzUjhMnxND0MiAkn_hEoQB-_QjomvI3-WlGHcdiFAwmM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=Lcytcpa2hVO53DqJ2-kaKg&_nc_ss=70289&oh=00_AQMmnqy4VYjiUdF7Eq6BEUuJeInbkNkSEt1Yr3Irv_lOhA&oe=6AD003D3",
+          "thumbnailUrl": "/media/meta/meta_1063353316500907.jpg"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "IMAGE",
+      "body": "Stock up and stay consistent 🔥\nGet 3 Mars WaistTrim capsules for just $85 and keep your routine on track without interruptions ⚡\nSmart savings plus daily support you can rely on ⏳",
+      "headline": "Buy 3 for $85",
+      "cta": "Shop now",
+      "landingUrl": "https://marsghc.com/en-ca/pages/fall-sale-buy-3-2026-new?utm_source=FB&utm_medium=Mars+Canada1&utm_campaign=Campaign16-FB-CAN-FALL-Sale-23092026&utm_term=FB-CAN-MCV-FALL-SALE-Buy-3-Cluster1-REM-23092026&utm_content=FB-TrimActiveCapsules-CAN-Reeshav-FALL-SALE-Buy-3-Cluster1-SD264241-V1-H11031-S11032-REM-Inhouse-25092026",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:53:54.000Z",
+      "fetchedAt": "2026-10-10T13:09:42.039Z",
+      "thumbnailUrl": "/media/meta/meta_1063353316500907.jpg"
     },
     "meta_1065420202951745": {
       "media": [
@@ -893,6 +984,30 @@
       "fetchedAt": "2026-10-10T13:01:26.039Z",
       "thumbnailUrl": "/media/meta/meta_1090258926743370.jpg"
     },
+    "meta_1090376950409623": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNbYF5eLz147_KrZWnHPLNhA3acwcFEvl3iGW78eWjERo9ns8qWta5xJ9ezkdt2Ba2juMvSK85m-pLor66WaQlj6SEUdq2zbYEXe1umCt09pA.mp4?_nc_cat=102&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=zeRZdsPTuV4Q7kNvwFt9Mlc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjIyNzI1NzA2ODY4Nzg2NTYsImFzc2V0X2FnZV9kYXlzIjozMiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjk3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=406cff4996355341&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CMjQ4OUEwM0ExQzg3REM4MTZFMjFGQTgxQTQyQzQ5MF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0Y5NDRGNTkyQTBEOUI0NTIyMDU4MzUwOEQ0MUExMzhEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaAz6WIg7mJCBUCKAJDMywXQFhIgxJul40YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=4LRiH47oxRGnTsFhYGfviA&_nc_ss=70289&_nc_zt=28&oh=00_AQNLiEtA0lvz3xJL6R7xKF5wQzH_E4KH_Lmcgo7LQaZzSg&oe=6AD02562",
+          "thumbnailUrl": "/media/meta/meta_1090376950409623.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Kick brain fog and fatigue to the curb... Adults over 40 finally have all-day energy and focus (with this \"ultimate antioxidant\").\n\nAnd we’re hearing from thousands about how they’ve finally beat fatigue - and are “turning back the clock”…\n\nFaster and easier than they ever imagined.\n\nThe science agrees.\n\nNew research points to this naturally occurring phenomenon as the “ultimate antioxidant.”\n\nIt literally slows down the aging process on a cellular level.\n\nAnd in short order, adults aged 40 up to 90 are experiencing:\n\n- Renewed mental focus and clarity (no more brain fog)\n- Balanced immune response\n- Enhanced athletic performance and recovery\n- Boosted energy and stamina\n\nTo learn more about this “youth-renewing” antioxidant:\n\nhttps://article.groundingwell.com/o1\n\n- Eni B. said:\n“Energy through the roof… brain fog gone!”\n\n- Janet C. said:\n“I generally have horrible sleep, but now I can fall asleep within minutes. I can now say I wake up feeling fresh and rejuvenated every day!”\n\nIt’s time for these same benefits to be yours.\n\nhttps://article.groundingwell.com/o1",
+      "headline": "Tired All the Time? Embrace Earth’s Healing Energy!",
+      "cta": "Learn more",
+      "landingUrl": "https://article.groundingwell.com/o1",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T23:48:21.000Z",
+      "fetchedAt": "2026-10-10T13:09:35.386Z",
+      "thumbnailUrl": "/media/meta/meta_1090376950409623.jpg"
+    },
     "meta_1093010656643494": {
       "media": [
         {
@@ -1008,6 +1123,30 @@
       "mediaExpiresAt": "2026-10-14T23:26:09.000Z",
       "fetchedAt": "2026-10-10T13:01:17.916Z",
       "thumbnailUrl": "/media/meta/meta_1096948426584297.jpg"
+    },
+    "meta_1098629776465884": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMWJEc-SgZkLdjnS4Q1H0slhq_28jvPIFhqb0etXx5g1p1pS3fpVZh74gvDrKEh2bo90icEzc5k9LYVG5S9pbFLMMZbwysY67YP-S7g99i-1g.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=AzJw_3iVU2UQ7kNvwEwLb95&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2NDU5MjQzNjAyNTY0NTIsImFzc2V0X2FnZV9kYXlzIjoyNSwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjM3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=85441bd83e263ce9&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81ODQzNjgxNDE1NzNBQjk5MEE1NTYzQ0JGNEMwRTRCOF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0M5NDczNEU4RUU1OUYwMjE0MUU2NzFFRkEwQjlFMEI5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaI74-NtL3sBRUCKAJDMywXQELVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=JkzUu1B3PBAkc1yt45a0MA&_nc_ss=70289&_nc_zt=28&oh=00_AQP7mf-9Vxw7aNc4DqnUjylgqRa4zGpVekU44-7zVP2ZEw&oe=6AD01281",
+          "thumbnailUrl": "/media/meta/meta_1098629776465884.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "You've heard grounding helps with sleep. But you've probably never felt anything actually keep you asleep.\n\nThat's because most fixes only knock you out—melatonin, pills, and nothing that calms your body down.\n\nAt GroundingWell, we don't play that game.\n\nOur silver fiber bedsheet is woven with 95% organic cotton and 5% silver fiber, plugs into the grounding port of any outlet, and works through your whole body for 8 hours a night, every night.\n\n✅ Deep sleep you actually feel\n✅ Real silver fiber (still works after 500 washes)\n✅ 90-day money-back guarantee\n\n🔸 Whether you've tried grounding before or this is your first time—this is the one you'll feel\n\nClick below to get your bedsheet now with a 90-day risk-free trial 👇\n\nhttps://www.groundingwell.com/products/groundingwell-bedsheet",
+      "headline": "#1 Best Selling Grounding Sheet. 90 Nights to Prove It.",
+      "cta": "Learn more",
+      "landingUrl": "https://www.groundingwell.com/products/groundingwell-bedsheet",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T23:08:34.000Z",
+      "fetchedAt": "2026-10-10T13:09:34.992Z",
+      "thumbnailUrl": "/media/meta/meta_1098629776465884.jpg"
     },
     "meta_1098865292682770": {
       "media": [
@@ -1317,6 +1456,30 @@
       "mediaExpiresAt": "2026-10-14T21:15:57.000Z",
       "fetchedAt": "2026-10-10T12:43:25.804Z",
       "thumbnailUrl": "/media/meta/meta_1116288314151848.jpg"
+    },
+    "meta_1119862844335942": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOYECLYi7MxiAaHFRfeIzg5Ob5mT13ecnhSwnTH1Rg7r09UMdgoK5j9ipsBzB720LzlQgw6R4FWgh9fOXoKxJTNecM0GUzo6lxBCVt7UfLuOQ.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=5N-ZjuySYMYQ7kNvwHklny7&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2OTg3OTc0MzEzNzc1OTQsImFzc2V0X2FnZV9kYXlzIjo4NSwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjE2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=7df5ccd8ccab01a7&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9DMjQwQUJCMTZEQzhCNUIwRjgxMDAwQTM1ODFCQTI4RF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzc5NDk4NUNDNTE0QjFGMDk2MjE1RjIyRjlBNDE0REJBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb0uoqXg8OEBhUCKAJDMywXQDAzdLxqfvoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=nRKJavhRPXV13h6LnwDcOg&_nc_ss=70289&_nc_zt=28&oh=00_AQNsH6b7L7-MZnZ3v6wn_mZaWqkLqVUo7z1-GyAUteMXEg&oe=6AD009AC",
+          "thumbnailUrl": "/media/meta/meta_1119862844335942.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Four patches designed to support cravings, digestion, metabolism, and energy.\n\nUnpuff, MB, Berberine, and Energy work together to help you feel lighter, balanced, and powered through the day.\n\nNo pills. Just daily support that fits your routine.\n\n👉 kindpatches.com",
+      "headline": "Happy Burn Bundle 🔥",
+      "cta": "Shop now",
+      "landingUrl": "https://kindpatches.com/pages/happy-burn-bundle",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:39:22.000Z",
+      "fetchedAt": "2026-10-10T13:09:21.180Z",
+      "thumbnailUrl": "/media/meta/meta_1119862844335942.jpg"
     },
     "meta_1120265774015573": {
       "media": [
@@ -2402,6 +2565,29 @@
       "fetchedAt": "2026-10-10T12:56:15.751Z",
       "thumbnailUrl": "/media/meta/meta_1418975200327159.jpg"
     },
+    "meta_1421697300142474": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQM73J2CGa7ntx8knPmMu6srmylimUxQ4tHJ0OiHQnkDLaLRKqeGIoZFLXHLJX2WLHZmhBKg2rIhTYlT6U6z1vpk1Q40IJOsd8glOQ6DeSxeew.mp4?_nc_cat=103&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=thMFw6Tti94Q7kNvwG38eqH&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjk1MzAwMTYwNDAyMjI1NiwiYXNzZXRfYWdlX2RheXMiOjQsInZpX3VzZWNhc2VfaWQiOjEwMTM5LCJkdXJhdGlvbl9zIjo4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=c12423e53f4b1d90&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9CMEFFMEZDMTg0Mzk0RkEyOEVCNjc2MzVFNzZGQ0FGOF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzc3NUQwNDgyMDgxNTQxNDA4RjNGQzc2RUI3RDE2QjM2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbg_5-h_6-xAxUCKAJDMywXQCEhysCDEm8YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=kW7pJWbbAhkqbX6O8gjxlQ&_nc_ss=70289&_nc_zt=28&oh=00_AQPd9OlU_QLlNygPeWS59K-W5V-QRZtcZP9H1OrAUa6dGA&oe=6AD002B1",
+          "thumbnailUrl": "/media/meta/meta_1421697300142474.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "No zippers. No seams. No stitching. \nJust durable recycled TPU with a magnetic closure that holds up to daily use, from the gym bag to the lunch bag.",
+      "headline": "4 sizes. Endlessly modular.",
+      "cta": "Shop now",
+      "landingUrl": "https://keepyourcadence.com/products/one-of-each-parcel",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:31:13.000Z",
+      "fetchedAt": "2026-10-10T13:09:43.450Z",
+      "thumbnailUrl": "/media/meta/meta_1421697300142474.jpg"
+    },
     "meta_1421873585959009": {
       "media": [
         {
@@ -2598,6 +2784,56 @@
       "mediaExpiresAt": "2026-10-14T23:02:54.000Z",
       "fetchedAt": "2026-10-10T13:07:30.946Z",
       "thumbnailUrl": "/media/meta/meta_1426008863005221.jpg"
+    },
+    "meta_1426272973029896": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQNpLTUIMuBE3TM8OCGP3FDc66s_gBcbLKQNb1wAFnscySyNYehVTIFQL-LwguBpVoSWu8ulZjQszZN-GDB6oC14ISpLL2_W1hU5xwBsDkT7AA.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=mTUW1dMu6qwQ7kNvwFHyYS6&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjMxNDk2MDQ5MTUyNDg4ODgsImFzc2V0X2FnZV9kYXlzIjoxMCwidmlfdXNlY2FzZV9pZCI6MTA3OTksImR1cmF0aW9uX3MiOjMxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a40eebcd0c93da58&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8zNzQwQTQ3Q0U0REY0Q0NBQjg4MjYzNEMyNTQwQURGRV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0VCRjBCRDNCMkQ2MzQwNjQ5NEIzNDM5MzNDQzFGMkZCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbw-7-ikaOYCxUCKAJDMywXQD_dcKPXCj0YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=LCf7bVv0qDN_EU7UVdh-JQ&_nc_ss=70289&_nc_zt=28&oh=00_AQMvXeSzwciArLHz4K7tDqfBQoGTKvAiNcQ89JAqMDYhnQ&oe=6AD00FC4",
+          "thumbnailUrl": "/media/meta/meta_1426272973029896.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "65% OFF + FREE Pumpkin Spice 🎃Get 65% OFF + FREE Pumpkin Spice Creamer+, FREE Tumbler, FREE Frother & FREE Gunmetal Spoon, but hurry, last year we sold out completely! 🎃\n\nDOSE is powered with functional mushrooms and nootropics. Our smooth and delicious blend features 100% organic and Non-GMO lion’s mane and chaga mushroom extracts, grass-fed collagen protein, and L-theanine. Zero junk, no misleading “natural” flavors, No fake myceliated grain mushroom. Just 100% clean ingredients that are 3rd Party tested and designed to provide daily mental clarity, long-lasting energy, and gut support in every cup. Just add water and feel the difference.\n\nTry now ⬇️",
+      "headline": "65% OFF + FREE Pumpkin Spice 🎃",
+      "cta": "Shop now",
+      "landingUrl": "https://www.everydaydose.com/products/60-psl-bundle",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:12:11.000Z",
+      "fetchedAt": "2026-10-10T13:09:16.610Z",
+      "thumbnailUrl": "/media/meta/meta_1426272973029896.jpg"
+    },
+    "meta_1426808432887696": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQNTgv1Js1x8YOxFimVVfhJoM6EYdiqG8UAIkGZJ0UScRnlN9GDs91g89976Cu7RqK5oVfthejm09pbNtv1iLRtmgF_dIhoutKizZ283N6_-VA.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=9Ag8gxayQ7wQ7kNvwE3lXmJ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2NDI5MzY2Nzc0NTA1ODgsImFzc2V0X2FnZV9kYXlzIjo3LCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6NywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=3c98b2be714b444e&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC84NUVDNTJEMEFGRkQ0REExQTAxNTM2RDgyQUZFNUJBM19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0I1Nzg0ODQ1NkU5QjQxOUNCNjFDQTNDMDE0QjQyNjI2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa4jeKQwI_rBRUCKAJDMywXQB2ZmZmZmZoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=ugzZeFSLmJ5OPYxL_fAFcg&_nc_ss=70289&_nc_zt=28&oh=00_AQP-RQ-X1BksaSCzjJLke27xf0-vlpjckpsKS9V16pZNyQ&oe=6AD01FBC",
+          "thumbnailUrl": "/media/meta/meta_1426808432887696.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "The Capsules in Jade, back for a very limited time.",
+      "headline": "Extremely Limited Quantity",
+      "cta": "See details",
+      "landingUrl": "https://keepyourcadence.com/products/the-capsules-in-jade",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-15T00:15:17.000Z",
+      "fetchedAt": "2026-10-10T13:09:13.259Z",
+      "thumbnailUrl": "/media/meta/meta_1426808432887696.jpg"
     },
     "meta_1426876059366917": {
       "media": [
@@ -3849,6 +4085,18 @@
       "fetchedAt": "2026-10-10T12:38:26.882Z",
       "thumbnailUrl": "/media/meta/meta_1578715660509859.jpg"
     },
+    "meta_1588538125771779": {
+      "media": [],
+      "format": "text",
+      "displayFormat": null,
+      "body": "Access range of GLP-1 treatments through Hers, along with personalized care that actually puts you first.\n\nWhy Hers?\n✅ FDA-approved GLP-1 pill and pens available\n✅ Medication as low as $149/mo—membership fee of $39 for first month, $149 thereafter\n✅ 100% online\n\nNo guesswork. Just real care with provider-led treatment plans.\n\nSee if you qualify today.\n\n*$149/mo price includes medication only, if prescribed. An active Hers Weight Loss Membership is required ($39 for the first month, auto-renews at $149/month thereafter). Membership is billed separately and does not include or guarantee a prescription. Medication is not available without a membership. Membership fee is not included.\n\nNot available in all 50 states. Prescription required. Weight Loss by Hers is a holistic program that includes nutrition support, technological tools, and medications prescribed based on what your provider determines is medically appropriate and necessary for you. See website for full details, important safety information, and restrictions. \n\nOzempic® is FDA approved for the treatment of type 2 diabetes and is available only to patients who meet clinical eligibility criteria, as determined by a licensed healthcare provider. A provider may prescribe Ozempic® based on their independent clinical judgment. Ozempic® and Wegovy® are registered trademarks of Novo Nordisk A/S. Zepbound® and KwikPen® are registered trademarks, and Foundayo™ is a trademark of Eli Lilly and Company. Hims, Inc. is not affiliated or endorsed by Eli Lilly and Company.",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "fetchedAt": "2026-10-10T13:09:49.195Z"
+    },
     "meta_1591840285739794": {
       "media": [
         {
@@ -4070,6 +4318,29 @@
       "mediaExpiresAt": "2026-10-14T20:51:14.000Z",
       "fetchedAt": "2026-10-10T12:46:12.989Z",
       "thumbnailUrl": "/media/meta/meta_1605770764332315.jpg"
+    },
+    "meta_1607833824086424": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPRcHCfo81svs1zJdOZXp1PVbA-B_VW2oz-l8ThN4tFIv_TXsR7M_ELLr5RT2aRS7-WYPUcuqF7ICck8VTJvfHmca5uyjwiNK1AxPzsujG_PQ.mp4?_nc_cat=108&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=Obem4oLrjg8Q7kNvwErmTqZ&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE0MTYzNDgwNTA2ODYwOTMsImFzc2V0X2FnZV9kYXlzIjoyLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MTksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=881ad079d5b34a23&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8wMjAwNDhCQ0RBMzg0RkU1QkE4NThDNUY1MzI0OUZBOV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzdBMEYyMzMwOTFBRTQ1MzVCQjdCNkQyREYxMDlGM0RGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaagoSnp4qEBRUCKAJDMywXQDOiDEm6XjUYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=XHQnPBhWxuW_PiN5BZq2Ww&_nc_ss=70289&_nc_zt=28&oh=00_AQPXxTvHrbEkTFz4cWDT7dWMFqmly7x5BAG94FIo7Dxftg&oe=6AD015C8",
+          "thumbnailUrl": "/media/meta/meta_1607833824086424.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "It's Monday. Your flight is Wednesday. And you're still decanting shampoo into mystery bottles that will leak all over your sweater. \n\nThere's an easier way to pack.\n\nCadence Capsules are magnetic, leakproof, and TSA-compliant, so your essentials stay put from security line to hotel sink. Snap them together, toss them in your bag, and go.\n\n✈️ Leakproof, so no more soggy suitcase surprises\n🧲 Magnetic, so your set stays organized\n✅ TSA-compliant and BPA-free\n\nPack once. Travel better.",
+      "headline": "Leakproof. Magnetic. TSA-ready.",
+      "cta": "Shop now",
+      "landingUrl": "https://keepyourcadence.com/",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger"
+      ],
+      "mediaExpiresAt": "2026-10-14T23:48:18.000Z",
+      "fetchedAt": "2026-10-10T13:09:47.084Z",
+      "thumbnailUrl": "/media/meta/meta_1607833824086424.jpg"
     },
     "meta_1610445534040717": {
       "media": [
@@ -4539,6 +4810,28 @@
       "fetchedAt": "2026-10-10T13:04:54.611Z",
       "thumbnailUrl": "/media/meta/meta_1653887122840195.jpg"
     },
+    "meta_1656004812810251": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQMTJ04WpBEufnYMOx7fPnVAG1eDUUDHZhrkHdLtJW1LW9hve7vNgsoNcfhs1zDUeBx4iFoXgQOI5vSjdQ7uRHBefBSLWTyoUsygLI16_rvSsA.mp4?_nc_cat=101&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=nsrcqpD83ncQ7kNvwHJHk2v&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE2MTIxMjU2MzM3NDA4ODcsImFzc2V0X2FnZV9kYXlzIjoxNCwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjE2OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=bd1593d53cd5821c&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FRDQwQTZCQzBDN0IzOTcyOUY2RDQ3MDdCODgxNzNBQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBFNjIyOTE2QzU0RjQ3QkNBMTgxQzIzRDIzMTY0MEQyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaugdz7h47dBRUCKAJDMywXQGUgAAAAAAAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=Tt35tpWDaOowozMpFdjeGw&_nc_ss=70289&_nc_zt=28&oh=00_AQNX3IF62jmmgY36dqryggeAXxFG20myr_VpcIXyYImF0w&oe=6AD02147",
+          "thumbnailUrl": "/media/meta/meta_1656004812810251.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Why is it that men age without ever feeling what menopausal joint pain feels like — but we're expected to just live with it?\n\nThe average menopausal woman is spending $100+/month on 5-7 different joint supplements: glucosamine, turmeric, fish oil, collagen, a multi, maybe ibuprofen. Most of it doesn't work — because none of it was designed to work together. It was designed to keep you buying 7 bottles.\nStiff hands. Aching knees. Throbbing shoulders. Swollen fingers. That's not 7 separate problems — it's one problem (thinning cartilage, dried-up synovial fluid, a 30% drop in collagen) showing up in 7 places.\n\nSo a woman who wasn't willing to accept that built MARROW — one formula with grass-fed bone marrow (collagen + glycosaminoglycans + growth factors), 46x-more-absorbable turmeric, boswellia, hyaluronic acid, and AstraGin so your body actually absorbs it. One capsule. No more juggling 7 bottles.\n\n365-day guarantee. Results or your money back.\n\n👉 Try MARROW risk-free.",
+      "headline": "Your Joints Don't Need 7 Supplements. They Need 1 That Works.",
+      "cta": "Learn more",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:00:38.000Z",
+      "fetchedAt": "2026-10-10T13:09:25.568Z",
+      "thumbnailUrl": "/media/meta/meta_1656004812810251.jpg"
+    },
     "meta_1660524895668909": {
       "media": [
         {
@@ -4838,6 +5131,30 @@
       "fetchedAt": "2026-10-10T12:58:52.340Z",
       "thumbnailUrl": "/media/meta/meta_1690381158754205.jpg"
     },
+    "meta_1694271535541300": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQMukQL2wMrr547JbiTY3wB7-KDQFWNKH3CaNVO2wkbA4gt0m13yCcdr6M9ezt3B9zdgbb5-m5D3ST0ulobeS5aTG_D8NY6DhAjpHVNrkv_rNA.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=9gOk7_5jbqwQ7kNvwEnyShG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwMzMxMzY4Nzk3ODAzMjAsImFzc2V0X2FnZV9kYXlzIjoxLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4e778e42d6e1fe4d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC82Qzg2NDM2Q0EyNUU0OTM3OTQ2QzExMEI0RTU4MEI3Rl9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzM2QzJCN0I3OEM4NDRENkZCNDc0QTVBMkYwNTlFMjhGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbAh8rLvejVAxUCKAJDMywXQA92yLQ5WBAYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=9ztLpjeVQLUZjUGBCqviiA&_nc_ss=70289&_nc_zt=28&oh=00_AQPFN8yxGKl8gY8jCq82W4nLSmd9U5hBL3bvRw60PMVL3w&oe=6ACFFAA0",
+          "thumbnailUrl": "/media/meta/meta_1694271535541300.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Restless nights? The Dream Patch delivers calming magnesium to help you relax, recharge, and wake up refreshed.\n\n✅ Fall asleep faster and stay asleep longer\n✅ Calm the mind and ease stress naturally\n✅ Wake up clear-headed without grogginess\n\n👉 kindpatches.com",
+      "headline": "Magnesium-Powered Sleep Support 🌙",
+      "cta": "Shop now",
+      "landingUrl": "https://kindpatches.com/pages/dream-magnesium-lpv5",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:56:48.000Z",
+      "fetchedAt": "2026-10-10T13:09:51.324Z",
+      "thumbnailUrl": "/media/meta/meta_1694271535541300.jpg"
+    },
     "meta_1695461131999698": {
       "media": [
         {
@@ -5095,6 +5412,18 @@
       "mediaExpiresAt": "2026-10-14T22:00:51.000Z",
       "fetchedAt": "2026-10-10T13:08:03.982Z",
       "thumbnailUrl": "/media/meta/meta_1737983451338774.jpg"
+    },
+    "meta_1741317823993670": {
+      "media": [],
+      "format": "text",
+      "displayFormat": null,
+      "body": "Stop hair loss in its tracks and see thicker, fuller in 3-6 months* with minoxidil. Take the hair quiz and get started today.\n\nWhy Hers?\n✅ Range of treatment options tailored to your hair needs\n✅ Treatment options made with minoxidil—an ingredient shown to regrow hair in 3-6* months\n✅ Personalized treatment plans starting at $35/month with a 5 month plan, paid upfront in full**\n\nHair Blends are compounded products and have not been approved or evaluated for safety, effectiveness, or quality by the FDA. Prescription products require an online consultation with a healthcare provider who will determine if a prescription is appropriate. See website for full details, restrictions, and important safety information.\n\n*Based on studies of oral minoxidil up to 2.5 mg per day at various doses.\n**The actual price to the customer will depend on the product and subscription plan purchased.",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "fetchedAt": "2026-10-10T13:09:21.367Z"
     },
     "meta_1745536213171530": {
       "media": [
@@ -5502,6 +5831,18 @@
       "mediaExpiresAt": "2026-10-14T22:01:28.000Z",
       "fetchedAt": "2026-10-10T12:40:46.107Z",
       "thumbnailUrl": "/media/meta/meta_1803993240952774.jpg"
+    },
+    "meta_1804862667609237": {
+      "media": [],
+      "format": "text",
+      "displayFormat": null,
+      "body": "Lose up to 25% of your body weight* with clinically proven options, including the new Wegovy® High Dose Pen. \n\nWhy Hims?\n✅ FDA-approved weight loss treatments, if eligible\n✅ Medication as low as $149/mo**—membership fee of $39 for first month, $149 thereafter\n✅ 100% online\n\nIn a 72-week clinical study of Wegovy® injectable (7.2 mg), 31.2% of adults with obesity achieved 25% or greater weight loss alongside diet and exercise. Average weight loss was 18.7%. Individual results may vary. Stopping treatment may result in weight regain.\n\n*$149/mo price includes medication only, if prescribed. An active Hims Weight Loss Membership is required ($39 for the first month, auto-renews at $149/month thereafter). Membership is billed separately and does not include or guarantee a prescription. Medication is not available without a membership. Membership fee is not included.\n\nNot available in all 50 states. Prescription required. Weight Loss by Hims is a holistic program that includes nutrition support, technological tools, and medications prescribed based on what your provider determines is medically appropriate and necessary for you. See website for full details, important safety information, and restrictions.\n\nWegovy® is a registered trademark of Novo Nordisk A/S. Zepbound®, KwikPen®, and Foundayo™ are registered trademarks of Eli Lilly and Company. Hims & Hims Health, Inc. is not affiliated with or endorsed by Eli Lilly and Company.",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "fetchedAt": "2026-10-10T13:09:12.311Z"
     },
     "meta_1810349230386848": {
       "media": [
@@ -7163,6 +7504,30 @@
       "fetchedAt": "2026-10-10T12:45:43.989Z",
       "thumbnailUrl": "/media/meta/meta_2301361807314369.jpg"
     },
+    "meta_2303782703770614": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPq6jnm97XTAtwdqiDhWmW6GAOTrausPYfTI1AiyAQa91RyDa8VG2yHYbXW29YQcaaGotVELLi_SH_cJF1cgqBlWa9kJ2pndtS43lDiyjIzew.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=lf3unXj9juwQ7kNvwE5mpPC&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzODM0MTI1MDczMzk3NzEsImFzc2V0X2FnZV9kYXlzIjozMiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjMyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=5a58aa9c65d8d9f2&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8yMDQwNTVCQ0VDNTcwODg4MEZGMENBQzRENjZDRDE5M19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzFGNEVFRDVEOTBDMTUyOTg0MzNDRjc3QzJFMjEwMjhDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb2r5-xmo31BBUCKAJDMywXQEAVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=fc9PaaxwwTv1zK0aAMi_6w&_nc_ss=70289&_nc_zt=28&oh=00_AQNNCTyg1GCCNdJo7fAQfAczRsEaoxzo8Krgd-yHBlGMOg&oe=6AD02298",
+          "thumbnailUrl": "/media/meta/meta_2303782703770614.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Heal your body with nature's electrons. Try grounding today 👇\n\n- Deeper, more restful sleep\n- Improved mood, less stress, more mental clarity\n- Massively reduces inflammation - the root cause of many health issues!\n\nThe GroundingWell Mat has a conductive surface with a cable that plugs into the \"ground\" port of your power outlet, allowing you to stay connected to the earth's healing energies 24/7.\n\nGet yours at 👉 https://www.groundingwell.com/products/groundingwell-mat",
+      "headline": "Try Grounding Today",
+      "cta": "Learn more",
+      "landingUrl": "https://www.groundingwell.com/products/groundingwell-mat",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "whatsapp",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:44:01.000Z",
+      "fetchedAt": "2026-10-10T13:09:32.420Z",
+      "thumbnailUrl": "/media/meta/meta_2303782703770614.jpg"
+    },
     "meta_2314237856081714": {
       "media": [
         {
@@ -7355,6 +7720,29 @@
       "fetchedAt": "2026-10-10T13:01:41.366Z",
       "thumbnailUrl": "/media/meta/meta_2336915457122196.jpg"
     },
+    "meta_2354814168591730": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQOvR5TYSHdxZTLotdwlfnhHIMNEKt2DXbjCSs-mJoCRK-ka6AYFEHK-lQ-tPoD5YTunxtUIj6weHgb2V9eUR5MKGpsslhYXSddWtCJJNfA3tw.mp4?_nc_cat=104&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=FsVyyYKeH70Q7kNvwEIP2gb&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE4NTIxMzc1NTI4Njk5MjksImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDc5OSwiZHVyYXRpb25fcyI6MzUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=3edd00db1a13e513&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC81NEQwRTMzMDQ5RDI0NzY3QjZCMzhFRjg2RENEOEI4NV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzEyMTEyMjE2RDAxRjRCQjNCNjBDRjEzNjE1QTU4M0JBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbS6M-OzKDKBhUCKAJDMywXQEGVP3ztkWgYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZd6oAQA&_nc_gid=6Xo-jtnl_k5jkWJXJ9GnPQ&_nc_ss=70289&_nc_zt=28&oh=00_AQMfr37S64kCHCmtL_EMFvhwyjledG-a1nQSyd3SVzu-dQ&oe=6ACFF844",
+          "thumbnailUrl": "/media/meta/meta_2354814168591730.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "If you're going to drink coffee every morning anyway, you might as well make it do more for you.\n\nI've been loving Everyday Dose because it tastes like premium, high-quality coffee, while also having functional ingredients like Lion's Mane, L-Theanine, collagen, and Chaga built right in.\n\nHere's why it's become such an easy part of my morning:\n\n✨ Premium coffee taste: Rich, smooth, and full-bodied, without the earthy mushroom taste you might expect.\n\n🧠 Smooth, sustained focus: Made with organic Lion's Mane and L-Theanine to support focus and help you stay sharp throughout the day.\n\n☕️ More than just coffee: Collagen and Chaga are built right into your morning cup, so you're getting functional ingredients without adding another step to your routine.\n\n⚡️ Easy daily ritual: It mixes in seconds and gives you an easy way to upgrade something you're already doing every morning.\n\nIf you've been wanting to try Everyday Dose, you can check out the ingredients and their current starter offer below.",
+      "headline": "Your morning coffee, upgraded ☕️✨",
+      "cta": "Shop now",
+      "landingUrl": "https://www.everydaydose.com/discount/MAMACOOKIE10?redirect=/products/influencer&utm_source=influencer&utm_medium=instagram&utm_campaign=mamacookie",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:46:44.000Z",
+      "fetchedAt": "2026-10-10T13:09:54.887Z",
+      "thumbnailUrl": "/media/meta/meta_2354814168591730.jpg"
+    },
     "meta_2356522848432240": {
       "media": [
         {
@@ -7438,6 +7826,30 @@
       "mediaExpiresAt": "2026-10-14T21:47:28.000Z",
       "fetchedAt": "2026-10-10T12:58:22.478Z",
       "thumbnailUrl": "/media/meta/meta_2383952379099786.jpg"
+    },
+    "meta_2386374495524889": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQOhmWfQ6g2l6XicmdnCwVJbgQYEJyWhcRl3kHkA-MNdujoMT68M-G0HWRM5Gx80VISpSQxf16oDlV2wLtSUTJbNPotp6Jf7Lp9bOImUvrH7OQ.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=P4n3Hkq5JpMQ7kNvwHFnvTn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEwNzk0MDUwNTE2NzgyMjMsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEzOSwiZHVyYXRpb25fcyI6MjYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=cd1fa212ffbfd49b&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC85OEM2REEyQzBFRkI0MTg3QjVDQ0IwNEM5MDY3MzQ5QV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50L0YzQjk1MjI5NUFGRjQ5MDNBNzg3NDg0Nzk2MTQ1QUYyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaeuOSq0u3qAxUCKAJDMywXQDoQ5WBBiTcYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=iz56A6ZTPAzUHWPoLH0T8Q&_nc_ss=70289&_nc_zt=28&oh=00_AQNBAvRSkVSC3mcmPukvnorrqjuWSW6OpYXFZKZr3ibNJQ&oe=6AD0074D",
+          "thumbnailUrl": "/media/meta/meta_2386374495524889.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Introducing 3 new limited edition fall scents crafted for the season ahead!\n\n✨ Cashmere Vanilla: Vanilla layered with Sandalwood and Musk - Inspired by Kayali Vanilla 28\n✨ Spiced Sandalwood: Warm Spice anchored in Sandalwood - Inspired by Tom Ford Black Orchid\n✨ Moonlight Amber: Almond, Jasmine, and Glowing Amber - Inspired by Replica Afternoon Delight",
+      "headline": "LIMITED TIME ONLY ✨",
+      "cta": "Get offer",
+      "landingUrl": "https://try.lumedeodorant.com/fb-pro-seasonal?trybe=44777632",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T22:27:38.000Z",
+      "fetchedAt": "2026-10-10T13:09:25.018Z",
+      "thumbnailUrl": "/media/meta/meta_2386374495524889.jpg"
     },
     "meta_2421245518374051": {
       "media": [
@@ -7690,6 +8102,29 @@
       "mediaExpiresAt": "2026-10-14T21:08:57.000Z",
       "fetchedAt": "2026-10-10T12:45:15.099Z",
       "thumbnailUrl": "/media/meta/meta_2607790913009461.jpg"
+    },
+    "meta_2615450638876239": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/805953629_1464086152315432_5751670928438605359_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=h4rRKDMObf0Q7kNvwG6Rodb&_nc_oc=Adqhn5fE52DqKrc08dT71AISMqnbFya3EaeU8XMfKz2ym28vmoC9BD9aFKRglPi4RjI&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=NYcpDJlZCQV1-GnvaCKNMA&_nc_ss=70289&oh=00_AQPpeHPX4wG6UC1j42MhMajgMHRe0GXIcGGU9qOe5rvmaw&oe=6ACFF4CB",
+          "thumbnailUrl": "/media/meta/meta_2615450638876239.jpg"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "IMAGE",
+      "body": "Why are we still putting sugar-loaded creamer in our coffee? Skip the added sugars, oils, fillers, and ingredients you don’t need for Javvy's Protein Collagen Creamer:\n✨ 14g collagen protein\n✨ 0g added sugar\n✨ Prebiotics + MCTs\n✨ Creamy, delicious flavor",
+      "headline": "This one adds 14g of collagen protein 👏",
+      "cta": "Shop now",
+      "landingUrl": "https://try.javvycoffee.com/cs07",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:31:55.000Z",
+      "fetchedAt": "2026-10-10T13:09:08.225Z",
+      "thumbnailUrl": "/media/meta/meta_2615450638876239.jpg"
     },
     "meta_2630061610741319": {
       "media": [
@@ -8622,6 +9057,29 @@
       "fetchedAt": "2026-10-10T12:39:37.542Z",
       "thumbnailUrl": "/media/meta/meta_3869416173209102.jpg"
     },
+    "meta_38966108869699825": {
+      "media": [
+        {
+          "type": "image",
+          "url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/840825256_1631737305169810_230036457126704259_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=ckkH8W03DJ0Q7kNvwHQbZcU&_nc_oc=AdqLLc6z4Jg6-un4u56ybZ4STl95GPUd1tCWW7Iob0aHsfY8p1pmvtnNDa-8Hz2fztM&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=pk37LcsiyeAoazuOZwdkPg&_nc_ss=70289&oh=00_AQPvaIDH9QSQyl4ouy_IET3YjvBCSRfNiR5xkHurkAOKdA&oe=6AD027B3",
+          "thumbnailUrl": "/media/meta/meta_38966108869699825.jpg"
+        }
+      ],
+      "format": "image",
+      "displayFormat": "IMAGE",
+      "body": "Made to Fit You.\nCustomizable to match however you live, work and travel. \nRearrange it, resize it, make it yours.",
+      "headline": "The world's best travel containers",
+      "cta": "Shop now",
+      "landingUrl": "https://keepyourcadence.com/products/new-bas?view=new-bas-clean&reload=large-Eucalyptus-1-Shampoo%2Clarge-Eucalyptus-1-Conditioner%2Cmedium-Eucalyptus-1-Lotion%2Csmall-Eucalyptus-1-Hand+Cream%2Cmedium-Mocha-1-Makeup+Remover%2Cmedium-Mocha-1-Cleanser%2Cmedium-Eucalyptus-1-Toner%2Csmall-Sand-1-Serum%2Cmedium-Sand-1-Moisturizer",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger"
+      ],
+      "mediaExpiresAt": "2026-10-14T21:25:17.000Z",
+      "fetchedAt": "2026-10-10T13:09:45.892Z",
+      "thumbnailUrl": "/media/meta/meta_38966108869699825.jpg"
+    },
     "meta_4047700742032590": {
       "media": [
         {
@@ -8695,6 +9153,29 @@
       "mediaExpiresAt": "2026-10-14T21:20:25.000Z",
       "fetchedAt": "2026-10-10T13:00:28.212Z",
       "thumbnailUrl": "/media/meta/meta_4513488538919399.jpg"
+    },
+    "meta_4599139590361636": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQOUIrs0k07R9gBNmwALwcN2gPTjwbc3oe3_0i1cDhBki7NZTHMLjt4S1qFwc9DtbXi39JE5l0DmCHQolpka9V8RoN6VfBdvPgmICqp3yrdFUQ.mp4?_nc_cat=100&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=2-wHwJByMMsQ7kNvwHze831&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE4MDY3MjA5MjczNDc1MTcsImFzc2V0X2FnZV9kYXlzIjo3MiwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjM2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=aac289cf59c57d6d&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9FQzREODMzODIxQkE4MTYwMzcwMjEyQkFCMTVFQ0FBM19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzIyNDNCRkM2QzMxNzc5RDBCMTE4NTI3RDAzNDAxM0JBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb6zKnx_8y1BhUCKAJDMywXQEIibpeNT98YGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=SF9N3OggXniybIlt0K-FSg&_nc_ss=70289&_nc_zt=28&oh=00_AQPbZEecwB-bHTXzcslq22FWy0lTaAdhGHWs-LyT-ZNWpQ&oe=6AD01E14",
+          "thumbnailUrl": "/media/meta/meta_4599139590361636.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Still hungry an hour after your morning coffee? 👀 Your drink could be missing something. Javy Protein Coffee adds 10g of protein, prebiotics, and MCTs to your cup, with 0g of sugar ☕️💪 Creamy, satisfying, and ready in seconds ✨",
+      "headline": "More Than Just Caffeine ⚡️",
+      "cta": "Shop now",
+      "landingUrl": "https://try.javvycoffee.com/ps",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-15T00:15:11.000Z",
+      "fetchedAt": "2026-10-10T13:09:39.890Z",
+      "thumbnailUrl": "/media/meta/meta_4599139590361636.jpg"
     },
     "meta_4601173233487173": {
       "media": [
@@ -8958,6 +9439,29 @@
       "fetchedAt": "2026-10-10T12:38:16.495Z",
       "thumbnailUrl": "/media/meta/meta_899061425921421.jpg"
     },
+    "meta_912927988440610": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-2.xx.fbcdn.net/o1/v/t2/f2/m366/AQPcg8_xiwjTPvbe9qhxebyIxjwfm0xBYyFg09XsilqXBeGXGejbxsTAZR7sAPJEUFr_8Wx0Tty8uahFZ2Bm67A43KSdmsBzLbCcU-EF7qik7Q.mp4?_nc_cat=102&_nc_sid=b66105&_nc_ht=video-ord5-2.xx.fbcdn.net&_nc_ohc=ZAIzpjJqNEQQ7kNvwF_sZ4e&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjkzMjg2MTE0OTc1OTIzOSwiYXNzZXRfYWdlX2RheXMiOjExNSwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjQyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=eb3ed405f7bd9b42&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC80ODQxQTlEQUQwNThFMTExNzQ3MkI0MjFBRkNDNjZCQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzBFNDRFNkY1QzNCOTE2RUIxMTE3NzVEOTU5NTBEMzlCX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaOnKaX1ZuoAxUCKAJDMywXQEUan752yLQYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=kJ3sMrAMhhWtltXYXnpPKg&_nc_ss=70289&_nc_zt=28&oh=00_AQOve_vu7VNY2xWO1JIIaTOGYAMtXY-ok6mfXc6nBiIuIw&oe=6AD0219A",
+          "thumbnailUrl": "/media/meta/meta_912927988440610.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Every spring you buy a new foundation. Every spring it's the wrong shade. Not this time. Our color-changing formula adapts to YOUR skin tone in 60 seconds — one bottle, every complexion. The Secret deals is LIVE right now with up to 60% off. This deal melts faster than your winter foundation in the sun. Tap below before it's gone.",
+      "headline": "Secret deals — Up To 60% Off Today",
+      "cta": "Shop now",
+      "landingUrl": "https://smooche.com/products/color-changing-foundation",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-15T00:26:58.000Z",
+      "fetchedAt": "2026-10-10T13:09:29.409Z",
+      "thumbnailUrl": "/media/meta/meta_912927988440610.jpg"
+    },
     "meta_933639956479948": {
       "media": [
         {
@@ -9035,6 +9539,53 @@
       "mediaExpiresAt": "2026-10-14T21:28:42.000Z",
       "fetchedAt": "2026-10-10T13:04:23.282Z",
       "thumbnailUrl": "/media/meta/meta_955160157662630.jpg"
+    },
+    "meta_968179286307463": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQN6vlYENPvG69a5RpTCM5CbeqGs__i4tBoWha6UOhFH3VzqQs08StJwFyFVWmqxqSMJcpcHEa7LrIsfDC6p314FcoczbtSe4SIcsq9hM0Jqvw.mp4?_nc_cat=110&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=HSQZV13o1KUQ7kNvwH22Cdk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjE1NzAyNzQ0Mjg0NTkzNTEsImFzc2V0X2FnZV9kYXlzIjoyNSwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjIyLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=fd7ebdb9c6074938&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9GQzRCMTg0MTVCRUZFNDc3NTlCMTUxMzIwQkU1MDVBQV9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50Lzc1NDJDQ0YwMEJCQzJDNTdBREM4MDNGMjlBNjA0REI2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACau5ZCYgIrKBRUCKAJDMywXQDbEGJN0vGoYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=0BCgX9zXrCG9Bz_zdv8D-A&_nc_ss=70289&_nc_zt=28&oh=00_AQPe1W8n3FRmrfXPyesdemfPuk_RjKw4VZKH0kfS2wAyHA&oe=6AD01D8E",
+          "thumbnailUrl": "/media/meta/meta_968179286307463.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "Deodorant that ACTUALLY lasts all day? Smell it to believe it.\n\nLume isn’t just cheap fragrance and baking soda like some deodorants. Our first-of-its-kind, doctor-developed formula is powered by premium AHA – which is how it’s able to stop odor BEFORE it starts, AND continue blocking odor all day long. So no more:\n\n❌👃 Constant sniff checks \n❌☀️ Midday reapplications\n❌👜 Emergency purse stash\n❌🏃‍♀️ Running home after work\n❌😳 Wondering, “Is that me?”\n\nUpgrade to the last deodorant you’ll ever need. (Just look at our 300,000+ 5-star reviews 🥰)",
+      "headline": "Deo that doesn’t disappoint.",
+      "cta": "Get offer",
+      "landingUrl": "https://try.lumedeodorant.com/fb-pro-2?trybe=c5410f83",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "audience_network",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-15T00:09:38.000Z",
+      "fetchedAt": "2026-10-10T13:09:28.101Z",
+      "thumbnailUrl": "/media/meta/meta_968179286307463.jpg"
+    },
+    "meta_970430082132797": {
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video-ord5-1.xx.fbcdn.net/o1/v/t2/f2/m366/AQPWwY1HXul7_67lKsL2HOQg4yd0lVCU_tgpIIPhl7iOwHRyJPGTReDSe2XefGdT4UCt_KD6qKcrIKDfSBseplix6J0F_SY-Sm8eJiZyOXcbUA.mp4?_nc_cat=111&_nc_sid=b66105&_nc_ht=video-ord5-1.xx.fbcdn.net&_nc_ohc=u_TtyUbeP0QQ7kNvwG84pfj&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5WSV9VU0VDQVNFX1BST0RVQ1RfVFlQRS4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjEzMDA4NTAyMDg3MzI0NzMsImFzc2V0X2FnZV9kYXlzIjoxNCwidmlfdXNlY2FzZV9pZCI6MTAxMzksImR1cmF0aW9uX3MiOjEyMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=c6a114dce7fc4d21&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC9ENTQ4RUVDMUQ2MEI2ODhFMERGOTNFOTMyQkNFMEY5N19tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzM5MzEyNDI2QUIxMzQ2N0FBRkZEQkQzN0E1MjlBQkM3X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACby1MepucfPBBUCKAJDMywXQF4TMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUAZbaeAQA&_nc_gid=NKQMRoQw8QDCiUljfuSvHw&_nc_ss=70289&_nc_zt=28&oh=00_AQOJf9djaR_MhVYTW7bGPPQS1WmyfzRMJ7yG2itJj-OQvw&oe=6AD01841",
+          "thumbnailUrl": "/media/meta/meta_970430082132797.jpg"
+        }
+      ],
+      "format": "video",
+      "displayFormat": "VIDEO",
+      "body": "You're doing everything right.\n\nEating clean. Taking supplements. Drinking your green juice.\n\nSo why do you still feel exhausted, moody, and not like yourself?\n\nThe answer might be simpler than you think — and it has nothing to do with trying harder.\n\nTake our free quiz to find out exactly which nutrients your body is missing, and why beef organ superfoods might be the game-changer you've been looking for.\n\n[Take the Free Quiz →]",
+      "headline": "[QUIZ] Are You Missing the Nutrients Your Body Is Starving For?",
+      "cta": "Learn more",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "messenger",
+        "threads"
+      ],
+      "mediaExpiresAt": "2026-10-14T23:10:26.000Z",
+      "fetchedAt": "2026-10-10T13:09:55.239Z",
+      "thumbnailUrl": "/media/meta/meta_970430082132797.jpg"
     },
     "meta_974289665642748": {
       "media": [

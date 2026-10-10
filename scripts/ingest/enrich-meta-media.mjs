@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Enrich Meta ads (data/ads/meta-*.json) with their real creatives from the public
+// Enrich Meta ads (data/ads/meta-*.json + superscale.json) with their real creatives from the public
 // Meta Ad Library web UI, which embeds full ad snapshots (body, title, CTA, link,
 // images, videos, carousel cards, collation_count) in its server-rendered JSON.
 //
@@ -327,7 +327,7 @@ async function makeThumb(ctx, url) {
 // Main
 // ---------------------------------------------------------------------------
 async function loadAds(market) {
-  const files = (await readdir(ADS_DIR)).filter((f) => /^meta-.*\.json$/.test(f)).sort();
+  const files = (await readdir(ADS_DIR)).filter((f) => /^(meta-.*|superscale)\.json$/.test(f)).sort();
   const ads = [];
   for (const f of files) {
     const d = await readJson(join(ADS_DIR, f), null).catch((e) => (log(`[enrich] skip ${f}: ${e.message}`), null));

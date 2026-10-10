@@ -1665,16 +1665,6 @@
     ]
   },
   {
-    "name": "Alivia",
-    "segment": "dtc",
-    "market": "US",
-    "vertical": "mens-health",
-    "metaPageId": "1347647888430817",
-    "searchTerms": [
-      "Alivia"
-    ]
-  },
-  {
     "name": "Cadence",
     "segment": "dtc",
     "market": "US",
@@ -1683,6 +1673,17 @@
     "searchTerms": [
       "Cadence capsules",
       "Cadence travel containers"
+    ]
+  },
+  {
+    "name": "Dore & Rose",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "sleepwear",
+    "metaPageId": "100305879090611",
+    "searchTerms": [
+      "Doré & Rose",
+      "Dore & Rose"
     ]
   },
   {
@@ -1707,14 +1708,25 @@
     ]
   },
   {
-    "name": "Javvy Coffee",
+    "name": "Hears",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "ear-health",
+    "metaPageId": "104639259311711",
+    "searchTerms": [
+      "Hears earplugs",
+      "Hears Sleep"
+    ]
+  },
+  {
+    "name": "Javvy",
     "segment": "dtc",
     "market": "US",
     "vertical": "coffee",
     "metaPageId": "109899597504831",
     "searchTerms": [
-      "Javy coffee",
-      "Javvy"
+      "Javvy",
+      "Javy coffee"
     ]
   },
   {
@@ -1729,13 +1741,13 @@
     ]
   },
   {
-    "name": "Lume Deodorant",
+    "name": "Loop",
     "segment": "dtc",
     "market": "US",
-    "vertical": "personal-care",
-    "metaPageId": "1968343433393769",
+    "vertical": "ear-health",
+    "metaPageId": "517850318391712",
     "searchTerms": [
-      "Lume deodorant"
+      "Loop Earplugs"
     ]
   },
   {
@@ -1768,6 +1780,16 @@
     "metaPageId": "125572610639402",
     "searchTerms": [
       "Primal Queen"
+    ]
+  },
+  {
+    "name": "Resilia",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "supplements",
+    "metaPageId": "101001336086005",
+    "searchTerms": [
+      "Resilia"
     ]
   },
   {
