@@ -134,6 +134,7 @@ export function UIProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<UI>(() => ({ toast, toggleSave, openSave, share, copyLink }), [toast, toggleSave, openSave, share, copyLink]);
 
+  // Mobile: toasts drop in from the top (the bottom of the feed carries the brand line).
   // Desktop: keep toasts inside the feed column (never over the filter / insights panel).
   // Pages without a feed get them centred in the main area via the lg: classes.
   const [anchor, setAnchor] = useState<CSSProperties | undefined>(undefined);
@@ -146,8 +147,8 @@ export function UIProvider({ children }: { children: ReactNode }) {
       return;
     }
     const r = el.getBoundingClientRect();
-    // Just under the feed's top bar: never over the CTA row, the action rail or the side panels.
-    setAnchor({ left: r.left, width: r.width, right: "auto", bottom: "auto", top: r.top + 136 });
+    // Near the top of the phone column: never over the brand line, the action rail or the side panels.
+    setAnchor({ left: r.left, width: r.width, right: "auto", bottom: "auto", top: r.top + 60 });
   }, [hasToasts]);
 
   return (
@@ -155,7 +156,7 @@ export function UIProvider({ children }: { children: ReactNode }) {
       {children}
       <div
         style={anchor}
-        className="pointer-events-none fixed inset-x-0 bottom-[calc(var(--nav-h)+env(safe-area-inset-bottom)+12px)] z-[60] flex flex-col items-center gap-2 px-4 lg:bottom-8 lg:left-60"
+        className="pointer-events-none fixed inset-x-0 top-[calc(max(0.75rem,env(safe-area-inset-top))+2.75rem)] z-[60] flex flex-col items-center gap-2 px-4 lg:top-auto lg:bottom-8 lg:left-60"
       >
         {toasts.map((t) => (
           <div

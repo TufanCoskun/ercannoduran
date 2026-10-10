@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { LogoutButton } from "@/components/LogoutButton";
 import { SavedView } from "@/components/SavedView";
 
 export const metadata: Metadata = {
@@ -7,5 +8,12 @@ export const metadata: Metadata = {
 };
 
 export default function SavedPage() {
-  return <SavedView />;
+  return (
+    <>
+      <SavedView />
+      <div className="mx-auto max-w-6xl px-4 pb-10 lg:px-8">
+        <LogoutButton />
+      </div>
+    </>
+  );
 }

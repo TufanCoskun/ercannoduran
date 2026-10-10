@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Suspense } from "react";
-import { BottomNav, SideNav } from "@/components/Nav";
+import { MobileTopBar, SideNav } from "@/components/Nav";
 import { UIProvider } from "@/components/UIProvider";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, siteUrl } from "@/lib/site";
 import "./globals.css";
@@ -49,10 +49,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <Suspense fallback={null}>
             <SideNav />
           </Suspense>
-          <main className="pb-[calc(var(--nav-h)+env(safe-area-inset-bottom))] lg:pb-0 lg:pl-60">{children}</main>
-          <Suspense fallback={null}>
-            <BottomNav />
-          </Suspense>
+          <main className="pb-[env(safe-area-inset-bottom)] lg:pb-0 lg:pl-60">
+            <Suspense fallback={null}>
+              <MobileTopBar />
+            </Suspense>
+            {children}
+          </main>
         </UIProvider>
       </body>
     </html>

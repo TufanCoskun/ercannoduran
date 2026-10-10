@@ -37,7 +37,6 @@
 
 :root {
   color-scheme: dark;
-  --nav-h: 60px;
 }
 
 html,
@@ -77,9 +76,9 @@ body {
   text-shadow: 0 1px 2px rgb(0 0 0 / 0.6), 0 0 18px rgb(0 0 0 / 0.35);
 }
 
-/* Height of the feed viewport: full screen minus the mobile bottom nav. */
+/* Height of the feed viewport: the whole screen on mobile (no nav bar — navigation lives in the menu). */
 @utility h-feed {
-  height: calc(100dvh - var(--nav-h) - env(safe-area-inset-bottom));
+  height: 100dvh;
   @media (width >= 64rem) {
     height: calc(100dvh - 3rem);
   }
@@ -106,8 +105,9 @@ body {
   container-type: size;
 }
 .tc-body {
-  padding-top: 5.25rem;
-  padding-bottom: 16.5rem; /* clears the bottom overlay + the action rail */
+  padding-top: 4rem; /* clears the floating menu button */
+  padding-bottom: 6.5rem; /* clears the slim bottom overlay + the action rail */
+  padding-right: 3.25rem;
 }
 .tc-mono {
   width: 4rem;
@@ -119,8 +119,8 @@ body {
 }
 @container (max-height: 720px) {
   .tc-body {
-    padding-top: 4.5rem;
-    padding-bottom: 15.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 5.5rem;
   }
   .tc-mono {
     width: 3rem;
