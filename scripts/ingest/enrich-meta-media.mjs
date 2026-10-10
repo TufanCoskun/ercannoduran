@@ -38,6 +38,7 @@ const OUT_FILE = resolve(ROOT, "data", "media", "meta-media.json");
 const THUMB_DIR = resolve(ROOT, "public", "media", "meta");
 const THUMB_PUBLIC = "/media/meta";
 const THUMB_MAX_W = 720;
+const THUMB_MAX_H = 1000;
 const THUMB_MAX_BYTES = 80 * 1024;
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36";
@@ -241,8 +242,19 @@ async function loadLibrary(ctx, url, { scrolls = 0, wantIds = null } = {}) {
     for (let attempt = 0; attempt < 3; attempt++) {
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 }).catch(() => {});
       // The challenge page POSTs then reloads itself; wait until the real app is in the DOM.
+      // Wait for the Relay payload that carries the ads (search results or deeplink).
       const ok = await page
-        .waitForFunction(() => document.querySelectorAll('script[type="application/json"]').length > 5, null, { timeout: 30_000 })
+        .waitForFunction(
+          () => {
+            for (const el of document.querySelectorAll('script[type="application/json"]')) {
+              const t = el.textContent || "";
+              if (t.includes('"search_results_connection"') || t.includes('"deeplink_ad_archive"')) return true;
+            }
+            return false;
+          },
+          null,
+          { timeout: 35_000, polling: 1000 },
+        )
         .then(() => true, () => false);
       if (ok) break;
       await sleep(3000 + attempt * 4000);
@@ -274,25 +286,27 @@ async function makeThumb(ctx, url) {
     const ct = resp.headers()["content-type"] || "image/jpeg";
     await page.goto("about:blank");
     const b64 = await page.evaluate(
-      async ({ data, ct, maxW, maxBytes }) => {
+      async ({ data, ct, maxW, maxH, maxBytes }) => {
         const img = new Image();
         img.src = `data:${ct};base64,${data}`;
         await img.decode();
-        const scale = Math.min(1, maxW / img.naturalWidth);
-        const c = document.createElement("canvas");
-        c.width = Math.round(img.naturalWidth * scale);
-        c.height = Math.round(img.naturalHeight * scale);
-        const g = c.getContext("2d");
-        g.fillStyle = "#000"; g.fillRect(0, 0, c.width, c.height);
-        g.drawImage(img, 0, 0, c.width, c.height);
+        let scale = Math.min(1, maxW / img.naturalWidth, maxH / img.naturalHeight);
         let out = "";
-        for (const q of [0.8, 0.72, 0.64, 0.56, 0.48, 0.4, 0.32]) {
-          out = c.toDataURL("image/jpeg", q).split(",")[1];
-          if (out.length * 0.75 <= maxBytes) break;
+        for (let pass = 0; pass < 4; pass++, scale *= 0.8) {
+          const c = document.createElement("canvas");
+          c.width = Math.max(1, Math.round(img.naturalWidth * scale));
+          c.height = Math.max(1, Math.round(img.naturalHeight * scale));
+          const g = c.getContext("2d");
+          g.fillStyle = "#000"; g.fillRect(0, 0, c.width, c.height);
+          g.drawImage(img, 0, 0, c.width, c.height);
+          for (const q of [0.78, 0.7, 0.62, 0.54, 0.46]) {
+            out = c.toDataURL("image/jpeg", q).split(",")[1];
+            if (out.length * 0.75 <= maxBytes) return out;
+          }
         }
         return out;
       },
-      { data: buf.toString("base64"), ct, maxW: THUMB_MAX_W, maxBytes: THUMB_MAX_BYTES },
+      { data: buf.toString("base64"), ct, maxW: THUMB_MAX_W, maxH: THUMB_MAX_H, maxBytes: THUMB_MAX_BYTES },
     );
     return Buffer.from(b64, "base64");
   } finally {
@@ -392,6 +406,11 @@ export async function main(argv = process.argv.slice(2)) {
   };
 
   try {
+    // Warm-up: pass the JS challenge once, serially, so parallel pages reuse the cookie.
+    await loadLibrary(ctx, `${LIB}?id=${nativeId(todo[0])}`).then((f) => {
+      for (const [id, rec] of f) records.set(id, rec);
+    }).catch((e) => log(`[enrich] warm-up failed: ${e.message}`));
+
     // Phase 1: page-level views, one per (pageId, market).
     if (!args["no-page-search"]) {
       const groups = new Map();

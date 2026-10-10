@@ -3,12 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdStage } from "@/components/AdStage";
 import { AdThumb } from "@/components/AdThumb";
-import { BrandAvatar, Chip, ScoreRing } from "@/components/Bits";
+import { AdScore, BrandAvatar, Chip } from "@/components/Bits";
 import { ArrowLeftIcon } from "@/components/Icons";
 import { ShareActions } from "@/components/ShareActions";
 import { getAdById, getAllAds } from "@/lib/ads";
 import { FORMAT_LABEL, MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, verticalLabel } from "@/lib/filters";
-import { adPath, adTitle, brandFeedPath, daysLabel, formatDate, platformLabel, previewImage, truncate } from "@/lib/format";
+import { adPath, adTitle, brandFeedPath, daysLabel, displayReasons, formatDate, platformLabel, previewImage, scoreText, truncate } from "@/lib/format";
 import type { Ad } from "@/lib/types";
 
 export const dynamicParams = false;
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${ad.brand.name}: ${truncate(adTitle(ad), 60)}`;
   const reasons = ad.performance.reasons.slice(0, 3).join(" · ");
   const description = truncate(
-    [ad.body ?? ad.headline, `Skor ${ad.performance.score}/100${reasons ? ` — ${reasons}` : ""}`].filter(Boolean).join(" — "),
+    [ad.body ?? ad.headline, ad.source === "curated" ? "Efsane reklam — küratörlü klasik" : `Skor ${ad.performance.score}/100${reasons ? ` — ${reasons}` : ""}`].filter(Boolean).join(" — "),
     200,
   );
   const img = previewImage(ad);
@@ -95,14 +95,18 @@ export default async function AdPage({ params }: Props) {
 
           <div className="rounded-3xl border border-line bg-ink-2 p-5">
             <div className="flex items-center gap-4">
-              <ScoreRing score={ad.performance.score} size={64} stroke={5} />
+              <AdScore ad={ad} size={64} stroke={5} />
               <div>
                 <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-volt">Neden kazanıyor?</p>
-                <p className="mt-1 text-sm text-mist">Uzun süre yayında kalmak ve çok varyasyonla ölçeklenmek, harcamanın görünmediği yerde en güçlü kazanma sinyali.</p>
+                <p className="mt-1 text-sm text-mist">
+                  {ad.source === "curated"
+                    ? "Reklam tarihine geçmiş, elle seçilmiş bir klasik. Hook'u, ritmi ve teklifi incele."
+                    : "Uzun süre yayında kalmak ve çok varyasyonla ölçeklenmek, harcamanın görünmediği yerde en güçlü kazanma sinyali."}
+                </p>
               </div>
             </div>
             <div className="mt-4 flex flex-wrap gap-1.5">
-              {ad.performance.reasons.map((r) => (
+              {displayReasons(ad).map((r) => (
                 <Chip key={r} tone="solid">
                   {r}
                 </Chip>
@@ -135,7 +139,7 @@ export default async function AdPage({ params }: Props) {
                 <AdThumb ad={a} className="transition group-hover:opacity-90" />
                 <div className="p-2.5">
                   <p className="truncate text-xs font-bold">{a.brand.name}</p>
-                  <p className="text-[11px] text-mist">Skor {a.performance.score}</p>
+                  <p className="text-[11px] text-mist">{scoreText(a)}</p>
                 </div>
               </Link>
             ))}

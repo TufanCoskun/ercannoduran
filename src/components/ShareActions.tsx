@@ -5,6 +5,7 @@ import { useSaved } from "@/lib/saved";
 import { BookmarkIcon, ExternalIcon, FolderIcon, LinkIcon, ShareIcon, WhatsAppIcon } from "./Icons";
 import { useUI, whatsappHref } from "./UIProvider";
 import { useHydrated } from "@/lib/store";
+import { libraryLabel } from "@/lib/format";
 
 export function ShareActions({ ad }: { ad: Ad }) {
   const ui = useUI();
@@ -45,7 +46,7 @@ export function ShareActions({ ad }: { ad: Ad }) {
         rel="noopener noreferrer"
         className={`${btn} w-full bg-white/[0.04] text-zinc-200 ring-1 ring-white/10 hover:bg-white/[0.08]`}
       >
-        {ad.source === "tiktok" ? "TikTok'ta aç" : "Ad Library'de aç"} <ExternalIcon size={16} />
+        {libraryLabel(ad)} <ExternalIcon size={16} />
       </a>
     </div>
   );

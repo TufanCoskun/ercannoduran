@@ -18,23 +18,27 @@ export function Sheet({
   wide?: boolean;
 }) {
   const panelRef = useRef<HTMLDivElement>(null);
+  const closeRef = useRef(onClose);
+  useEffect(() => {
+    closeRef.current = onClose;
+  });
 
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         e.stopPropagation();
-        onClose();
+        closeRef.current();
       }
     };
     window.addEventListener("keydown", onKey, true);
     const prev = document.activeElement as HTMLElement | null;
-    panelRef.current?.focus();
+    if (!panelRef.current?.contains(document.activeElement)) panelRef.current?.focus();
     return () => {
       window.removeEventListener("keydown", onKey, true);
-      prev?.focus?.();
+      prev?.focus?.({ preventScroll: true });
     };
-  }, [open, onClose]);
+  }, [open]);
 
   if (!open) return null;
   return (

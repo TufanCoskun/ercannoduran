@@ -23,6 +23,7 @@ export function FilterPanel({
   verticals,
   brands,
   resultCount,
+  sourcesAvailable,
 }: {
   filters: Filters;
   onChange: (f: Filters) => void;
@@ -30,6 +31,7 @@ export function FilterPanel({
   verticals: Facet[];
   brands: Facet[];
   resultCount: number;
+  sourcesAvailable: string[];
 }) {
   const [showAllVerticals, setShowAllVerticals] = useState(false);
   const n = activeFilterCount(filters);
@@ -52,7 +54,7 @@ export function FilterPanel({
         ))}
       </Group>
       <Group title="Kaynak">
-        {SOURCE_OPTIONS.filter((o) => (counts.source?.[o.value] ?? 0) > 0 || filters.source.includes(o.value) || o.value !== "curated").map((o) => (
+        {SOURCE_OPTIONS.filter((o) => sourcesAvailable.includes(o.value) || filters.source.includes(o.value)).map((o) => (
           <Pill key={o.value} on={filters.source.includes(o.value)} count={counts.source?.[o.value]} onClick={() => onChange(toggleValue(filters, "source", o.value))}>
             {o.label}
           </Pill>

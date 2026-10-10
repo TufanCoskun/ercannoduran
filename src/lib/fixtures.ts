@@ -15,8 +15,8 @@ type Draft = Omit<Ad, "performance" | "collectedAt"> & { collectedAt?: string };
 
 const drafts: Draft[] = [
   {
-    id: "curated_demo_nova_serum",
-    source: "curated",
+    id: "meta_demo_nova_serum",
+    source: "meta",
     segment: "dtc",
     market: "TR",
     vertical: "skincare",
@@ -37,8 +37,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=nova%20skin",
   },
   {
-    id: "curated_demo_ege_hotel",
-    source: "curated",
+    id: "meta_demo_ege_hotel",
+    source: "meta",
     segment: "hotel",
     market: "TR",
     vertical: "resort",
@@ -63,8 +63,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=ege%20koy",
   },
   {
-    id: "curated_demo_stride_video",
-    source: "curated",
+    id: "meta_demo_stride_video",
+    source: "meta",
     segment: "dtc",
     market: "US",
     vertical: "footwear",
@@ -85,8 +85,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=stride%20lab",
   },
   {
-    id: "curated_demo_greens_text",
-    source: "curated",
+    id: "meta_demo_greens_text",
+    source: "meta",
     segment: "dtc",
     market: "US",
     vertical: "supplements",
@@ -106,8 +106,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=daily%20greens",
   },
   {
-    id: "curated_demo_kahve_expired",
-    source: "curated",
+    id: "meta_demo_kahve_expired",
+    source: "meta",
     segment: "dtc",
     market: "TR",
     vertical: "food",
@@ -128,8 +128,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=kavrulmus",
   },
   {
-    id: "curated_demo_city_hotel",
-    source: "curated",
+    id: "meta_demo_city_hotel",
+    source: "meta",
     segment: "hotel",
     market: "US",
     vertical: "city-hotel",
@@ -187,8 +187,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://ads.tiktok.com/business/creativecenter/inspiration/topads/",
   },
   {
-    id: "curated_demo_watch_broken",
-    source: "curated",
+    id: "meta_demo_watch_broken",
+    source: "meta",
     segment: "dtc",
     market: "GLOBAL",
     vertical: "accessories",
@@ -209,8 +209,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=atlas%20time",
   },
   {
-    id: "curated_demo_sound",
-    source: "curated",
+    id: "meta_demo_sound",
+    source: "meta",
     segment: "general",
     market: "US",
     vertical: "electronics",
@@ -229,8 +229,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=quiet%20supply",
   },
   {
-    id: "curated_demo_butik_otel_text",
-    source: "curated",
+    id: "meta_demo_butik_otel_text",
+    source: "meta",
     segment: "hotel",
     market: "TR",
     vertical: "boutique-hotel",
@@ -250,8 +250,8 @@ const drafts: Draft[] = [
     libraryUrl: "https://www.facebook.com/ads/library/?q=ta%C5%9Fev",
   },
   {
-    id: "curated_demo_market_food",
-    source: "curated",
+    id: "meta_demo_market_food",
+    source: "meta",
     segment: "general",
     market: "TR",
     vertical: "food",

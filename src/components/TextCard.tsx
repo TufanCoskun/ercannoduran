@@ -1,5 +1,5 @@
 import type { Ad } from "@/lib/types";
-import { brandHue, monogram, truncate } from "@/lib/format";
+import { brandHue, libraryFullLabel, monogram, scoreText, truncate } from "@/lib/format";
 import { scoreTier } from "@/lib/score";
 
 const norm = (s: string) => s.toLocaleLowerCase("tr").replace(/[^\p{L}\p{N}]+/gu, "");
@@ -92,8 +92,8 @@ export function TextCard({ ad, reason, compact }: { ad: Ad; reason: "missing" | 
         {sub && <p className="mt-4 line-clamp-3 text-[15px] leading-relaxed text-white/70">{sub}</p>}
 
         <div className="mt-6 flex flex-wrap gap-2">
-          <span className={`inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-black ${TIER[scoreTier(ad.performance.score)]}`}>
-            Skor {ad.performance.score}
+          <span className={`inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-black ${ad.source === "curated" ? "bg-amber-300 text-black" : TIER[scoreTier(ad.performance.score)]}`}>
+            {scoreText(ad)}
           </span>
           {ad.activeDays !== undefined && (
             <span className="inline-flex items-center rounded-full bg-black/30 px-3 py-1.5 text-xs font-bold text-orange-200 ring-1 ring-white/15 backdrop-blur">
@@ -113,7 +113,7 @@ export function TextCard({ ad, reason, compact }: { ad: Ad; reason: "missing" | 
           rel="noopener noreferrer"
           className="mt-6 inline-flex w-fit items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-black shadow-xl shadow-black/30 transition hover:bg-volt"
         >
-          {ad.source === "tiktok" ? "Reklamın tamamını TikTok'ta gör" : "Reklamın tamamını Ad Library'de gör"} <span aria-hidden="true">→</span>
+          {libraryFullLabel(ad)} <span aria-hidden="true">→</span>
         </a>
       </div>
     </div>

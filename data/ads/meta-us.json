@@ -1,0 +1,4679 @@
+{
+  "generatedAt": "2026-10-10T12:34:11.000Z",
+  "ads": [
+    {
+      "id": "meta_1312664554035039",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Bombas",
+        "pageId": "155577444523958"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "20% Off Your First Order With COMFORT20",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-03-20T06:14:54.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 204,
+      "variations": 22,
+      "performance": {
+        "score": 82,
+        "reasons": [
+          "204 gün yayında",
+          "Hâlâ aktif",
+          "22 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1312664554035039",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1908209329984920",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Virgin Hotels Nashville",
+        "pageId": "101074458042824"
+      },
+      "format": "text",
+      "media": [],
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2025-05-13T02:34:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 515,
+      "variations": 2,
+      "performance": {
+        "score": 76,
+        "reasons": [
+          "515 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1908209329984920",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2421245518374051",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Momofuku Goods",
+        "pageId": "109102691801705"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Restaurant-Level Instant Noodles",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-04-16T18:23:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 176,
+      "variations": 13,
+      "performance": {
+        "score": 75,
+        "reasons": [
+          "176 gün yayında",
+          "Hâlâ aktif",
+          "13 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2421245518374051",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1016451784037642",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Nike",
+        "pageId": "15087023444"
+      },
+      "format": "text",
+      "media": [],
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2025-06-20T14:31:46.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 476,
+      "variations": 1,
+      "performance": {
+        "score": 70,
+        "reasons": [
+          "476 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1016451784037642",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_976214191591102",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Bombas",
+        "pageId": "155577444523958"
+      },
+      "format": "text",
+      "media": [],
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-04-10T14:30:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 182,
+      "variations": 2,
+      "performance": {
+        "score": 70,
+        "reasons": [
+          "182 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=976214191591102",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2040927346777781",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Momofuku Goods",
+        "pageId": "109102691801705"
+      },
+      "format": "text",
+      "media": [],
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-04-16T18:23:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 176,
+      "variations": 9,
+      "performance": {
+        "score": 69,
+        "reasons": [
+          "176 gün yayında",
+          "Hâlâ aktif",
+          "9 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2040927346777781",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1932737837603849",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Momofuku Goods",
+        "pageId": "109102691801705"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "restaurant-grade noodles at home",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-04-16T18:23:44.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 176,
+      "variations": 6,
+      "performance": {
+        "score": 69,
+        "reasons": [
+          "176 gün yayında",
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1932737837603849",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1570902041427974",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "destination",
+      "brand": {
+        "name": "Nassau Paradise Island",
+        "pageId": "342229043161"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Fly Non-Stop to Nassau",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-08-03T23:20:16.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 67,
+      "variations": 13,
+      "performance": {
+        "score": 60,
+        "reasons": [
+          "67 gün yayında",
+          "Hâlâ aktif",
+          "13 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1570902041427974",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1610445534040717",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Nike",
+        "pageId": "15087023444"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Nike Tempo Shorts | Nike Air Monarch IV",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-01T18:01:28.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 38,
+      "variations": 32,
+      "performance": {
+        "score": 60,
+        "reasons": [
+          "38 gün yayında",
+          "Hâlâ aktif",
+          "32 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1610445534040717",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2053033401953984",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Spotify",
+        "pageId": "6243987495"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Your music, front & center.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-05-23T02:23:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 140,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "140 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2053033401953984",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1690381158754205",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Spotify",
+        "pageId": "6243987495"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Promociona tu álbum con Campaign Kit",
+      "languages": [
+        "es"
+      ],
+      "startedAt": "2026-05-23T02:02:50.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 140,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "140 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1690381158754205",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1508340907348701",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Spotify",
+        "pageId": "6243987495"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Fans para toda la vida con Campaign Kit",
+      "languages": [
+        "es"
+      ],
+      "startedAt": "2026-05-23T02:23:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 140,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "140 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1508340907348701",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1481283606288405",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Spotify",
+        "pageId": "6243987495"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Build Lifelong Fans With Campaign Kit",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-05-24T06:49:27.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 139,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "139 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1481283606288405",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2445084425915255",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Virgin Hotels Nashville",
+        "pageId": "101074458042824"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "OOO Looks Good on You",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-06-22T16:48:48.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 109,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "109 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2445084425915255",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1047328711352272",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "destination",
+      "brand": {
+        "name": "Nassau Paradise Island",
+        "pageId": "342229043161"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Flights to Nassau & Paradise Island",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-08-21T20:09:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 49,
+      "variations": 6,
+      "performance": {
+        "score": 54,
+        "reasons": [
+          "49 gün yayında",
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1047328711352272",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1544578240268552",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Athletic Brewing",
+        "pageId": "1978964449030579"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Try Athletic Brewing",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-01T18:25:34.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 38,
+      "variations": 8,
+      "performance": {
+        "score": 54,
+        "reasons": [
+          "38 gün yayında",
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1544578240268552",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1647424920152011",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Athletic Brewing",
+        "pageId": "1978964449030579"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Pumpkin Perfect 🎃",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-08T17:50:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 31,
+      "variations": 8,
+      "performance": {
+        "score": 54,
+        "reasons": [
+          "31 gün yayında",
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1647424920152011",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_3473101152852799",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Athletic Brewing",
+        "pageId": "1978964449030579"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Limited Time Welcome Offer 🎁",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-07-14T23:14:40.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 87,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "87 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3473101152852799",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1340890628014945",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Royalton Luxury Resorts",
+        "pageId": "236527566417976"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Experience a Next-Level Escape",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-07-15T00:28:35.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 87,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "87 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1340890628014945",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1425635309422847",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Athletic Brewing",
+        "pageId": "1978964449030579"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "A Crisp Taste of Fall 🍂",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-08-18T17:35:21.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 52,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "52 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1425635309422847",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1075586491538619",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "destination",
+      "brand": {
+        "name": "Nassau Paradise Island",
+        "pageId": "342229043161"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Celebrate In The Bahamas",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-08-21T18:43:29.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 49,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "49 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1075586491538619",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1757934342187347",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "destination",
+      "brand": {
+        "name": "Nassau Paradise Island",
+        "pageId": "342229043161"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Nassau’s Crystal Waters",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-08-22T16:38:51.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 48,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "48 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1757934342187347",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2325173834965136",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "vacation-ownership",
+      "brand": {
+        "name": "Hilton Grand Vacations",
+        "pageId": "114824201977"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Enter For A Chance To Win",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-17T18:54:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 22,
+      "variations": 17,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "22 gün yayında",
+          "Hâlâ aktif",
+          "17 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2325173834965136",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1724454905304376",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Graza",
+        "pageId": "102637398978655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Cooked in 100% EVOO",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-24T02:09:45.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 15,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "16 gün yayında",
+          "Hâlâ aktif",
+          "15 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1724454905304376",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1391289442708694",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Chipotle",
+        "pageId": "124149619252"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Mexican Food - Restaurant & Catering - Chipotle Mexican Grill",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-01T08:10:06.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 9,
+      "variations": 23,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "9 gün yayında",
+          "Hâlâ aktif",
+          "23 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1391289442708694",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1537443867681776",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Athletic Brewing",
+        "pageId": "1978964449030579"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Athletic Brewing Company Athletic Lite Light Non-Alcoholic Beer – 6 Pack (12oz Cans)",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-08-20T18:31:15.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 50,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "50 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1537443867681776",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2491638727999964",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Royalton Luxury Resorts",
+        "pageId": "236527566417976"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "All-Inclusive Beachside Bliss",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-01T16:34:20.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 38,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "38 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2491638727999964",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1061922636555039",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Nike",
+        "pageId": "15087023444"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Jordan Air | Jordan Son of Mars Low | Nike Trophy23 | Nike Sportswear Club Fleece | Nike Hyperdiamond 4 Keystone",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-01T18:07:04.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 38,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "38 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1061922636555039",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1252391023719706",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "Caraway",
+        "pageId": "2290435917939387"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Coffee, Without the Usual Plastic",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T05:26:20.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 14,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "14 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1252391023719706",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1145988648387134",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-cleaning",
+      "brand": {
+        "name": "Branch Basics",
+        "pageId": "522022287814467"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "A Healthy Home Starts Here ✨",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T00:20:54.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 12,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "12 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1145988648387134",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2315342549279391",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Chubbies",
+        "pageId": "212377122105873"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "New NFL by Chubbies Gear Is Here",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T18:56:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 15,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "15 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2315342549279391",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2952848818447463",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "jewelry",
+      "brand": {
+        "name": "Mejuri",
+        "pageId": "416263825086751"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Shop Salmon Gold™",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T21:44:13.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 14,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "14 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2952848818447463",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_28222951584070377",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Hard Rock Hotel & Casino Atlantic City",
+        "pageId": "272227849880309"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get your tickets now!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T17:42:59.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 11,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "11 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28222951584070377",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1660524895668909",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "AG1",
+        "pageId": "183869772601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "One Pack. The Whole Stack.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T22:11:30.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 32,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "32 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1660524895668909",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1433165878773029",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Dr. Squatch",
+        "pageId": "118075261668462"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "🚨 NEW! ONE PIECE Soaps & Deos",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T08:13:55.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 32,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "32 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1433165878773029",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1632832688329863",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "McDonald's",
+        "pageId": "50245567013"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Red Bull® Dragonberry Energizer",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T06:00:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 17,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "17 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1632832688329863",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1134734475664327",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "HexClad",
+        "pageId": "306050696452078"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Trusted by 2M+ home cooks 🍳",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T00:00:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 15,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "15 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1134734475664327",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1425117349012629",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Hyatt",
+        "pageId": "126851494019482"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Discovery has its rewards",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T15:26:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 12,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "12 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1425117349012629",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1634749758311464",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "McDonald's",
+        "pageId": "50245567013"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get it today",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T16:17:30.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 13,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "13 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1634749758311464",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1461683905817417",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "retail",
+      "brand": {
+        "name": "Walmart",
+        "pageId": "159616034235"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get Always Discreet at Walmart",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T01:47:29.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 16,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "16 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1461683905817417",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1083706574452033",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Huel",
+        "pageId": "2281559212068421"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "💸 Ditch Your $$$ Supplement Stack",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T18:15:46.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 17,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "17 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1083706574452033",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_4513488538919399",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Huel",
+        "pageId": "2281559212068421"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Your Protein Shake Is Failing You",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T18:16:12.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 12,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "12 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4513488538919399",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2314492242620326",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home",
+      "brand": {
+        "name": "Parachute Home",
+        "pageId": "193957350746563"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Refresh Your Home",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T14:54:48.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 10,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "10 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2314492242620326",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1461890099196799",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Seed",
+        "pageId": "178024832922517"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Start DS-01® with 25% Off",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T21:01:55.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 15,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "Hâlâ aktif",
+          "15 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1461890099196799",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1418975200327159",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Sandals Resorts",
+        "pageId": "68192000474"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Sandals Resorts",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-17T19:41:36.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 22,
+      "variations": 9,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "22 gün yayında",
+          "Hâlâ aktif",
+          "9 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1418975200327159",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2010319589650422",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Sandals Resorts",
+        "pageId": "68192000474"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "The Great Jamaica Comeback",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-17T19:37:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 22,
+      "variations": 8,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "22 gün yayında",
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2010319589650422",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_3766023680213776",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Graza",
+        "pageId": "102637398978655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Limited Time Only",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-24T01:22:43.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 7,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "16 gün yayında",
+          "Hâlâ aktif",
+          "7 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3766023680213776",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2130951921127334",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Bombas",
+        "pageId": "155577444523958"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "C is for Comfort",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-04T08:09:21.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 6,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2130951921127334",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1124747743449305",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Graza",
+        "pageId": "102637398978655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "So fresh, you can taste it!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-04T23:09:50.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 5,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1124747743449305",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_834255706436995",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Graza",
+        "pageId": "102637398978655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Made from the world’s freshest olives",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-04T23:05:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 5,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=834255706436995",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1805240233826434",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Graza",
+        "pageId": "102637398978655"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Real Olive Oil Mayo",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T01:12:10.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 5,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1805240233826434",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1041133755629051",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "cruise",
+      "brand": {
+        "name": "Carnival Cruise Line",
+        "pageId": "6067784583"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "FREE 3rd/4th Guest!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T17:20:55.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 8,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1041133755629051",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1673800827497632",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-cleaning",
+      "brand": {
+        "name": "Branch Basics",
+        "pageId": "522022287814467"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "$29 Surface Cleaning Kit ✨",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T00:20:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1673800827497632",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_988921594228935",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "AG1",
+        "pageId": "183869772601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "AGZ is here—the nighttime routine from AG1.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T23:37:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 7,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "7 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=988921594228935",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1764072191537860",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Liquid I.V.",
+        "pageId": "609555915738248"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Need hydration? Make it Liquid I.V.®",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T16:45:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1764072191537860",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1630229678896950",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Liquid I.V.",
+        "pageId": "609555915738248"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Your travel essential? Liquid I.V.®",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T17:28:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1630229678896950",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_4396181417312644",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "travel-deals",
+      "brand": {
+        "name": "Travelzoo",
+        "pageId": "14074130141"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "🏙️ 4-Star Chicago Getaway + Flights — $249",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T18:55:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4396181417312644",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1414525533490714",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-cleaning",
+      "brand": {
+        "name": "Branch Basics",
+        "pageId": "522022287814467"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Sparkling dishes, no plastic waste ✨",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T19:09:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 9,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "9 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1414525533490714",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1673343674195478",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home",
+      "brand": {
+        "name": "Parachute Home",
+        "pageId": "193957350746563"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Parachute Home",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T17:20:29.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1673343674195478",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_28416405714727664",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "HexClad",
+        "pageId": "306050696452078"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Put Nonstick to the Test",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T00:05:04.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28416405714727664",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1096948426584297",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "HexClad",
+        "pageId": "306050696452078"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Tougher Than Your Average Pan.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T00:05:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1096948426584297",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1772190107424819",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "travel-deals",
+      "brand": {
+        "name": "Travelzoo",
+        "pageId": "14074130141"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "🌊 Terranea Oceanfront Stay — $429/Night",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T15:42:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1772190107424819",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1090258926743370",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Marriott Bonvoy Outdoor Collection",
+        "pageId": "1024727980731090"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Reconnect with Nature",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:03:05.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1090258926743370",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1241138568211858",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Hyatt",
+        "pageId": "126851494019482"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "New hotels. More rewards along the way.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T15:26:39.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 8,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1241138568211858",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_4619248545017762",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Vuori",
+        "pageId": "126525880500"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "All New Gym Clothing & Loungewear Styles for Men & Women – Vuori",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:33:10.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4619248545017762",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1422674696504049",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Vuori",
+        "pageId": "126525880500"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Men's and Women's Vuori Galaxy Collection – Vuori",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:55:19.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1422674696504049",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1088423990775276",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "jewelry",
+      "brand": {
+        "name": "Mejuri",
+        "pageId": "416263825086751"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Shop Zodiac & Birthstone Jewelry",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:30:12.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 6,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1088423990775276",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1048575714850226",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Seed",
+        "pageId": "178024832922517"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "🔗 Use code 25TONYA for 25% off Seed!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T16:40:00.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 8,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1048575714850226",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2336915457122196",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Seed",
+        "pageId": "178024832922517"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "The #1 Digestive Health Probiotic",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:22:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2336915457122196",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1426876059366917",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "cruise",
+      "brand": {
+        "name": "Carnival Cruise Line",
+        "pageId": "6067784583"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get the Best Views",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-23T00:11:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 17,
+      "variations": 4,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "17 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1426876059366917",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1712360013201464",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Virgin Hotels Nashville",
+        "pageId": "101074458042824"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Pets Stay For Free",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-24T15:48:41.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 15,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "15 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1712360013201464",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1481608523800065",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Bombas",
+        "pageId": "155577444523958"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Women's Winter Disco Ankle Sock",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-02T18:28:58.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1481608523800065",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1661955045454116",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Royalton Luxury Resorts",
+        "pageId": "236527566417976"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Royalton Luxury Resorts | LIMITED-TIME OFFER!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T02:44:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 5,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1661955045454116",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1601301608041358",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Hyatt",
+        "pageId": "126851494019482"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Inclusive Collection",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T14:49:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1601301608041358",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1033250459774222",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Chipotle",
+        "pageId": "124149619252"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Now Open in Dallas",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T08:14:47.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1033250459774222",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1600217571592870",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Chipotle",
+        "pageId": "124149619252"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Now Open in Madison Heights",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T18:32:30.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1600217571592870",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_4669970566556351",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Hard Rock Hotel & Casino Atlantic City",
+        "pageId": "272227849880309"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Godsmack Takes Over AC",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T20:46:12.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4669970566556351",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1559700965482799",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Sandals Resorts",
+        "pageId": "68192000474"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Limited-Time Jamaica Savings⏳",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T15:18:09.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1559700965482799",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1644652087372626",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Sandals Resorts",
+        "pageId": "68192000474"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Book Now & Get a FREE Adventure",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T15:23:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1644652087372626",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1411701664492113",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "Caraway",
+        "pageId": "2290435917939387"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "You Deserve Quality Kitchenware",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T14:59:51.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1411701664492113",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1396681265459165",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Hard Rock Hotel & Casino Atlantic City",
+        "pageId": "272227849880309"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Ricky Martin Is Coming!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T17:27:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1396681265459165",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1756196475604681",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "travel-deals",
+      "brand": {
+        "name": "Travelzoo",
+        "pageId": "14074130141"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "🚢 16-Night Panama Canal Cruise — $63/Night",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T23:05:06.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1756196475604681",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1316244960517343",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Hyatt",
+        "pageId": "126851494019482"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Book Direct & Enjoy Rewards",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T22:45:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1316244960517343",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1472490071385388",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "jewelry",
+      "brand": {
+        "name": "Mejuri",
+        "pageId": "416263825086751"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Orion Carloto | Open Dôme Collection",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T21:47:44.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1472490071385388",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1954196369182243",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Hard Rock Hotel & Casino Atlantic City",
+        "pageId": "272227849880309"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Earth, Wind & Fire Live!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T21:45:01.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1954196369182243",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2294889704637668",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "AG1",
+        "pageId": "183869772601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Welcome to the Next Gen of Wellness",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T22:52:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2294889704637668",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1021774717542892",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Dr. Squatch",
+        "pageId": "118075261668462"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Selling out fast!",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T01:40:30.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1021774717542892",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2633328070460725",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Liquid I.V.",
+        "pageId": "609555915738248"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Touchdown With Hydration",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T16:49:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2633328070460725",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2116217452299145",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Liquid I.V.",
+        "pageId": "609555915738248"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Liquid I.V.® Strawberry Powdered Hydration Multiplier® (16 pack)",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T17:48:14.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2116217452299145",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1468263228484112",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Liquid I.V.",
+        "pageId": "609555915738248"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Sugar-Free Science",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T17:30:51.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1468263228484112",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1115195184238308",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-cleaning",
+      "brand": {
+        "name": "Branch Basics",
+        "pageId": "522022287814467"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get 30% Off Your First Subscription Order TODAY ✨",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T22:17:05.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1115195184238308",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1089487297272740",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Chubbies",
+        "pageId": "212377122105873"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Chubbies Makes Jeans Now. Seriously.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T19:14:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1089487297272740",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1603850878175890",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "AG1",
+        "pageId": "183869772601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "AG1 Pro Is Here - Get it before it’s gone again",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T17:41:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1603850878175890",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1821301418906304",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "AG1",
+        "pageId": "183869772601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Good Morning, AG1",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:15:39.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1821301418906304",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1135705482322464",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "HexClad",
+        "pageId": "306050696452078"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "NEW: HexClad Hybrid Bakeware",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T23:45:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1135705482322464",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2145076306085358",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "HexClad",
+        "pageId": "306050696452078"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "BUILT ONCE. USED FOR LIFE.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T23:24:38.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2145076306085358",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_4784012278500368",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Marriott Bonvoy Outdoor Collection",
+        "pageId": "1024727980731090"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Outdoor Collection by Marriott Bonvoy | Escape to the outdoors | Modern comforts in nature | Reconnect with what matters | Enjoy s’mores around the fire pit | A fresh take on getting outside",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T21:58:01.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4784012278500368",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1695461131999698",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "Caraway",
+        "pageId": "2290435917939387"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Make the Switch to Caraway",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T05:13:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1695461131999698",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1953557462707110",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "Caraway",
+        "pageId": "2290435917939387"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "One Life-Changing Upgrade: Quality Cookware",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T05:11:38.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1953557462707110",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1623028586032658",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "drinkware",
+      "brand": {
+        "name": "Hydro Flask",
+        "pageId": "303457303971"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Role Model x Hydro Flask",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T03:52:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1623028586032658",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1768613061113179",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Ritual",
+        "pageId": "706979406105651"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Essential Prenatal Starter Set",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T02:14:12.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1768613061113179",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1597844979041956",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Ritual",
+        "pageId": "706979406105651"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Your Next Month of Healthy Habits",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T02:16:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1597844979041956",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1122528790214914",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Ritual",
+        "pageId": "706979406105651"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Women’s Multivitamin 18+",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T01:55:48.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1122528790214914",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1568475985087055",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Ritual",
+        "pageId": "706979406105651"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Probiotic for Immune Support*",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T02:21:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1568475985087055",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1634872498284669",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Ritual",
+        "pageId": "706979406105651"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "20g Chocolate Protein",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T01:52:01.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1634872498284669",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1749734559421954",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Starbucks",
+        "pageId": "22092443056"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get more from your usual",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:17:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1749734559421954",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1115040071039332",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Starbucks",
+        "pageId": "22092443056"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Pumpkin, but she lifts now",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:19:01.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1115040071039332",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1085346920799040",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Starbucks",
+        "pageId": "22092443056"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "No shaker required",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:15:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1085346920799040",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1108339618410144",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Starbucks",
+        "pageId": "22092443056"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Skip the blender",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:15:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1108339618410144",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2599484080491835",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Pinterest",
+        "pageId": "253591661347566"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Feast your eyes",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:27:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2599484080491835",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2225569458014045",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Pinterest",
+        "pageId": "253591661347566"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Get crafty",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:32:35.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2225569458014045",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2630061610741319",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Pinterest",
+        "pageId": "253591661347566"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Creep it cute",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:31:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2630061610741319",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2261208577780284",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "tech",
+      "brand": {
+        "name": "Pinterest",
+        "pageId": "253591661347566"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Decorate if you dare",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:25:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2261208577780284",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1115387238124504",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "jobs",
+      "brand": {
+        "name": "Indeed",
+        "pageId": "5944538380"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Apply Now",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T10:09:44.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1115387238124504",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1645291597249180",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "jobs",
+      "brand": {
+        "name": "Indeed",
+        "pageId": "5944538380"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "See Open Roles",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T10:17:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1645291597249180",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_28569280839347736",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Vuori",
+        "pageId": "126525880500"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Men's Best Sellers - Clothing – Vuori",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T00:44:26.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28569280839347736",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1886382896073954",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "jewelry",
+      "brand": {
+        "name": "Mejuri",
+        "pageId": "416263825086751"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Shop Jewelry You Can Live In",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T20:16:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1886382896073954",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_28201887922798509",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Araya Resort",
+        "pageId": "525082224021523"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Turn Your Wedding Into a Destination Experience",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-12T00:03:50.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 28,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "28 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28201887922798509",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1810349230386848",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "cruise",
+      "brand": {
+        "name": "Carnival Cruise Line",
+        "pageId": "6067784583"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Cruise Now, Pay Over Time",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-09-25T21:55:44.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 14,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "14 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1810349230386848",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1632653221747824",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Bombas",
+        "pageId": "155577444523958"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Women's Solids Calf Sock 4-Pack - Black - Large - Cotton Blend - Bombas",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-02T06:11:00.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1632653221747824",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2070062547049756",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Comfort Suites Paradise Island",
+        "pageId": "133238006697672"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Comfort Suites Paradise Island | Book Direct: 4th Night Free",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-01T20:54:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2070062547049756",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1045715358516084",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Comfort Suites Paradise Island",
+        "pageId": "133238006697672"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Free Access to Atlantis Aquaventure",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-01T21:30:29.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1045715358516084",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2002778760411879",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Beau Rivage Resort & Casino",
+        "pageId": "46790633758"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "EIGHT75 Reimagined",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-02T23:35:34.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2002778760411879",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1266609702265402",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Beau Rivage Resort & Casino",
+        "pageId": "46790633758"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Shaan\nNovember 14 • Biloxi, MS",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T19:40:59.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1266609702265402",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1862203554933035",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Beau Rivage Resort & Casino",
+        "pageId": "46790633758"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Beau Rivage Resort & Casino | Where the Night Begins | An Evening to Savor | Golf Worth the Getaway | A Feeling Like No Other® | Stay in the Moment",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T19:48:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1862203554933035",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1756771648712532",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "food-beverage",
+      "brand": {
+        "name": "Chipotle",
+        "pageId": "124149619252"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Now Open in New Braunfels",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T09:15:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1756771648712532",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2535354696956543",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Margaritaville Beach Resort South Padre Island",
+        "pageId": "110715441881411"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Margaritaville Beach Resort South Padre Island | Toast To All Things Margaritaville. | Savor Tropical Fare Under The Texas Sun. | Make Memories With The Entire Family. | Reconnect With Mother Nature.",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-05T17:07:00.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2535354696956543",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1814999776165483",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Royalton Luxury Resorts",
+        "pageId": "236527566417976"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Spring Escape Awaits",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T19:23:30.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1814999776165483",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2314237856081714",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home-kitchen",
+      "brand": {
+        "name": "Caraway",
+        "pageId": "2290435917939387"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Premium Kitchenware For Less",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-06T14:51:20.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2314237856081714",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1132279106151425",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "vacation-ownership",
+      "brand": {
+        "name": "Hilton Grand Vacations",
+        "pageId": "114824201977"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Hilton Grand Vacations",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T18:45:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1132279106151425",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_955160157662630",
+      "source": "meta",
+      "segment": "general",
+      "market": "US",
+      "vertical": "retail",
+      "brand": {
+        "name": "Walmart",
+        "pageId": "159616034235"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Free Assembly - Walmart.com",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-07T21:27:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=955160157662630",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_29310393571899923",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort-casino",
+      "brand": {
+        "name": "Beau Rivage Resort & Casino",
+        "pageId": "46790633758"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "The Molly Ringwalds",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T00:19:57.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=29310393571899923",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1862303518098195",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Dr. Squatch",
+        "pageId": "118075261668462"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Dr. Squatch | Men’s Soap & Grooming Products",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T12:13:48.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1862303518098195",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1437277848384717",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Chubbies",
+        "pageId": "212377122105873"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Comfortably Textured Trunks",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T23:12:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1437277848384717",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2090817451563091",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Chubbies",
+        "pageId": "212377122105873"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Off Duty Pants Go With the Flow",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T19:09:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2090817451563091",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1062812603405611",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Chubbies",
+        "pageId": "212377122105873"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Meet Your New Favourite Sweatshirt",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-08T22:38:09.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1062812603405611",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1571519674097634",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Kimpton Hotel Fontenot",
+        "pageId": "115236573356980"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kimpton Hotel Fontenot | Your Dream NOLA Wedding Starts at Hotel Fontenot",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T21:54:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1571519674097634",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2116316412611286",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Virgin Hotels Nashville",
+        "pageId": "101074458042824"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Virgin Hotels Nashville | Get Game Day Ready | Score Big with our Game Day Offers | Minutes Away from the Action",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T15:05:37.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2116316412611286",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1071545252170409",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Araya Resort",
+        "pageId": "525082224021523"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Samaná's Best Kept Secret",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T12:18:37.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1071545252170409",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1450070390561416",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Araya Resort",
+        "pageId": "525082224021523"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "More Time Together | Araya Resort",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T17:11:27.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1450070390561416",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2045099766146548",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Moxy Tulum",
+        "pageId": "597139086824212"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Moxy Tulum",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T10:08:03.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2045099766146548",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1722972135445503",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Marriott Bonvoy Outdoor Collection",
+        "pageId": "1024727980731090"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Fall Into Savings – Save up to 25% | Marriott Deals",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:05:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1722972135445503",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1598580481754949",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "food",
+      "brand": {
+        "name": "Huel",
+        "pageId": "2281559212068421"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Low Appetite Still Needs Nutrition",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T21:28:52.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1598580481754949",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1403922907989521",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Vuori",
+        "pageId": "126525880500"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Halo Wideleg – Women's Blue Coast Heather Pants – Vuori",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T23:58:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1403922907989521",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1612394329736390",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Vuori",
+        "pageId": "126525880500"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Men's Echo Insulated Collection: Shop Jackets & Vests – Vuori",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:29:16.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1612394329736390",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1552150953624758",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "jewelry",
+      "brand": {
+        "name": "Mejuri",
+        "pageId": "416263825086751"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Green Girl Leah | Open Dôme Collection",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T21:14:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1552150953624758",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1647013417004848",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home",
+      "brand": {
+        "name": "Parachute Home",
+        "pageId": "193957350746563"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "New Striped Robes",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:16:03.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1647013417004848",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1653887122840195",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home",
+      "brand": {
+        "name": "Parachute Home",
+        "pageId": "193957350746563"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Designed for downtime",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:11:16.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1653887122840195",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2383952379099786",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "US",
+      "vertical": "resort",
+      "brand": {
+        "name": "Margaritaville Beach Resort South Padre Island",
+        "pageId": "110715441881411"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Margaritaville Beach Resort South Padre Island | Rooms & Suites | South Padre Island | Margaritaville Resort",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-10T02:23:37.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2383952379099786",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_1093812070049382",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Seed",
+        "pageId": "178024832922517"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Bloat Less, Feel Better with DS-01®",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:29:10.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1093812070049382",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    },
+    {
+      "id": "meta_2432513214208733",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Seed",
+        "pageId": "178024832922517"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Seed • Is DS-01 Right For You?",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-10-09T22:40:40.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2432513214208733",
+      "collectedAt": "2026-10-10T12:34:11.000Z"
+    }
+  ]
+}

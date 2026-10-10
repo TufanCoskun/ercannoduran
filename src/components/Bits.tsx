@@ -86,3 +86,22 @@ export function Chip({ children, tone = "glass", className = "" }: { children: R
     </span>
   );
 }
+
+/** Curated all-time classics get an "Efsane" badge instead of a numeric score. */
+export function LegendBadge({ size = 48 }: { size?: number }) {
+  return (
+    <span
+      className="relative inline-grid shrink-0 place-items-center rounded-full text-black shadow-[0_0_24px_-4px_rgba(255,197,61,0.7)]"
+      style={{ width: size, height: size, background: "conic-gradient(from 210deg, #ffe08a, #ffc53d, #c8ff2e, #ffe08a)" }}
+      title="Efsane reklam — küratörlü klasik"
+    >
+      <svg width={size * 0.5} height={size * 0.5} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z" />
+      </svg>
+    </span>
+  );
+}
+
+export function AdScore({ ad, size = 48, stroke = 4 }: { ad: { source: string; performance: { score: number } }; size?: number; stroke?: number }) {
+  return ad.source === "curated" ? <LegendBadge size={size} /> : <ScoreRing score={ad.performance.score} size={size} stroke={stroke} />;
+}

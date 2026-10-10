@@ -200,6 +200,26 @@ export function diversify(ads: Ad[], gap = 3): Ad[] {
   return out;
 }
 
+/**
+ * Default feed order: score-ranked ads with curated classics ("Efsane") woven in every ~5 items
+ * (curated ads have no longevity signals, so pure score order would sink them to the bottom).
+ */
+export function interleaveCurated(ads: Ad[], every = 5, first = 2): Ad[] {
+  const legends = diversify(ads.filter((a) => a.source === "curated"), 2);
+  const rest = diversify(ads.filter((a) => a.source !== "curated"));
+  if (!legends.length || !rest.length) return legends.length ? legends : rest;
+  const out: Ad[] = [];
+  let r = 0;
+  let l = 0;
+  while (r < rest.length || l < legends.length) {
+    const slot = out.length;
+    const legendSlot = slot === first || (slot > first && (slot - first) % every === 0);
+    if ((legendSlot && l < legends.length) || r >= rest.length) out.push(legends[l++]);
+    else out.push(rest[r++]);
+  }
+  return out;
+}
+
 export interface Facet {
   value: string;
   count: number;

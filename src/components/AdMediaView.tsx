@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
 import { TextCard } from "./TextCard";
 import { ChevronDownIcon } from "./Icons";
+import { adYouTubeId, ytEmbedUrl, ytPoster } from "@/lib/youtube";
 
 export type MediaMode = "text" | "image" | "video";
 
@@ -43,11 +44,14 @@ export function AdMediaView({
     return out;
   }, [ad.media, failed]);
 
-  const mode: MediaMode = !slides.length ? "text" : slides.some((s) => s.kind === "video") ? "video" : "image";
+  const yt = adYouTubeId(ad);
+  const ytOk = Boolean(yt) && !failed.has(`yt:${yt}`);
+  const mode: MediaMode = ytOk ? "video" : !slides.length ? "text" : slides.some((s) => s.kind === "video") ? "video" : "image";
   useEffect(() => {
     onMode?.(mode);
   }, [mode, onMode]);
 
+  if (yt && ytOk) return <YouTubeSlide id={yt} active={active} muted={muted} onFail={() => fail(`yt:${yt}`)} />;
   if (!slides.length) return <TextCard ad={ad} reason={ad.media.length ? "expired" : "missing"} />;
   if (slides.length === 1) {
     const s = slides[0];
@@ -233,6 +237,55 @@ function Carousel({
           <ChevronDownIcon size={18} className="-rotate-90" />
         </button>
       )}
+    </div>
+  );
+}
+
+/**
+ * YouTube creatives (curated classics): poster until active, then a privacy-enhanced embed that
+ * autoplays muted. Mute state is synced through the IFrame API (postMessage), no reload needed.
+ */
+function YouTubeSlide({ id, active, muted, onFail }: { id: string; active: boolean; muted: boolean; onFail: () => void }) {
+  const frame = useRef<HTMLIFrameElement>(null);
+  const [src] = useState(() => ytEmbedUrl(id, true));
+  const poster = ytPoster(id);
+
+  useEffect(() => {
+    const w = frame.current?.contentWindow;
+    if (!w) return;
+    const cmd = (func: string) => w.postMessage(JSON.stringify({ event: "command", func, args: [] }), "*");
+    cmd(muted ? "mute" : "unMute");
+    if (!muted) cmd("playVideo");
+  }, [muted, active]);
+
+  return (
+    <div className="relative grid h-full w-full place-items-center overflow-hidden bg-black pb-36 pt-16">
+      <Backdrop src={poster} />
+      <div className="absolute inset-0 bg-black/30" />
+      <div className="relative aspect-video w-full overflow-hidden shadow-2xl shadow-black/60">
+        <img
+          src={poster}
+          alt=""
+          referrerPolicy="no-referrer"
+          onError={onFail}
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        {active && (
+          <iframe
+            ref={frame}
+            src={src}
+            title="YouTube video"
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+            allowFullScreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            onLoad={() => {
+              const w = frame.current?.contentWindow;
+              if (w && !muted) w.postMessage(JSON.stringify({ event: "command", func: "unMute", args: [] }), "*");
+            }}
+            className="absolute inset-0 h-full w-full border-0"
+          />
+        )}
+      </div>
     </div>
   );
 }

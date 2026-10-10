@@ -36,6 +36,25 @@ function mulberry32(seed: number) {
 export function pickDaily(pool: Ad[], key: string, size = DAILY_SIZE): Ad[] {
   if (pool.length <= size) return [...pool];
   const rand = mulberry32(hashString(`adgym|${key}|${pool.length}`));
+
+  // Up to 2 curated classics ("Efsane") per workout, placed at slots 3 and 7.
+  const legends = pool.filter((a) => a.source === "curated").sort((a, b) => a.id.localeCompare(b.id));
+  const others = pool.filter((a) => a.source !== "curated");
+  if (legends.length && others.length) {
+    const k = Math.min(2, legends.length);
+    const picks: Ad[] = [];
+    const ls = [...legends];
+    for (let i = 0; i < k && ls.length; i++) picks.push(ls.splice(Math.floor(rand() * ls.length), 1)[0]);
+    const main = pickRanked(others, rand, size - picks.length);
+    const out = [...main];
+    [2, 6].forEach((slot, i) => picks[i] && out.splice(Math.min(slot, out.length), 0, picks[i]));
+    return out.slice(0, size);
+  }
+  return pickRanked(pool, rand, size);
+}
+
+function pickRanked(pool: Ad[], rand: () => number, size: number): Ad[] {
+  if (pool.length <= size) return [...pool];
   const sorted = [...pool].sort((a, b) => b.performance.score - a.performance.score || a.id.localeCompare(b.id));
   const candidates = sorted.slice(0, Math.max(size * 4, Math.ceil(sorted.length * 0.5)));
   for (let i = candidates.length - 1; i > 0; i--) {

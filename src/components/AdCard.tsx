@@ -4,10 +4,10 @@ import Link from "next/link";
 import { useCallback, useState } from "react";
 import type { Ad } from "@/lib/types";
 import { MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, FORMAT_LABEL, verticalLabel } from "@/lib/filters";
-import { brandFeedPath, daysLabel, formatDate, platformLabel } from "@/lib/format";
+import { brandFeedPath, daysLabel, displayReasons, formatDate, libraryLabel, platformLabel } from "@/lib/format";
 import { useSaved } from "@/lib/saved";
 import { AdMediaView, type MediaMode } from "./AdMediaView";
-import { BrandAvatar, Chip, ScoreRing } from "./Bits";
+import { AdScore, BrandAvatar, Chip } from "./Bits";
 import { BookmarkIcon, ExternalIcon, FlameIcon, MuteIcon, ShareIcon, VolumeIcon } from "./Icons";
 import { useUI } from "./UIProvider";
 
@@ -51,8 +51,8 @@ export function AdCard({
       {/* right action rail */}
       <div className="absolute bottom-6 right-3 z-20 flex flex-col items-center gap-4">
         <div className="flex flex-col items-center gap-1">
-          <ScoreRing score={ad.performance.score} size={46} />
-          <span className="text-shadow text-[10px] font-semibold text-white/80">Skor</span>
+          <AdScore ad={ad} size={46} />
+          <span className="text-shadow text-[10px] font-semibold text-white/80">{ad.source === "curated" ? "Efsane" : "Skor"}</span>
         </div>
         <RailButton
           label={isSaved ? "Kayıtlı" : "Kaydet"}
@@ -140,8 +140,8 @@ export function AdCard({
           <div className="animate-fade-in mt-3 rounded-2xl bg-white/[0.07] p-3 ring-1 ring-white/10 backdrop-blur-md">
             <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-volt">Neden kazanıyor?</p>
             <div className="flex flex-wrap gap-1.5">
-              {ad.performance.reasons.length ? (
-                ad.performance.reasons.map((r) => (
+              {displayReasons(ad).length ? (
+                displayReasons(ad).map((r) => (
                   <Chip key={r} tone="solid">
                     {r}
                   </Chip>
@@ -197,7 +197,7 @@ export function AdCard({
             rel="noopener noreferrer"
             className={`flex h-10 shrink-0 items-center gap-1.5 rounded-xl bg-white/10 px-3 text-[13px] font-semibold text-white ring-1 ring-white/15 backdrop-blur-md transition hover:bg-white/20 ${ad.cta ? "" : "flex-1 justify-center"}`}
           >
-            Ad Library&apos;de aç <ExternalIcon size={14} />
+            {libraryLabel(ad)} <ExternalIcon size={14} />
           </a>
           )}
         </div>

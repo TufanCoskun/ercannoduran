@@ -87,3 +87,33 @@ export function adPath(id: string): string {
 export function brandFeedPath(name: string): string {
   return `/?brand=${encodeURIComponent(name)}`;
 }
+
+/** Where the "open original" link points: YouTube / TikTok / Meta Ad Library. */
+export function libraryHost(ad: Ad): "youtube" | "tiktok" | "meta" {
+  const u = ad.libraryUrl.toLowerCase();
+  if (u.includes("youtube.com") || u.includes("youtu.be")) return "youtube";
+  if (u.includes("tiktok.com") || ad.source === "tiktok") return "tiktok";
+  return "meta";
+}
+
+export function libraryLabel(ad: Ad): string {
+  const h = libraryHost(ad);
+  return h === "youtube" ? "YouTube'da aç" : h === "tiktok" ? "TikTok'ta aç" : "Ad Library'de aç";
+}
+
+export function libraryFullLabel(ad: Ad): string {
+  const h = libraryHost(ad);
+  return h === "youtube" ? "Reklamın tamamını YouTube'da gör" : h === "tiktok" ? "Reklamın tamamını TikTok'ta gör" : "Reklamın tamamını Ad Library'de gör";
+}
+
+export const isLegend = (ad: Pick<Ad, "source">) => ad.source === "curated";
+
+/** Reasons to show under "Neden kazanıyor?" (curated classics get their own). */
+export function displayReasons(ad: Ad): string[] {
+  if (ad.source === "curated") return ["Efsane reklam", ...ad.performance.reasons.filter((r) => r !== "Küratörlü klasik"), "Küratörlü klasik"];
+  return ad.performance.reasons;
+}
+
+export function scoreText(ad: Ad): string {
+  return ad.source === "curated" ? "Efsane reklam" : `Skor ${ad.performance.score}`;
+}

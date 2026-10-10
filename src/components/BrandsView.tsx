@@ -6,7 +6,7 @@ import type { BrandSummary } from "@/lib/ads";
 import { MARKET_OPTIONS, SEGMENT_LABEL, SEGMENT_OPTIONS, verticalLabel } from "@/lib/filters";
 import { brandFeedPath } from "@/lib/format";
 import type { Market, Segment } from "@/lib/types";
-import { BrandAvatar, ScoreRing } from "./Bits";
+import { BrandAvatar, LegendBadge, ScoreRing } from "./Bits";
 import { SearchIcon } from "./Icons";
 
 export function BrandsView({ brands, totalAds }: { brands: BrandSummary[]; totalAds: number }) {
@@ -86,7 +86,7 @@ export function BrandsView({ brands, totalAds }: { brands: BrandSummary[]; total
                     )}
                   </p>
                 </div>
-                <ScoreRing score={b.topScore} size={42} stroke={3.5} />
+                {b.sources.length === 1 && b.sources[0] === "curated" ? <LegendBadge size={42} /> : <ScoreRing score={b.topScore} size={42} stroke={3.5} />}
               </Link>
             </li>
           ))}

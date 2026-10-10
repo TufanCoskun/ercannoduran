@@ -6,7 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
 import {
   activeFilterCount,
-  diversify,
+  interleaveCurated,
   facetCounts,
   filtersToQuery,
   matchesFilters,
@@ -16,9 +16,9 @@ import {
 } from "@/lib/filters";
 import { currentStreak, dateKey, DAILY_SIZE, markDailyViewed, pickDaily, useProgress, viewedToday } from "@/lib/daily";
 import { useHydrated } from "@/lib/store";
-import { adPath, daysLabel, formatDate, platformLabel } from "@/lib/format";
+import { adPath, daysLabel, displayReasons, formatDate, libraryLabel, platformLabel } from "@/lib/format";
 import { AdCard } from "./AdCard";
-import { Chip, ScoreRing } from "./Bits";
+import { AdScore, Chip } from "./Bits";
 import { FilterPanel } from "./FilterPanel";
 import { Sheet } from "./Sheet";
 import { useUI } from "./UIProvider";
@@ -38,7 +38,7 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [activeAd, setActiveAd] = useState<Ad | undefined>(undefined);
 
-  const pool = useMemo(() => diversify(ads.filter((a) => matchesFilters(a, filters))), [ads, filters]);
+  const pool = useMemo(() => interleaveCurated(ads.filter((a) => matchesFilters(a, filters))), [ads, filters]);
   const list = useMemo(() => (daily ? (today ? pickDaily(pool, today) : []) : pool), [daily, pool, today]);
 
   const setFilters = useCallback(
@@ -65,11 +65,12 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
     };
   }, [ads, filters]);
 
+  const sourcesAvailable = useMemo(() => [...new Set(ads.map((a) => a.source))], [ads]);
   const listKey = `${daily ? "daily" : "feed"}|${today}|${filtersToQuery(filters)}`;
   const nFilters = activeFilterCount(filters);
 
   const panel = (
-    <FilterPanel filters={filters} onChange={setFilters} counts={counts} verticals={verticals} brands={brands} resultCount={pool.length} />
+    <FilterPanel filters={filters} onChange={setFilters} counts={counts} sourcesAvailable={sourcesAvailable} verticals={verticals} brands={brands} resultCount={pool.length} />
   );
 
   return (
@@ -480,7 +481,7 @@ function ActiveInsights({ ad }: { ad: Ad }) {
   return (
     <div className="rounded-3xl border border-line bg-ink-2 p-5">
       <div className="flex items-start gap-4">
-        <ScoreRing score={ad.performance.score} size={64} stroke={5} />
+        <AdScore ad={ad} size={64} stroke={5} />
         <div className="min-w-0">
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-volt">Neden kazanıyor?</p>
           <p className="mt-1 truncate text-base font-bold">{ad.brand.name}</p>
@@ -488,8 +489,8 @@ function ActiveInsights({ ad }: { ad: Ad }) {
         </div>
       </div>
       <div className="mt-4 flex flex-wrap gap-1.5">
-        {ad.performance.reasons.length ? (
-          ad.performance.reasons.map((r) => (
+        {displayReasons(ad).length ? (
+          displayReasons(ad).map((r) => (
             <Chip key={r} tone="solid">
               {r}
             </Chip>
@@ -514,7 +515,7 @@ function ActiveInsights({ ad }: { ad: Ad }) {
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-1 rounded-xl bg-white/[0.06] py-2 text-xs font-semibold ring-1 ring-white/10 hover:bg-white/10"
         >
-          Ad Library <ExternalIcon size={12} />
+          {libraryLabel(ad).replace(/'da aç|'de aç|'ta aç/, "")} <ExternalIcon size={12} />
         </a>
       </div>
     </div>
