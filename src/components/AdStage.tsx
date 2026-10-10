@@ -7,5 +7,5 @@ import { AdCard } from "./AdCard";
 /** Single AdCard (used on /ad/[id]) with its own mute state. */
 export function AdStage({ ad }: { ad: Ad }) {
   const [muted, setMuted] = useState(true);
-  return <AdCard ad={ad} active muted={muted} onToggleMute={() => setMuted((m) => !m)} />;
+  return <AdCard ad={ad} active preload="auto" muted={muted} onToggleMute={() => setMuted((m) => !m)} />;
 }

@@ -1,4 +1,21 @@
 import type { Ad, Format, Market, Segment, Source } from "./types";
+import { adYouTubeId } from "./youtube";
+
+/**
+ * What the viewer will actually see: an ad declared as video/carousel/image but with no media
+ * (Meta Ad Library rows we couldn't enrich) is rendered as a text card, so it filters as "text".
+ */
+export function effectiveFormat(ad: Ad): Format {
+  if (!ad.media.length && !adYouTubeId(ad)) return "text";
+  if (ad.format === "text") return ad.media.some((m) => m.type === "video") ? "video" : ad.media.length > 1 ? "carousel" : "image";
+  return ad.format;
+}
+
+/** Feed tier: 0 = playable video, 1 = image / carousel, 2 = text-only. */
+export function mediaRank(ad: Ad): 0 | 1 | 2 {
+  if (adYouTubeId(ad) || ad.media.some((m) => m.type === "video")) return 0;
+  return ad.media.length ? 1 : 2;
+}
 
 /** Client-safe filter helpers. Query params: segment, market, source, format, vertical, brand, mode. */
 
@@ -189,7 +206,7 @@ export function matchesFilters(ad: Ad, f: Filters): boolean {
   if (f.segment.length && !f.segment.includes(ad.segment)) return false;
   if (f.market.length && !f.market.includes(ad.market)) return false;
   if (f.source.length && !f.source.includes(ad.source)) return false;
-  if (f.format.length && !f.format.includes(ad.format)) return false;
+  if (f.format.length && !f.format.includes(effectiveFormat(ad))) return false;
   if (f.vertical.length && !(ad.vertical && f.vertical.includes(ad.vertical.toLowerCase()))) return false;
   if (f.brand.length) {
     const name = ad.brand.name.toLocaleLowerCase("tr");
@@ -221,12 +238,14 @@ export function diversify(ads: Ad[], gap = 3): Ad[] {
 }
 
 /**
- * Default feed order: score-ranked ads with curated classics ("Efsane") woven in every ~5 items
- * (curated ads have no longevity signals, so pure score order would sink them to the bottom).
+ * Default feed order: ads with playable media first (video → image/carousel → text-only), each tier
+ * score-ranked and brand-diversified, with curated classics ("Efsane") woven in every ~5 items.
+ * Input is expected in score order (loadAds sorts it).
  */
 export function interleaveCurated(ads: Ad[], every = 5, first = 2): Ad[] {
   const legends = diversify(ads.filter((a) => a.source === "curated"), 2);
-  const rest = diversify(ads.filter((a) => a.source !== "curated"));
+  const others = ads.filter((a) => a.source !== "curated");
+  const rest = ([0, 1, 2] as const).flatMap((tier) => diversify(others.filter((a) => mediaRank(a) === tier)));
   if (!legends.length || !rest.length) return legends.length ? legends : rest;
   const out: Ad[] = [];
   let r = 0;

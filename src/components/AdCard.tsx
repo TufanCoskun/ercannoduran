@@ -1,26 +1,27 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
 import { MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, FORMAT_LABEL, verticalLabel } from "@/lib/filters";
 import { brandFeedPath, daysLabel, displayReasons, formatDate, libraryLabel, platformLabel } from "@/lib/format";
 import { useSaved } from "@/lib/saved";
-import { AdMediaView, type MediaMode } from "./AdMediaView";
+import { AdMediaView, type MediaMode, type Preload } from "./AdMediaView";
 import { AdScore, BrandAvatar, Chip } from "./Bits";
 import { BookmarkIcon, ExternalIcon, FlameIcon, MuteIcon, ShareIcon, VolumeIcon } from "./Icons";
 import { useUI } from "./UIProvider";
+import { adYouTubeId } from "@/lib/youtube";
 
 export function AdCard({
   ad,
   active,
-  near = active,
+  preload = active ? "auto" : "metadata",
   muted,
   onToggleMute,
 }: {
   ad: Ad;
   active: boolean;
-  near?: boolean;
+  preload?: Preload;
   muted: boolean;
   onToggleMute: () => void;
 }) {
@@ -30,6 +31,17 @@ export function AdCard({
   const [expanded, setExpanded] = useState(false);
   const [mode, setMode] = useState<MediaMode>(ad.media.length ? "image" : "text");
   const onMode = useCallback((m: MediaMode) => setMode(m), []);
+  const bar = useRef<HTMLDivElement>(null);
+  const last = useRef(0);
+  const onProgress = useCallback((p: number) => {
+    const el = bar.current;
+    if (!el) return;
+    const v = Math.max(0, Math.min(1, p));
+    el.style.transitionDuration = v < last.current ? "0ms" : ""; // no backwards sweep on loop
+    el.style.transform = `scaleX(${v})`;
+    last.current = v;
+  }, []);
+  const isYouTube = Boolean(adYouTubeId(ad));
   const hasVideo = mode === "video";
   const textMode = mode === "text";
   const days = daysLabel(ad);
@@ -39,7 +51,7 @@ export function AdCard({
   return (
     <article className="relative h-full w-full overflow-hidden bg-ink" aria-label={`${ad.brand.name} reklamı`}>
       <div className="absolute inset-0">
-        <AdMediaView ad={ad} active={active} near={near} muted={muted} onToggleMute={onToggleMute} onMode={onMode} />
+        <AdMediaView ad={ad} active={active} preload={preload} muted={muted} onMode={onMode} onProgress={onProgress} />
       </div>
 
       {/* legibility gradients */}
@@ -202,6 +214,24 @@ export function AdCard({
           )}
         </div>
       </div>
+
+      {/* tap-to-unmute (persists across slides: mute state lives in the feed) */}
+      {hasVideo && muted && active && (
+        <button
+          type="button"
+          onClick={onToggleMute}
+          className="animate-fade-in absolute right-3 top-[var(--chrome-top,0.75rem)] z-20 flex items-center gap-1.5 rounded-full bg-black/55 py-1.5 pl-2.5 pr-3 text-xs font-semibold text-white ring-1 ring-white/15 backdrop-blur-md"
+        >
+          <MuteIcon size={15} /> Sesi aç
+        </button>
+      )}
+
+      {/* TikTok-style playback progress, above every overlay */}
+      {hasVideo && !isYouTube && (
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-30 h-[3px] bg-white/15" aria-hidden="true">
+          <div ref={bar} className="h-full origin-left bg-white transition-transform duration-300 ease-linear" style={{ transform: "scaleX(0)" }} />
+        </div>
+      )}
     </article>
   );
 }

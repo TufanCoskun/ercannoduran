@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Ad, AdMedia, Format, Market, Segment, Source } from "./types";
-import { daysBetween, scoreAd } from "./score";
+import { runningDays, scoreAd } from "./score";
 import { FIXTURE_ADS } from "./fixtures";
 
 /**
@@ -106,7 +106,7 @@ export function normalizeAd(raw: unknown, fileGeneratedAt?: string): Ad | null {
   const startedAt = str(r.startedAt);
   const endedAt = r.endedAt === null ? null : str(r.endedAt);
   const isActive = typeof r.isActive === "boolean" ? r.isActive : endedAt ? false : undefined;
-  const activeDays = num(r.activeDays) ?? daysBetween(startedAt, endedAt ?? collectedAt);
+  const activeDays = runningDays({ startedAt, endedAt, isActive, collectedAt, activeDays: num(r.activeDays) });
   const variations = num(r.variations);
   const platforms = strArr(r.platforms)?.map((p) => p.toLowerCase());
 
@@ -146,12 +146,11 @@ export function normalizeAd(raw: unknown, fileGeneratedAt?: string): Ad | null {
   if (activeDays !== undefined) ad.activeDays = activeDays;
   if (variations !== undefined) ad.variations = variations;
 
+  // Always recompute from the signals (canonical formula in ./score) so every ad is consistent,
+  // whatever formula / reason texts the data file was written with. Stored reasons are only read
+  // back for TikTok rank/CTR/likes, which have no dedicated fields in the schema.
   const perf = r.performance as Record<string, unknown> | undefined;
-  const score = perf && num(perf.score);
-  ad.performance =
-    score !== undefined
-      ? { score: Math.max(0, Math.min(100, Math.round(score))), reasons: strArr(perf?.reasons) ?? [] }
-      : scoreAd(ad);
+  ad.performance = scoreAd({ ...ad, performance: { reasons: strArr(perf?.reasons) ?? [] } });
   return ad;
 }
 
@@ -196,7 +195,7 @@ function readOverlays(names: string[]): Map<string, OverlayItem> {
   return out;
 }
 
-/** Overlay fields win when non-empty. Drops the stored score when scoring signals changed. */
+/** Overlay fields win when non-empty (variations / platforms are merged). Score is recomputed later anyway. */
 function applyOverlay(raw: unknown, overlays: Map<string, OverlayItem>): unknown {
   if (!overlays.size || !raw || typeof raw !== "object") return raw;
   const r = raw as Record<string, unknown>;
@@ -210,8 +209,13 @@ function applyOverlay(raw: unknown, overlays: Map<string, OverlayItem>): unknown
     const m = ov.media as unknown[];
     if (!(r.format === "carousel" && m.length > 1)) delete next.format;
   }
-  const changed = (k: "platforms" | "variations") => nonEmpty(ov[k]) && JSON.stringify(ov[k]) !== JSON.stringify(r[k]);
-  if (changed("platforms") || changed("variations")) delete next.performance;
+  // Scaling signals: both sources are lower bounds, so keep the strongest evidence.
+  const ovVar = num(ov.variations);
+  const rawVar = num(r.variations);
+  if (ovVar !== undefined || rawVar !== undefined) next.variations = Math.max(ovVar ?? 0, rawVar ?? 0);
+  const ovPlat = strArr(ov.platforms);
+  const rawPlat = strArr(r.platforms);
+  if (ovPlat || rawPlat) next.platforms = [...new Set([...(rawPlat ?? []), ...(ovPlat ?? [])].map((p) => p.toLowerCase()))];
   return next;
 }
 

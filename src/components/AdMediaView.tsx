@@ -3,43 +3,57 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
 import { TextCard } from "./TextCard";
-import { ChevronDownIcon } from "./Icons";
+import { ChevronDownIcon, PlayIcon } from "./Icons";
 import { adYouTubeId, ytEmbedUrl, ytPoster } from "@/lib/youtube";
 
 export type MediaMode = "text" | "image" | "video";
+export type Preload = "auto" | "metadata" | "none";
 
 type Slide = { kind: "video"; src: string; poster?: string } | { kind: "image"; src: string };
 
 /**
- * Renders an ad's media. Every slide degrades gracefully: a video that fails (expired fbcdn /
- * tiktokcdn URL) falls back to its thumbnail, an image that fails is dropped, and when nothing
- * is left we render the styled TextCard.
+ * Renders an ad's media inline. Every slide degrades silently: a video that fails (expired
+ * fbcdn / tiktokcdn URL) becomes its poster image, an image that fails tries its thumbnail
+ * (we host a copy under /media/meta), and when nothing is left the styled TextCard is shown.
+ *
+ * Video: autoplays muted (playsInline) while `active`, tap = pause/play, mute state comes from
+ * the parent so unmuting persists across slides. Playback progress is reported through
+ * `onProgress` (0..1) so the card can draw a TikTok-style bar above its own overlays.
  */
 export function AdMediaView({
   ad,
   active,
-  near,
+  preload,
   muted,
-  onToggleMute,
   onMode,
+  onProgress,
 }: {
   ad: Ad;
   active: boolean;
-  near: boolean;
+  preload: Preload;
   muted: boolean;
-  onToggleMute?: () => void;
   onMode?: (mode: MediaMode) => void;
+  onProgress?: (p: number) => void;
 }) {
   const [failed, setFailed] = useState<ReadonlySet<string>>(() => new Set());
   const fail = useCallback((src: string) => setFailed((f) => (f.has(src) ? f : new Set(f).add(src))), []);
 
   const slides = useMemo<Slide[]>(() => {
     const out: Slide[] = [];
+    const used = new Set<string>();
+    const ok = (u?: string) => (u && !failed.has(u) && !used.has(u) ? u : undefined);
     for (const m of ad.media) {
-      if (m.type === "video") {
-        if (!failed.has(m.url)) out.push({ kind: "video", src: m.url, poster: m.thumbnailUrl && !failed.has(m.thumbnailUrl) ? m.thumbnailUrl : undefined });
-        else if (m.thumbnailUrl && !failed.has(m.thumbnailUrl)) out.push({ kind: "image", src: m.thumbnailUrl });
-      } else if (!failed.has(m.url)) out.push({ kind: "image", src: m.url });
+      if (m.type === "video" && ok(m.url)) {
+        const poster = m.thumbnailUrl && !failed.has(m.thumbnailUrl) ? m.thumbnailUrl : undefined;
+        used.add(m.url);
+        out.push(poster ? { kind: "video", src: m.url, poster } : { kind: "video", src: m.url });
+        continue;
+      }
+      const src = m.type === "video" ? ok(m.thumbnailUrl) : (ok(m.url) ?? ok(m.thumbnailUrl));
+      if (src) {
+        used.add(src);
+        out.push({ kind: "image", src });
+      }
     }
     return out;
   }, [ad.media, failed]);
@@ -56,16 +70,17 @@ export function AdMediaView({
   if (slides.length === 1) {
     const s = slides[0];
     return s.kind === "video" ? (
-      <VideoSlide slide={s} active={active} near={near} muted={muted} onFail={fail} onTap={onToggleMute} />
+      <VideoSlide slide={s} active={active} preload={preload} muted={muted} onFail={fail} onProgress={onProgress} />
     ) : (
-      <ImageSlide src={s.src} eager={near} onFail={fail} />
+      <ImageSlide src={s.src} eager={preload !== "none"} onFail={fail} />
     );
   }
-  return <Carousel slides={slides} active={active} near={near} muted={muted} onFail={fail} onToggleMute={onToggleMute} />;
+  return <Carousel slides={slides} active={active} preload={preload} muted={muted} onFail={fail} onProgress={onProgress} />;
 }
 
 function Backdrop({ src }: { src?: string }) {
-  if (!src) return null;
+  const [bad, setBad] = useState(false);
+  if (!src || bad) return null;
   return (
     <img
       src={src}
@@ -73,9 +88,7 @@ function Backdrop({ src }: { src?: string }) {
       aria-hidden="true"
       referrerPolicy="no-referrer"
       className="absolute inset-0 h-full w-full scale-125 object-cover opacity-45 blur-2xl"
-      onError={(e) => {
-        e.currentTarget.style.display = "none";
-      }}
+      onError={() => setBad(true)}
     />
   );
 }
@@ -103,62 +116,121 @@ function ImageSlide({ src, eager, onFail }: { src: string; eager: boolean; onFai
 function VideoSlide({
   slide,
   active,
-  near,
+  preload,
   muted,
   onFail,
-  onTap,
+  onProgress,
 }: {
   slide: Extract<Slide, { kind: "video" }>;
   active: boolean;
-  near: boolean;
+  preload: Preload;
   muted: boolean;
   onFail: (src: string) => void;
-  onTap?: () => void;
+  onProgress?: (p: number) => void;
 }) {
   const ref = useRef<HTMLVideoElement>(null);
-  const [progress, setProgress] = useState(0);
-  const [ready, setReady] = useState(false);
+  const [playing, setPlaying] = useState(false);
+  const [userPaused, setUserPaused] = useState(false);
+  // Autoplay with sound can be refused without a fresh gesture (iOS); then we play muted locally.
+  const [forcedMute, setForcedMute] = useState(false);
+  const effectiveMuted = muted || forcedMute;
+
+  // Unmuting from a tap is a user gesture — drop the local fallback mute.
+  useEffect(() => {
+    if (muted) setForcedMute(false);
+  }, [muted]);
 
   useEffect(() => {
     const v = ref.current;
     if (!v) return;
-    if (active) {
-      v.play().catch(() => {
-        /* autoplay blocked — poster stays visible */
-      });
-    } else {
-      v.pause();
-      if (!near) v.currentTime = 0;
-    }
-  }, [active, near]);
+    v.muted = effectiveMuted;
+    v.defaultMuted = true;
+  }, [effectiveMuted]);
 
   useEffect(() => {
-    if (ref.current) ref.current.muted = muted;
-  }, [muted]);
+    const v = ref.current;
+    if (!v) return;
+    if (active && !userPaused) {
+      v.muted = effectiveMuted;
+      const p = v.play();
+      if (p)
+        p.catch((err: unknown) => {
+          if (err instanceof DOMException && err.name === "NotAllowedError" && !v.muted) {
+            v.muted = true;
+            setForcedMute(true);
+            v.play().catch(() => {
+              /* still blocked — poster stays, tap plays */
+            });
+          }
+          /* AbortError (src swapped / paused while loading) is harmless */
+        });
+    } else {
+      v.pause();
+    }
+  }, [active, userPaused, effectiveMuted]);
+
+  // Leaving the slide: rewind and forget the manual pause.
+  useEffect(() => {
+    if (active) return;
+    setUserPaused(false);
+    const v = ref.current;
+    if (v && v.currentTime > 0) v.currentTime = 0;
+    onProgress?.(0);
+  }, [active, onProgress]);
 
   return (
-    <div className="relative h-full w-full overflow-hidden bg-black" onClick={onTap}>
+    <div
+      className="relative h-full w-full overflow-hidden bg-black"
+      onClick={() => {
+        if (!active) return;
+        if (forcedMute) {
+          // This tap is the gesture the browser wanted: play with sound now.
+          setForcedMute(false);
+          setUserPaused(false);
+          const v = ref.current;
+          if (v) {
+            v.muted = false;
+            v.play().catch(() => {});
+          }
+          return;
+        }
+        setUserPaused((x) => !x);
+      }}
+      data-video-slide=""
+    >
       <Backdrop src={slide.poster} />
+      {/* poster as a real <img>: no black/broken frame while the video loads or if it fails */}
+      {slide.poster && !playing && (
+        <img src={slide.poster} alt="" aria-hidden="true" referrerPolicy="no-referrer" className="absolute inset-0 h-full w-full object-contain" />
+      )}
+      {!slide.poster && !playing && <div className="absolute inset-0 animate-pulse bg-gradient-to-b from-white/[0.05] to-transparent" />}
       <video
         ref={ref}
         src={slide.src}
-        poster={slide.poster}
-        muted={muted}
+        muted
         loop
         playsInline
-        preload={near ? "auto" : "metadata"}
-        onLoadedData={() => setReady(true)}
+        disablePictureInPicture
+        controlsList="nodownload noplaybackrate noremoteplayback"
+        preload={preload}
+        onPlaying={() => setPlaying(true)}
         onError={() => onFail(slide.src)}
         onTimeUpdate={(e) => {
           const v = e.currentTarget;
-          if (v.duration) setProgress(v.currentTime / v.duration);
+          if (active && v.duration) onProgress?.(v.currentTime / v.duration);
         }}
-        className="relative h-full w-full object-contain"
+        className={`relative h-full w-full object-contain transition-opacity duration-200 ${playing ? "opacity-100" : "opacity-0"}`}
       />
-      {!ready && !slide.poster && <div className="absolute inset-0 animate-pulse bg-gradient-to-b from-white/[0.05] to-transparent" />}
-      <div className="absolute inset-x-0 bottom-0 z-10 h-0.5 bg-white/10">
-        <div className="h-full bg-white/80 transition-[width] duration-200 ease-linear" style={{ width: `${progress * 100}%` }} />
-      </div>
+      {active && userPaused && (
+        <span className="pointer-events-none absolute left-1/2 top-1/2 grid size-20 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-black/45 text-white backdrop-blur-sm">
+          <PlayIcon size={38} />
+        </span>
+      )}
+      {active && effectiveMuted && !muted && (
+        <span className="pointer-events-none absolute left-1/2 top-1/2 mt-14 -translate-x-1/2 rounded-full bg-black/55 px-3 py-1 text-[11px] font-semibold text-white/85 backdrop-blur">
+          Ses için dokun
+        </span>
+      )}
     </div>
   );
 }
@@ -166,17 +238,17 @@ function VideoSlide({
 function Carousel({
   slides,
   active,
-  near,
+  preload,
   muted,
   onFail,
-  onToggleMute,
+  onProgress,
 }: {
   slides: Slide[];
   active: boolean;
-  near: boolean;
+  preload: Preload;
   muted: boolean;
   onFail: (src: string) => void;
-  onToggleMute?: () => void;
+  onProgress?: (p: number) => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
@@ -199,22 +271,25 @@ function Carousel({
         }}
         className="no-scrollbar flex h-full w-full snap-x snap-mandatory overflow-x-auto overscroll-x-contain"
       >
-        {slides.map((s, i) => (
-          <div key={s.src + i} className="h-full w-full shrink-0 snap-center snap-always">
-            {s.kind === "video" ? (
-              <VideoSlide slide={s} active={active && i === current} near={near} muted={muted} onFail={onFail} onTap={onToggleMute} />
-            ) : (
-              <ImageSlide src={s.src} eager={near && i <= 1} onFail={onFail} />
-            )}
-          </div>
-        ))}
+        {slides.map((s, i) => {
+          // Only the visible slide (and its right neighbour) gets to load eagerly.
+          const slidePreload: Preload = i === current ? preload : i === current + 1 && preload !== "none" ? "metadata" : "none";
+          return (
+            <div key={s.src + i} className="h-full w-full shrink-0 snap-center snap-always">
+              {s.kind === "video" ? (
+                <VideoSlide slide={s} active={active && i === current} preload={slidePreload} muted={muted} onFail={onFail} onProgress={onProgress} />
+              ) : (
+                <ImageSlide src={s.src} eager={preload !== "none" && i <= current + 1} onFail={onFail} />
+              )}
+            </div>
+          );
+        })}
       </div>
-      <div className="pointer-events-none absolute inset-x-0 top-32 flex justify-center gap-1.5">
-        {slides.map((s, i) => (
-          <span key={s.src + i} className={`h-1.5 rounded-full transition-all ${i === current ? "w-5 bg-white" : "w-1.5 bg-white/40"}`} />
-        ))}
+      <div className="pointer-events-none absolute inset-x-0 top-[calc(var(--chrome-top,0.75rem)+0.25rem)] flex justify-center gap-1.5">
+        {slides.length <= 12 &&
+          slides.map((s, i) => <span key={s.src + i} className={`h-1.5 rounded-full shadow transition-all ${i === current ? "w-5 bg-white" : "w-1.5 bg-white/45"}`} />)}
       </div>
-      <span className="pointer-events-none absolute right-3 top-[7.6rem] rounded-full bg-black/50 px-2 py-0.5 text-[11px] font-semibold tabular-nums text-white/90 backdrop-blur">
+      <span className="pointer-events-none absolute left-3 top-[var(--chrome-top,0.75rem)] rounded-full bg-black/50 px-2 py-0.5 text-[11px] font-semibold tabular-nums text-white/90 backdrop-blur">
         {current + 1}/{slides.length}
       </span>
       {current > 0 && (
@@ -263,13 +338,7 @@ function YouTubeSlide({ id, active, muted, onFail }: { id: string; active: boole
       <Backdrop src={poster} />
       <div className="absolute inset-0 bg-black/30" />
       <div className="relative aspect-video w-full overflow-hidden shadow-2xl shadow-black/60">
-        <img
-          src={poster}
-          alt=""
-          referrerPolicy="no-referrer"
-          onError={onFail}
-          className="absolute inset-0 h-full w-full object-cover"
-        />
+        <img src={poster} alt="" referrerPolicy="no-referrer" onError={onFail} className="absolute inset-0 h-full w-full object-cover" />
         {active && (
           <iframe
             ref={frame}
