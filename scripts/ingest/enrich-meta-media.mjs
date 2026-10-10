@@ -263,6 +263,12 @@ async function loadLibrary(ctx, url, { scrolls = 0, wantIds = null } = {}) {
     await dismissCookies(page);
     collectFromHtml(await page.content(), found);
     const html = await page.content();
+    if (process.env.ENRICH_DEBUG_DIR && found.size === 0) {
+      const tag = `${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
+      await mkdir(process.env.ENRICH_DEBUG_DIR, { recursive: true });
+      await writeFile(join(process.env.ENRICH_DEBUG_DIR, `${tag}.html`), `<!-- ${url} | ${page.url()} -->\n${html}`);
+      await page.screenshot({ path: join(process.env.ENRICH_DEBUG_DIR, `${tag}.png`) }).catch(() => {});
+    }
     if (/xfb_ad_library_is_captcha_required":true/.test(html)) throw new Error("captcha required");
     for (let i = 0; i < scrolls; i++) {
       if (wantIds && [...wantIds].every((id) => found.has(id))) break;
