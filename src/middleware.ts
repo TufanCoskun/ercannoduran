@@ -1,7 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
 import {
-  canAnalyze,
-  FORBIDDEN_ANALYZE_MESSAGE,
   getAuthConfig,
   isApiPath,
   MISCONFIGURED_MESSAGE,
@@ -75,13 +73,6 @@ export async function middleware(req: NextRequest) {
   }
 
   if (session) {
-    // Defense in depth; /api/analyze checks the role itself too.
-    if (pathname === "/api/analyze" && !canAnalyze(session)) {
-      return NextResponse.json(
-        { ok: false, code: "forbidden", error: FORBIDDEN_ANALYZE_MESSAGE },
-        { status: 403, headers: { "cache-control": "no-store" } },
-      );
-    }
     const res = NextResponse.next();
     // Keep the display-only role hint in sync (covers sessions issued before roles existed).
     if (req.cookies.get(ROLE_COOKIE)?.value !== session.r) {

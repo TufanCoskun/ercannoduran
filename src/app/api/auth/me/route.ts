@@ -1,11 +1,45 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { getRequestSession } from "@/lib/auth";
+import { DEFAULT_VIEWER_LIMIT, findAccount, getAuthConfig, getRequestSession } from "@/lib/auth";
+import { quotaStore, readQuota, type QuotaSummary } from "@/lib/quota";
 
+export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-/** GET /api/auth/me → { u, r } for the signed-in account (401 otherwise). Display use only. */
+const NO_STORE = { "cache-control": "no-store" };
+
+async function safeRead(user: string, limit: number): Promise<QuotaSummary | null> {
+  const store = quotaStore();
+  if (!store) return null;
+  try {
+    return await readQuota(store, user, limit);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * GET /api/auth/me — display info for the signed-in account (401 otherwise).
+ *  - viewer: { u, r: "viewer", quota: { used, limit } | null }
+ *  - admin:  { u, r: "admin", viewers: [{ u, used, limit }] }   (used is null if the store is unavailable)
+ */
 export async function GET(req: NextRequest) {
   const session = await getRequestSession(req);
-  if (!session) return NextResponse.json({ error: "Giriş gerekli" }, { status: 401, headers: { "cache-control": "no-store" } });
-  return NextResponse.json({ u: session.u, r: session.r }, { headers: { "cache-control": "no-store" } });
+  const cfg = getAuthConfig();
+  if (!session || !cfg) return NextResponse.json({ error: "Giriş gerekli" }, { status: 401, headers: NO_STORE });
+
+  if (session.r === "viewer") {
+    const limit = findAccount(session.u, cfg)?.limit ?? DEFAULT_VIEWER_LIMIT;
+    return NextResponse.json({ u: session.u, r: session.r, quota: await safeRead(session.u, limit) }, { headers: NO_STORE });
+  }
+
+  const viewers = await Promise.all(
+    cfg.accounts
+      .filter((a) => a.role === "viewer")
+      .map(async (a) => {
+        const limit = a.limit ?? DEFAULT_VIEWER_LIMIT;
+        const q = await safeRead(a.username, limit);
+        return { u: a.username, used: q ? q.used : null, limit };
+      }),
+  );
+  return NextResponse.json({ u: session.u, r: session.r, viewers }, { headers: NO_STORE });
 }

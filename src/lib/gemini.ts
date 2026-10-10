@@ -574,6 +574,29 @@ const CACHE_MAX = 200;
 
 const cacheKey = (adId: string, model: string, allowPoster?: boolean) => `${adId}|${model}|${allowPoster ? "poster" : "full"}`;
 
+/**
+ * Local test double: GEMINI_MOCK=1 (never on Vercel) returns a canned analysis without calling Gemini,
+ * through the real cache/in-flight logic. Ad ids listed in GEMINI_MOCK_FAIL (comma-separated) fail.
+ */
+function geminiMockEnabled(): boolean {
+  return !process.env.VERCEL && process.env.GEMINI_MOCK === "1";
+}
+
+async function mockAnalysis(ad: Ad, k: string, allowPoster?: boolean): Promise<AnalysisRecord> {
+  await new Promise((r) => setTimeout(r, 150));
+  const failIds = (process.env.GEMINI_MOCK_FAIL ?? "").split(",").map((s) => s.trim());
+  if (failIds.includes(ad.id)) throw new AnalyzeError("gemini_error", "Mock Gemini hatası.", 502);
+  const record: AnalysisRecord = {
+    model: "mock",
+    createdAt: new Date().toISOString(),
+    input: "text",
+    data: normalizeAnalysis({ hook: { text: `MOCK hook ${ad.id}`, timestamp: "00:00", whyItWorks: "mock" }, whyItWins: "mock" }),
+  };
+  cache.set(k, record);
+  cache.set(cacheKey(ad.id, "mock", allowPoster), record);
+  return record;
+}
+
 export interface AnalyzeOptions {
   force?: boolean;
   allowPoster?: boolean;
@@ -601,6 +624,7 @@ export async function analyzeAd(ad: Ad, opts: AnalyzeOptions = {}): Promise<{ re
     const timer = setTimeout(() => ctrl.abort(new Error("deadline")), DEADLINE_MS);
     let cleanup: (() => Promise<void>) | undefined;
     try {
+      if (geminiMockEnabled()) return mockAnalysis(ad, k, opts.allowPoster);
       const media = await prepareMedia(ad, key, opts, ctrl.signal);
       cleanup = media.cleanup;
       const parts: Part[] = [...media.parts, { text: buildPrompt(ad, media.input) }];

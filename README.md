@@ -49,14 +49,16 @@ Repoya her yeni commit geldiğinde Vercel siteyi kendiliğinden yeniden kurar. R
 
 ## Giriş
 
-Site bir yönetici hesabıyla (isteğe bağlı bir izleyici hesabıyla da) kilitlidir: giriş yapmayan herkes `/login` sayfasına yönlenir. Kullanıcı adı ve şifre koda yazılmaz, sadece ortam değişkenlerinden okunur:
+Site bir yönetici hesabıyla (isteğe bağlı izleyici hesaplarıyla da) kilitlidir: giriş yapmayan herkes `/login` sayfasına yönlenir. Kullanıcı adı ve şifre koda yazılmaz, sadece ortam değişkenlerinden okunur:
 
 | Değişken | Ne işe yarar |
 |---|---|
 | `ADMIN_USERNAME` | Giriş kullanıcı adı. |
-| `ADMIN_PASSWORD` | Giriş şifresi. |
+| `ADMIN_PASSWORD` | Giriş şifresi. Yönetici her şeyi sınırsız kullanır. |
 | `AUTH_SECRET` | Oturum çerezini imzalayan gizli anahtar (en az 16 karakter). `openssl rand -hex 32` ile üret. Değiştirirsen herkesin oturumu kapanır. |
-| `VIEWER_USERNAME`, `VIEWER_PASSWORD` | İsteğe bağlı ikinci hesap ("izleyici"). Her şeyi kullanır ama Gemini özetleme (✨ Özetle) yapamaz; mevcut özetleri ve notları görür. Verilmezse sadece yönetici hesabı vardır. |
+| `VIEWER_ACCOUNTS` | İsteğe bağlı izleyici hesapları, JSON dizisi: her öğe `u` (kullanıcı adı), `p` (şifre) ve `limit` (toplam Gemini özet hakkı, varsayılan 10) alanlarını taşır. İzleyiciler her şeyi kullanır; ✨ Özetle sadece kendi hakkı kadar çalışır. |
+| `VIEWER_USERNAME`, `VIEWER_PASSWORD`, `VIEWER_GEMINI_LIMIT` | Eski tek izleyici biçimi. **Sadece `VIEWER_ACCOUNTS` yoksa** okunur; `VIEWER_ACCOUNTS` varsa yok sayılır. |
+| `BLOB_READ_WRITE_TOKEN` | İzleyici kotalarının tutulduğu Vercel Blob deposu (Vercel'de Storage → Blob → projeye bağla ile kendiliğinden eklenir). Kotalar kullanıcı başına sunucuda saklanır; çıkış yapmak, çerez silmek ya da cihaz değiştirmek sıfırlamaz. Depo yoksa izleyiciler özetleyemez (`503`), yönetici etkilenmez. |
 
 Vercel'de bunları **Production** ve **Preview** için ekle (tip: *Sensitive*), sonra yeniden deploy et. Biri eksikse site açık kalmaz, `503` sayfası gösterir.
 Yerelde `.env.local` dosyasına yazabilirsin (git'e girmez). "Beni hatırla" işaretliyse oturum 30 gün sürer, değilse tarayıcı kapanınca biter. Çıkış için **Kaydedilenler** sayfasının altındaki **Çıkış yap** düğmesini kullan.

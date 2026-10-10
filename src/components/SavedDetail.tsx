@@ -5,7 +5,7 @@ import { useRef, useState, type RefObject } from "react";
 import type { Ad } from "@/lib/types";
 import { addNote, moveAd, type Collection, type SavedItem } from "@/lib/saved";
 import { startAnalysis, useAnalysisJob } from "@/lib/analyze-client";
-import { useCanAnalyze } from "@/lib/role-client";
+import { useCanAnalyze, useRole, useViewerQuota } from "@/lib/role-client";
 import { adPath, daysLabel, libraryLabel, platformLabel, previewImage, scoreText } from "@/lib/format";
 import { SEGMENT_LABEL } from "@/lib/filters";
 import { adYouTubeId, isYouTubeUrl } from "@/lib/youtube";
@@ -22,6 +22,9 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
   const notesRef = useRef<HTMLDivElement>(null);
   const job = useAnalysisJob(ad.id);
   const canAnalyze = useCanAnalyze();
+  const role = useRole();
+  const quota = useViewerQuota();
+  const remaining = role === "viewer" && quota ? Math.max(0, quota.limit - quota.used) : null;
   const [confirmRerun, setConfirmRerun] = useState(false);
   const [bodyOpen, setBodyOpen] = useState(false);
 
@@ -89,7 +92,7 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
           {canAnalyze && item.analysis && job.status !== "running" && (
             confirmRerun ? (
               <span className="flex items-center gap-1.5 text-[11.5px] text-zinc-400">
-                Yeni bir ücretli çağrı yapılır.
+                {remaining !== null ? `Yeni bir ücretli çağrı yapılır; 1 hakkın gider (${remaining} hakkın kaldı).` : "Yeni bir ücretli çağrı yapılır."}
                 <button
                   type="button"
                   onClick={() => {
@@ -104,6 +107,8 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
                   <XIcon size={12} />
                 </button>
               </span>
+            ) : remaining === 0 ? (
+              <span className="text-xs font-semibold text-zinc-500">Hakkın doldu</span>
             ) : (
               <button type="button" onClick={() => setConfirmRerun(true)} className="rounded-full bg-white/[0.07] px-3 py-1.5 text-xs font-semibold text-zinc-200 hover:bg-white/[0.12]">
                 ↻ Yeniden özetle
@@ -124,9 +129,7 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
           </>
         ) : (
           <div className="rounded-3xl border border-dashed border-line p-4">
-            {!canAnalyze ? (
-              <p className="text-[13px] leading-relaxed text-zinc-500">Bu hesapta Gemini özetleme kapalı.</p>
-            ) : job.status !== "running" && (
+            {job.status !== "running" && (
               <p className="mb-3 text-[13px] leading-relaxed text-zinc-400">
                 Gemini reklamı sahne sahne çözer: hook, transkript, yapı, neden kazandığı ve sana özel 3 remix fikri. Sadece bastığında çalışır (ücretli çağrı).
               </p>

@@ -2,7 +2,8 @@ import { after, NextResponse, type NextRequest } from "next/server";
 import { getAdById } from "@/lib/ads";
 import { analyzeAd, AnalyzeError, configuredModel, geminiKey, MISSING_KEY_MESSAGE, redact } from "@/lib/gemini";
 import type { AnalyzeResponse } from "@/lib/analysis";
-import { canAnalyze, FORBIDDEN_ANALYZE_MESSAGE, getRequestSession } from "@/lib/auth";
+import { canAnalyze, DEFAULT_VIEWER_LIMIT, findAccount, getAuthConfig, getRequestSession } from "@/lib/auth";
+import { consumeQuota, quotaExceededMessage, quotaStore, QUOTA_STORE_MISSING_MESSAGE, readQuota, type QuotaStore } from "@/lib/quota";
 
 // Gemini watches the whole video: download + upload + generation can take 20–60 s.
 export const runtime = "nodejs";
@@ -18,13 +19,31 @@ function fail(status: number, body: Extract<AnalyzeResponse, { ok: false }>) {
 /**
  * POST /api/analyze { adId, force?, allowPoster? } → AnalyzeResponse.
  * The ad (and therefore every media URL we fetch) is looked up server-side by id, so clients
- * can't make us fetch arbitrary URLs. Auth: src/middleware.ts gates all /api/*; the admin-only role check is below.
+ * can't make us fetch arbitrary URLs. Auth: src/middleware.ts gates all /api/*. Admin is unlimited;
+ * viewers have a persistent per-user quota (src/lib/quota.ts), charged only for successful, non-cached runs.
  */
 export async function POST(req: NextRequest) {
-  // Role check (middleware also blocks viewers): only the admin account may run paid Gemini calls.
   const session = await getRequestSession(req);
   if (!session) return NextResponse.json({ error: "Giriş gerekli" }, { status: 401, headers: NO_STORE });
-  if (!canAnalyze(session)) return fail(403, { ok: false, code: "forbidden", error: FORBIDDEN_ANALYZE_MESSAGE });
+  if (!canAnalyze(session)) return fail(403, { ok: false, code: "forbidden", error: "Bu hesapta Gemini özetleme yetkisi yok." });
+
+  // Viewer quota: checked before any paid work; fail closed if the quota store isn't configured.
+  let quota: { store: QuotaStore; user: string; limit: number } | null = null;
+  if (session.r === "viewer") {
+    const store = quotaStore();
+    if (!store) return fail(503, { ok: false, code: "quota_store", error: QUOTA_STORE_MISSING_MESSAGE });
+    const cfg = getAuthConfig();
+    const limit = (cfg && findAccount(session.u, cfg)?.limit) ?? DEFAULT_VIEWER_LIMIT;
+    let q;
+    try {
+      q = await readQuota(store, session.u, limit);
+    } catch (e) {
+      console.error(`[analyze] quota read failed for ${session.u}:`, e instanceof Error ? e.message : e);
+      return fail(503, { ok: false, code: "quota_store", error: "Kota deposu okunamadı; biraz sonra tekrar dene." });
+    }
+    if (q.used >= q.limit) return fail(429, { ok: false, code: "quota", error: quotaExceededMessage(q), quota: q });
+    quota = { store, user: session.u, limit };
+  }
 
   if (!geminiKey()) return fail(503, { ok: false, code: "no_key", error: MISSING_KEY_MESSAGE });
 
@@ -50,7 +69,16 @@ export async function POST(req: NextRequest) {
       origin: req.nextUrl.origin,
       defer: (fn) => after(fn),
     });
-    const res: AnalyzeResponse = { ok: true, analysis: record, cached };
+    let used: { used: number; limit: number } | undefined;
+    if (quota) {
+      try {
+        used = cached ? await readQuota(quota.store, quota.user, quota.limit) : await consumeQuota(quota.store, quota.user, quota.limit, ad.id);
+      } catch (e) {
+        // The (paid) analysis already succeeded; return it, but make the failure visible in logs.
+        console.error(`[analyze] quota write failed for ${quota.user} (${ad.id}):`, e instanceof Error ? e.message : e);
+      }
+    }
+    const res: AnalyzeResponse = { ok: true, analysis: record, cached, ...(used ? { quota: used } : {}) };
     return NextResponse.json(res, { headers: NO_STORE });
   } catch (e) {
     if (e instanceof AnalyzeError) {
