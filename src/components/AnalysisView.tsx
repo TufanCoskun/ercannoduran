@@ -45,7 +45,6 @@ export function AnalysisView({
     <div className="space-y-4">
       <p className={`flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] ${estimated ? "text-ember" : "text-zinc-500"}`}>
         <span className="font-semibold">{estimated ? "⚠ " : ""}{INPUT_LABEL[record.input]}</span>
-        <span className="text-zinc-600">·</span>
         <span className="text-zinc-500">
           {record.model} · {fmtDate(record.createdAt)}
           {record.usage?.totalTokens ? ` · ${record.usage.totalTokens.toLocaleString("tr-TR")} token` : ""}

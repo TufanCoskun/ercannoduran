@@ -100,8 +100,12 @@ function useFit() {
     ro.observe(el);
     return () => ro.disconnect();
   }, []);
-  const setSize = useCallback((w: number, h: number) => {
-    if (w > 0 && h > 0) setMedia(w / h);
+  const strong = useRef(false);
+  /** `weak` sizes (a video's poster) never override the real media's own dimensions. */
+  const setSize = useCallback((w: number, h: number, weak = false) => {
+    if (!(w > 0 && h > 0) || (weak && strong.current)) return;
+    if (!weak) strong.current = true;
+    setMedia(w / h);
   }, []);
   const r = box && media ? media / box : 0;
   const cover = r > 0 && r <= COVER_TOLERANCE && r >= 1 / COVER_TOLERANCE;
@@ -127,6 +131,16 @@ function Backdrop({ src }: { src?: string }) {
 function ImageSlide({ src, eager, onFail }: { src: string; eager: boolean; onFail: (src: string) => void }) {
   const [loaded, setLoaded] = useState(false);
   const fit = useFit();
+  const img = useRef<HTMLImageElement>(null);
+  const { setSize } = fit;
+  // SSR'd pages (/ad/[id]): the image may finish loading before hydration attaches onLoad.
+  useEffect(() => {
+    const el = img.current;
+    if (el?.complete && el.naturalWidth) {
+      setSize(el.naturalWidth, el.naturalHeight);
+      setLoaded(true);
+    }
+  }, [setSize]);
   return (
     <div ref={fit.ref} className="relative h-full w-full overflow-hidden bg-ink-3" data-fit={fit.known ? (fit.cover ? "cover" : "contain") : undefined}>
       {!loaded && <div className="absolute inset-0 animate-pulse bg-gradient-to-b from-white/[0.04] to-transparent" />}
@@ -137,6 +151,7 @@ function ImageSlide({ src, eager, onFail }: { src: string; eager: boolean; onFai
         </>
       )}
       <img
+        ref={img}
         src={src}
         alt=""
         draggable={false}
@@ -170,7 +185,16 @@ function VideoSlide({
 }) {
   const ref = useRef<HTMLVideoElement>(null);
   const frame = useRef<HTMLCanvasElement>(null);
+  const posterRef = useRef<HTMLImageElement>(null);
   const fit = useFit();
+  const { setSize } = fit;
+  // SSR'd pages (/ad/[id]): metadata / poster may be ready before hydration attaches the handlers.
+  useEffect(() => {
+    const v = ref.current;
+    const p = posterRef.current;
+    if (v && v.readyState >= 1 && v.videoWidth) setSize(v.videoWidth, v.videoHeight);
+    else if (p?.complete && p.naturalWidth) setSize(p.naturalWidth, p.naturalHeight, true);
+  }, [setSize]);
   const [playing, setPlaying] = useState(false);
   const [userPaused, setUserPaused] = useState(false);
   // Autoplay with sound can be refused without a fresh gesture (iOS); then we play muted locally.
@@ -259,11 +283,12 @@ function VideoSlide({
       {/* poster as a real <img>: no black/broken frame while the video loads or if it fails */}
       {slide.poster && !playing && (
         <img
+          ref={posterRef}
           src={slide.poster}
           alt=""
           aria-hidden="true"
           referrerPolicy="no-referrer"
-          onLoad={(e) => !fit.known && fit.setSize(e.currentTarget.naturalWidth, e.currentTarget.naturalHeight)}
+          onLoad={(e) => fit.setSize(e.currentTarget.naturalWidth, e.currentTarget.naturalHeight, true)}
           className={`absolute inset-0 h-full w-full ${fit.cover ? "object-cover" : "object-contain"}`}
         />
       )}

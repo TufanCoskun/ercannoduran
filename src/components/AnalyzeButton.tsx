@@ -69,7 +69,7 @@ export function AnalyzeButton({
   }
 
   return (
-    <div className={className}>
+    <div className={`${className} ${job.status === "error" && variant === "pill" ? "w-full" : ""}`}>
       <button
         type="button"
         onClick={() => void startAnalysis(adId, { ad: item ? undefined : ad })}

@@ -151,7 +151,7 @@ export function DaysPill({ ad }: { ad: Ad }) {
         className="inline-flex shrink-0 items-center gap-0.5 rounded-full bg-black/45 px-1.5 py-[3px] text-[11px] font-bold leading-none text-orange-200 ring-1 ring-white/10 backdrop-blur-sm"
         data-days=""
       >
-        <FlameIcon size={11} filled className="text-orange-400" /> {ad.activeDays} gün
+        <FlameIcon size={11} filled className="text-orange-400" /> {ad.activeDays === 0 ? "Bugün" : `${ad.activeDays} gün`}
       </span>
     );
   }

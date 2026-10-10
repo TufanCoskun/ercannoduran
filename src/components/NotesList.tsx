@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { addNote, deleteNote, restoreNote, updateNote, type Note } from "@/lib/saved";
 import { CheckIcon, PencilIcon, TrashIcon } from "./Icons";
 
@@ -16,6 +16,12 @@ export function NotesList({ adId, notes }: { adId: string; notes: Note[] }) {
   const [editing, setEditing] = useState<string | null>(null);
   const [editText, setEditText] = useState("");
   const [undo, setUndo] = useState<{ note: Note; index: number } | null>(null);
+
+  useEffect(() => {
+    if (!undo) return;
+    const t = window.setTimeout(() => setUndo(null), 6000);
+    return () => window.clearTimeout(t);
+  }, [undo]);
 
   const submit = () => {
     if (addNote(adId, draft)) setDraft("");

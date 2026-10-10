@@ -102,9 +102,12 @@ export function SavedView() {
         <button
           type="button"
           onClick={() => setBackupOpen(true)}
+          aria-label="Yedekle / Geri yükle"
+          title="Yedekle / Geri yükle"
           className="shrink-0 rounded-full bg-white/[0.06] px-3.5 py-2 text-[13px] font-semibold text-zinc-200 ring-1 ring-white/10 hover:bg-white/[0.1]"
         >
-          Yedekle / Geri yükle
+          <span className="sm:hidden">Yedek</span>
+          <span className="hidden sm:inline">Yedekle / Geri yükle</span>
         </button>
       </header>
 
@@ -281,7 +284,7 @@ function SavedCard({ item, showHook, onOpen, onRemove }: { item: SavedItem; show
   const lastNote = notes[notes.length - 1];
 
   return (
-    <li className="flex flex-col overflow-hidden rounded-3xl border border-line bg-ink-2">
+    <li data-saved-card={ad.id} className="flex flex-col overflow-hidden rounded-3xl border border-line bg-ink-2">
       <div className="flex gap-3 p-3">
         <button type="button" onClick={onOpen} aria-label={`${ad.brand.name} detayını aç`} className="w-24 shrink-0 overflow-hidden rounded-2xl text-left sm:w-28">
           <AdThumb ad={ad} />

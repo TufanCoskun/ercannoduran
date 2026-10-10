@@ -16,11 +16,10 @@ import {
   type TinderSession,
 } from "@/lib/tinder";
 import { AdInfoSheet } from "../AdInfoSheet";
-import { AdThumb } from "../AdThumb";
 import { ChevronDownIcon, ShareIcon, TrashIcon, TrophyIcon } from "../Icons";
 import { Sheet } from "../Sheet";
 import { useUI } from "../UIProvider";
-import { AdTile, CardsIcon, HeartIcon } from "./bits";
+import { AdTile, CardsIcon, HeartIcon, TileThumb } from "./bits";
 import { shareList } from "./Round1Summary";
 
 /**
@@ -138,7 +137,7 @@ function SessionRow({
       <button type="button" onClick={onToggle} aria-expanded={open} className="flex w-full items-center gap-3 p-3 text-left transition hover:bg-white/[0.03]">
         <span className="relative w-12 shrink-0 overflow-hidden rounded-xl ring-1 ring-white/10">
           {winner ? (
-            <AdThumb ad={winner} />
+            <TileThumb ad={winner} />
           ) : (
             <span className="grid aspect-[4/5] place-items-center bg-gradient-to-br from-rose-500/30 to-orange-400/20 text-rose-300">
               <HeartIcon size={18} filled />
