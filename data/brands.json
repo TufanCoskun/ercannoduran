@@ -1,0 +1,1667 @@
+[
+  {
+    "name": "Chakra",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "home textile",
+    "searchTerms": [
+      "Chakra"
+    ],
+    "tiktokHandle": "chakra",
+    "website": "https://www.chakra.com.tr"
+  },
+  {
+    "name": "Mavi",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "metaPageId": "72193804754",
+    "searchTerms": [
+      "Mavi"
+    ],
+    "tiktokHandle": "mavi",
+    "website": "https://www.mavi.com"
+  },
+  {
+    "name": "Koton",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "metaPageId": "33709448234",
+    "searchTerms": [
+      "Koton"
+    ],
+    "website": "https://www.koton.com"
+  },
+  {
+    "name": "Penti",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "lingerie",
+    "metaPageId": "66031048413",
+    "searchTerms": [
+      "Penti"
+    ],
+    "website": "https://www.penti.com"
+  },
+  {
+    "name": "Suwen",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "lingerie",
+    "searchTerms": [
+      "Suwen"
+    ],
+    "tiktokHandle": "suwen",
+    "website": "https://www.suwen.com.tr"
+  },
+  {
+    "name": "Flormar",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "cosmetics",
+    "searchTerms": [
+      "Flormar"
+    ],
+    "website": "https://www.flormar.com.tr"
+  },
+  {
+    "name": "Golden Rose",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "cosmetics",
+    "searchTerms": [
+      "Golden Rose"
+    ]
+  },
+  {
+    "name": "Farmasi",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "cosmetics",
+    "searchTerms": [
+      "Farmasi"
+    ],
+    "tiktokHandle": "farmasi"
+  },
+  {
+    "name": "Madame Coco",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "home",
+    "searchTerms": [
+      "Madame Coco"
+    ]
+  },
+  {
+    "name": "English Home",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "home",
+    "searchTerms": [
+      "English Home"
+    ],
+    "tiktokHandle": "englishhome",
+    "website": "https://www.englishhome.com"
+  },
+  {
+    "name": "Karaca",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "kitchenware",
+    "searchTerms": [
+      "Karaca"
+    ],
+    "tiktokHandle": "karaca",
+    "website": "https://www.karaca.com"
+  },
+  {
+    "name": "Beymen",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "luxury fashion",
+    "searchTerms": [
+      "Beymen"
+    ],
+    "tiktokHandle": "beymen",
+    "website": "https://www.beymen.com"
+  },
+  {
+    "name": "Ipekyol",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Ipekyol",
+      "İpekyol"
+    ]
+  },
+  {
+    "name": "Procsin",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "skincare",
+    "searchTerms": [
+      "Procsin"
+    ],
+    "tiktokHandle": "procsin"
+  },
+  {
+    "name": "The Purest Solutions",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "skincare",
+    "searchTerms": [
+      "The Purest Solutions"
+    ],
+    "tiktokHandle": "thepurestsolutions"
+  },
+  {
+    "name": "Vivense",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "furniture",
+    "searchTerms": [
+      "Vivense"
+    ],
+    "website": "https://www.vivense.com"
+  },
+  {
+    "name": "LC Waikiki",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "searchTerms": [
+      "LC Waikiki"
+    ],
+    "tiktokHandle": "lcwaikiki",
+    "website": "https://www.lcwaikiki.com"
+  },
+  {
+    "name": "DeFacto",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "searchTerms": [
+      "DeFacto"
+    ],
+    "tiktokHandle": "defacto",
+    "website": "https://www.defacto.com.tr"
+  },
+  {
+    "name": "Twist",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Twist"
+    ],
+    "tiktokHandle": "twist"
+  },
+  {
+    "name": "Machka",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Machka"
+    ]
+  },
+  {
+    "name": "Vakko",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "luxury fashion",
+    "searchTerms": [
+      "Vakko"
+    ],
+    "website": "https://www.vakko.com"
+  },
+  {
+    "name": "Derimod",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "leather goods",
+    "searchTerms": [
+      "Derimod"
+    ],
+    "tiktokHandle": "derimod"
+  },
+  {
+    "name": "Kiğılı",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "menswear",
+    "searchTerms": [
+      "Kiğılı",
+      "Kigili"
+    ]
+  },
+  {
+    "name": "Avva",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "menswear",
+    "searchTerms": [
+      "Avva"
+    ]
+  },
+  {
+    "name": "Lufian",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "menswear",
+    "searchTerms": [
+      "Lufian"
+    ]
+  },
+  {
+    "name": "Yargıcı",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Yargıcı",
+      "Yargici"
+    ]
+  },
+  {
+    "name": "Network",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Network"
+    ]
+  },
+  {
+    "name": "Paşabahçe",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "home",
+    "searchTerms": [
+      "Paşabahçe",
+      "Pasabahce"
+    ]
+  },
+  {
+    "name": "Bioxcin",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "haircare",
+    "searchTerms": [
+      "Bioxcin"
+    ]
+  },
+  {
+    "name": "Cosmed",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "skincare",
+    "searchTerms": [
+      "Cosmed"
+    ]
+  },
+  {
+    "name": "Siveno",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "natural cosmetics",
+    "searchTerms": [
+      "Siveno"
+    ]
+  },
+  {
+    "name": "Hotiç",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "footwear",
+    "searchTerms": [
+      "Hotiç",
+      "Hotic"
+    ]
+  },
+  {
+    "name": "Desa",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "leather goods",
+    "searchTerms": [
+      "Desa"
+    ]
+  },
+  {
+    "name": "Gratis",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "beauty retail",
+    "searchTerms": [
+      "Gratis"
+    ]
+  },
+  {
+    "name": "Dagi",
+    "segment": "dtc",
+    "market": "TR",
+    "vertical": "underwear",
+    "searchTerms": [
+      "Dagi"
+    ]
+  },
+  {
+    "name": "Rixos Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Rixos"
+    ],
+    "tiktokHandle": "rixoshotels"
+  },
+  {
+    "name": "Titanic Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Titanic Hotels",
+      "Titanic Deluxe"
+    ],
+    "tiktokHandle": "titanichotels"
+  },
+  {
+    "name": "Maxx Royal",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "luxury resort",
+    "searchTerms": [
+      "Maxx Royal"
+    ],
+    "tiktokHandle": "maxxroyal"
+  },
+  {
+    "name": "Voyage Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Voyage Belek",
+      "Voyage Sorgun",
+      "Voyage Hotels"
+    ]
+  },
+  {
+    "name": "Kaya Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Kaya Palazzo",
+      "Kaya Hotels"
+    ]
+  },
+  {
+    "name": "Liberty Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Liberty Hotels",
+      "Liberty Lykia"
+    ]
+  },
+  {
+    "name": "Barut Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Barut Hotels",
+      "Lara Barut"
+    ]
+  },
+  {
+    "name": "Regnum Carya",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "golf resort",
+    "searchTerms": [
+      "Regnum Carya"
+    ]
+  },
+  {
+    "name": "Gloria Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "golf resort",
+    "searchTerms": [
+      "Gloria Hotels",
+      "Gloria Serenity"
+    ]
+  },
+  {
+    "name": "Calista Luxury Resort",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "luxury resort",
+    "searchTerms": [
+      "Calista Luxury Resort"
+    ]
+  },
+  {
+    "name": "Susesi Luxury Resort",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "luxury resort",
+    "searchTerms": [
+      "Susesi"
+    ]
+  },
+  {
+    "name": "Delphin Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Delphin Hotels",
+      "Delphin Imperial"
+    ]
+  },
+  {
+    "name": "Papillon Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Papillon Hotels"
+    ]
+  },
+  {
+    "name": "Granada Luxury",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Granada Luxury"
+    ]
+  },
+  {
+    "name": "D-Maris Bay",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "luxury resort",
+    "searchTerms": [
+      "D Maris Bay",
+      "D-Maris"
+    ]
+  },
+  {
+    "name": "Six Senses Kaplankaya",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "luxury resort",
+    "searchTerms": [
+      "Six Senses Kaplankaya"
+    ]
+  },
+  {
+    "name": "Lujo Bodrum",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "luxury resort",
+    "searchTerms": [
+      "Lujo Bodrum"
+    ]
+  },
+  {
+    "name": "Paloma Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Paloma Hotels"
+    ]
+  },
+  {
+    "name": "Cullinan Belek",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Cullinan Belek"
+    ]
+  },
+  {
+    "name": "Sueno Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Sueno Hotels"
+    ]
+  },
+  {
+    "name": "Akra Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "city/resort hotel",
+    "searchTerms": [
+      "Akra Hotels",
+      "Akra Hotel"
+    ]
+  },
+  {
+    "name": "The Marmara Hotels",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "city hotel",
+    "searchTerms": [
+      "The Marmara"
+    ]
+  },
+  {
+    "name": "Ela Excellence Resort",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "resort",
+    "searchTerms": [
+      "Ela Excellence",
+      "Ela Quality"
+    ]
+  },
+  {
+    "name": "Etstur",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "travel agency",
+    "metaPageId": "110550738962380",
+    "searchTerms": [
+      "Etstur"
+    ],
+    "tiktokHandle": "etstur",
+    "website": "https://www.etstur.com"
+  },
+  {
+    "name": "Jolly",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "travel agency",
+    "searchTerms": [
+      "Jolly Tur",
+      "Jolly"
+    ]
+  },
+  {
+    "name": "Tatilbudur",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "travel agency",
+    "searchTerms": [
+      "Tatilbudur"
+    ],
+    "tiktokHandle": "tatilbudur",
+    "website": "https://www.tatilbudur.com"
+  },
+  {
+    "name": "Setur",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "travel agency",
+    "searchTerms": [
+      "Setur"
+    ],
+    "tiktokHandle": "setur"
+  },
+  {
+    "name": "Tatilsepeti",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "travel agency",
+    "searchTerms": [
+      "Tatilsepeti"
+    ]
+  },
+  {
+    "name": "Enuygun",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "travel metasearch",
+    "searchTerms": [
+      "Enuygun"
+    ]
+  },
+  {
+    "name": "Pegasus Airlines",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "airline",
+    "searchTerms": [
+      "Pegasus Airlines"
+    ],
+    "tiktokHandle": "pegasusairlines",
+    "website": "https://www.flypgs.com"
+  },
+  {
+    "name": "Turkish Airlines",
+    "segment": "hotel",
+    "market": "TR",
+    "vertical": "airline",
+    "searchTerms": [
+      "Turkish Airlines"
+    ],
+    "tiktokHandle": "turkishairlines",
+    "website": "https://www.turkishairlines.com"
+  },
+  {
+    "name": "Turkcell",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "telecom",
+    "searchTerms": [
+      "Turkcell"
+    ],
+    "tiktokHandle": "turkcell",
+    "website": "https://www.turkcell.com.tr"
+  },
+  {
+    "name": "Türk Telekom",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "telecom",
+    "searchTerms": [
+      "Türk Telekom"
+    ],
+    "tiktokHandle": "turktelekom",
+    "website": "https://www.turktelekom.com.tr"
+  },
+  {
+    "name": "Vodafone Türkiye",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "telecom",
+    "searchTerms": [
+      "Vodafone"
+    ]
+  },
+  {
+    "name": "Getir",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "quick commerce",
+    "searchTerms": [
+      "Getir"
+    ],
+    "tiktokHandle": "getir",
+    "website": "https://getir.com"
+  },
+  {
+    "name": "Trendyol",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "marketplace",
+    "searchTerms": [
+      "Trendyol"
+    ],
+    "tiktokHandle": "trendyol",
+    "website": "https://www.trendyol.com"
+  },
+  {
+    "name": "Hepsiburada",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "marketplace",
+    "searchTerms": [
+      "Hepsiburada"
+    ],
+    "tiktokHandle": "hepsiburada",
+    "website": "https://www.hepsiburada.com"
+  },
+  {
+    "name": "Yemeksepeti",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "food delivery",
+    "searchTerms": [
+      "Yemeksepeti"
+    ],
+    "tiktokHandle": "yemeksepeti",
+    "website": "https://www.yemeksepeti.com"
+  },
+  {
+    "name": "Migros",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "grocery",
+    "searchTerms": [
+      "Migros"
+    ]
+  },
+  {
+    "name": "Garanti BBVA",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "banking",
+    "searchTerms": [
+      "Garanti BBVA"
+    ],
+    "tiktokHandle": "garantibbva"
+  },
+  {
+    "name": "Akbank",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "banking",
+    "searchTerms": [
+      "Akbank"
+    ],
+    "tiktokHandle": "akbank"
+  },
+  {
+    "name": "Papara",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "fintech",
+    "searchTerms": [
+      "Papara"
+    ],
+    "tiktokHandle": "papara"
+  },
+  {
+    "name": "Arçelik",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "home appliances",
+    "searchTerms": [
+      "Arçelik"
+    ],
+    "tiktokHandle": "arcelik"
+  },
+  {
+    "name": "Ülker",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "food",
+    "searchTerms": [
+      "Ülker"
+    ],
+    "tiktokHandle": "ulker"
+  },
+  {
+    "name": "Sahibinden",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "classifieds",
+    "searchTerms": [
+      "sahibinden.com"
+    ]
+  },
+  {
+    "name": "A101",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "grocery",
+    "searchTerms": [
+      "A101"
+    ]
+  },
+  {
+    "name": "Pınar",
+    "segment": "general",
+    "market": "TR",
+    "vertical": "food",
+    "searchTerms": [
+      "Pınar",
+      "Pinar"
+    ]
+  },
+  {
+    "name": "AG1",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "supplements",
+    "searchTerms": [
+      "AG1"
+    ],
+    "tiktokHandle": "drinkag1",
+    "website": "https://drinkag1.com"
+  },
+  {
+    "name": "Ridge",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "accessories",
+    "searchTerms": [
+      "Ridge"
+    ],
+    "tiktokHandle": "ridge",
+    "website": "https://ridge.com"
+  },
+  {
+    "name": "Manscaped",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "grooming",
+    "searchTerms": [
+      "Manscaped"
+    ],
+    "tiktokHandle": "manscaped",
+    "website": "https://www.manscaped.com"
+  },
+  {
+    "name": "Liquid Death",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "beverage",
+    "searchTerms": [
+      "Liquid Death"
+    ],
+    "tiktokHandle": "liquiddeath",
+    "website": "https://liquiddeath.com"
+  },
+  {
+    "name": "Oura",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "wearables",
+    "searchTerms": [
+      "Oura"
+    ],
+    "tiktokHandle": "ouraring",
+    "website": "https://ouraring.com"
+  },
+  {
+    "name": "Hims",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "telehealth",
+    "searchTerms": [
+      "Hims"
+    ],
+    "tiktokHandle": "hims",
+    "website": "https://www.hims.com"
+  },
+  {
+    "name": "Hers",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "telehealth",
+    "searchTerms": [
+      "Hers"
+    ],
+    "tiktokHandle": "forhers",
+    "website": "https://www.forhers.com"
+  },
+  {
+    "name": "Skims",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Skims"
+    ],
+    "tiktokHandle": "skims",
+    "website": "https://skims.com"
+  },
+  {
+    "name": "Gymshark",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "activewear",
+    "searchTerms": [
+      "Gymshark"
+    ],
+    "tiktokHandle": "gymshark",
+    "website": "https://www.gymshark.com"
+  },
+  {
+    "name": "Vuori",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "activewear",
+    "searchTerms": [
+      "Vuori"
+    ],
+    "tiktokHandle": "vuoriclothing",
+    "website": "https://vuoriclothing.com"
+  },
+  {
+    "name": "Bombas",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Bombas"
+    ],
+    "tiktokHandle": "bombas",
+    "website": "https://bombas.com"
+  },
+  {
+    "name": "Brooklinen",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "home textile",
+    "searchTerms": [
+      "Brooklinen"
+    ],
+    "tiktokHandle": "brooklinen",
+    "website": "https://www.brooklinen.com"
+  },
+  {
+    "name": "Our Place",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "kitchenware",
+    "searchTerms": [
+      "Our Place"
+    ],
+    "tiktokHandle": "ourplace",
+    "website": "https://fromourplace.com"
+  },
+  {
+    "name": "Olipop",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "beverage",
+    "searchTerms": [
+      "Olipop"
+    ],
+    "tiktokHandle": "drinkolipop",
+    "website": "https://drinkolipop.com"
+  },
+  {
+    "name": "Poppi",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "beverage",
+    "searchTerms": [
+      "Poppi"
+    ],
+    "tiktokHandle": "drinkpoppi",
+    "website": "https://drinkpoppi.com"
+  },
+  {
+    "name": "Liquid I.V.",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "supplements",
+    "searchTerms": [
+      "Liquid I.V."
+    ],
+    "tiktokHandle": "liquidiv",
+    "website": "https://www.liquid-iv.com"
+  },
+  {
+    "name": "Huel",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "nutrition",
+    "searchTerms": [
+      "Huel"
+    ],
+    "tiktokHandle": "huel",
+    "website": "https://huel.com"
+  },
+  {
+    "name": "Seed",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "supplements",
+    "searchTerms": [
+      "Seed"
+    ],
+    "tiktokHandle": "seed",
+    "website": "https://seed.com"
+  },
+  {
+    "name": "Dr. Squatch",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "grooming",
+    "searchTerms": [
+      "Dr. Squatch"
+    ],
+    "tiktokHandle": "drsquatch",
+    "website": "https://www.drsquatch.com"
+  },
+  {
+    "name": "True Classic",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "apparel",
+    "searchTerms": [
+      "True Classic"
+    ],
+    "tiktokHandle": "trueclassic",
+    "website": "https://www.trueclassictees.com"
+  },
+  {
+    "name": "Jones Road",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "cosmetics",
+    "searchTerms": [
+      "Jones Road"
+    ],
+    "tiktokHandle": "jonesroadbeauty",
+    "website": "https://www.jonesroadbeauty.com"
+  },
+  {
+    "name": "Eight Sleep",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "sleep tech",
+    "searchTerms": [
+      "Eight Sleep"
+    ],
+    "tiktokHandle": "eightsleep",
+    "website": "https://www.eightsleep.com"
+  },
+  {
+    "name": "The Farmer's Dog",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "pet food",
+    "searchTerms": [
+      "The Farmer's Dog"
+    ],
+    "tiktokHandle": "thefarmersdog",
+    "website": "https://www.thefarmersdog.com"
+  },
+  {
+    "name": "Allbirds",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "footwear",
+    "searchTerms": [
+      "Allbirds"
+    ],
+    "website": "https://www.allbirds.com"
+  },
+  {
+    "name": "Warby Parker",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "eyewear",
+    "searchTerms": [
+      "Warby Parker"
+    ],
+    "tiktokHandle": "warbyparker",
+    "website": "https://www.warbyparker.com"
+  },
+  {
+    "name": "Glossier",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "cosmetics",
+    "searchTerms": [
+      "Glossier"
+    ],
+    "tiktokHandle": "glossier",
+    "website": "https://www.glossier.com"
+  },
+  {
+    "name": "Rhode",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "skincare",
+    "searchTerms": [
+      "Rhode"
+    ],
+    "tiktokHandle": "rhode",
+    "website": "https://www.rhodeskin.com"
+  },
+  {
+    "name": "Athletic Brewing",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "beverage",
+    "searchTerms": [
+      "Athletic Brewing"
+    ],
+    "tiktokHandle": "athleticbrewing",
+    "website": "https://athleticbrewing.com"
+  },
+  {
+    "name": "Graza",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "food",
+    "searchTerms": [
+      "Graza"
+    ],
+    "website": "https://www.graza.co"
+  },
+  {
+    "name": "Magic Spoon",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "food",
+    "searchTerms": [
+      "Magic Spoon"
+    ],
+    "website": "https://magicspoon.com"
+  },
+  {
+    "name": "Cuts Clothing",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Cuts Clothing"
+    ]
+  },
+  {
+    "name": "Quince",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "apparel",
+    "searchTerms": [
+      "Quince"
+    ],
+    "website": "https://www.quince.com"
+  },
+  {
+    "name": "Caraway",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "kitchenware",
+    "searchTerms": [
+      "Caraway"
+    ],
+    "tiktokHandle": "caraway",
+    "website": "https://www.carawayhome.com"
+  },
+  {
+    "name": "Ruggable",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "home",
+    "searchTerms": [
+      "Ruggable"
+    ],
+    "tiktokHandle": "ruggable",
+    "website": "https://ruggable.com"
+  },
+  {
+    "name": "Native",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "personal care",
+    "searchTerms": [
+      "Native"
+    ],
+    "tiktokHandle": "native",
+    "website": "https://www.nativecos.com"
+  },
+  {
+    "name": "Billie",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "personal care",
+    "searchTerms": [
+      "Billie"
+    ],
+    "tiktokHandle": "billie",
+    "website": "https://mybillie.com"
+  },
+  {
+    "name": "Grüns",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "supplements",
+    "searchTerms": [
+      "Grüns"
+    ],
+    "tiktokHandle": "grunsdaily",
+    "website": "https://gruns.co"
+  },
+  {
+    "name": "Mejuri",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "jewelry",
+    "searchTerms": [
+      "Mejuri"
+    ],
+    "tiktokHandle": "mejuri",
+    "website": "https://mejuri.com"
+  },
+  {
+    "name": "Purple",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "mattress",
+    "searchTerms": [
+      "Purple"
+    ],
+    "tiktokHandle": "purple",
+    "website": "https://purple.com"
+  },
+  {
+    "name": "Casper",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "mattress",
+    "searchTerms": [
+      "Casper"
+    ],
+    "tiktokHandle": "casper",
+    "website": "https://casper.com"
+  },
+  {
+    "name": "Tushy",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "bathroom",
+    "searchTerms": [
+      "Tushy"
+    ]
+  },
+  {
+    "name": "Dollar Shave Club",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "grooming",
+    "searchTerms": [
+      "Dollar Shave Club"
+    ],
+    "tiktokHandle": "dollarshaveclub",
+    "website": "https://www.dollarshaveclub.com"
+  },
+  {
+    "name": "Harry's",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "grooming",
+    "searchTerms": [
+      "Harry's"
+    ],
+    "tiktokHandle": "harrys",
+    "website": "https://www.harrys.com"
+  },
+  {
+    "name": "Squatty Potty",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "bathroom",
+    "searchTerms": [
+      "Squatty Potty"
+    ],
+    "website": "https://www.squattypotty.com"
+  },
+  {
+    "name": "Poo-Pourri",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "home",
+    "searchTerms": [
+      "Poo-Pourri"
+    ],
+    "website": "https://poopourri.com"
+  },
+  {
+    "name": "Cozy Earth",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "home textile",
+    "searchTerms": [
+      "Cozy Earth"
+    ]
+  },
+  {
+    "name": "Parachute",
+    "segment": "dtc",
+    "market": "US",
+    "vertical": "home textile",
+    "searchTerms": [
+      "Parachute Home"
+    ]
+  },
+  {
+    "name": "Marriott Bonvoy",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "hotel chain",
+    "searchTerms": [
+      "Marriott Bonvoy"
+    ],
+    "tiktokHandle": "marriottbonvoy",
+    "website": "https://www.marriott.com"
+  },
+  {
+    "name": "Hilton",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "hotel chain",
+    "searchTerms": [
+      "Hilton"
+    ],
+    "tiktokHandle": "hilton",
+    "website": "https://www.hilton.com"
+  },
+  {
+    "name": "Hyatt",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "hotel chain",
+    "searchTerms": [
+      "Hyatt"
+    ],
+    "tiktokHandle": "hyatt",
+    "website": "https://www.hyatt.com"
+  },
+  {
+    "name": "Four Seasons",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "luxury hotel",
+    "searchTerms": [
+      "Four Seasons"
+    ],
+    "tiktokHandle": "fourseasons",
+    "website": "https://www.fourseasons.com"
+  },
+  {
+    "name": "Airbnb",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "short-term rental",
+    "searchTerms": [
+      "Airbnb"
+    ],
+    "tiktokHandle": "airbnb",
+    "website": "https://www.airbnb.com"
+  },
+  {
+    "name": "Sandals Resorts",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "all-inclusive resort",
+    "searchTerms": [
+      "Sandals Resorts"
+    ],
+    "tiktokHandle": "sandalsresorts",
+    "website": "https://www.sandals.com"
+  },
+  {
+    "name": "Atlantis Paradise Island",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "resort",
+    "searchTerms": [
+      "Atlantis Paradise Island"
+    ],
+    "tiktokHandle": "atlantisbahamas",
+    "website": "https://www.atlantisbahamas.com"
+  },
+  {
+    "name": "IHG Hotels & Resorts",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "hotel chain",
+    "searchTerms": [
+      "IHG"
+    ]
+  },
+  {
+    "name": "Wyndham",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "hotel chain",
+    "searchTerms": [
+      "Wyndham"
+    ]
+  },
+  {
+    "name": "Choice Hotels",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "hotel chain",
+    "searchTerms": [
+      "Choice Hotels"
+    ]
+  },
+  {
+    "name": "The Ritz-Carlton",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "luxury hotel",
+    "searchTerms": [
+      "Ritz-Carlton"
+    ]
+  },
+  {
+    "name": "Aman",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "luxury resort",
+    "searchTerms": [
+      "Aman Resorts"
+    ]
+  },
+  {
+    "name": "Booking.com",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "OTA",
+    "searchTerms": [
+      "Booking.com"
+    ],
+    "website": "https://www.booking.com"
+  },
+  {
+    "name": "Expedia",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "OTA",
+    "searchTerms": [
+      "Expedia"
+    ],
+    "tiktokHandle": "expedia",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "name": "Vrbo",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "short-term rental",
+    "searchTerms": [
+      "Vrbo"
+    ],
+    "tiktokHandle": "vrbo",
+    "website": "https://www.vrbo.com"
+  },
+  {
+    "name": "Hotels.com",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "OTA",
+    "searchTerms": [
+      "Hotels.com"
+    ]
+  },
+  {
+    "name": "Royal Caribbean",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "cruise",
+    "searchTerms": [
+      "Royal Caribbean"
+    ],
+    "tiktokHandle": "royalcaribbean",
+    "website": "https://www.royalcaribbean.com"
+  },
+  {
+    "name": "MGM Resorts",
+    "segment": "hotel",
+    "market": "US",
+    "vertical": "casino resort",
+    "searchTerms": [
+      "MGM Resorts"
+    ]
+  },
+  {
+    "name": "Accor",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "hotel chain",
+    "searchTerms": [
+      "Accor",
+      "ALL Accor"
+    ]
+  },
+  {
+    "name": "Club Med",
+    "segment": "hotel",
+    "market": "GLOBAL",
+    "vertical": "all-inclusive resort",
+    "searchTerms": [
+      "Club Med"
+    ]
+  },
+  {
+    "name": "Duolingo",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "edtech",
+    "searchTerms": [
+      "Duolingo"
+    ],
+    "tiktokHandle": "duolingo",
+    "website": "https://www.duolingo.com"
+  },
+  {
+    "name": "Old Spice",
+    "segment": "general",
+    "market": "US",
+    "vertical": "grooming",
+    "searchTerms": [
+      "Old Spice"
+    ],
+    "tiktokHandle": "oldspice",
+    "website": "https://oldspice.com"
+  },
+  {
+    "name": "Dove",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "personal care",
+    "searchTerms": [
+      "Dove"
+    ],
+    "tiktokHandle": "dove",
+    "website": "https://www.dove.com"
+  },
+  {
+    "name": "Nike",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "sportswear",
+    "searchTerms": [
+      "Nike"
+    ],
+    "tiktokHandle": "nike",
+    "website": "https://www.nike.com"
+  },
+  {
+    "name": "McDonald's",
+    "segment": "general",
+    "market": "US",
+    "vertical": "QSR",
+    "searchTerms": [
+      "McDonald's"
+    ],
+    "tiktokHandle": "mcdonalds",
+    "website": "https://www.mcdonalds.com"
+  },
+  {
+    "name": "Apple",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "consumer tech",
+    "searchTerms": [
+      "Apple"
+    ]
+  },
+  {
+    "name": "Samsung",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "consumer tech",
+    "searchTerms": [
+      "Samsung"
+    ]
+  },
+  {
+    "name": "Coca-Cola",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "beverage",
+    "searchTerms": [
+      "Coca-Cola"
+    ]
+  },
+  {
+    "name": "Spotify",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "streaming",
+    "searchTerms": [
+      "Spotify"
+    ]
+  },
+  {
+    "name": "Uber",
+    "segment": "general",
+    "market": "US",
+    "vertical": "mobility",
+    "searchTerms": [
+      "Uber"
+    ]
+  },
+  {
+    "name": "DoorDash",
+    "segment": "general",
+    "market": "US",
+    "vertical": "food delivery",
+    "searchTerms": [
+      "DoorDash"
+    ]
+  },
+  {
+    "name": "Temu",
+    "segment": "general",
+    "market": "US",
+    "vertical": "marketplace",
+    "searchTerms": [
+      "Temu"
+    ]
+  },
+  {
+    "name": "Shein",
+    "segment": "general",
+    "market": "GLOBAL",
+    "vertical": "fast fashion",
+    "searchTerms": [
+      "SHEIN"
+    ]
+  },
+  {
+    "name": "Amazon",
+    "segment": "general",
+    "market": "US",
+    "vertical": "marketplace",
+    "searchTerms": [
+      "Amazon"
+    ]
+  },
+  {
+    "name": "State Farm",
+    "segment": "general",
+    "market": "US",
+    "vertical": "insurance",
+    "searchTerms": [
+      "State Farm"
+    ]
+  }
+]
