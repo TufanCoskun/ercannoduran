@@ -11,7 +11,11 @@ import { FORMAT_LABEL, MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, verticalLabel 
 import { adPath, adTitle, brandFeedPath, daysLabel, displayReasons, formatDate, platformLabel, previewImage, scoreText, truncate } from "@/lib/format";
 import type { Ad } from "@/lib/types";
 
-export const dynamicParams = false;
+// Every known ad is prerendered; ids that show up later (new data, old share links) are rendered
+// on demand from the bundled data/ads/*.json and fall back to a clean 404 when unknown.
+export const dynamicParams = true;
+// "N gündür yayında" and the score depend on today's date — refresh once a day.
+export const revalidate = 86400;
 
 export function generateStaticParams() {
   return getAllAds().map((a) => ({ id: a.id }));

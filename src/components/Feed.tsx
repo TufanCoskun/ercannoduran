@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
 import {
   activeFilterCount,
+  effectiveFormat,
   interleaveCurated,
   facetCounts,
   filtersToQuery,
@@ -22,7 +23,7 @@ import { AdScore, Chip } from "./Bits";
 import { FilterPanel } from "./FilterPanel";
 import { Sheet } from "./Sheet";
 import { useUI } from "./UIProvider";
-import { ChevronDownIcon, ChevronUpIcon, DumbbellIcon, ExternalIcon, FlameIcon, KeyboardIcon, SlidersIcon, TrophyIcon, XIcon } from "./Icons";
+import { ChevronDownIcon, ChevronUpIcon, DumbbellIcon, ExternalIcon, FlameIcon, KeyboardIcon, PlaySolidIcon, SlidersIcon, TrophyIcon, XIcon } from "./Icons";
 
 const WINDOW = 3; // mount AdCards only within ±3 of the active item
 const PAGE = 15; // progressively grow the list
@@ -58,7 +59,7 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
         segment: toMap(facetCounts(except("segment"), (a) => a.segment)),
         market: toMap(facetCounts(except("market"), (a) => a.market)),
         source: toMap(facetCounts(except("source"), (a) => a.source)),
-        format: toMap(facetCounts(except("format"), (a) => a.format)),
+        format: toMap(facetCounts(except("format"), effectiveFormat)),
       },
       verticals: facetCounts(except("vertical"), (a) => a.vertical),
       brands: facetCounts(except("brand"), (a) => a.brand.name),
@@ -87,6 +88,9 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
         onOpenFilters={() => setFiltersOpen(true)}
         onClearFilters={() => setFilters({ segment: [], market: [], source: [], format: [], vertical: [], brand: [] })}
         onRemoveBrand={(b) => setFilters({ ...filters, brand: filters.brand.filter((x) => x !== b) })}
+        onToggleVideo={() =>
+          setFilters({ ...filters, format: filters.format.length === 1 && filters.format[0] === "video" ? [] : ["video"] })
+        }
         setMode={setMode}
         onActive={setActiveAd}
       />
@@ -124,6 +128,7 @@ function FeedColumn({
   onOpenFilters,
   onClearFilters,
   onRemoveBrand,
+  onToggleVideo,
   setMode,
   onActive,
 }: {
@@ -137,6 +142,7 @@ function FeedColumn({
   onOpenFilters: () => void;
   onClearFilters: () => void;
   onRemoveBrand: (b: string) => void;
+  onToggleVideo: () => void;
   setMode: (daily: boolean) => void;
   onActive: (ad: Ad | undefined) => void;
 }) {
@@ -153,6 +159,10 @@ function FeedColumn({
   const listIds = useMemo(() => list.map((a) => a.id), [list]);
   const doneCount = listIds.filter((id) => viewed.includes(id)).length;
   const toggleMute = useCallback(() => setMuted((m) => !m), []);
+  const videoOnly = filters.format.length === 1 && filters.format[0] === "video";
+  const extraChips = filters.brand.length > 0 || usingFixtures;
+  // First free line below the floating top bar; slide overlays (unmute pill, carousel counter) sit there.
+  const chromeTop = daily ? (extraChips ? "7.5rem" : "5.75rem") : "5.5rem";
 
   // Track the active item with an IntersectionObserver rooted at the scroller.
   useEffect(() => {
@@ -228,7 +238,10 @@ function FeedColumn({
 
   return (
     <div className="relative w-full lg:w-auto">
-      <div className="h-feed relative w-full overflow-hidden bg-black lg:aspect-[9/16] lg:w-auto lg:max-w-[520px] lg:rounded-[2rem] lg:border lg:border-line lg:shadow-[0_30px_120px_-20px_rgba(200,255,46,0.12)]">
+      <div
+        style={{ "--chrome-top": `calc(${chromeTop} + env(safe-area-inset-top))` } as React.CSSProperties}
+        data-toast-anchor=""
+        className="h-feed relative w-full overflow-hidden bg-black lg:aspect-[9/16] lg:w-auto lg:max-w-[520px] lg:rounded-[2rem] lg:border lg:border-line lg:shadow-[0_30px_120px_-20px_rgba(200,255,46,0.12)]">
         {/* top bar */}
         <div className="pointer-events-none absolute inset-x-0 top-0 z-30 px-3 pt-[max(0.75rem,env(safe-area-inset-top))]">
           <div className="pointer-events-auto flex items-center justify-between gap-2">
@@ -297,8 +310,18 @@ function FeedColumn({
             </div>
           )}
 
-          {(filters.brand.length > 0 || usingFixtures) && (
+          {(!daily || extraChips) && (
             <div className="pointer-events-auto mt-2 flex flex-wrap gap-1.5 px-1">
+              {!daily && (
+                <button
+                  type="button"
+                  onClick={onToggleVideo}
+                  aria-pressed={videoOnly}
+                  className={`flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold ring-1 backdrop-blur-md transition ${videoOnly ? "bg-volt text-black ring-volt" : "bg-black/40 text-white ring-white/15 hover:bg-black/60"}`}
+                >
+                  <PlaySolidIcon size={11} /> Sadece video
+                </button>
+              )}
               {filters.brand.map((b) => (
                 <button key={b} type="button" onClick={() => onRemoveBrand(b)} className="flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-semibold text-black">
                   {b} <XIcon size={12} />
@@ -325,7 +348,13 @@ function FeedColumn({
                 <div key={ad?.id ?? "__end"} data-index={i} className="relative h-full w-full snap-start snap-always">
                   {ad ? (
                     mounted ? (
-                      <AdCard ad={ad} active={i === active} near={Math.abs(i - active) <= 1} muted={muted} onToggleMute={toggleMute} />
+                      <AdCard
+                        ad={ad}
+                        active={i === active}
+                        preload={i === active || i === active + 1 ? "auto" : Math.abs(i - active) <= 1 ? "metadata" : "none"}
+                        muted={muted}
+                        onToggleMute={toggleMute}
+                      />
                     ) : (
                       <div className="h-full w-full bg-ink" />
                     )

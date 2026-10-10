@@ -3,6 +3,7 @@ import path from "node:path";
 import type { Ad, AdMedia, Format, Market, Segment, Source } from "./types";
 import { runningDays, scoreAd } from "./score";
 import { FIXTURE_ADS } from "./fixtures";
+import { previewImage } from "./format";
 
 /**
  * Server-only ad loader. Reads every `data/ads/*.json` (`{ generatedAt, ads: Ad[] }`,
@@ -59,7 +60,10 @@ function normalizeMedia(v: unknown): AdMedia[] {
       out.push({ type: "image", url: thumb });
       continue;
     }
-    out.push(thumb ? { type, url: url!, thumbnailUrl: thumb } : { type, url: url! });
+    // An image's remote thumbnail is a smaller copy on the same expiring CDN — useless as a fallback,
+    // and fbcdn URLs are ~1 KB each, so only keep thumbnails we host ourselves (or video posters).
+    const keepThumb = thumb && thumb !== url && (type === "video" || thumb.startsWith("/"));
+    out.push(keepThumb ? { type, url: url!, thumbnailUrl: thumb } : { type, url: url! });
   }
   return out;
 }
@@ -329,10 +333,7 @@ export function getBrands(ads: Ad[] = getAllAds()): BrandSummary[] {
     const sorted = [...list].sort(compareAds);
     const top = sorted[0];
     const uniq = <T,>(xs: (T | undefined)[]) => [...new Set(xs.filter((x): x is T => x !== undefined))];
-    const firstImage = sorted
-      .flatMap((a) => a.media)
-      .map((m) => (m.type === "image" ? m.url : m.thumbnailUrl))
-      .find(Boolean);
+    const firstImage = sorted.map(previewImage).find(Boolean);
     out.push({
       key,
       name: top.brand.name,

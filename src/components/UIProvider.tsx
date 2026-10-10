@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties, type ReactNode } from "react";
 import type { Ad } from "@/lib/types";
 import {
   createCollection,
@@ -134,10 +134,28 @@ export function UIProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<UI>(() => ({ toast, toggleSave, openSave, share, copyLink }), [toast, toggleSave, openSave, share, copyLink]);
 
+  // Desktop: keep toasts inside the feed column (never over the filter / insights panel).
+  // Pages without a feed get them centred in the main area via the lg: classes.
+  const [anchor, setAnchor] = useState<CSSProperties | undefined>(undefined);
+  const hasToasts = toasts.length > 0;
+  useLayoutEffect(() => {
+    if (!hasToasts) return;
+    const el = document.querySelector<HTMLElement>("[data-toast-anchor]");
+    if (!el || window.innerWidth < 1024) {
+      setAnchor(undefined);
+      return;
+    }
+    const r = el.getBoundingClientRect();
+    setAnchor({ left: r.left, width: r.width, right: "auto", bottom: Math.max(16, window.innerHeight - r.bottom + 20) });
+  }, [hasToasts]);
+
   return (
     <Ctx.Provider value={value}>
       {children}
-      <div className="pointer-events-none fixed inset-x-0 bottom-[calc(var(--nav-h)+env(safe-area-inset-bottom)+12px)] z-[60] flex flex-col items-center gap-2 px-4 lg:bottom-6 lg:left-auto lg:right-8 lg:items-end">
+      <div
+        style={anchor}
+        className="pointer-events-none fixed inset-x-0 bottom-[calc(var(--nav-h)+env(safe-area-inset-bottom)+12px)] z-[60] flex flex-col items-center gap-2 px-4 lg:bottom-8 lg:left-60"
+      >
         {toasts.map((t) => (
           <div
             key={t.id}

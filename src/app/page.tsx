@@ -2,6 +2,9 @@ import { Suspense } from "react";
 import { Feed } from "@/components/Feed";
 import { loadAds } from "@/lib/ads";
 
+// Ad ages / scores are computed against today — refresh the static page once a day.
+export const revalidate = 86400;
+
 export default function HomePage() {
   const { ads, usingFixtures } = loadAds();
   return (

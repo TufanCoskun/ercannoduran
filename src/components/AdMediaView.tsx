@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
 import { TextCard } from "./TextCard";
-import { ChevronDownIcon, PlayIcon } from "./Icons";
+import { ChevronDownIcon, PlaySolidIcon } from "./Icons";
 import { adYouTubeId, ytEmbedUrl, ytPoster } from "@/lib/youtube";
 
 export type MediaMode = "text" | "image" | "video";
@@ -223,7 +223,7 @@ function VideoSlide({
       />
       {active && userPaused && (
         <span className="pointer-events-none absolute left-1/2 top-1/2 grid size-20 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-black/45 text-white backdrop-blur-sm">
-          <PlayIcon size={38} />
+          <PlaySolidIcon size={34} className="translate-x-0.5" />
         </span>
       )}
       {active && effectiveMuted && !muted && (

@@ -78,6 +78,9 @@ export function truncate(s: string, max: number): string {
 
 /** Image to preview an ad with (image url or video poster). */
 export function previewImage(ad: Ad): string | undefined {
+  // Our own copies (/media/...) never expire — prefer them for thumbnails and OG images.
+  const local = ad.media.map((m) => (m.thumbnailUrl?.startsWith("/") ? m.thumbnailUrl : m.url.startsWith("/") && m.type === "image" ? m.url : undefined)).find(Boolean);
+  if (local) return local;
   for (const m of ad.media) {
     if (m.type === "image") return m.url;
     if (m.thumbnailUrl) return m.thumbnailUrl;

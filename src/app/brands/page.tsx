@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description: "AdGym'deki markalar: DTC, otel ve büyük markaların en uzun yayında kalan reklamları.",
 };
 
+// Ad ages / scores are computed against today — refresh the static page once a day.
+export const revalidate = 86400;
+
 export default function BrandsPage() {
   const { ads } = loadAds();
   const brands = getBrands(ads);
