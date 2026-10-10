@@ -16,7 +16,7 @@ import {
   type TinderSession,
 } from "@/lib/tinder";
 import { AdInfoSheet } from "../AdInfoSheet";
-import { ChevronDownIcon, ShareIcon, TrashIcon, TrophyIcon } from "../Icons";
+import { ChevronDownIcon, ShareIcon, TrashIcon } from "../Icons";
 import { Sheet } from "../Sheet";
 import { useUI } from "../UIProvider";
 import { AdTile, CardsIcon, HeartIcon, TileThumb } from "./bits";
@@ -183,9 +183,7 @@ function SessionRow({
           })}
           {winner && (
             <section>
-              <h3 className="mb-2 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-amber-300">
-                <TrophyIcon size={13} /> 🏆 Kazanan
-              </h3>
+              <h3 className="mb-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-amber-300">🏆 Kazanan</h3>
               <ul className="grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-6">
                 <AdTile ad={winner} onOpen={onOpenAd} highlight />
               </ul>

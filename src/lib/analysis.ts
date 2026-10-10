@@ -64,6 +64,7 @@ export type AnalyzeResponse =
   | { ok: false; error: string; code: AnalyzeErrorCode; canUsePoster?: boolean };
 
 export type AnalyzeErrorCode =
+  | "forbidden"
   | "no_key"
   | "bad_request"
   | "not_found"

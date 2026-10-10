@@ -6,6 +6,7 @@ import type { Ad } from "@/lib/types";
 import { useSaved } from "@/lib/saved";
 import { useHydrated } from "@/lib/store";
 import { startAnalysis, useAnalysisJob } from "@/lib/analyze-client";
+import { useCanAnalyze } from "@/lib/role-client";
 
 /**
  * "✨ Özetle" — runs the Gemini breakdown for ONE saved ad, only when pressed (each press costs money).
@@ -33,9 +34,12 @@ export function AnalyzeButton({
   const state = useSaved();
   const item = state.items[adId];
   const job = useAnalysisJob(adId);
+  const allowed = useCanAnalyze();
   const isVideo = (item?.ad ?? ad)?.format === "video" || Boolean((item?.ad ?? ad)?.media.some((m) => m.type === "video"));
 
   if (!hydrated || (!item && !ad)) return null;
+  // Viewer accounts can't run Gemini (server enforces it too); existing analyses stay readable elsewhere.
+  if (!allowed) return null;
 
   const base =
     variant === "block"
@@ -83,6 +87,8 @@ export function AnalyzeButton({
 }
 
 export function AnalyzeError({ adId, ad, error, canUsePoster }: { adId: string; ad?: Ad; error: string; canUsePoster?: boolean }) {
+  const allowed = useCanAnalyze();
+  if (!allowed) return null;
   return (
     <div role="alert" className="mt-2 rounded-2xl border border-red-500/25 bg-red-500/10 px-3 py-2 text-[12.5px] leading-snug text-red-200">
       {error}

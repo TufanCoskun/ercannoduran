@@ -2,6 +2,7 @@ import { after, NextResponse, type NextRequest } from "next/server";
 import { getAdById } from "@/lib/ads";
 import { analyzeAd, AnalyzeError, configuredModel, geminiKey, MISSING_KEY_MESSAGE, redact } from "@/lib/gemini";
 import type { AnalyzeResponse } from "@/lib/analysis";
+import { canAnalyze, FORBIDDEN_ANALYZE_MESSAGE, getRequestSession } from "@/lib/auth";
 
 // Gemini watches the whole video: download + upload + generation can take 20–60 s.
 export const runtime = "nodejs";
@@ -17,9 +18,14 @@ function fail(status: number, body: Extract<AnalyzeResponse, { ok: false }>) {
 /**
  * POST /api/analyze { adId, force?, allowPoster? } → AnalyzeResponse.
  * The ad (and therefore every media URL we fetch) is looked up server-side by id, so clients
- * can't make us fetch arbitrary URLs. Auth is handled by src/middleware.ts (all /api/* is gated).
+ * can't make us fetch arbitrary URLs. Auth: src/middleware.ts gates all /api/*; the admin-only role check is below.
  */
 export async function POST(req: NextRequest) {
+  // Role check (middleware also blocks viewers): only the admin account may run paid Gemini calls.
+  const session = await getRequestSession(req);
+  if (!session) return NextResponse.json({ error: "Giriş gerekli" }, { status: 401, headers: NO_STORE });
+  if (!canAnalyze(session)) return fail(403, { ok: false, code: "forbidden", error: FORBIDDEN_ANALYZE_MESSAGE });
+
   if (!geminiKey()) return fail(503, { ok: false, code: "no_key", error: MISSING_KEY_MESSAGE });
 
   let body: unknown;

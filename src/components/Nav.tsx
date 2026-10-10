@@ -8,12 +8,14 @@ import { useHydrated } from "@/lib/store";
 import { useState } from "react";
 import { ArrowLeftIcon, BookmarkIcon, DumbbellIcon, FlameIcon, GridIcon, MenuIcon, PlayIcon } from "./Icons";
 import { Sheet } from "./Sheet";
+import { CardsIcon } from "./tinder/bits";
 
 type Item = { href: string; label: string; short: string; icon: React.ReactNode; match: (p: string, daily: boolean) => boolean };
 
 const ITEMS: Item[] = [
   { href: "/", label: "Akış", short: "Akış", icon: <PlayIcon size={22} />, match: (p, d) => p === "/" && !d },
   { href: "/?mode=daily", label: "Bugünün antrenmanı", short: "Antrenman", icon: <DumbbellIcon size={22} />, match: (p, d) => p === "/" && d },
+  { href: "/tinder", label: "Tinder", short: "Tinder", icon: <CardsIcon size={21} />, match: (p) => p.startsWith("/tinder") },
   { href: "/brands", label: "Markalar", short: "Markalar", icon: <GridIcon size={21} />, match: (p) => p.startsWith("/brands") },
   { href: "/saved", label: "Kaydedilenler", short: "Kayıtlı", icon: <BookmarkIcon size={21} />, match: (p) => p.startsWith("/saved") },
 ];
@@ -148,9 +150,11 @@ export function AppMenu({
                   : undefined
                 : it.href === "/brands"
                   ? "Marka akışları"
-                  : "Tüm reklamlar";
+                  : it.href === "/tinder"
+                    ? "Rastgele turnuva"
+                    : "Tüm reklamlar";
           return (
-            <li key={it.href}>
+            <li key={it.href} className="odd:last:col-span-2">
               <Link
                 href={href(it)}
                 onClick={onClose}

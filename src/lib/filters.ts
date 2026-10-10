@@ -87,7 +87,7 @@ const VERTICAL_TR: Record<string, string> = {
   grocery: "Market",
   home: "Ev",
   furniture: "Mobilya",
-  "home-decor": "Ev dekor",
+  "home-decor": "Ev dekorasyonu",
   bedding: "Uyku",
   sleep: "Uyku",
   pets: "Evcil hayvan",
@@ -151,6 +151,18 @@ const VERTICAL_TR: Record<string, string> = {
   jobs: "İş ilanı",
   bathroom: "Banyo",
   mattress: "Yatak",
+  "health-wellness": "Sağlık & wellness",
+  "health-fitness": "Sağlık & fitness",
+  "fashion-apparel": "Moda & giyim",
+  "mobile-apps": "Mobil uygulama",
+  "home-living": "Ev & yaşam",
+  "beauty-cosmetics": "Güzellik & kozmetik",
+  "ear-health": "Kulak sağlığı",
+  "mens-health": "Erkek sağlığı",
+  "womens-health": "Kadın sağlığı",
+  "travel-accessories": "Seyahat aksesuarı",
+  sleepwear: "Pijama / uyku giyim",
+  telehealth: "Online sağlık",
 };
 
 export function verticalLabel(v: string): string {

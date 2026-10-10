@@ -13,6 +13,7 @@ import {
   useSaved,
 } from "@/lib/saved";
 import { adPath, adTitle, truncate } from "@/lib/format";
+import { AnalyzeButton } from "./AnalyzeButton";
 import { Sheet } from "./Sheet";
 import { CheckIcon, FolderIcon, LinkIcon, PlusIcon, ShareIcon, TrashIcon, WhatsAppIcon } from "./Icons";
 
@@ -261,6 +262,7 @@ function SaveSheet({ ad, onClose, toast }: { ad: Ad | null; onClose: () => void;
           <PlusIcon size={16} /> Oluştur
         </button>
       </form>
+      {current && <AnalyzeButton adId={ad.id} variant="block" className="mt-4" />}
       {current && (
         <button
           type="button"

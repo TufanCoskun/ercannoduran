@@ -1,16 +1,24 @@
 /**
- * Single-account auth for AdGym.
+ * Login gate for AdGym: one admin account plus an optional, restricted viewer account.
  *
- * Credentials come ONLY from env vars (ADMIN_USERNAME, ADMIN_PASSWORD, AUTH_SECRET).
- * Session token: base64url(JSON {u, exp}) + "." + base64url(HMAC-SHA256(payload, AUTH_SECRET)).
+ * Credentials come ONLY from env vars:
+ *   ADMIN_USERNAME, ADMIN_PASSWORD, AUTH_SECRET  (required; missing → site fails closed)
+ *   VIEWER_USERNAME, VIEWER_PASSWORD             (optional; both set → a "viewer" account exists)
+ * Session token: base64url(JSON {u, r, exp}) + "." + base64url(HMAC-SHA256(payload, AUTH_SECRET)).
  * Uses Web Crypto only, so it runs in the Edge middleware and in Node route handlers.
  */
 
 export const SESSION_COOKIE = "adgym_session";
+/** Display-only role hint for the client UI (NOT httpOnly). The server never trusts it. */
+export const ROLE_COOKIE = "adgym_role";
 export const SESSION_TTL_SECONDS = 60 * 60 * 24 * 30; // 30 days
 export const MISCONFIGURED_MESSAGE = "ADMIN_USERNAME / ADMIN_PASSWORD / AUTH_SECRET ayarlanmamış";
+export const FORBIDDEN_ANALYZE_MESSAGE = "Bu hesapta Gemini özetleme yetkisi yok.";
 
-export type AuthConfig = { username: string; password: string; secret: string };
+export type Role = "admin" | "viewer";
+export type Account = { username: string; password: string; role: Role };
+export type AuthConfig = { accounts: Account[]; secret: string };
+export type Session = { u: string; r: Role };
 
 /** Returns null when any required env var is missing (callers must fail closed). */
 export function getAuthConfig(): AuthConfig | null {
@@ -18,7 +26,22 @@ export function getAuthConfig(): AuthConfig | null {
   const password = process.env.ADMIN_PASSWORD ?? "";
   const secret = process.env.AUTH_SECRET ?? "";
   if (!username || !password || secret.length < 16) return null;
-  return { username, password, secret };
+  const accounts: Account[] = [{ username, password, role: "admin" }];
+  const vUser = process.env.VIEWER_USERNAME ?? "";
+  const vPass = process.env.VIEWER_PASSWORD ?? "";
+  // Viewer is optional; ignored if incomplete or if it collides with the admin username.
+  if (vUser && vPass && vUser !== username) accounts.push({ username: vUser, password: vPass, role: "viewer" });
+  return { accounts, secret };
+}
+
+/** Role of a configured account by username, or null if no such account exists (any more). */
+export function roleOf(username: string, cfg: AuthConfig): Role | null {
+  return cfg.accounts.find((a) => a.username === username)?.role ?? null;
+}
+
+/** Permission check: only admin may run (paid) Gemini analysis. */
+export function canAnalyze(session: Session | null): boolean {
+  return session?.r === "admin";
 }
 
 const encoder = new TextEncoder();
@@ -76,44 +99,65 @@ async function safeStringEqual(a: string, b: string, secret: string): Promise<bo
   return timingSafeEqual(ha, hb);
 }
 
-export async function checkCredentials(username: string, password: string, cfg: AuthConfig): Promise<boolean> {
-  const [userOk, passOk] = await Promise.all([
-    safeStringEqual(username, cfg.username, cfg.secret),
-    safeStringEqual(password, cfg.password, cfg.secret),
-  ]);
-  // Non-short-circuit AND: both comparisons always run.
-  return (Number(userOk) & Number(passOk)) === 1;
+/** Returns the matching account's role, or null. Every account is checked (no early exit). */
+export async function checkCredentials(username: string, password: string, cfg: AuthConfig): Promise<Role | null> {
+  const results = await Promise.all(
+    cfg.accounts.map(async (acc) => {
+      const [userOk, passOk] = await Promise.all([
+        safeStringEqual(username, acc.username, cfg.secret),
+        safeStringEqual(password, acc.password, cfg.secret),
+      ]);
+      // Non-short-circuit AND: both comparisons always run.
+      return (Number(userOk) & Number(passOk)) === 1 ? acc.role : null;
+    }),
+  );
+  return results.find((r) => r !== null) ?? null;
 }
 
-type Payload = { u: string; exp: number };
+type Payload = { u: string; r?: Role; exp: number };
 
-export async function createSessionToken(username: string, secret: string, nowMs = Date.now()): Promise<string> {
-  const payload: Payload = { u: username, exp: Math.floor(nowMs / 1000) + SESSION_TTL_SECONDS };
+export async function createSessionToken(username: string, role: Role, secret: string, nowMs = Date.now()): Promise<string> {
+  const payload: Payload = { u: username, r: role, exp: Math.floor(nowMs / 1000) + SESSION_TTL_SECONDS };
   const body = b64urlEncode(encoder.encode(JSON.stringify(payload)));
   const sig = b64urlEncode(await hmac(secret, body));
   return `${body}.${sig}`;
 }
 
-export async function verifySessionToken(token: string | undefined | null, cfg: AuthConfig, nowMs = Date.now()): Promise<boolean> {
-  if (!token || token.length > 1024) return false;
+/**
+ * Verifies a session token and returns the session, or null.
+ * - Tokens issued before roles existed have no `r`; they are admin tokens (only admin could log in then).
+ * - The role must still match the configured account for that username, so changing/removing
+ *   ADMIN_USERNAME or VIEWER_USERNAME invalidates those sessions (as does rotating AUTH_SECRET).
+ */
+export async function verifySessionToken(token: string | undefined | null, cfg: AuthConfig, nowMs = Date.now()): Promise<Session | null> {
+  if (!token || token.length > 1024) return null;
   const dot = token.indexOf(".");
-  if (dot <= 0 || dot !== token.lastIndexOf(".")) return false;
+  if (dot <= 0 || dot !== token.lastIndexOf(".")) return null;
   const body = token.slice(0, dot);
   const sig = b64urlDecode(token.slice(dot + 1));
-  if (!sig) return false;
+  if (!sig) return null;
   const expected = await hmac(cfg.secret, body);
-  if (!timingSafeEqual(sig, expected)) return false;
+  if (!timingSafeEqual(sig, expected)) return null;
   const raw = b64urlDecode(body);
-  if (!raw) return false;
+  if (!raw) return null;
   try {
     const payload = JSON.parse(decoder.decode(raw)) as Partial<Payload>;
-    if (typeof payload.u !== "string" || typeof payload.exp !== "number") return false;
-    if (payload.exp * 1000 <= nowMs) return false;
-    // Changing ADMIN_USERNAME invalidates old sessions (as does rotating AUTH_SECRET).
-    return payload.u === cfg.username;
+    if (typeof payload.u !== "string" || typeof payload.exp !== "number") return null;
+    if (payload.exp * 1000 <= nowMs) return null;
+    const claimed: Role = payload.r === undefined ? "admin" : payload.r;
+    if (claimed !== "admin" && claimed !== "viewer") return null;
+    if (roleOf(payload.u, cfg) !== claimed) return null;
+    return { u: payload.u, r: claimed };
   } catch {
-    return false;
+    return null;
   }
+}
+
+/** Reads + verifies the session cookie from a request (route handlers / middleware). */
+export async function getRequestSession(req: { cookies: { get(name: string): { value: string } | undefined } }): Promise<Session | null> {
+  const cfg = getAuthConfig();
+  if (!cfg) return null;
+  return verifySessionToken(req.cookies.get(SESSION_COOKIE)?.value, cfg);
 }
 
 /**
