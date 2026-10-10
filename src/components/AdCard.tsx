@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
-import { MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, FORMAT_LABEL, verticalLabel } from "@/lib/filters";
+import { MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, FORMAT_LABEL, effectiveFormat, verticalLabel } from "@/lib/filters";
 import { brandFeedPath, daysLabel, displayReasons, formatDate, libraryLabel, platformLabel } from "@/lib/format";
 import { useSaved } from "@/lib/saved";
 import { AdMediaView, type MediaMode, type Preload } from "./AdMediaView";
@@ -109,7 +109,7 @@ export function AdCard({
           <Chip tone="volt">{SEGMENT_LABEL[ad.segment]}</Chip>
           <Chip>{MARKET_LABEL[ad.market]}</Chip>
           {ad.vertical && verticalLabel(ad.vertical) !== SEGMENT_LABEL[ad.segment] && <Chip>{verticalLabel(ad.vertical)}</Chip>}
-          <Chip>{FORMAT_LABEL[ad.format]}</Chip>
+          <Chip>{FORMAT_LABEL[effectiveFormat(ad)]}</Chip>
           {days && !textMode && (
             <Chip tone="ember">
               <FlameIcon size={11} filled /> {days}

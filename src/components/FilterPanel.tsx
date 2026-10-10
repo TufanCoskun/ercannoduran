@@ -41,28 +41,28 @@ export function FilterPanel({
     <div className="space-y-5">
       <Group title="Segment">
         {SEGMENT_OPTIONS.map((o) => (
-          <Pill key={o.value} on={filters.segment.includes(o.value)} count={counts.segment?.[o.value]} onClick={() => onChange(toggleValue(filters, "segment", o.value))}>
+          <Pill key={o.value} on={filters.segment.includes(o.value)} count={counts.segment?.[o.value] ?? 0} onClick={() => onChange(toggleValue(filters, "segment", o.value))}>
             {o.label}
           </Pill>
         ))}
       </Group>
       <Group title="Pazar">
         {MARKET_OPTIONS.map((o) => (
-          <Pill key={o.value} on={filters.market.includes(o.value)} count={counts.market?.[o.value]} onClick={() => onChange(toggleValue(filters, "market", o.value))}>
+          <Pill key={o.value} on={filters.market.includes(o.value)} count={counts.market?.[o.value] ?? 0} onClick={() => onChange(toggleValue(filters, "market", o.value))}>
             {o.label}
           </Pill>
         ))}
       </Group>
       <Group title="Kaynak">
         {SOURCE_OPTIONS.filter((o) => sourcesAvailable.includes(o.value) || filters.source.includes(o.value)).map((o) => (
-          <Pill key={o.value} on={filters.source.includes(o.value)} count={counts.source?.[o.value]} onClick={() => onChange(toggleValue(filters, "source", o.value))}>
+          <Pill key={o.value} on={filters.source.includes(o.value)} count={counts.source?.[o.value] ?? 0} onClick={() => onChange(toggleValue(filters, "source", o.value))}>
             {o.label}
           </Pill>
         ))}
       </Group>
       <Group title="Format">
         {FORMAT_OPTIONS.map((o) => (
-          <Pill key={o.value} on={filters.format.includes(o.value)} count={counts.format?.[o.value]} onClick={() => onChange(toggleValue(filters, "format", o.value))}>
+          <Pill key={o.value} on={filters.format.includes(o.value)} count={counts.format?.[o.value] ?? 0} onClick={() => onChange(toggleValue(filters, "format", o.value))}>
             {o.label}
           </Pill>
         ))}

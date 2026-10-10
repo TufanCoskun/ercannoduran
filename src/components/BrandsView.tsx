@@ -86,7 +86,7 @@ export function BrandsView({ brands, totalAds }: { brands: BrandSummary[]; total
                     )}
                   </p>
                 </div>
-                {b.sources.length === 1 && b.sources[0] === "curated" ? <LegendBadge size={42} /> : <ScoreRing score={b.topScore} size={42} stroke={3.5} />}
+                {b.topIsLegend ? <LegendBadge size={42} /> : <ScoreRing score={b.topScore} size={42} stroke={3.5} />}
               </Link>
             </li>
           ))}

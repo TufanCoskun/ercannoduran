@@ -59,7 +59,7 @@ export function SideNav() {
             <li key={it.href}>
               <Link
                 href={it.href}
-                className={`flex items-center gap-3 rounded-2xl px-3 py-2.5 text-[15px] font-semibold transition ${on ? "bg-white/[0.08] text-white" : "text-zinc-400 hover:bg-white/[0.04] hover:text-white"}`}
+                className={`flex items-center gap-2.5 whitespace-nowrap rounded-2xl px-3 py-2.5 text-[15px] font-semibold transition ${on ? "bg-white/[0.08] text-white" : "text-zinc-400 hover:bg-white/[0.04] hover:text-white"}`}
               >
                 <span className={on ? "text-volt" : ""}>{it.icon}</span>
                 <span className="flex-1">{it.label}</span>

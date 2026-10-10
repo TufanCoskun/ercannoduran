@@ -313,6 +313,7 @@ export interface BrandSummary {
   avgScore: number;
   maxDays: number;
   topAdId: string;
+  topIsLegend: boolean; // best ad is a curated classic → show the "Efsane" badge, not a number
   previewUrl?: string; // best ad's image or video thumbnail (may expire)
 }
 
@@ -349,6 +350,7 @@ export function getBrands(ads: Ad[] = getAllAds()): BrandSummary[] {
       avgScore: Math.round(list.reduce((s, a) => s + a.performance.score, 0) / list.length),
       maxDays: Math.max(0, ...list.map((a) => a.activeDays ?? 0)),
       topAdId: top.id,
+      topIsLegend: top.source === "curated",
       previewUrl: firstImage,
     });
   }

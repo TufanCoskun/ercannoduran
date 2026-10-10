@@ -7,7 +7,7 @@ import { AdScore, BrandAvatar, Chip } from "@/components/Bits";
 import { ArrowLeftIcon } from "@/components/Icons";
 import { ShareActions } from "@/components/ShareActions";
 import { getAdById, getAllAds } from "@/lib/ads";
-import { FORMAT_LABEL, MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, verticalLabel } from "@/lib/filters";
+import { effectiveFormat, FORMAT_LABEL, MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, verticalLabel } from "@/lib/filters";
 import { adPath, adTitle, brandFeedPath, daysLabel, displayReasons, formatDate, platformLabel, previewImage, scoreText, truncate } from "@/lib/format";
 import type { Ad } from "@/lib/types";
 
@@ -91,7 +91,7 @@ export default async function AdPage({ params }: Props) {
             <Chip tone="volt">{SEGMENT_LABEL[ad.segment]}</Chip>
             <Chip tone="solid">{MARKET_LABEL[ad.market]}</Chip>
             {ad.vertical && <Chip tone="solid">{verticalLabel(ad.vertical)}</Chip>}
-            <Chip tone="solid">{FORMAT_LABEL[ad.format]}</Chip>
+            <Chip tone="solid">{FORMAT_LABEL[effectiveFormat(ad)]}</Chip>
           </div>
 
           {ad.headline && <p className="text-xl font-bold leading-snug">{ad.headline}</p>}

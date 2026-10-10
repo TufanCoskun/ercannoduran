@@ -1,5 +1,6 @@
 import type { Ad } from "./types";
 import { hashString } from "./format";
+import { mediaRank } from "./filters";
 import { createStore } from "./store";
 
 export const DAILY_SIZE = 10;
@@ -39,7 +40,10 @@ export function pickDaily(pool: Ad[], key: string, size = DAILY_SIZE): Ad[] {
 
   // Up to 2 curated classics ("Efsane") per workout, placed at slots 3 and 7.
   const legends = pool.filter((a) => a.source === "curated").sort((a, b) => a.id.localeCompare(b.id));
-  const others = pool.filter((a) => a.source !== "curated");
+  const nonLegends = pool.filter((a) => a.source !== "curated");
+  // Train on what the ad actually looked like: prefer ads with real media when there are enough.
+  const withMedia = nonLegends.filter((a) => mediaRank(a) < 2);
+  const others = withMedia.length >= size * 2 ? withMedia : nonLegends;
   if (legends.length && others.length) {
     const k = Math.min(2, legends.length);
     const picks: Ad[] = [];
@@ -50,7 +54,7 @@ export function pickDaily(pool: Ad[], key: string, size = DAILY_SIZE): Ad[] {
     [2, 6].forEach((slot, i) => picks[i] && out.splice(Math.min(slot, out.length), 0, picks[i]));
     return out.slice(0, size);
   }
-  return pickRanked(pool, rand, size);
+  return pickRanked(others.length >= size ? others : pool, rand, size);
 }
 
 function pickRanked(pool: Ad[], rand: () => number, size: number): Ad[] {

@@ -7,7 +7,8 @@ import { adYouTubeId } from "./youtube";
  */
 export function effectiveFormat(ad: Ad): Format {
   if (!ad.media.length && !adYouTubeId(ad)) return "text";
-  if (ad.format === "text") return ad.media.some((m) => m.type === "video") ? "video" : ad.media.length > 1 ? "carousel" : "image";
+  if (adYouTubeId(ad) || ad.media.some((m) => m.type === "video")) return "video"; // incl. multi-video DCO "carousels"
+  if (ad.format === "text" || ad.format === "video") return ad.media.length > 1 ? "carousel" : "image";
   return ad.format;
 }
 

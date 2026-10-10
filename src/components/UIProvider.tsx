@@ -146,7 +146,8 @@ export function UIProvider({ children }: { children: ReactNode }) {
       return;
     }
     const r = el.getBoundingClientRect();
-    setAnchor({ left: r.left, width: r.width, right: "auto", bottom: Math.max(16, window.innerHeight - r.bottom + 20) });
+    // Just under the feed's top bar: never over the CTA row, the action rail or the side panels.
+    setAnchor({ left: r.left, width: r.width, right: "auto", bottom: "auto", top: r.top + 64 });
   }, [hasToasts]);
 
   return (
