@@ -15,7 +15,6 @@ import {
   type SavedItem,
 } from "@/lib/saved";
 import { useHydrated } from "@/lib/store";
-import { useCanAnalyze } from "@/lib/role-client";
 import { adTitle, scoreText, truncate } from "@/lib/format";
 import { SEGMENT_LABEL } from "@/lib/filters";
 import { AdThumb } from "./AdThumb";
@@ -35,7 +34,6 @@ export function SavedView() {
   const hydrated = useHydrated();
   const state = useSaved();
   const ui = useUI();
-  const canAnalyze = useCanAnalyze();
   const [selected, setSelected] = useState<string>(ALL);
   const tinderCount = historySessions(useTinder()).length;
   const [creating, setCreating] = useState(false);
@@ -179,13 +177,7 @@ export function SavedView() {
             <div className="mb-4 grid size-14 place-items-center rounded-2xl bg-volt/10 text-2xl">✨</div>
             <p className="font-bold">Henüz özet yok</p>
             <p className="mt-1 max-w-xs text-sm text-mist">
-              {canAnalyze ? (
-                <>
-                  Kaydettiğin bir reklamda <b className="text-zinc-200">✨ Özetle</b>&apos;ye bas: Gemini videoyu sahne sahne çözer, hook&apos;u ve yapıyı çıkarır.
-                </>
-              ) : (
-                "Bu hesapta Gemini özetleme kapalı; notlarını yine ekleyebilirsin."
-              )}
+              Kaydettiğin bir reklamda <b className="text-zinc-200">✨ Özetle</b>&apos;ye bas: Gemini videoyu sahne sahne çözer, hook&apos;u ve yapıyı çıkarır.
             </p>
           </div>
         ) : (

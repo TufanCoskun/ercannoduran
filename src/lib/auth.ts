@@ -1,9 +1,11 @@
 /**
- * Login gate for AdGym: one admin account plus an optional, restricted viewer account.
+ * Login gate for AdGym: one admin account plus optional viewer accounts.
  *
  * Credentials come ONLY from env vars:
  *   ADMIN_USERNAME, ADMIN_PASSWORD, AUTH_SECRET  (required; missing → site fails closed)
- *   VIEWER_USERNAME, VIEWER_PASSWORD             (optional; both set → a "viewer" account exists)
+ *   VIEWER_ACCOUNTS  JSON array [{"u","p","limit"}]  (optional; takes precedence when set)
+ *   VIEWER_USERNAME, VIEWER_PASSWORD, VIEWER_GEMINI_LIMIT  (legacy single viewer; ignored if VIEWER_ACCOUNTS is set)
+ * Viewers can use everything incl. Gemini analysis, limited by a per-user quota (src/lib/quota.ts).
  * Session token: base64url(JSON {u, r, exp}) + "." + base64url(HMAC-SHA256(payload, AUTH_SECRET)).
  * Uses Web Crypto only, so it runs in the Edge middleware and in Node route handlers.
  */
@@ -13,12 +15,46 @@ export const SESSION_COOKIE = "adgym_session";
 export const ROLE_COOKIE = "adgym_role";
 export const SESSION_TTL_SECONDS = 60 * 60 * 24 * 30; // 30 days
 export const MISCONFIGURED_MESSAGE = "ADMIN_USERNAME / ADMIN_PASSWORD / AUTH_SECRET ayarlanmamış";
-export const FORBIDDEN_ANALYZE_MESSAGE = "Bu hesapta Gemini özetleme yetkisi yok.";
+export const DEFAULT_VIEWER_LIMIT = 10;
 
 export type Role = "admin" | "viewer";
-export type Account = { username: string; password: string; role: Role };
+/** `limit` = Gemini analyses allowed in total (viewers only; admin is unlimited). */
+export type Account = { username: string; password: string; role: Role; limit?: number };
 export type AuthConfig = { accounts: Account[]; secret: string };
 export type Session = { u: string; r: Role };
+
+function parseLimit(v: unknown, fallback: number): number {
+  const n = typeof v === "number" ? v : typeof v === "string" && v.trim() ? Number(v) : NaN;
+  return Number.isFinite(n) && n >= 0 ? Math.floor(n) : fallback;
+}
+
+/** Viewer accounts from VIEWER_ACCOUNTS (JSON) or, if unset, the legacy VIEWER_USERNAME/PASSWORD pair. */
+function viewerAccounts(adminUsername: string): Account[] {
+  const out: Account[] = [];
+  const seen = new Set([adminUsername]);
+  const add = (u: unknown, p: unknown, limit: number) => {
+    if (typeof u !== "string" || typeof p !== "string" || !u || !p || seen.has(u)) return;
+    seen.add(u);
+    out.push({ username: u, password: p, role: "viewer", limit });
+  };
+  const json = process.env.VIEWER_ACCOUNTS?.trim();
+  if (json) {
+    try {
+      const arr: unknown = JSON.parse(json);
+      if (Array.isArray(arr)) {
+        for (const it of arr) {
+          const o = (it && typeof it === "object" ? it : {}) as Record<string, unknown>;
+          add(o.u, o.p, parseLimit(o.limit, DEFAULT_VIEWER_LIMIT));
+        }
+      }
+    } catch {
+      console.error("[auth] VIEWER_ACCOUNTS is not valid JSON; no viewer accounts are active.");
+    }
+    return out;
+  }
+  add(process.env.VIEWER_USERNAME ?? "", process.env.VIEWER_PASSWORD ?? "", parseLimit(process.env.VIEWER_GEMINI_LIMIT, DEFAULT_VIEWER_LIMIT));
+  return out;
+}
 
 /** Returns null when any required env var is missing (callers must fail closed). */
 export function getAuthConfig(): AuthConfig | null {
@@ -26,22 +62,21 @@ export function getAuthConfig(): AuthConfig | null {
   const password = process.env.ADMIN_PASSWORD ?? "";
   const secret = process.env.AUTH_SECRET ?? "";
   if (!username || !password || secret.length < 16) return null;
-  const accounts: Account[] = [{ username, password, role: "admin" }];
-  const vUser = process.env.VIEWER_USERNAME ?? "";
-  const vPass = process.env.VIEWER_PASSWORD ?? "";
-  // Viewer is optional; ignored if incomplete or if it collides with the admin username.
-  if (vUser && vPass && vUser !== username) accounts.push({ username: vUser, password: vPass, role: "viewer" });
-  return { accounts, secret };
+  return { accounts: [{ username, password, role: "admin" }, ...viewerAccounts(username)], secret };
+}
+
+export function findAccount(username: string, cfg: AuthConfig): Account | null {
+  return cfg.accounts.find((a) => a.username === username) ?? null;
 }
 
 /** Role of a configured account by username, or null if no such account exists (any more). */
 export function roleOf(username: string, cfg: AuthConfig): Role | null {
-  return cfg.accounts.find((a) => a.username === username)?.role ?? null;
+  return findAccount(username, cfg)?.role ?? null;
 }
 
-/** Permission check: only admin may run (paid) Gemini analysis. */
+/** Both roles may run Gemini analysis; viewers are additionally limited by their quota. */
 export function canAnalyze(session: Session | null): boolean {
-  return session?.r === "admin";
+  return session !== null;
 }
 
 const encoder = new TextEncoder();

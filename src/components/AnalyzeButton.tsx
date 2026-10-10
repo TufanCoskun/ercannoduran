@@ -6,7 +6,7 @@ import type { Ad } from "@/lib/types";
 import { useSaved } from "@/lib/saved";
 import { useHydrated } from "@/lib/store";
 import { startAnalysis, useAnalysisJob } from "@/lib/analyze-client";
-import { useCanAnalyze } from "@/lib/role-client";
+import { useCanAnalyze, useRole, useViewerQuota } from "@/lib/role-client";
 
 /**
  * "✨ Özetle" — runs the Gemini breakdown for ONE saved ad, only when pressed (each press costs money).
@@ -35,10 +35,14 @@ export function AnalyzeButton({
   const item = state.items[adId];
   const job = useAnalysisJob(adId);
   const allowed = useCanAnalyze();
+  const role = useRole();
+  const quota = useViewerQuota();
+  // Viewers: remaining Gemini uses (null = admin/unlimited or not loaded yet; the server enforces it anyway).
+  const remaining = role === "viewer" && quota ? Math.max(0, quota.limit - quota.used) : null;
   const isVideo = (item?.ad ?? ad)?.format === "video" || Boolean((item?.ad ?? ad)?.media.some((m) => m.type === "video"));
 
   if (!hydrated || (!item && !ad)) return null;
-  // Viewer accounts can't run Gemini (server enforces it too); existing analyses stay readable elsewhere.
+  // Unknown role (no session hint yet) → no paid controls.
   if (!allowed) return null;
 
   const base =
@@ -72,6 +76,17 @@ export function AnalyzeButton({
     );
   }
 
+  if (remaining === 0) {
+    return (
+      <div className={className}>
+        <button type="button" disabled className={`${base} cursor-not-allowed bg-white/[0.06] text-zinc-500 ring-1 ring-white/10`}>
+          <span aria-hidden>✨</span> Hakkın doldu
+        </button>
+        {variant === "block" && <p className="mt-1.5 text-center text-[11px] text-zinc-500">Bu hesabın Gemini özet hakkı bitti ({quota?.used}/{quota?.limit}).</p>}
+      </div>
+    );
+  }
+
   return (
     <div className={`${className} ${job.status === "error" && variant === "pill" ? "w-full" : ""}`}>
       <button
@@ -80,6 +95,7 @@ export function AnalyzeButton({
         className={`${base} bg-volt text-black shadow-[0_0_24px_-8px] shadow-volt/60 hover:bg-volt-dim`}
       >
         <span aria-hidden>✨</span> {job.status === "error" ? "Tekrar dene" : "Özetle"}
+        {remaining !== null && <span className="font-semibold opacity-70">({remaining} hakkın kaldı)</span>}
       </button>
       {job.status === "error" && <AnalyzeError adId={adId} ad={item ? undefined : ad} error={job.error} canUsePoster={job.canUsePoster} />}
     </div>

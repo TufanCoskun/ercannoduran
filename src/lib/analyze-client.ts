@@ -2,6 +2,7 @@ import { useSyncExternalStore } from "react";
 import type { Ad } from "./types";
 import type { AnalyzeErrorCode, AnalyzeResponse } from "./analysis";
 import { setAnalysis } from "./saved";
+import { setViewerQuota } from "./role-client";
 
 /**
  * Client-side "Özetle" jobs. A job lives outside React so the loading state survives closing the
@@ -64,6 +65,7 @@ export async function startAnalysis(adId: string, opts: StartOptions = {}): Prom
     } catch {
       json = undefined;
     }
+    if (json && "quota" in json && json.quota) setViewerQuota(json.quota);
     if (json && "ok" in json && json.ok) {
       setAnalysis(adId, json.analysis, opts.ad);
       set(adId, { status: "done" });

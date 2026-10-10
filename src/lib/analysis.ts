@@ -59,12 +59,20 @@ export interface AnalyzeRequest {
   allowPoster?: boolean;
 }
 
+/** Viewer accounts only: Gemini analyses used / allowed in total. */
+export interface QuotaInfo {
+  used: number;
+  limit: number;
+}
+
 export type AnalyzeResponse =
-  | { ok: true; analysis: AnalysisRecord; cached: boolean }
-  | { ok: false; error: string; code: AnalyzeErrorCode; canUsePoster?: boolean };
+  | { ok: true; analysis: AnalysisRecord; cached: boolean; quota?: QuotaInfo }
+  | { ok: false; error: string; code: AnalyzeErrorCode; canUsePoster?: boolean; quota?: QuotaInfo };
 
 export type AnalyzeErrorCode =
   | "forbidden"
+  | "quota"
+  | "quota_store"
   | "no_key"
   | "bad_request"
   | "not_found"
