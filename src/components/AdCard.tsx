@@ -9,7 +9,7 @@ import { useSaved } from "@/lib/saved";
 import { adYouTubeId } from "@/lib/youtube";
 import { AdMediaView, type MediaMode, type Preload } from "./AdMediaView";
 import { BrandAvatar, TIER_COLOR } from "./Bits";
-import { BookmarkIcon, FlameIcon, InfoIcon, MuteIcon, ShareIcon, VolumeIcon } from "./Icons";
+import { BookmarkIcon, FlameIcon, InfoIcon, MuteIcon, PencilIcon, ShareIcon, VolumeIcon } from "./Icons";
 import { isBrandish } from "./TextCard";
 import { useUI } from "./UIProvider";
 
@@ -44,6 +44,7 @@ export function AdCard({
   const ui = useUI();
   const saved = useSaved();
   const isSaved = Boolean(saved.items[ad.id]);
+  const noteCount = saved.items[ad.id]?.notes.length ?? 0;
   const [mode, setMode] = useState<MediaMode>(ad.media.length ? "image" : "text");
   const onMode = useCallback((m: MediaMode) => setMode(m), []);
   const bar = useRef<HTMLDivElement>(null);
@@ -89,6 +90,14 @@ export function AdCard({
               }}
             >
               <BookmarkIcon size={19} filled={isSaved} className={isSaved ? "animate-pop text-volt" : ""} />
+            </RailButton>
+            <RailButton
+              label={noteCount ? `Not al (${noteCount} not)` : "Not al"}
+              onClick={() => ui.openNote(ad)}
+              badge={noteCount ? <NoteCount n={noteCount} /> : undefined}
+              badgeCorner
+            >
+              <PencilIcon size={17} />
             </RailButton>
             <RailButton label="Paylaş" onClick={() => ui.share(ad)}>
               <ShareIcon size={18} />
@@ -177,10 +186,19 @@ function ScoreBadge({ ad }: { ad: Ad }) {
   );
 }
 
+function NoteCount({ n }: { n: number }) {
+  return (
+    <span className="grid h-[15px] min-w-[15px] place-items-center rounded-full bg-volt px-1 text-[9.5px] font-black tabular-nums leading-none text-black ring-2 ring-black/40" data-note-count={n}>
+      {n > 9 ? "9+" : n}
+    </span>
+  );
+}
+
 function RailButton({
   label,
   active,
   badge,
+  badgeCorner,
   children,
   onClick,
   onContextMenu,
@@ -188,6 +206,8 @@ function RailButton({
   label: string;
   active?: boolean;
   badge?: React.ReactNode;
+  /** Badge at the top-right corner (counts) instead of under the button. */
+  badgeCorner?: boolean;
   children: React.ReactNode;
   onClick: () => void;
   onContextMenu?: (e: React.MouseEvent) => void;
@@ -203,7 +223,9 @@ function RailButton({
       className={`relative grid size-9 place-items-center rounded-full text-white ring-1 backdrop-blur-sm transition ${active ? "bg-volt/15 ring-volt/40" : "bg-black/30 ring-white/10 hover:bg-black/50"}`}
     >
       {children}
-      {badge && <span className="pointer-events-none absolute -bottom-1.5 left-1/2 -translate-x-1/2">{badge}</span>}
+      {badge && (
+        <span className={`pointer-events-none absolute ${badgeCorner ? "-right-1 -top-1" : "-bottom-1.5 left-1/2 -translate-x-1/2"}`}>{badge}</span>
+      )}
     </button>
   );
 }

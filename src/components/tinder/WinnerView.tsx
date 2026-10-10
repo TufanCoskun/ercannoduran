@@ -9,7 +9,7 @@ import { beatenBy, canUndoPick, filtersLabel, resolveAd, undoPick, type TinderSe
 import { AdMediaView, type MediaMode } from "../AdMediaView";
 import { AdInfoSheet } from "../AdInfoSheet";
 import { AdScore, BrandAvatar } from "../Bits";
-import { BookmarkIcon, ExternalIcon, InfoIcon, MuteIcon, ShareIcon, TrophyIcon, VolumeIcon } from "../Icons";
+import { BookmarkIcon, ExternalIcon, InfoIcon, MuteIcon, PencilIcon, ShareIcon, TrophyIcon, VolumeIcon } from "../Icons";
 import { useUI } from "../UIProvider";
 import { AdTile, DaysBadge, UndoIcon } from "./bits";
 
@@ -35,6 +35,7 @@ export function WinnerView({
   const ad = session.winner ? resolveAd(session, session.winner, live) : undefined;
   if (!ad) return null;
   const isSaved = Boolean(saved.items[ad.id]);
+  const noteCount = saved.items[ad.id]?.notes.length ?? 0;
   const path = beatenBy(session, ad.id)
     .map((x) => ({ ...x, ad: resolveAd(session, x.opponent, live) }))
     .filter((x): x is { round: number; opponent: string; ad: Ad } => Boolean(x.ad));
@@ -127,6 +128,15 @@ export function WinnerView({
             </button>
             <button
               type="button"
+              onClick={() => ui.openNote(ad)}
+              className="flex h-12 items-center justify-center gap-2 rounded-2xl bg-white/[0.07] text-sm font-semibold ring-1 ring-white/10 transition hover:bg-white/[0.12]"
+              data-winner-note=""
+            >
+              <PencilIcon size={16} /> Not al
+              {noteCount > 0 && <span className="rounded-full bg-volt px-1.5 text-[11px] font-black leading-[18px] text-black">{noteCount}</span>}
+            </button>
+            <button
+              type="button"
               onClick={() => ui.share(ad)}
               className="flex h-12 items-center justify-center gap-2 rounded-2xl bg-white/[0.07] text-sm font-semibold ring-1 ring-white/10 transition hover:bg-white/[0.12]"
             >
@@ -143,7 +153,7 @@ export function WinnerView({
             <button
               type="button"
               onClick={onNew}
-              className="flex h-12 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-rose-500 to-orange-400 text-sm font-black text-white transition hover:brightness-110"
+              className="col-span-2 flex h-12 items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-rose-500 to-orange-400 text-sm font-black text-white transition hover:brightness-110"
             >
               Yeni Tinder
             </button>

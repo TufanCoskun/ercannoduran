@@ -265,7 +265,7 @@ function Half({
           <BrandLine ad={ad} size={24} />
           {line && <p className="text-shadow mt-1 hidden truncate text-[13px] text-white/85 sm:block">{line}</p>}
           <span className="pointer-events-auto mt-2 flex items-center gap-1.5">
-            <SaveShareIcons ad={ad} dark />
+            <SaveShareIcons ad={ad} dark note />
             <button
               type="button"
               onClick={onInfo}

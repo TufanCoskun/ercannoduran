@@ -7,7 +7,7 @@ import { adPath, brandFeedPath, daysLabel, displayReasons, formatDate, libraryLa
 import { useSaved } from "@/lib/saved";
 import { AnalyzeButton } from "./AnalyzeButton";
 import { AdScore, BrandAvatar, Chip } from "./Bits";
-import { BookmarkIcon, ExternalIcon, FlameIcon, ShareIcon } from "./Icons";
+import { BookmarkIcon, ExternalIcon, FlameIcon, PencilIcon, ShareIcon } from "./Icons";
 import { Sheet } from "./Sheet";
 import { useUI } from "./UIProvider";
 
@@ -44,6 +44,7 @@ function InfoBody({ ad, onNavigate }: { ad: Ad; onNavigate: () => void }) {
   const ui = useUI();
   const saved = useSaved();
   const isSaved = Boolean(saved.items[ad.id]);
+  const noteCount = saved.items[ad.id]?.notes.length ?? 0;
   const days = daysLabel(ad);
   const reasons = displayReasons(ad);
 
@@ -136,7 +137,7 @@ function InfoBody({ ad, onNavigate }: { ad: Ad; onNavigate: () => void }) {
         </a>
       </div>
 
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-2 gap-2 min-[400px]:grid-cols-4">
         <button
           type="button"
           onClick={() => ui.toggleSave(ad)}
@@ -144,6 +145,18 @@ function InfoBody({ ad, onNavigate }: { ad: Ad; onNavigate: () => void }) {
           className={`flex h-11 items-center justify-center gap-1.5 rounded-xl text-[13px] font-semibold ring-1 transition ${isSaved ? "bg-volt/15 text-volt ring-volt/40" : "bg-white/[0.07] ring-white/10 hover:bg-white/[0.12]"}`}
         >
           <BookmarkIcon size={16} filled={isSaved} /> {isSaved ? "Kayıtlı" : "Kaydet"}
+        </button>
+        <button
+          type="button"
+          onClick={() => {
+            onNavigate(); // close the info sheet; the note sheet takes its place
+            ui.openNote(ad);
+          }}
+          className="flex h-11 items-center justify-center gap-1.5 rounded-xl bg-white/[0.07] text-[13px] font-semibold ring-1 ring-white/10 transition hover:bg-white/[0.12]"
+          data-info-note=""
+        >
+          <PencilIcon size={15} /> Not al
+          {noteCount > 0 && <span className="rounded-full bg-volt px-1.5 text-[10px] font-black leading-4 text-black">{noteCount}</span>}
         </button>
         <button
           type="button"

@@ -279,7 +279,7 @@ function FeedColumn({
     [total],
   );
 
-  // Keyboard: ↑/↓ or j/k to move, s to save, m to toggle sound, i for details, r to shuffle.
+  // Keyboard: ↑/↓ or j/k to move, s to save, n to note, m to toggle sound, i for details, r to shuffle.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
@@ -298,6 +298,12 @@ function FeedColumn({
         if (ad) {
           e.preventDefault();
           ui.toggleSave(ad);
+        }
+      } else if (k === "n" || k === "N") {
+        const ad = list[active];
+        if (ad) {
+          e.preventDefault(); // don't type the "n" into the note
+          ui.openNote(ad);
         }
       } else if (k === "m" || k === "M") {
         toggleMute();
@@ -610,6 +616,10 @@ function Shortcuts() {
         <li className="flex justify-between">
           <span>Kaydet</span>
           <Kbd>s</Kbd>
+        </li>
+        <li className="flex justify-between">
+          <span>Not al</span>
+          <Kbd>n</Kbd>
         </li>
         <li className="flex justify-between">
           <span>Ses aç / kapat</span>

@@ -14,8 +14,9 @@ import {
 } from "@/lib/saved";
 import { adPath, adTitle, truncate } from "@/lib/format";
 import { AnalyzeButton } from "./AnalyzeButton";
+import { QuickNote } from "./QuickNote";
 import { Sheet } from "./Sheet";
-import { CheckIcon, FolderIcon, LinkIcon, PlusIcon, ShareIcon, TrashIcon, WhatsAppIcon } from "./Icons";
+import { CheckIcon, FolderIcon, LinkIcon, PencilIcon, PlusIcon, ShareIcon, TrashIcon, WhatsAppIcon } from "./Icons";
 
 interface ToastAction {
   label: string;
@@ -25,12 +26,16 @@ interface ToastMsg {
   id: number;
   text: string;
   action?: ToastAction;
+  key?: string;
 }
 
 interface UI {
-  toast: (text: string, action?: ToastAction) => void;
+  /** `opts.key`: a new toast with the same key replaces the previous one instead of stacking. */
+  toast: (text: string, action?: ToastAction, opts?: { key?: string }) => void;
   toggleSave: (ad: Ad) => void;
   openSave: (ad: Ad) => void;
+  /** Quick-note sheet for any ad (saving a note auto-saves an unsaved ad). */
+  openNote: (ad: Ad) => void;
   share: (ad: Ad) => void;
   copyLink: (ad: Ad) => void;
 }
@@ -81,15 +86,22 @@ export function UIProvider({ children }: { children: ReactNode }) {
   const [toasts, setToasts] = useState<ToastMsg[]>([]);
   const [saveFor, setSaveFor] = useState<Ad | null>(null);
   const [shareFor, setShareFor] = useState<Ad | null>(null);
+  const [noteFor, setNoteFor] = useState<Ad | null>(null);
   const seq = useRef(0);
 
-  const toast = useCallback((text: string, action?: ToastAction) => {
+  const toast = useCallback((text: string, action?: ToastAction, opts?: { key?: string }) => {
     const id = ++seq.current;
-    setToasts((t) => [...t.slice(-2), { id, text, action }]);
+    const key = opts?.key;
+    setToasts((t) => [...(key ? t.filter((x) => x.key !== key) : t).slice(-2), { id, text, action, key }]);
     window.setTimeout(() => setToasts((t) => t.filter((x) => x.id !== id)), action ? 4200 : 2400);
   }, []);
 
   const openSave = useCallback((ad: Ad) => setSaveFor(ad), []);
+  const openNote = useCallback((ad: Ad) => {
+    setSaveFor(null);
+    setShareFor(null);
+    setNoteFor(ad);
+  }, []);
 
   const toggleSave = useCallback(
     (ad: Ad) => {
@@ -133,7 +145,7 @@ export function UIProvider({ children }: { children: ReactNode }) {
     setShareFor(ad);
   }, []);
 
-  const value = useMemo<UI>(() => ({ toast, toggleSave, openSave, share, copyLink }), [toast, toggleSave, openSave, share, copyLink]);
+  const value = useMemo<UI>(() => ({ toast, toggleSave, openSave, openNote, share, copyLink }), [toast, toggleSave, openSave, openNote, share, copyLink]);
 
   // Mobile: toasts drop in from the top (the bottom of the feed carries the brand line).
   // Desktop: keep toasts inside the feed column (never over the filter / insights panel).
@@ -186,13 +198,14 @@ export function UIProvider({ children }: { children: ReactNode }) {
           </div>
         ))}
       </div>
-      <SaveSheet ad={saveFor} onClose={() => setSaveFor(null)} toast={toast} />
+      <SaveSheet ad={saveFor} onClose={() => setSaveFor(null)} toast={toast} onNote={openNote} />
+      <QuickNote ad={noteFor} onClose={() => setNoteFor(null)} toast={toast} onPickCollection={openSave} />
       <ShareSheet ad={shareFor} onClose={() => setShareFor(null)} onCopy={copyLink} />
     </Ctx.Provider>
   );
 }
 
-function SaveSheet({ ad, onClose, toast }: { ad: Ad | null; onClose: () => void; toast: UI["toast"] }) {
+function SaveSheet({ ad, onClose, toast, onNote }: { ad: Ad | null; onClose: () => void; toast: UI["toast"]; onNote: (ad: Ad) => void }) {
   const state = useSaved();
   const [newName, setNewName] = useState("");
   const current = ad ? state.items[ad.id] : undefined;
@@ -206,7 +219,7 @@ function SaveSheet({ ad, onClose, toast }: { ad: Ad | null; onClose: () => void;
     if (current) moveAd(ad.id, collectionId);
     else saveAd(ad, collectionId);
     const name = state.collections.find((c) => c.id === collectionId)?.name;
-    toast(`“${name}” koleksiyonuna eklendi`);
+    toast(`“${name}” koleksiyonuna eklendi`, { label: "✎ Not ekle", onClick: () => onNote(ad) });
     onClose();
   };
   const counts: Record<string, number> = {};
@@ -217,6 +230,17 @@ function SaveSheet({ ad, onClose, toast }: { ad: Ad | null; onClose: () => void;
       <p className="-mt-2 mb-4 truncate text-sm text-mist">
         {ad.brand.name} · {truncate(adTitle(ad), 60)}
       </p>
+      {current && (
+        <button
+          type="button"
+          onClick={() => onNote(ad)}
+          className="mb-4 flex h-12 w-full items-center justify-center gap-2 rounded-2xl bg-volt text-[15px] font-bold text-black shadow-[0_12px_40px_-16px_rgba(200,255,46,0.7)] transition hover:brightness-105 active:scale-[0.99]"
+          data-save-note=""
+        >
+          <PencilIcon size={16} /> Not ekle
+          {current.notes.length > 0 && <span className="rounded-full bg-black/15 px-1.5 text-xs tabular-nums">{current.notes.length}</span>}
+        </button>
+      )}
       <ul className="space-y-1.5">
         {state.collections.map((c) => {
           const active = current?.collectionId === c.id;
@@ -244,7 +268,7 @@ function SaveSheet({ ad, onClose, toast }: { ad: Ad | null; onClose: () => void;
           const id = createCollection(newName);
           if (current) moveAd(ad.id, id);
           else saveAd(ad, id);
-          toast(`“${newName.trim()}” oluşturuldu`);
+          toast(`“${newName.trim()}” oluşturuldu`, { label: "✎ Not ekle", onClick: () => onNote(ad) });
           onClose();
         }}
       >

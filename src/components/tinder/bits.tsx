@@ -6,7 +6,7 @@ import { daysLabel, previewImage } from "@/lib/format";
 import { effectiveFormat } from "@/lib/filters";
 import { useSaved } from "@/lib/saved";
 import { BrandAvatar } from "../Bits";
-import { BookmarkIcon, FlameIcon, PlaySolidIcon, ShareIcon } from "../Icons";
+import { BookmarkIcon, FlameIcon, PencilIcon, PlaySolidIcon, ShareIcon } from "../Icons";
 import { TextCard } from "../TextCard";
 import { useUI } from "../UIProvider";
 
@@ -76,10 +76,11 @@ export function BrandLine({ ad, size = 26 }: { ad: Ad; size?: number }) {
   );
 }
 
-export function SaveShareIcons({ ad, className = "", dark, small }: { ad: Ad; className?: string; dark?: boolean; small?: boolean }) {
+export function SaveShareIcons({ ad, className = "", dark, small, note }: { ad: Ad; className?: string; dark?: boolean; small?: boolean; note?: boolean }) {
   const ui = useUI();
   const saved = useSaved();
   const isSaved = Boolean(saved.items[ad.id]);
+  const noteCount = saved.items[ad.id]?.notes.length ?? 0;
   const btn = `grid ${small ? "size-7" : "size-8"} place-items-center rounded-full ring-1 transition ${dark ? "bg-black/40 ring-white/10 backdrop-blur-sm hover:bg-black/60" : "bg-white/[0.06] ring-white/10 hover:bg-white/[0.12]"}`;
   return (
     <span className={`flex items-center gap-1.5 ${className}`}>
@@ -100,6 +101,31 @@ export function SaveShareIcons({ ad, className = "", dark, small }: { ad: Ad; cl
       >
         <BookmarkIcon size={small ? 13 : 15} filled={isSaved} />
       </button>
+      {note && (
+        <button
+          type="button"
+          // Never let a tap here start a card drag / pick underneath.
+          onPointerDown={(e) => e.stopPropagation()}
+          onClick={(e) => {
+            e.stopPropagation();
+            ui.openNote(ad);
+          }}
+          aria-label={noteCount ? `Not al (${noteCount} not)` : "Not al"}
+          title="Not al"
+          className={`${btn} relative text-white`}
+          data-note-btn=""
+        >
+          <PencilIcon size={small ? 12 : 14} />
+          {noteCount > 0 && (
+            <span
+              className="pointer-events-none absolute -right-1 -top-1 grid h-[14px] min-w-[14px] place-items-center rounded-full bg-volt px-0.5 text-[9px] font-black leading-none text-black ring-2 ring-black/40"
+              data-note-count={noteCount}
+            >
+              {noteCount > 9 ? "9+" : noteCount}
+            </span>
+          )}
+        </button>
+      )}
       <button
         type="button"
         onClick={(e) => {
@@ -148,7 +174,7 @@ export function AdTile({ ad, onOpen, tag, highlight }: { ad: Ad; onOpen: (ad: Ad
             <DaysBadge ad={ad} />
           </span>
         </button>
-        <SaveShareIcons ad={ad} dark small className="absolute right-1.5 top-1.5 !flex-col" />
+        <SaveShareIcons ad={ad} dark small note className="absolute right-1.5 top-1.5 !flex-col" />
       </div>
       <div className="px-2 py-1.5">
         <p className="truncate text-[13px] font-semibold leading-tight">{ad.brand.name}</p>
