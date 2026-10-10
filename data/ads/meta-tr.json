@@ -1,0 +1,4120 @@
+{
+  "generatedAt": "2026-10-10T12:28:58.981Z",
+  "ads": [
+    {
+      "id": "meta_785939991204111",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Rixos Tersane Istanbul",
+        "pageId": "289991007525139"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Rixos Tersane",
+      "startedAt": "2026-02-06T08:52:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 246,
+      "variations": 3,
+      "performance": {
+        "score": 70,
+        "reasons": [
+          "246 gün yayında",
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=785939991204111",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1997362907848801",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Dermoskin",
+        "pageId": "360781960613199"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Probiyotik İçerikli Bebek Şampuanı",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-03-02T15:20:38.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 221,
+      "variations": 2,
+      "performance": {
+        "score": 70,
+        "reasons": [
+          "221 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1997362907848801",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1470654261355694",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Dermoskin",
+        "pageId": "360781960613199"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Atopik Bebek Yüz Cildi İçin Prebiyotik Destek",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-03-02T15:16:25.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 221,
+      "variations": 2,
+      "performance": {
+        "score": 70,
+        "reasons": [
+          "221 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1470654261355694",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_837561591976704",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Dermoskin",
+        "pageId": "360781960613199"
+      },
+      "format": "carousel",
+      "media": [],
+      "startedAt": "2026-04-09T14:18:55.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 183,
+      "variations": 2,
+      "performance": {
+        "score": 70,
+        "reasons": [
+          "183 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=837561591976704",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2116797062420979",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Dermoskin",
+        "pageId": "360781960613199"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Probiyotik İçerikli Bebek Vücut Losyonu",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-03-02T15:38:21.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 221,
+      "variations": 1,
+      "performance": {
+        "score": 64,
+        "reasons": [
+          "221 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2116797062420979",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1466630792178088",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Barut Hotels",
+        "pageId": "128563010534107"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-05-17T16:05:42.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 145,
+      "variations": 2,
+      "performance": {
+        "score": 63,
+        "reasons": [
+          "145 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1466630792178088",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2071682490226607",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Barut B Suites",
+        "pageId": "358394334284425"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Barut B Suites",
+      "startedAt": "2026-06-10T15:23:13.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 121,
+      "variations": 2,
+      "performance": {
+        "score": 63,
+        "reasons": [
+          "121 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2071682490226607",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1950072958988636",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Gloria Hotels & Resorts",
+        "pageId": "108863839148093"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-08-10T12:00:08.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 61,
+      "variations": 20,
+      "performance": {
+        "score": 60,
+        "reasons": [
+          "61 gün yayında",
+          "Hâlâ aktif",
+          "20 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1950072958988636",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_985412251188427",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Dermoskin",
+        "pageId": "360781960613199"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Dermoskin Resmi Web Sitesi",
+      "startedAt": "2026-08-12T07:22:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 59,
+      "variations": 13,
+      "performance": {
+        "score": 60,
+        "reasons": [
+          "59 gün yayında",
+          "Hâlâ aktif",
+          "13 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=985412251188427",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_996535402864229",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "VitaminBox",
+        "pageId": "101178379637713"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Bioderma Sebium Kerato+ Gel Cream 30 ml+Sebium Foaming Gel Active 45 ml Hediye",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-06-01T17:53:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 130,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "130 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=996535402864229",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2056323821652239",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "VitaminBox",
+        "pageId": "101178379637713"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "%17'ye Varan İndirimler",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-06-05T09:06:58.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 127,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "127 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2056323821652239",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1697743278218571",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "VitaminBox",
+        "pageId": "101178379637713"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Mood Mate Safranda İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-06-06T10:26:08.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 126,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "126 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1697743278218571",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1948887629154331",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Dermoskin",
+        "pageId": "360781960613199"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Taylan Kümeli'den Püf Lokmaları",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-06-17T13:16:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 114,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "114 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1948887629154331",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1525242955734206",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Rixos Tersane Istanbul",
+        "pageId": "289991007525139"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Rixos Tersane Istanbul",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-07-04T22:26:36.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 97,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "97 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1525242955734206",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_974289665642748",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Rixos Tersane Istanbul",
+        "pageId": "289991007525139"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Rixos Tersane Istanbul",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-07-07T10:27:25.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 95,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "95 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=974289665642748",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_899061425921421",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Vitaminler.com",
+        "pageId": "1470198429858505"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Nature's Supreme Collagen Peptides Powder 300 Gr Aromasız TRY799",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-07-09T11:08:26.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 93,
+      "variations": 1,
+      "performance": {
+        "score": 57,
+        "reasons": [
+          "93 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=899061425921421",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1919676795655419",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Gloria Hotels & Resorts",
+        "pageId": "108863839148093"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-08-10T13:31:14.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 60,
+      "variations": 8,
+      "performance": {
+        "score": 54,
+        "reasons": [
+          "60 gün yayında",
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1919676795655419",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_27628394673497227",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Calista Luxury Resort",
+        "pageId": "9997417073"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-08-04T09:40:51.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 67,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "67 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=27628394673497227",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1707061097267410",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Barut Hotels",
+        "pageId": "128563010534107"
+      },
+      "format": "carousel",
+      "media": [],
+      "startedAt": "2026-08-07T22:59:25.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 63,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "63 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1707061097267410",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1191790506484173",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Anda Barut Collection",
+        "pageId": "115309578114810"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Barut Anda",
+      "languages": [
+        "en"
+      ],
+      "startedAt": "2026-08-07T22:57:52.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 63,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "63 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1191790506484173",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1578715660509859",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Gloria Hotels & Resorts",
+        "pageId": "108863839148093"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-08-11T09:11:45.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 60,
+      "variations": 4,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "60 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1578715660509859",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1384095289807040",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Tatilbudur",
+        "pageId": "196090920410975"
+      },
+      "format": "carousel",
+      "media": [],
+      "startedAt": "2026-08-24T09:08:27.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 47,
+      "variations": 4,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "47 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1384095289807040",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2499237447263245",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Tatilbudur",
+        "pageId": "196090920410975"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Kapadokya Turları - TatilBudur",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-08-24T09:14:01.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 47,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "47 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2499237447263245",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1818306129052529",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "furniture",
+      "brand": {
+        "name": "Vivense",
+        "pageId": "550802898269613"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Vivense ile Evini Yenile!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-01T00:47:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 39,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "39 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1818306129052529",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_28751047254501122",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "VitaminBox",
+        "pageId": "101178379637713"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Vitamin Takviyelerinde İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-04T15:00:01.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 35,
+      "variations": 2,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "35 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28751047254501122",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1803993240952774",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "cosmetics",
+      "brand": {
+        "name": "Flormar",
+        "pageId": "215842538453028"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-09-09T14:25:37.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 30,
+      "variations": 4,
+      "performance": {
+        "score": 48,
+        "reasons": [
+          "30 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1803993240952774",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_3869416173209102",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Calista Luxury Resort",
+        "pageId": "9997417073"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Calista Luxury Resort",
+      "startedAt": "2026-09-11T10:08:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 29,
+      "variations": 18,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "29 gün yayında",
+          "Hâlâ aktif",
+          "18 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3869416173209102",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1562259081840078",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "airline",
+      "brand": {
+        "name": "Pegasus",
+        "pageId": "247815827213"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Sen Yeter ki Uçmak İste",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-18T12:48:58.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 21,
+      "variations": 14,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "21 gün yayında",
+          "Hâlâ aktif",
+          "14 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1562259081840078",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1106642018724099",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "airline",
+      "brand": {
+        "name": "Pegasus",
+        "pageId": "247815827213"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Sen Yeter ki Uçmak İste",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-18T12:44:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 21,
+      "variations": 31,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "21 gün yayında",
+          "Hâlâ aktif",
+          "31 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1106642018724099",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1361952042390505",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Suwen",
+        "pageId": "371803189523959"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Suwen",
+      "startedAt": "2026-09-22T10:46:55.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 18,
+      "variations": 15,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "18 gün yayında",
+          "Hâlâ aktif",
+          "15 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1361952042390505",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2297771140991935",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Gloria Hotels & Resorts",
+        "pageId": "108863839148093"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-09-29T09:06:12.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 11,
+      "variations": 18,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "11 gün yayında",
+          "Hâlâ aktif",
+          "18 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2297771140991935",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1546312820870874",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "home",
+      "brand": {
+        "name": "Madame Coco",
+        "pageId": "193568967343069"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Madame Coco",
+      "startedAt": "2026-10-01T14:47:08.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 12,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "12 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1546312820870874",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1737851797327561",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Kozvit",
+        "pageId": "108066020992321"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kozvit",
+      "startedAt": "2026-10-02T11:55:07.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 50,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "50 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1737851797327561",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1083066641375229",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "pageId": "181297685226637"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Turkcell’le Bağlan Hayata!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-02T14:27:40.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 10,
+      "performance": {
+        "score": 45,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif",
+          "10 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1083066641375229",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1370072525332555",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Rixos Tersane Istanbul",
+        "pageId": "289991007525139"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Rixos Tersane Istanbul",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-08-06T20:22:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 64,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "64 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1370072525332555",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_983692748046897",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "VitaminBox",
+        "pageId": "101178379637713"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Velavit Vitaminlerinde İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-08-06T15:23:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 64,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "64 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=983692748046897",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1061323236575466",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "VitaminBox",
+        "pageId": "101178379637713"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Vitamin Takviye Ürünleri VitaminBox'ta!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-08-06T15:43:20.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 64,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "64 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1061323236575466",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2607790913009461",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Tatilbudur",
+        "pageId": "196090920410975"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "TatilBudur - Tatil Fırsatları",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-08-07T14:30:54.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 63,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "63 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2607790913009461",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_27626879226980807",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Regnum Carya",
+        "pageId": "158997354292043"
+      },
+      "format": "carousel",
+      "media": [],
+      "startedAt": "2026-08-15T11:26:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 56,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "56 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=27626879226980807",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_3768970903234565",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "furniture",
+      "brand": {
+        "name": "Vivense",
+        "pageId": "550802898269613"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Vivense Showroomlarında 10.000TL'e Varan İndirimler",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-08-19T14:15:38.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 51,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "51 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3768970903234565",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1085962457724166",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Tatilbudur",
+        "pageId": "196090920410975"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Tayland Turu - TatilBudur",
+      "startedAt": "2026-08-24T11:49:10.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 47,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "47 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1085962457724166",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_4047700742032590",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Barut B Suites",
+        "pageId": "358394334284425"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-08-28T18:19:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 42,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "42 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4047700742032590",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_3059791044227451",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "TUI BLUE Barut Andız",
+        "pageId": "277816595688975"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-08-28T13:39:10.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 42,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "42 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3059791044227451",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1385749479677949",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "furniture",
+      "brand": {
+        "name": "Vivense",
+        "pageId": "550802898269613"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Bosna Masa",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-02T14:55:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 37,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "37 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1385749479677949",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1572752968197824",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "furniture",
+      "brand": {
+        "name": "Vivense",
+        "pageId": "550802898269613"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Soli Bohem Kayın Ahşap Yemek Odası Takımı, Bej",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-02T16:48:53.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 37,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "37 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1572752968197824",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1522602126218285",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "cosmetics",
+      "brand": {
+        "name": "Flormar",
+        "pageId": "215842538453028"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Puffy Liquid Hafif Yapılı & Sünger Aplikatörlü Yoğunluğu Ayarlanabilir Likit Kontür",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-09T01:43:57.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 31,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "31 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1522602126218285",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2153023761944028",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "bank",
+      "brand": {
+        "name": "Garanti BBVA",
+        "pageId": "7179882242"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-09-08T15:32:54.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 31,
+      "variations": 1,
+      "performance": {
+        "score": 42,
+        "reasons": [
+          "31 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2153023761944028",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2696696594118336",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Watsons",
+        "pageId": "113336038698564"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Hemen Alışverişe Başla!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-07T08:58:05.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 34,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif",
+          "34 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2696696594118336",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2215045386095421",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Gratis",
+        "pageId": "328587073854970"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Gratis ile #guzelbakkendine",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-07T14:35:15.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 14,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "14 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2215045386095421",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1143331318370827",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Penti",
+        "pageId": "66031048413"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "%40 İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-08T09:05:06.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 13,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "13 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1143331318370827",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1951671219571899",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Gratis",
+        "pageId": "328587073854970"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Gratis",
+      "startedAt": "2026-10-09T06:42:34.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 24,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "1 gün yayında",
+          "Hâlâ aktif",
+          "24 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1951671219571899",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2208633333333530",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "marketplace",
+      "brand": {
+        "name": "Pazarama",
+        "pageId": "109072414764601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Pazarama",
+      "startedAt": "2026-10-09T12:40:46.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 18,
+      "performance": {
+        "score": 40,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif",
+          "18 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2208633333333530",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_28319159774450005",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Tatilbudur",
+        "pageId": "196090920410975"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "#TatilBudurHissi",
+      "startedAt": "2026-09-14T08:31:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 26,
+      "variations": 5,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "26 gün yayında",
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28319159774450005",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1010033695375407",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Kaya Hotels & Resorts",
+        "pageId": "285445774817914"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kaya Club Rewards'ın 4 özel üyelik seviyesini keşfedin: Classic, Silver, Gold ve Platinum.",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-21T10:50:44.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 19,
+      "variations": 5,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "19 gün yayında",
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1010033695375407",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_933639956479948",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Siveno",
+        "pageId": "226599881186235"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Siveno %100 Doğal Bulaşık Makinesi Jeli Kireç Önleyici & Temizleyici Limon Tuzu Noniyonik Yüzey Aktif 500 ml",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-23T13:58:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 6,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "16 gün yayında",
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=933639956479948",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1630108941845369",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Suwen",
+        "pageId": "371803189523959"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Seçili Ürünlerde Net %40 İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-26T09:43:31.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 14,
+      "variations": 8,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "14 gün yayında",
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1630108941845369",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1750250906185952",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "home",
+      "brand": {
+        "name": "Madame Coco",
+        "pageId": "193568967343069"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Muhteşem Fırsatlar",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T17:27:29.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 6,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "6 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1750250906185952",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2356522848432240",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "pageId": "181297685226637"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "5.000 TL’ye kadar cayma bedeli bizden.",
+      "startedAt": "2026-10-01T12:47:03.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 5,
+      "performance": {
+        "score": 39,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2356522848432240",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2301361807314369",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "home",
+      "brand": {
+        "name": "Madame Coco",
+        "pageId": "193568967343069"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Madame Coco İndirimleri",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-05T17:56:40.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 8,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "4 gün yayında",
+          "Hâlâ aktif",
+          "8 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2301361807314369",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1954972825141130",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Watsons",
+        "pageId": "113336038698564"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Unfilter Beauty’nin yeni makyaj ürünlerini keşfet! Watsons’ta 99 TL’den başlayan fiyatlarla.",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-07T09:04:49.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1954972825141130",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1421873585959009",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Watsons",
+        "pageId": "113336038698564"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Skin Sensual Ürünleri Watsons'ta!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-08T10:17:25.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1421873585959009",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2142715693265688",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Penti",
+        "pageId": "66031048413"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Sütyenler Sadece 749 TL",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-08T08:11:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 9,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "9 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2142715693265688",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1605770764332315",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Penti",
+        "pageId": "66031048413"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "App'e Özel İlk Alışverişinde Ek %10 İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-08T09:17:01.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 5,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "5 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1605770764332315",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1116288314151848",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Selfy (Türk Telekom)",
+        "pageId": "667751453286674"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "SelfyFest’26 Isparta’da!",
+      "startedAt": "2026-10-08T11:38:28.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 7,
+      "performance": {
+        "score": 34,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "7 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1116288314151848",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1029831252916541",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "bank",
+      "brand": {
+        "name": "Garanti BBVA",
+        "pageId": "7179882242"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-09-14T16:14:50.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 25,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "25 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1029831252916541",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2818286621886408",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "cosmetics",
+      "brand": {
+        "name": "Flormar",
+        "pageId": "215842538453028"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Flormar Sheer Up 💖",
+      "startedAt": "2026-09-15T15:22:03.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 24,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "24 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2818286621886408",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2032885464071810",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "cosmetics",
+      "brand": {
+        "name": "Flormar",
+        "pageId": "215842538453028"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Flormar Sheer Up Intense",
+      "startedAt": "2026-09-15T15:31:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 24,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "24 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2032885464071810",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_28111057041929993",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "bank",
+      "brand": {
+        "name": "Garanti BBVA",
+        "pageId": "7179882242"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-09-15T20:30:30.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 24,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "24 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28111057041929993",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1766018275076926",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "airline",
+      "brand": {
+        "name": "Pegasus",
+        "pageId": "247815827213"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Peki Tatile Nereye?",
+      "startedAt": "2026-09-18T12:49:05.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 21,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "21 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1766018275076926",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1466513815536210",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "airline",
+      "brand": {
+        "name": "Pegasus",
+        "pageId": "247815827213"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Peki Şimdi Nereye?",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-18T12:52:04.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 21,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "21 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1466513815536210",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1724098128821147",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Suwen",
+        "pageId": "371803189523959"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Net %40 İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-22T11:34:10.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 18,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "18 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1724098128821147",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_4601173233487173",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Suwen",
+        "pageId": "371803189523959"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Suwen Siyah Çeyiz Kesesi",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-22T15:16:39.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 17,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "17 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=4601173233487173",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1071396238936207",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "cosmetics",
+      "brand": {
+        "name": "Flormar",
+        "pageId": "215842538453028"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "💥 Tüm Rujlar ve Dudak Kalemleri Tek Fiyat: 299 TL! 💄",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-24T08:10:25.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "16 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1071396238936207",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1004724955971367",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Anda Barut Collection",
+        "pageId": "115309578114810"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Anda Barut Collection",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-24T07:44:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "16 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1004724955971367",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1120265774015573",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "bank",
+      "brand": {
+        "name": "Garanti BBVA",
+        "pageId": "7179882242"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-09-23T14:10:31.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 4,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "16 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1120265774015573",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_3318192581901504",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "music-streaming",
+      "brand": {
+        "name": "fizy",
+        "pageId": "120520681305942"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Simge ile tanışma şansı fizy Kulis’te!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-30T22:17:00.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 9,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "9 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3318192581901504",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_28297941803166297",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Siveno",
+        "pageId": "226599881186235"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Doğal Şampuan 7 Değerli Bitki Yoğun Besleyici ve Dolgunlaştırıcı Dökülme Karşıtı 225 ml",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-30T19:33:56.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 9,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "9 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28297941803166297",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1129296086109994",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "personal-care",
+      "brand": {
+        "name": "Siveno",
+        "pageId": "226599881186235"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Doğal Cilt Bakım ve Temizlik Ürünleri - Siveno",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-30T21:09:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 9,
+      "variations": 4,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "9 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1129296086109994",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1465482225483831",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Suwen",
+        "pageId": "371803189523959"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Sütyen Günleri",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T21:58:03.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 3,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1465482225483831",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_28935170749504822",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "pageId": "181297685226637"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "3 adımda SüperFiber’li olun!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T12:46:20.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28935170749504822",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1569281474508184",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "pageId": "181297685226637"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Turkcell’li olmak çok kolay!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T14:07:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1569281474508184",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1544761170742654",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "pageId": "181297685226637"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Avantajlı tarifelerle Turkcell 5G devri!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T15:26:23.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1544761170742654",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1058157207121355",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "pageId": "181297685226637"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Yeni nesil fiber, taahhütsüz hız!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T13:21:07.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1058157207121355",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2372159096853223",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Etstur",
+        "pageId": "110550738962380"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "ETS ile Rezervasyonunu Yap",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-02T15:43:25.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2372159096853223",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1111785891193029",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Kaya Hotels & Resorts",
+        "pageId": "285445774817914"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kaya İstanbul’da iş seyahati ve keyifli anlar için yerinizi ayırtın",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-03T10:11:59.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1111785891193029",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2048546202531826",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "music-streaming",
+      "brand": {
+        "name": "fizy",
+        "pageId": "120520681305942"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Süperstar’dan Yeni Şarkı!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-02T14:23:21.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 2,
+      "performance": {
+        "score": 33,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2048546202531826",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1754244649144285",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Rixos Tersane Istanbul",
+        "pageId": "289991007525139"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Çocuklara Eğlence, Ailelere Tatil",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-05T11:28:28.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 5,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "5 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1754244649144285",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2867615980304583",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Selfy (Türk Telekom)",
+        "pageId": "667751453286674"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "www.selfy.com.tr",
+      "startedAt": "2026-10-05T07:56:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 5,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "5 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2867615980304583",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_29064579859802230",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Gratis",
+        "pageId": "328587073854970"
+      },
+      "format": "text",
+      "media": [],
+      "startedAt": "2026-10-05T16:51:08.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "4 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=29064579859802230",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1646235657010563",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Incia",
+        "pageId": "362317164124924"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "INCIA ATOPURE ® %100 Doğal Pişik Önleyici Krem Yenidoğan Nemlendirici Koruyucu Hassas Bakım 60 ml",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-06T12:18:37.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "4 gün yayında",
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1646235657010563",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2281953876039930",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Vitaminler.com",
+        "pageId": "1470198429858505"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "%25'e Varan İndirim Fırsatını Kaçırma!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-05T14:16:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 4,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "4 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2281953876039930",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_978839135276077",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Gratis",
+        "pageId": "328587073854970"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "#guzelbakkendine #ShowByPastel #YeniLikitSeri",
+      "startedAt": "2026-10-07T11:27:27.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=978839135276077",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2154310095510044",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Selfy (Türk Telekom)",
+        "pageId": "667751453286674"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "SelfyFest’26 başlıyor!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-06T14:48:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2154310095510044",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1093010656643494",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Selfy (Türk Telekom)",
+        "pageId": "667751453286674"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "SelfyFest’26 ile eğlence şimdi üniversitende!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-06T14:51:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1093010656643494",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1099083806203766",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Jolly Tur",
+        "pageId": "165333778561"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Rixos Premium Magawish Bay View",
+      "startedAt": "2026-10-08T09:40:02.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1099083806203766",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1576055673743882",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Penti",
+        "pageId": "66031048413"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Yenilenen Penti App'ini Hemen İndir!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-08T09:17:04.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1576055673743882",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1505233281654935",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Watsons",
+        "pageId": "113336038698564"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Medicube Age-r Booster Pro Pembe",
+      "startedAt": "2026-10-08T14:12:17.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "1 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1505233281654935",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1627672482073053",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Etstur",
+        "pageId": "110550738962380"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Yılbaşı Tatilini ETS ile Planla",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-08T16:37:07.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "1 gün yayında",
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1627672482073053",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1662168818760005",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Jolly Tur",
+        "pageId": "165333778561"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Yaz Devam Ediyor",
+      "startedAt": "2026-10-09T07:10:36.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "1 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1662168818760005",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1561053979159314",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Penti",
+        "pageId": "66031048413"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Penti",
+      "startedAt": "2026-10-08T12:42:27.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "1 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1561053979159314",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1125731677082158",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Gratis",
+        "pageId": "328587073854970"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kampanyalı Ürünler",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T15:40:59.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1125731677082158",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_3039634823066715",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Etstur",
+        "pageId": "110550738962380"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Tatilini Erken Al, Az Öde",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T19:03:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 3,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif",
+          "3 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3039634823066715",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1411703723828841",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Jolly Tur",
+        "pageId": "165333778561"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Eos Beach Resort Jolly'de!",
+      "startedAt": "2026-10-09T17:39:00.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 2,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif",
+          "2 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1411703723828841",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1099143589777610",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "marketplace",
+      "brand": {
+        "name": "Pazarama",
+        "pageId": "109072414764601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Telefon Aksesuarlarında İndirim!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T12:46:13.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 4,
+      "performance": {
+        "score": 28,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif",
+          "4 varyasyon"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1099143589777610",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2335746540588221",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Regnum Carya",
+        "pageId": "158997354292043"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "www.regnumhotels.com",
+      "startedAt": "2026-09-11T11:08:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 29,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "29 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2335746540588221",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_989070497539490",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Vitaminler.com",
+        "pageId": "1470198429858505"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Aktif Yaşamın İçin Seçtiklerimizi Keşfet!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-14T10:32:32.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 26,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "26 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=989070497539490",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1678969140235875",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "cosmetics",
+      "brand": {
+        "name": "Flormar",
+        "pageId": "215842538453028"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Volume Up Mascara Yoğun Hacim ve Lifting Etkili Kat Kat Uygulanabilir Maskara",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-15T15:05:10.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 24,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "24 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1678969140235875",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_3030302587313505",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Vitaminler.com",
+        "pageId": "1470198429858505"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kalbine İyi Bak!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-18T12:57:47.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 21,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "21 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=3030302587313505",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1034466769639506",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "hotel",
+      "brand": {
+        "name": "Rixos Tersane Istanbul",
+        "pageId": "289991007525139"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Rixos Tersane Istanbul",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-22T09:22:51.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 18,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "18 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1034466769639506",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1400865698803315",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Tatilbudur",
+        "pageId": "196090920410975"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "29 Ekim Doğa Oteller - TatilBudur",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-23T10:16:43.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 17,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "17 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1400865698803315",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1065420202951745",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Vitaminler.com",
+        "pageId": "1470198429858505"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Sindirim Rutinini Yenile!",
+      "startedAt": "2026-09-22T15:50:07.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 17,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "17 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1065420202951745",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1755778079010520",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "furniture",
+      "brand": {
+        "name": "Vivense",
+        "pageId": "550802898269613"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Hayal Et, Gardırobunu 3D Tasarla",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-23T13:01:52.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 16,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "16 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1755778079010520",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1560142389191098",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Kızılay Su",
+        "pageId": "552714607931744"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kızılay Su, iyilik için...",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-25T20:36:09.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 14,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "14 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1560142389191098",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1464691132151799",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Barut Hotels",
+        "pageId": "128563010534107"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Barut Hotels’in Dört Prestijli Collection Oteli Condé Nast Johansens Üyeliğine Kabul Edildi",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-29T13:19:46.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 10,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "10 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1464691132151799",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1374294761127908",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "TUI BLUE Barut Andız",
+        "pageId": "277816595688975"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "TUI BLUE Barut Andız",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-29T15:44:13.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 10,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "10 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1374294761127908",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2121960005347091",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "furniture",
+      "brand": {
+        "name": "Vivense",
+        "pageId": "550802898269613"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "YATAK20 Koduyla Hemen %20 İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-09-30T22:28:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 9,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "9 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2121960005347091",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1081845347881353",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "home",
+      "brand": {
+        "name": "Madame Coco",
+        "pageId": "193568967343069"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Havlularda 4 Al 3 Öde",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T15:09:20.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1081845347881353",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1452648083426167",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "home",
+      "brand": {
+        "name": "Madame Coco",
+        "pageId": "193568967343069"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Büyük Gece İndirimi!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T15:07:22.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1452648083426167",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1605357884417962",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "home",
+      "brand": {
+        "name": "Madame Coco",
+        "pageId": "193568967343069"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Nevresimlerde İndirim",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T15:48:19.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1605357884417962",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1971159263579314",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "apparel",
+      "brand": {
+        "name": "Suwen",
+        "pageId": "371803189523959"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Hamile / Lohusa Koleksiyonu",
+      "startedAt": "2026-10-01T23:08:52.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1971159263579314",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2599405553837467",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "supplements",
+      "brand": {
+        "name": "Vitaminler.com",
+        "pageId": "1470198429858505"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Nutraxin Ürünlerini Keşfet!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-01T15:16:33.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 8,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "8 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2599405553837467",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1098865292682770",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Etstur",
+        "pageId": "110550738962380"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Ara Tatilde Neredesin?",
+      "startedAt": "2026-10-02T14:31:57.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1098865292682770",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1423592643299892",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Kaya Hotels & Resorts",
+        "pageId": "285445774817914"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Ailece unutamayacağınız bir Kuzey Kıbrıs tatiline hazır mısınız? 2027 Erken Rezervasyon Fırsatlarını Kaçırmayın!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-03T09:45:51.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1423592643299892",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_28898525923169372",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Kaya Hotels & Resorts",
+        "pageId": "285445774817914"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "✨ 2027 Erken Rezervasyon avantajlarını kaçırmayın!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-03T09:56:21.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=28898525923169372",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1126051419764162",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Kaya Hotels & Resorts",
+        "pageId": "285445774817914"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "Kaya İzmir Thermal & Convention",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-03T11:12:36.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 7,
+      "variations": 1,
+      "performance": {
+        "score": 27,
+        "reasons": [
+          "7 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1126051419764162",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1503395664941869",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "beauty-retail",
+      "brand": {
+        "name": "Watsons",
+        "pageId": "113336038698564"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Yeni favori allığını keşfet! Unfilter Beauty’nin trend allıkları şimdi 99,95 TL, Sadece Watsons’ta.",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-07T09:08:16.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1503395664941869",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1469489085232413",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Etstur",
+        "pageId": "110550738962380"
+      },
+      "format": "carousel",
+      "media": [],
+      "headline": "The Luvi OtelBodrum",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-06T17:41:09.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1469489085232413",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1107241985104665",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Procsin",
+        "pageId": "100173212069352"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Lansmana Özel Fiyatla Şimdi Satışta!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-06T16:27:28.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 3,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "3 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1107241985104665",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1086156887674918",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "resort",
+      "brand": {
+        "name": "Kaya Hotels & Resorts",
+        "pageId": "285445774817914"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kaya Side'de erken rezervasyon fırsatlarını keşfedin!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-07T15:09:00.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 2,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "2 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1086156887674918",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2082105655829812",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Jolly Tur",
+        "pageId": "165333778561"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Kasım Ara Tatili Kültür Turları ve Ekonomik Kasım Ara Tatili Kültür Turları",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T08:41:11.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "1 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2082105655829812",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1072585718921918",
+      "source": "meta",
+      "segment": "dtc",
+      "market": "TR",
+      "vertical": "skincare",
+      "brand": {
+        "name": "Incia",
+        "pageId": "362317164124924"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Miniklerin hassas dünyasına, doğadan gelen nazik dokunuş.",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T09:51:18.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 1,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "1 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1072585718921918",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_2284084392131909",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Etstur",
+        "pageId": "110550738962380"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "2 Çocuk İçin Ücretsiz Konaklama Fırsatı",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T17:59:31.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=2284084392131909",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1276543674601250",
+      "source": "meta",
+      "segment": "hotel",
+      "market": "TR",
+      "vertical": "travel-agency",
+      "brand": {
+        "name": "Jolly Tur",
+        "pageId": "165333778561"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Jolly ile Erken Rezervasyon",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T14:38:55.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1276543674601250",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1882125542751809",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "marketplace",
+      "brand": {
+        "name": "Pazarama",
+        "pageId": "109072414764601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Worldpuan’lar Pazarama’da 3 Kat Değerli!",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T14:59:58.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1882125542751809",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    },
+    {
+      "id": "meta_1745536213171530",
+      "source": "meta",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "marketplace",
+      "brand": {
+        "name": "Pazarama",
+        "pageId": "109072414764601"
+      },
+      "format": "text",
+      "media": [],
+      "headline": "Puanlarını Tatilde Kullan! 🌴",
+      "languages": [
+        "tr"
+      ],
+      "startedAt": "2026-10-09T14:25:29.000Z",
+      "endedAt": null,
+      "isActive": true,
+      "activeDays": 0,
+      "variations": 1,
+      "performance": {
+        "score": 22,
+        "reasons": [
+          "0 gün yayında",
+          "Hâlâ aktif"
+        ]
+      },
+      "libraryUrl": "https://www.facebook.com/ads/library/?id=1745536213171530",
+      "collectedAt": "2026-10-10T12:28:58.981Z"
+    }
+  ]
+}
