@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import {
   getAuthConfig,
+  isAdminOnlyPath,
   isApiPath,
   MISCONFIGURED_MESSAGE,
   ROLE_COOKIE,
@@ -44,6 +45,22 @@ const MISCONFIGURED_HTML = `<!doctype html>
   <p>Site kilitli. Sunucuda <code>ADMIN_USERNAME</code>, <code>ADMIN_PASSWORD</code> ve <code>AUTH_SECRET</code> (en az 16 karakter) ortam değişkenlerini tanımlayıp yeniden deploy et.</p>
 </div></main></body></html>`;
 
+const FORBIDDEN_HTML = `<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>AdGym · Yetki yok</title>
+<style>
+  html,body{margin:0;height:100%;background:#060608;color:#f4f4f5;font-family:ui-sans-serif,system-ui,-apple-system,sans-serif}
+  main{min-height:100%;display:grid;place-items:center;padding:24px;box-sizing:border-box;text-align:center}
+  .code{font-size:56px;font-weight:900;color:#ff7a1a;margin:0}
+  h1{font-size:20px;margin:12px 0 6px}
+  a{color:#c8ff2e;font-weight:600}
+</style></head>
+<body><main><div>
+  <p class="code">403</p>
+  <h1>Bu sayfa sadece yönetici içindir.</h1>
+  <p><a href="/">Akışa dön</a></p>
+</div></main></body></html>`;
+
 export async function middleware(req: NextRequest) {
   const { pathname, search } = req.nextUrl;
   if (isPublicAsset(pathname)) return NextResponse.next();
@@ -70,6 +87,13 @@ export async function middleware(req: NextRequest) {
       return NextResponse.redirect(new URL(next, req.nextUrl.origin));
     }
     return NextResponse.next();
+  }
+
+  if (session && session.r !== "admin" && isAdminOnlyPath(pathname)) {
+    if (isApiPath(pathname)) {
+      return NextResponse.json({ ok: false, error: "Bu sayfa sadece yönetici içindir." }, { status: 403, headers: { "cache-control": "no-store" } });
+    }
+    return new NextResponse(FORBIDDEN_HTML, { status: 403, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" } });
   }
 
   if (session) {

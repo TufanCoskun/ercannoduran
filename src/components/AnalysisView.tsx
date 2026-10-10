@@ -1,8 +1,23 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
-import { INPUT_LABEL, parseTimestamp, type AnalysisRecord } from "@/lib/analysis";
-import { ChevronDownIcon, PlusIcon } from "./Icons";
+import {
+  hasNewNotes,
+  hasStrategyRemix,
+  INPUT_LABEL,
+  isStrategyIdea,
+  parseTimestamp,
+  remixIdeaText,
+  strategyBrand,
+  withDative,
+  type AnalysisRecord,
+  type RemixIdea,
+  type StrategyFit,
+} from "@/lib/analysis";
+import { startRemix, useRemixJob } from "@/lib/analyze-client";
+import { useActiveStrategy, useCanAnalyze, useRole, useViewerQuota } from "@/lib/role-client";
+import { Spinner } from "./AnalyzeButton";
+import { CheckIcon, ChevronDownIcon, PlusIcon, SparkIcon } from "./Icons";
 
 const fmtDate = (iso: string) => {
   const t = Date.parse(iso);
@@ -16,14 +31,26 @@ export function AnalysisView({
   record,
   onSeek,
   onAddNote,
+  adId,
+  notes,
 }: {
   record: AnalysisRecord;
   onSeek?: (seconds: number) => void;
   /** "Not olarak ekle" on remix ideas. */
   onAddNote?: (text: string) => void;
+  /** Enables "…'a göre remix üret" and "Remix'i notlarla yenile" (cheap remix-only re-runs). */
+  adId?: string;
+  /** The ad's notes: newer than the ideas → offer "Remix'i notlarla yenile". */
+  notes?: readonly { text: string; createdAt?: string; updatedAt?: string }[];
 }) {
   const a = record.data;
   const [added, setAdded] = useState<Set<number>>(() => new Set());
+  const genericIdeas = a.remixIdeas.filter((x): x is string => !isStrategyIdea(x));
+  const notesIdeas = a.remixIdeas.filter((x): x is RemixIdea => isStrategyIdea(x) && x.fromNotes === true);
+  const strategyIdeas = a.remixIdeas.filter((x): x is RemixIdea => isStrategyIdea(x) && !x.fromNotes);
+  const activeStrategy = useActiveStrategy();
+  const showStrategyButton = Boolean(activeStrategy) && !hasStrategyRemix(record);
+  const newNotes = hasNewNotes(record, notes);
   const estimated = record.input === "poster" || record.input === "text";
 
   const time = (t?: string, end?: string) => {
@@ -151,10 +178,21 @@ export function AnalysisView({
         </Block>
       )}
 
-      {a.remixIdeas.length > 0 && (
+      {strategyIdeas.length > 0 && (
+        <StrategyRemix ideas={strategyIdeas} notesIdeas={notesIdeas} fit={a.strategyFit} strategyName={record.strategyName} onAddNote={onAddNote} />
+      )}
+
+      {(genericIdeas.length > 0 || (notesIdeas.length > 0 && strategyIdeas.length === 0)) && (
         <Block title="Senin için remix fikirleri">
+          {strategyIdeas.length === 0 && notesIdeas.length > 0 && (
+            <ol className="mb-2 space-y-2">
+              {notesIdeas.map((idea, i) => (
+                <IdeaCard key={`n${i}`} idea={idea} onAddNote={onAddNote} />
+              ))}
+            </ol>
+          )}
           <ol className="space-y-2">
-            {a.remixIdeas.map((idea, i) => (
+            {genericIdeas.map((idea, i) => (
               <li key={i} className="rounded-2xl bg-white/[0.04] p-3">
                 <p className="text-[13.5px] leading-relaxed text-zinc-100">
                   <span className="mr-1.5 font-black text-volt">{i + 1}.</span>
@@ -178,7 +216,242 @@ export function AnalysisView({
           </ol>
         </Block>
       )}
+
+      {adId && (showStrategyButton ? <StrategyRemixButton adId={adId} record={record} /> : newNotes && <NotesRefresh adId={adId} record={record} />)}
     </div>
+  );
+}
+
+async function copyText(text: string): Promise<boolean> {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand("copy");
+      ta.remove();
+      return ok;
+    } catch {
+      return false;
+    }
+  }
+}
+
+function fitTone(score: number) {
+  if (score >= 7) return "bg-volt text-black";
+  if (score >= 4) return "bg-amber-400/90 text-black";
+  return "bg-red-500/80 text-white";
+}
+
+/** "<Brand> remix fikirleri": ideas generated against the admin's brand strategy (notes idea first). */
+function StrategyRemix({
+  ideas,
+  notesIdeas,
+  fit,
+  strategyName,
+  onAddNote,
+}: {
+  ideas: RemixIdea[];
+  notesIdeas: RemixIdea[];
+  fit?: StrategyFit;
+  strategyName?: string;
+  onAddNote?: (text: string) => void;
+}) {
+  const brand = strategyBrand(strategyName);
+  return (
+    <section className="rounded-3xl border border-volt/30 bg-gradient-to-b from-volt/[0.06] to-transparent p-4" data-testid="strategy-remix">
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+        <h4 className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-volt">
+          <SparkIcon size={14} /> {brand} remix fikirleri
+        </h4>
+        {fit && (
+          <span className={`rounded-full px-2.5 py-1 text-[11.5px] font-black tabular-nums ${fitTone(fit.score)}`} data-testid="strategy-fit" title="Bu reklamın yapısı stratejiye ne kadar taşınabilir">
+            Uyum {fit.score}/10
+          </span>
+        )}
+      </div>
+      {fit?.notes && <p className="mb-3 text-[12.5px] leading-relaxed text-zinc-400">{fit.notes}</p>}
+      {strategyName && <p className="mb-3 text-[11px] text-zinc-500">Strateji: {strategyName}</p>}
+      <ol className="space-y-3">
+        {notesIdeas.map((idea, i) => (
+          <IdeaCard key={`n${i}`} idea={idea} onAddNote={onAddNote} />
+        ))}
+        {ideas.map((idea, i) => (
+          <IdeaCard key={i} idea={idea} index={i} onAddNote={onAddNote} />
+        ))}
+      </ol>
+    </section>
+  );
+}
+
+/** One structured idea. `fromNotes` ideas get their own accent + the quoted note. */
+function IdeaCard({ idea, index, onAddNote }: { idea: RemixIdea; index?: number; onAddNote?: (text: string) => void }) {
+  const [copied, setCopied] = useState(false);
+  const [added, setAdded] = useState(false);
+  const notes = idea.fromNotes === true;
+  return (
+    <li
+      className={`rounded-2xl border p-3.5 ${notes ? "border-sky-400/40 bg-sky-400/[0.07] shadow-[0_0_24px_-12px] shadow-sky-400/50" : "border-white/10 bg-ink-2/80"}`}
+      data-testid={notes ? "notes-remix-idea" : "strategy-remix-idea"}
+    >
+      {notes && (
+        <p className="mb-1.5 text-[11px] font-black uppercase tracking-[0.14em] text-sky-300" data-testid="notes-label">
+          ✎ Senin notuna göre
+        </p>
+      )}
+      <p className="text-[15px] font-bold leading-snug text-white">
+        {!notes && index !== undefined && <span className="mr-1.5 font-black text-volt">{index + 1}.</span>}
+        {idea.title || (notes ? "Notundan fikir" : `Fikir ${(index ?? 0) + 1}`)}
+      </p>
+      {notes && idea.basedOnNote && (
+        <blockquote className="mt-2 border-l-2 border-sky-400/60 pl-2.5 text-[12.5px] italic leading-snug text-sky-100/90">“{idea.basedOnNote}”</blockquote>
+      )}
+      {(idea.angleFamily || idea.beliefStep) && (
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {idea.angleFamily && (
+            <span className={`rounded-full px-2.5 py-1 text-[11px] font-semibold ring-1 ${notes ? "bg-sky-400/15 text-sky-200 ring-sky-400/25" : "bg-volt/15 text-volt ring-volt/25"}`}>{idea.angleFamily}</span>
+          )}
+          {idea.beliefStep && <span className="rounded-full bg-white/[0.07] px-2.5 py-1 text-[11px] font-semibold text-zinc-200 ring-1 ring-white/10">{idea.beliefStep}</span>}
+        </div>
+      )}
+      <dl className="mt-3 space-y-2 text-[13px] leading-relaxed">
+        <IdeaRow k="Hook" v={idea.hook} strong />
+        <IdeaRow k="Konsept" v={idea.concept} />
+        <IdeaRow k="Neden uygun" v={idea.whyFitsStrategy} />
+        <IdeaRow k="Teklif + CTA" v={idea.offerCta} />
+      </dl>
+      {idea.redLineCheck && (
+        <p className="mt-2.5 flex gap-1.5 rounded-xl bg-emerald-500/10 px-2.5 py-2 text-[12px] leading-snug text-emerald-200 ring-1 ring-emerald-400/20">
+          <CheckIcon size={14} className="mt-0.5 shrink-0" />
+          <span>
+            <span className="font-semibold">Kırmızı çizgi kontrolü: </span>
+            {idea.redLineCheck}
+          </span>
+        </p>
+      )}
+      <div className="mt-3 flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={async () => {
+            if (await copyText(remixIdeaText(idea))) {
+              setCopied(true);
+              window.setTimeout(() => setCopied(false), 1800);
+            }
+          }}
+          className="rounded-full bg-white/[0.07] px-2.5 py-1 text-[11.5px] font-semibold text-zinc-200 hover:bg-white/[0.12]"
+        >
+          {copied ? "Kopyalandı ✓" : "Kopyala"}
+        </button>
+        {onAddNote && (
+          <button
+            type="button"
+            disabled={added}
+            onClick={() => {
+              onAddNote(remixIdeaText(idea));
+              setAdded(true);
+            }}
+            className="flex items-center gap-1 rounded-full bg-white/[0.07] px-2.5 py-1 text-[11.5px] font-semibold text-zinc-200 hover:bg-white/[0.12] disabled:opacity-50"
+          >
+            <PlusIcon size={13} /> {added ? "Notlara eklendi" : "Not olarak ekle"}
+          </button>
+        )}
+      </div>
+    </li>
+  );
+}
+
+function IdeaRow({ k, v, strong }: { k: string; v?: string; strong?: boolean }) {
+  if (!v) return null;
+  return (
+    <div>
+      <dt className="text-[10.5px] font-bold uppercase tracking-[0.12em] text-zinc-500">{k}</dt>
+      <dd className={strong ? "font-semibold text-white" : "text-zinc-200"}>{v}</dd>
+    </div>
+  );
+}
+
+/** Viewer's remaining quota (null = admin / unknown). */
+function useRemaining(): number | null {
+  const role = useRole();
+  const quota = useViewerQuota();
+  return role === "viewer" && quota ? Math.max(0, quota.limit - quota.used) : null;
+}
+
+/** Cheap re-run of just the remix ideas against the active strategy (no video is sent again). */
+function StrategyRemixButton({ adId, record }: { adId: string; record: AnalysisRecord }) {
+  const strategy = useActiveStrategy();
+  const job = useRemixJob(adId);
+  const remaining = useRemaining();
+  if (!strategy) return null;
+  const brand = strategyBrand(strategy.name);
+  return (
+    <section className="rounded-3xl border border-dashed border-volt/30 p-4">
+      {job.status === "running" ? (
+        <p role="status" className="flex items-center gap-2 text-[13px] font-semibold text-volt">
+          <Spinner size={14} /> {brand} remix fikirleri üretiliyor… (10–30 sn)
+        </p>
+      ) : (
+        <>
+          <p className="mb-2.5 text-[12.5px] leading-relaxed text-zinc-400">
+            Bu özet stratejiden önce üretilmiş. Videoyu yeniden izletmeden, mevcut analizden (ve notlarından) {withDative(brand)} uyarlanmış remix fikirleri üretebilirsin (ucuz çağrı
+            {remaining !== null ? ", 1 hak" : ""}).
+          </p>
+          <button
+            type="button"
+            disabled={remaining === 0}
+            onClick={() => void startRemix(adId, record, "strategy")}
+            className="flex items-center gap-1.5 rounded-full bg-volt px-3.5 py-2 text-[13px] font-bold text-black hover:bg-volt-dim disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            <SparkIcon size={15} /> {withDative(brand)} göre remix üret
+          </button>
+          {job.status === "error" && <RemixError error={job.error} />}
+        </>
+      )}
+    </section>
+  );
+}
+
+/** Notes written after the ideas were generated → regenerate just the remix ideas with them. */
+function NotesRefresh({ adId, record }: { adId: string; record: AnalysisRecord }) {
+  const job = useRemixJob(adId);
+  const remaining = useRemaining();
+  const allowed = useCanAnalyze();
+  if (!allowed) return null;
+  return (
+    <section className="rounded-3xl border border-dashed border-sky-400/40 bg-sky-400/[0.04] p-4" data-testid="notes-refresh">
+      {job.status === "running" ? (
+        <p role="status" className="flex items-center gap-2 text-[13px] font-semibold text-sky-300">
+          <Spinner size={14} /> Remix fikirleri notlarınla yenileniyor… (10–30 sn)
+        </p>
+      ) : (
+        <>
+          <button
+            type="button"
+            disabled={remaining === 0}
+            onClick={() => void startRemix(adId, record)}
+            className="flex w-full items-center justify-center gap-1.5 rounded-full bg-sky-400/15 px-3.5 py-2 text-[13px] font-bold text-sky-200 ring-1 ring-sky-400/30 hover:bg-sky-400/25 disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            ✎ Yeni notların var · Remix&apos;i notlarla yenile
+          </button>
+          <p className="mt-1.5 text-center text-[11px] text-zinc-500">Videoyu tekrar izletmez; sadece remix fikirleri yenilenir{remaining !== null ? " (1 hak)" : ""}.</p>
+          {job.status === "error" && <RemixError error={job.error} />}
+        </>
+      )}
+    </section>
+  );
+}
+
+function RemixError({ error }: { error: string }) {
+  return (
+    <p role="alert" className="mt-2 rounded-2xl border border-red-500/25 bg-red-500/10 px-3 py-2 text-[12.5px] leading-snug text-red-200">
+      {error}
+    </p>
   );
 }
 

@@ -125,7 +125,7 @@ export function SavedDetail({ item, collections, onRemove }: { item: SavedItem; 
               </p>
             )}
             {job.status === "error" && <div className="mb-3"><AnalyzeError adId={ad.id} error={job.error} canUsePoster={job.canUsePoster} /></div>}
-            <AnalysisView record={item.analysis} onSeek={hasNativeVideo(ad) ? seek : undefined} onAddNote={(t) => addNote(ad.id, `Remix fikri: ${t}`)} />
+            <AnalysisView adId={ad.id} notes={item.notes} record={item.analysis} onSeek={hasNativeVideo(ad) ? seek : undefined} onAddNote={(t) => addNote(ad.id, `Remix fikri: ${t}`)} />
           </>
         ) : (
           <div className="rounded-3xl border border-dashed border-line p-4">
