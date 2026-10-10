@@ -24,11 +24,12 @@
 //
 // Usage:
 //   node scripts/ingest/enrich-meta-media.mjs [--market TR|US] [--ids 1,2] [--limit N]
-//        [--force] [--concurrency 2] [--no-page-search] [--headful] [--dry-run]
+//        [--force] [--retry-errors] [--prune] [--concurrency 2] [--no-page-search] [--headful] [--dry-run]
+//   --prune removes items/errors (and their posters) for ads no longer in any ads file.
 // Requires playwright (optional dependency, not in package.json):
 //   npm i --no-save playwright   (or set PLAYWRIGHT_MODULE=/path/to/node_modules/playwright)
 // Chromium: uses Playwright's bundled browser, or CHROMIUM_PATH, or /opt/pw-browsers/*.
-import { readdir, mkdir, writeFile } from "node:fs/promises";
+import { readdir, mkdir, writeFile, rm } from "node:fs/promises";
 import { existsSync, readdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -326,11 +327,12 @@ async function makeThumb(ctx, url) {
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
-async function loadAds(market) {
+async function loadAds(market, unreadable = []) {
   const files = (await readdir(ADS_DIR)).filter((f) => /^(meta-.*|superscale)\.json$/.test(f)).sort();
   const ads = [];
   for (const f of files) {
     const d = await readJson(join(ADS_DIR, f), null).catch((e) => (log(`[enrich] skip ${f}: ${e.message}`), null));
+    if (!Array.isArray(d?.ads)) unreadable.push(f);
     for (const a of d?.ads || []) {
       if (a?.source !== "meta" || !/^meta_\d+$/.test(a.id || "")) continue;
       if (market && a.market !== market) continue;
@@ -350,9 +352,9 @@ async function pool(items, n, fn) {
 }
 
 export async function main(argv = process.argv.slice(2)) {
-  const args = parseArgs(argv, ["force", "headful", "dry-run", "no-page-search", "help", "retry-errors"]);
+  const args = parseArgs(argv, ["force", "headful", "dry-run", "no-page-search", "help", "retry-errors", "prune"]);
   if (args.help) {
-    console.log("node scripts/ingest/enrich-meta-media.mjs [--market TR|US] [--ids a,b] [--limit N] [--force] [--retry-errors] [--concurrency 2] [--no-page-search] [--headful] [--dry-run]");
+    console.log("node scripts/ingest/enrich-meta-media.mjs [--market TR|US] [--ids a,b] [--limit N] [--force] [--retry-errors] [--prune] [--concurrency 2] [--no-page-search] [--headful] [--dry-run]");
     return;
   }
   const concurrency = Math.max(1, Math.min(3, Number(args.concurrency) || 2));
@@ -360,6 +362,22 @@ export async function main(argv = process.argv.slice(2)) {
   out.items ||= {};
   out.errors ||= {};
   for (const it of Object.values(out.items)) if (Array.isArray(it.media)) it.format = formatFor(it.displayFormat, it.media);
+
+  if (args.prune) {
+    const unreadable = [];
+    const live = new Set((await loadAds(null, unreadable)).map((a) => a.id));
+    if (unreadable.length) throw new Error(`--prune aborted: could not read ${unreadable.join(", ")} (being rewritten?)`);
+    let n = 0;
+    for (const id of Object.keys(out.items)) {
+      if (live.has(id)) continue;
+      delete out.items[id];
+      if (!args["dry-run"]) await rm(join(THUMB_DIR, `${id}.jpg`), { force: true });
+      n++;
+    }
+    for (const id of Object.keys(out.errors)) if (!live.has(id)) delete out.errors[id];
+    log(`[enrich] pruned ${n} orphaned items`);
+    if (!args["dry-run"]) await writeJsonAtomic(OUT_FILE, { ...out, generatedAt: new Date().toISOString() });
+  }
 
   let ads = await loadAds(args.market ? String(args.market).toUpperCase() : null);
   if (args.ids) {
