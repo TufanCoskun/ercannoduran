@@ -55,10 +55,11 @@ export function TextCard({ ad, reason, compact }: { ad: Ad; reason: "missing" | 
             ? "Görsel · Ad Library'de"
             : "Metin reklamı";
   const len = big.length;
-  const size = len > 120 ? "text-[1.6rem]" : len > 70 ? "text-[2rem]" : len > 28 ? "text-[2.5rem]" : "text-[3rem]";
+  // Font size follows the card height (container query units), capped for tall screens.
+  const fontSize = len > 120 ? "clamp(1.1rem, 3.3cqh, 1.6rem)" : len > 70 ? "clamp(1.25rem, 4.2cqh, 2rem)" : len > 28 ? "clamp(1.5rem, 5.2cqh, 2.5rem)" : "clamp(1.8rem, 6.4cqh, 3rem)";
 
   return (
-    <div className="relative flex h-full w-full flex-col overflow-hidden" style={{ background: bg }}>
+    <div className="tc relative flex h-full w-full flex-col overflow-hidden" style={{ background: bg }}>
       <div className="grain pointer-events-none absolute inset-0" />
       <div
         aria-hidden="true"
@@ -67,16 +68,16 @@ export function TextCard({ ad, reason, compact }: { ad: Ad; reason: "missing" | 
         {monogram(ad.brand.name)}
       </div>
 
-      <div className="relative flex flex-1 flex-col justify-center px-7 pb-44 pt-24">
-        <div className="mb-6 flex items-center gap-3">
+      <div className="tc-body relative flex min-h-0 flex-1 flex-col justify-center px-7">
+        <div className="flex items-center gap-3">
           <span
-            className="grid size-16 shrink-0 place-items-center rounded-2xl text-2xl font-black tracking-tight text-white shadow-lg shadow-black/30 ring-1 ring-white/25"
+            className="tc-mono grid shrink-0 place-items-center rounded-2xl font-black tracking-tight text-white shadow-lg shadow-black/30 ring-1 ring-white/25"
             style={{ background: `linear-gradient(135deg, hsl(${hue} 85% 60%), hsl(${hue2} 75% 38%))` }}
           >
             {monogram(ad.brand.name)}
           </span>
           <div className="min-w-0">
-            <p className="truncate text-sm font-semibold uppercase tracking-[0.14em] text-white/70">{ad.brand.name}</p>
+            <p className="truncate text-sm font-bold tracking-wide text-white/75">{ad.brand.name}</p>
             <p className="mt-0.5 flex items-center gap-1.5 text-xs text-white/55">
               <span className={`size-1.5 rounded-full ${reason === "expired" ? "bg-ember" : "bg-volt"}`} />
               {formatNote}
@@ -84,24 +85,24 @@ export function TextCard({ ad, reason, compact }: { ad: Ad; reason: "missing" | 
           </div>
         </div>
 
-        <p className={`font-black leading-[1.05] tracking-tight text-white text-balance ${size}`}>
+        <p className="tc-gap font-black leading-[1.05] tracking-tight text-white text-balance" style={{ fontSize }}>
           {headline ? <span className="mr-1 text-white/30">“</span> : null}
           {truncate(big, 200)}
           {headline ? <span className="ml-0.5 text-white/30">”</span> : null}
         </p>
-        {sub && <p className="mt-4 line-clamp-3 text-[15px] leading-relaxed text-white/70">{sub}</p>}
+        {sub && <p className="tc-gap tc-hide-short line-clamp-3 text-[15px] leading-relaxed text-white/70">{sub}</p>}
 
-        <div className="mt-6 flex flex-wrap gap-2">
-          <span className={`inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-xs font-black ${ad.source === "curated" ? "bg-amber-300 text-black" : TIER[scoreTier(ad.performance.score)]}`}>
+        <div className="tc-gap flex flex-wrap gap-1.5">
+          <span className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-black ${ad.source === "curated" ? "bg-amber-300 text-black" : TIER[scoreTier(ad.performance.score)]}`}>
             {scoreText(ad)}
           </span>
           {ad.activeDays !== undefined && (
-            <span className="inline-flex items-center rounded-full bg-black/30 px-3 py-1.5 text-xs font-bold text-orange-200 ring-1 ring-white/15 backdrop-blur">
+            <span className="inline-flex items-center rounded-full bg-black/30 px-2.5 py-1 text-[11px] font-bold text-orange-200 ring-1 ring-white/15 backdrop-blur">
               {ad.activeDays} gün{ad.isActive === false ? "" : " · yayında"}
             </span>
           )}
           {ad.variations !== undefined && ad.variations > 1 && (
-            <span className="inline-flex items-center rounded-full bg-black/30 px-3 py-1.5 text-xs font-bold text-white/85 ring-1 ring-white/15 backdrop-blur">
+            <span className="inline-flex items-center rounded-full bg-black/30 px-2.5 py-1 text-[11px] font-bold text-white/85 ring-1 ring-white/15 backdrop-blur">
               {ad.variations} varyasyon
             </span>
           )}
@@ -111,7 +112,7 @@ export function TextCard({ ad, reason, compact }: { ad: Ad; reason: "missing" | 
           href={ad.libraryUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-6 inline-flex w-fit items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-bold text-black shadow-xl shadow-black/30 transition hover:bg-volt"
+          className="tc-gap inline-flex w-fit max-w-full items-center gap-2 rounded-full bg-white px-4 py-2.5 text-[13px] font-bold text-black shadow-xl shadow-black/30 transition hover:bg-volt"
         >
           {libraryFullLabel(ad)} <span aria-hidden="true">→</span>
         </a>

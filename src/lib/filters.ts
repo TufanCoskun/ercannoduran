@@ -113,10 +113,30 @@ const VERTICAL_TR: Record<string, string> = {
   "personal-care": "Kişisel bakım",
   oral: "Ağız bakımı",
   razors: "Tıraş",
+  grooming: "Erkek bakımı",
+  bank: "Banka",
+  "travel-agency": "Seyahat acentesi",
+  "travel-deals": "Seyahat fırsatı",
+  "beauty-retail": "Kozmetik mağazası",
+  "food-beverage": "Yiyecek & içecek",
+  "home-kitchen": "Ev & mutfak",
+  "home-cleaning": "Temizlik",
+  "kitchen-appliances": "Mutfak aletleri",
+  "music-streaming": "Müzik",
+  "resort-casino": "Resort & casino",
+  "vacation-ownership": "Devre mülk",
+  "short-term-rental": "Kısa dönem kiralık",
+  "automotive-b2b": "Otomotiv (B2B)",
+  destination: "Destinasyon",
+  cruise: "Kruvaziyer",
+  drinkware: "Matara & bardak",
+  jobs: "İş ilanı",
+  bathroom: "Banyo",
+  mattress: "Yatak",
 };
 
 export function verticalLabel(v: string): string {
-  const k = v.toLowerCase();
+  const k = v.toLowerCase().trim().replace(/[()]/g, "").replace(/[\s_]+/g, "-");
   if (VERTICAL_TR[k]) return VERTICAL_TR[k];
   const s = k.replace(/[-_]+/g, " ");
   return s.charAt(0).toLocaleUpperCase("tr") + s.slice(1);

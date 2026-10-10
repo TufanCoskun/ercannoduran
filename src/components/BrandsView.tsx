@@ -75,7 +75,7 @@ export function BrandsView({ brands, totalAds }: { brands: BrandSummary[]; total
                 <div className="min-w-0 flex-1">
                   <p className="truncate font-bold">{b.name}</p>
                   <p className="truncate text-xs text-mist">
-                    {[b.segments.map((s) => SEGMENT_LABEL[s]).join("/"), b.markets.join("/"), b.verticals[0] && verticalLabel(b.verticals[0])].filter(Boolean).join(" · ")}
+                    {[b.segments.map((s) => SEGMENT_LABEL[s]).join("/"), b.markets.join("/"), b.verticals[0] && verticalLabel(b.verticals[0]) !== SEGMENT_LABEL[b.segments[0]] ? verticalLabel(b.verticals[0]) : undefined].filter(Boolean).join(" · ")}
                   </p>
                   <p className="mt-1.5 text-xs text-zinc-400">
                     <span className="font-semibold text-white">{b.count}</span> reklam

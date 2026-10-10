@@ -100,3 +100,34 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Text-card poster: scales with the card's own height (feed, /ad page, short phones). */
+.tc {
+  container-type: size;
+}
+.tc-body {
+  padding-top: 5.25rem;
+  padding-bottom: 16.5rem; /* clears the bottom overlay + the action rail */
+}
+.tc-mono {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.tc-gap {
+  margin-top: min(1.5rem, 2.6cqh);
+}
+@container (max-height: 720px) {
+  .tc-body {
+    padding-top: 4.5rem;
+    padding-bottom: 15.5rem;
+  }
+  .tc-mono {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.1rem;
+  }
+  .tc-hide-short {
+    display: none !important;
+  }
+}

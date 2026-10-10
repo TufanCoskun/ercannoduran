@@ -74,7 +74,7 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
   );
 
   return (
-    <div className="flex justify-center gap-8 lg:px-6 lg:py-6">
+    <div className="flex justify-center gap-24 lg:px-6 lg:py-6">
       <FeedColumn
         key={listKey}
         list={list}
@@ -342,7 +342,7 @@ function FeedColumn({
       </div>
 
       {/* desktop up/down */}
-      <div className="absolute -right-16 top-1/2 hidden -translate-y-1/2 flex-col gap-3 lg:flex">
+      <div className="absolute -right-[4.25rem] top-1/2 hidden -translate-y-1/2 flex-col gap-3 lg:flex">
         <button
           type="button"
           onClick={() => go(active - 1)}

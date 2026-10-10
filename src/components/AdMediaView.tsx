@@ -209,12 +209,12 @@ function Carousel({
           </div>
         ))}
       </div>
-      <div className="pointer-events-none absolute inset-x-0 top-[4.5rem] flex justify-center gap-1.5">
+      <div className="pointer-events-none absolute inset-x-0 top-32 flex justify-center gap-1.5">
         {slides.map((s, i) => (
           <span key={s.src + i} className={`h-1.5 rounded-full transition-all ${i === current ? "w-5 bg-white" : "w-1.5 bg-white/40"}`} />
         ))}
       </div>
-      <span className="pointer-events-none absolute right-3 top-[4.25rem] rounded-full bg-black/50 px-2 py-0.5 text-[11px] font-semibold tabular-nums text-white/90 backdrop-blur">
+      <span className="pointer-events-none absolute right-3 top-[7.6rem] rounded-full bg-black/50 px-2 py-0.5 text-[11px] font-semibold tabular-nums text-white/90 backdrop-blur">
         {current + 1}/{slides.length}
       </span>
       {current > 0 && (

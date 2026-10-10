@@ -158,6 +158,19 @@ function expiry(urls) {
   return Number.isFinite(min) ? new Date(min * 1000).toISOString() : undefined;
 }
 
+/**
+ * Map Meta display_format to the app's Format. DCO ads are one ad with several
+ * alternative assets (not a swipeable carousel), so they take their first asset's type.
+ */
+export function formatFor(df, media) {
+  if (!media.length) return "text";
+  if (df === "VIDEO") return "video";
+  if (df === "IMAGE") return "image";
+  if (df === "CAROUSEL" || df === "MULTI_IMAGES" || df === "MULTI_VIDEOS") return "carousel";
+  if (df === "DCO") return media[0].type;
+  return media.length > 1 ? "carousel" : media[0].type; // DPA (catalog carousel) and others
+}
+
 export function toItem(rec) {
   const s = rec.snapshot;
   const cards = Array.isArray(s.cards) ? s.cards : [];
@@ -180,17 +193,7 @@ export function toItem(rec) {
   const platforms = (rec.publisher_platform || []).map((p) => PLATFORM[p] || String(p).toLowerCase());
 
   const df = s.display_format || null;
-  let format;
-  if (df === "VIDEO") format = "video";
-  else if (df === "IMAGE") format = "image";
-  else if (df === "CAROUSEL" || df === "MULTI_IMAGES" || df === "MULTI_VIDEOS") format = "carousel";
-  else if (df === "TEXT") format = "text";
-  if (!format || uniq.length === 0) {
-    if (uniq.length === 0) format = "text";
-    else if (uniq.length > 1) format = "carousel";
-    else format = uniq[0].type;
-  }
-
+  const format = formatFor(df, uniq);
   const item = { media: uniq, format, displayFormat: df };
   if (body) item.body = body;
   if (headline) item.headline = headline;
@@ -242,26 +245,26 @@ async function loadLibrary(ctx, url, { scrolls = 0, wantIds = null } = {}) {
     for (let attempt = 0; attempt < 3; attempt++) {
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 }).catch(() => {});
       // The challenge page POSTs then reloads itself; wait until the real app is in the DOM.
-      // Wait for the Relay payload that carries the ads (search results or deeplink).
       const ok = await page
-        .waitForFunction(
-          () => {
-            for (const el of document.querySelectorAll('script[type="application/json"]')) {
-              const t = el.textContent || "";
-              if (t.includes('"search_results_connection"') || t.includes('"deeplink_ad_archive"')) return true;
-            }
-            return false;
-          },
-          null,
-          { timeout: 35_000, polling: 1000 },
-        )
+        .waitForFunction(() => document.querySelectorAll('script[type="application/json"]').length > 5, null, {
+          timeout: 30_000,
+          polling: 500,
+        })
         .then(() => true, () => false);
       if (ok) break;
       await sleep(3000 + attempt * 4000);
     }
-    await sleep(1500);
     await dismissCookies(page);
-    collectFromHtml(await page.content(), found);
+    // Results stream in later SSR chunks and/or GraphQL; poll until ad records show up.
+    const deadline = Date.now() + 20_000;
+    for (;;) {
+      const h = await page.content();
+      collectFromHtml(h, found);
+      const reason = /"deeplink_ad_archive":null,"no_result_reason":"([A-Z_]+)"/.exec(h);
+      if (reason) found.noResultReason = reason[1];
+      if (found.size > 0 || reason || Date.now() > deadline) break;
+      await sleep(1500);
+    }
     const html = await page.content();
     if (process.env.ENRICH_DEBUG_DIR && found.size === 0) {
       const tag = `${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
@@ -356,6 +359,7 @@ export async function main(argv = process.argv.slice(2)) {
   const out = (await readJson(OUT_FILE, null)) || { generatedAt: null, items: {}, errors: {} };
   out.items ||= {};
   out.errors ||= {};
+  for (const it of Object.values(out.items)) if (Array.isArray(it.media)) it.format = formatFor(it.displayFormat, it.media);
 
   let ads = await loadAds(args.market ? String(args.market).toUpperCase() : null);
   if (args.ids) {
@@ -389,9 +393,11 @@ export async function main(argv = process.argv.slice(2)) {
     dirty = 0;
   };
 
+  const done = new Set();
   const finish = async (ad) => {
     const rec = records.get(nativeId(ad));
     if (!rec) return false;
+    done.add(ad.id);
     const item = toItem(rec);
     item.fetchedAt = new Date().toISOString();
     const poster = posterUrl(rec);
@@ -447,15 +453,23 @@ export async function main(argv = process.argv.slice(2)) {
     }
 
     // Phase 2: direct deeplinks for whatever is still missing.
+    for (const a of todo) if (!done.has(a.id) && records.has(nativeId(a))) await finish(a);
     const rest = todo.filter((a) => !records.has(nativeId(a)));
     log(`[enrich] phase 2: ${rest.length} direct ad pages`);
     await pool(rest, concurrency, async (a) => {
       const id = nativeId(a);
       try {
-        const found = await loadLibrary(ctx, `${LIB}?id=${id}`);
+        let found = await loadLibrary(ctx, `${LIB}?id=${id}`);
+        if (!found.get(id) && !found.noResultReason) {
+          await sleep(5000); // transient empty render under load: retry once
+          found = await loadLibrary(ctx, `${LIB}?id=${id}`);
+        }
         const rec = found.get(id);
         if (rec) { records.set(id, rec); await finish(a); log(`[enrich] ${a.id}: ok (deeplink)`); }
-        else { out.errors[a.id] = "not found in Ad Library page"; log(`[enrich] ${a.id}: not found`); }
+        else {
+          out.errors[a.id] = found.noResultReason ? `Meta: ${found.noResultReason}` : "no snapshot in Ad Library page";
+          log(`[enrich] ${a.id}: ${out.errors[a.id]}`);
+        }
       } catch (e) {
         out.errors[a.id] = String(e.message).slice(0, 200);
         log(`[enrich] ${a.id}: ${e.message}`);
@@ -467,8 +481,7 @@ export async function main(argv = process.argv.slice(2)) {
     await browser.close().catch(() => {});
   }
 
-  const done = todo.filter((a) => out.items[a.id]).length;
-  log(`[enrich] done: ${done}/${todo.length} enriched this run, ${Object.keys(out.items).length} items total -> ${OUT_FILE}`);
+  log(`[enrich] done: ${done.size}/${todo.length} enriched this run, ${Object.keys(out.items).length} items total -> ${OUT_FILE}`);
   return out;
 }
 

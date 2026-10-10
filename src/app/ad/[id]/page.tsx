@@ -68,7 +68,7 @@ export default async function AdPage({ params }: Props) {
       </Link>
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,440px)_minmax(0,1fr)] lg:gap-10">
-        <div className="relative mx-auto h-[78dvh] max-h-[820px] w-full max-w-[440px] overflow-hidden rounded-[2rem] border border-line bg-black shadow-[0_30px_120px_-20px_rgba(200,255,46,0.12)]">
+        <div className="relative mx-auto h-[min(820px,calc(100dvh-var(--nav-h)-4.5rem))] w-full max-w-[440px] lg:h-[min(820px,calc(100dvh-7rem))] overflow-hidden rounded-[2rem] border border-line bg-black shadow-[0_30px_120px_-20px_rgba(200,255,46,0.12)]">
           <AdStage ad={ad} />
         </div>
 

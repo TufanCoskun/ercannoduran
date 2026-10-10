@@ -93,10 +93,10 @@ export function AdCard({
           </div>
         </div>
 
-        <div className="no-scrollbar -mx-4 mb-2.5 flex gap-1.5 overflow-x-auto px-4">
+        <div className="mb-2.5 flex flex-wrap gap-1.5">
           <Chip tone="volt">{SEGMENT_LABEL[ad.segment]}</Chip>
           <Chip>{MARKET_LABEL[ad.market]}</Chip>
-          {ad.vertical && <Chip>{verticalLabel(ad.vertical)}</Chip>}
+          {ad.vertical && verticalLabel(ad.vertical) !== SEGMENT_LABEL[ad.segment] && <Chip>{verticalLabel(ad.vertical)}</Chip>}
           <Chip>{FORMAT_LABEL[ad.format]}</Chip>
           {days && !textMode && (
             <Chip tone="ember">
@@ -125,7 +125,7 @@ export function AdCard({
           </button>
         )}
 
-        {!bodyText && textMode && (
+        {!bodyText && (
           <button
             type="button"
             onClick={() => setExpanded((x) => !x)}
@@ -136,7 +136,7 @@ export function AdCard({
           </button>
         )}
 
-        {(expanded || (!bodyText && !textMode)) && (
+        {expanded && (
           <div className="animate-fade-in mt-3 rounded-2xl bg-white/[0.07] p-3 ring-1 ring-white/10 backdrop-blur-md">
             <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-volt">Neden kazanıyor?</p>
             <div className="flex flex-wrap gap-1.5">

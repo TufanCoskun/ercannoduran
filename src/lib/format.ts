@@ -20,7 +20,8 @@ export function monogram(name: string): string {
     .filter(Boolean);
   if (!parts.length) return "?";
   const letters = parts.length === 1 ? parts[0].slice(0, 2) : parts[0][0] + parts[1][0];
-  return letters.toLocaleUpperCase("tr");
+  // Turkish casing only for Turkish names (avoids "Nİ" for "Nike").
+  return /[çğıöşüİ]/i.test(name) ? letters.toLocaleUpperCase("tr") : letters.toUpperCase();
 }
 
 export function daysLabel(ad: Ad): string | undefined {
@@ -44,6 +45,10 @@ const PLATFORM_LABEL: Record<string, string> = {
   threads: "Threads",
   whatsapp: "WhatsApp",
   tiktok: "TikTok",
+  youtube: "YouTube",
+  google: "Google",
+  x: "X",
+  twitter: "X",
 };
 
 export function platformLabel(p: string): string {
