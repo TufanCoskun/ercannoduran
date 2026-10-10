@@ -17,13 +17,16 @@ import {
 } from "@/lib/filters";
 import { currentStreak, dateKey, DAILY_SIZE, markDailyViewed, pickDaily, useProgress, viewedToday } from "@/lib/daily";
 import { useHydrated } from "@/lib/store";
+import { randomSeed, sessionSeed, shuffledFeed, storeSeed } from "@/lib/shuffle";
 import { adPath, daysLabel, displayReasons, formatDate, libraryLabel, platformLabel } from "@/lib/format";
 import { AdCard } from "./AdCard";
+import { AdInfoSheet } from "./AdInfoSheet";
 import { AdScore, Chip } from "./Bits";
 import { FilterPanel } from "./FilterPanel";
+import { AppMenu, MenuButton } from "./Nav";
 import { Sheet } from "./Sheet";
 import { useUI } from "./UIProvider";
-import { ChevronDownIcon, ChevronUpIcon, DumbbellIcon, ExternalIcon, FlameIcon, KeyboardIcon, PlaySolidIcon, SlidersIcon, TrophyIcon, XIcon } from "./Icons";
+import { ChevronDownIcon, ChevronUpIcon, DumbbellIcon, ExternalIcon, FlameIcon, KeyboardIcon, PlaySolidIcon, ShuffleIcon, SlidersIcon, TrophyIcon, XIcon } from "./Icons";
 
 const WINDOW = 3; // mount AdCards only within ±3 of the active item
 const PAGE = 15; // progressively grow the list
@@ -37,10 +40,29 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
   const hydrated = useHydrated();
   const today = hydrated ? dateKey() : "";
   const [filtersOpen, setFiltersOpen] = useState(false);
+  // Menu lives here (not in the column) so it stays open while its toggles re-key the feed.
+  const [menuOpen, setMenuOpen] = useState(false);
+  const progress = useProgress();
+  const streak = today ? currentStreak(progress, today) : 0;
   const [activeAd, setActiveAd] = useState<Ad | undefined>(undefined);
 
-  const pool = useMemo(() => interleaveCurated(ads.filter((a) => matchesFilters(a, filters))), [ads, filters]);
-  const list = useMemo(() => (daily ? (today ? pickDaily(pool, today) : []) : pool), [daily, pool, today]);
+  const ui = useUI();
+  const filtered = useMemo(() => ads.filter((a) => matchesFilters(a, filters)), [ads, filters]);
+  // Deterministic (score) order: the daily workout is picked from it, unchanged.
+  const pool = useMemo(() => interleaveCurated(filtered), [filtered]);
+  // The open feed is shuffled (video tier first). The seed is client-only (sessionStorage), so the
+  // server render and the first client render agree on an empty list — no hydration mismatch.
+  const [seed, setSeed] = useState<number | null>(null);
+  useEffect(() => setSeed(sessionSeed()), []);
+  const shuffle = useCallback(() => {
+    setSeed(storeSeed(randomSeed()));
+    ui.toast("Karıştırıldı");
+  }, [ui]);
+  const list = useMemo(
+    () => (daily ? (today ? pickDaily(pool, today) : []) : seed === null ? [] : shuffledFeed(filtered, seed)),
+    [daily, pool, today, filtered, seed],
+  );
+  const ready = daily ? Boolean(today) : seed !== null;
 
   const setFilters = useCallback(
     (f: Filters) => {
@@ -67,8 +89,11 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
   }, [ads, filters]);
 
   const sourcesAvailable = useMemo(() => [...new Set(ads.map((a) => a.source))], [ads]);
-  const listKey = `${daily ? "daily" : "feed"}|${today}|${filtersToQuery(filters)}`;
+  const listKey = `${daily ? "daily" : `feed:${seed}`}|${today}|${filtersToQuery(filters)}`;
   const nFilters = activeFilterCount(filters);
+  const videoOnly = filters.format.length === 1 && filters.format[0] === "video";
+  const onToggleVideo = () => setFilters({ ...filters, format: videoOnly ? [] : ["video"] });
+  const onRemoveBrand = (b: string) => setFilters({ ...filters, brand: filters.brand.filter((x) => x !== b) });
 
   const panel = (
     <FilterPanel filters={filters} onChange={setFilters} counts={counts} sourcesAvailable={sourcesAvailable} verticals={verticals} brands={brands} resultCount={pool.length} />
@@ -82,16 +107,14 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
         daily={daily}
         today={today}
         poolSize={pool.length}
+        ready={ready}
+        onShuffle={daily ? undefined : shuffle}
         filters={filters}
         nFilters={nFilters}
-        usingFixtures={usingFixtures}
-        onOpenFilters={() => setFiltersOpen(true)}
         onClearFilters={() => setFilters({ segment: [], market: [], source: [], format: [], vertical: [], brand: [] })}
-        onRemoveBrand={(b) => setFilters({ ...filters, brand: filters.brand.filter((x) => x !== b) })}
-        onToggleVideo={() =>
-          setFilters({ ...filters, format: filters.format.length === 1 && filters.format[0] === "video" ? [] : ["video"] })
-        }
+        onRemoveBrand={onRemoveBrand}
         setMode={setMode}
+        onOpenMenu={() => setMenuOpen(true)}
         onActive={setActiveAd}
       />
 
@@ -106,6 +129,51 @@ export function Feed({ ads, usingFixtures }: { ads: Ad[]; usingFixtures: boolean
         </div>
         <Shortcuts />
       </aside>
+
+      <AppMenu open={menuOpen} onClose={() => setMenuOpen(false)} feedHref={`${pathname}${filtersToQuery(filters)}`} dailyHref={`${pathname}${filtersToQuery(filters, { mode: "daily" })}`}>
+        <div className="mt-3 space-y-2">
+          <button
+            type="button"
+            onClick={() => {
+              setMenuOpen(false);
+              setFiltersOpen(true);
+            }}
+            className="flex w-full items-center gap-2.5 rounded-2xl border border-line bg-white/[0.03] px-3 py-3 text-left transition hover:bg-white/[0.07]"
+          >
+            <SlidersIcon size={19} className="text-zinc-300" />
+            <span className="flex-1 text-[15px] font-semibold">Filtreler</span>
+            {nFilters > 0 && <span className="rounded-full bg-volt px-2 py-0.5 text-[11px] font-bold text-black">{nFilters}</span>}
+          </button>
+          <button
+            type="button"
+            role="switch"
+            aria-checked={videoOnly}
+            onClick={onToggleVideo}
+            className="flex w-full items-center gap-2.5 rounded-2xl border border-line bg-white/[0.03] px-3 py-3 text-left transition hover:bg-white/[0.07]"
+          >
+            <PlaySolidIcon size={16} className="mx-0.5 text-zinc-300" />
+            <span className="flex-1 text-[15px] font-semibold">Sadece video</span>
+            <span className={`relative h-6 w-10 rounded-full transition ${videoOnly ? "bg-volt" : "bg-white/15"}`}>
+              <span className={`absolute top-0.5 size-5 rounded-full bg-white shadow transition-all ${videoOnly ? "left-[1.125rem] bg-black" : "left-0.5"}`} />
+            </span>
+          </button>
+          {filters.brand.length > 0 && (
+            <div className="flex flex-wrap gap-1.5 pt-1">
+              {filters.brand.map((b) => (
+                <button key={b} type="button" onClick={() => onRemoveBrand(b)} className="flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-semibold text-black">
+                  {b} <XIcon size={12} />
+                </button>
+              ))}
+            </div>
+          )}
+          {usingFixtures && (
+            <p className="rounded-xl bg-ember/15 px-3 py-2 text-[12px] font-semibold text-orange-200 ring-1 ring-ember/30">Demo verisi — henüz ingest yapılmadı</p>
+          )}
+          <p className="pt-1 text-center text-[11px] text-zinc-500">
+            {daily && streak > 0 ? `🔥 ${streak} günlük seri · ` : ""}İpucu: videoya basılı tut → temiz mod
+          </p>
+        </div>
+      </AppMenu>
 
       <Sheet open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtrele">
         {panel}
@@ -122,28 +190,28 @@ function FeedColumn({
   daily,
   today,
   poolSize,
+  ready,
+  onShuffle,
   filters,
   nFilters,
-  usingFixtures,
-  onOpenFilters,
   onClearFilters,
   onRemoveBrand,
-  onToggleVideo,
   setMode,
+  onOpenMenu,
   onActive,
 }: {
   list: Ad[];
   daily: boolean;
   today: string;
   poolSize: number;
+  ready: boolean;
+  onShuffle?: () => void;
   filters: Filters;
   nFilters: number;
-  usingFixtures: boolean;
-  onOpenFilters: () => void;
   onClearFilters: () => void;
   onRemoveBrand: (b: string) => void;
-  onToggleVideo: () => void;
   setMode: (daily: boolean) => void;
+  onOpenMenu: () => void;
   onActive: (ad: Ad | undefined) => void;
 }) {
   const ui = useUI();
@@ -159,10 +227,13 @@ function FeedColumn({
   const listIds = useMemo(() => list.map((a) => a.id), [list]);
   const doneCount = listIds.filter((id) => viewed.includes(id)).length;
   const toggleMute = useCallback(() => setMuted((m) => !m), []);
-  const videoOnly = filters.format.length === 1 && filters.format[0] === "video";
-  const extraChips = filters.brand.length > 0 || usingFixtures;
-  // First free line below the floating top bar; slide overlays (unmute pill, carousel counter) sit there.
-  const chromeTop = daily ? (extraChips ? "7.5rem" : "5.75rem") : "5.5rem";
+  const [infoAd, setInfoAd] = useState<Ad | null>(null);
+  // "Temiz mod": long-press the video to hide every overlay (persists across slides).
+  const [clean, setClean] = useState(false);
+  const toggleClean = useCallback(() => {
+    if (!clean) ui.toast("Temiz mod · çıkmak için basılı tut");
+    setClean(!clean);
+  }, [clean, ui]);
 
   // Track the active item with an IntersectionObserver rooted at the scroller.
   useEffect(() => {
@@ -208,7 +279,7 @@ function FeedColumn({
     [total],
   );
 
-  // Keyboard: ↑/↓ or j/k to move, s to save, m to toggle sound.
+  // Keyboard: ↑/↓ or j/k to move, s to save, m to toggle sound, i for details, r to shuffle.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
@@ -230,116 +301,72 @@ function FeedColumn({
         }
       } else if (k === "m" || k === "M") {
         toggleMute();
+      } else if (k === "i" || k === "I") {
+        const ad = list[active];
+        if (ad) {
+          e.preventDefault();
+          setInfoAd(ad);
+        }
+      } else if ((k === "r" || k === "R") && onShuffle) {
+        e.preventDefault();
+        onShuffle();
+      } else if (k === "Escape" && clean) {
+        setClean(false);
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [active, go, list, ui, toggleMute]);
+  }, [active, go, list, ui, toggleMute, clean, onShuffle]);
 
   return (
     <div className="relative w-full lg:w-auto">
       <div
-        style={{ "--chrome-top": `calc(${chromeTop} + env(safe-area-inset-top))` } as React.CSSProperties}
         data-toast-anchor=""
         className="h-feed relative w-full overflow-hidden bg-black lg:aspect-[9/16] lg:w-auto lg:max-w-[520px] lg:rounded-[2rem] lg:border lg:border-line lg:shadow-[0_30px_120px_-20px_rgba(200,255,46,0.12)]">
-        {/* top bar */}
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-30 px-3 pt-[max(0.75rem,env(safe-area-inset-top))]">
-          <div className="pointer-events-auto flex items-center justify-between gap-2">
-            <Link href="/" className="flex items-center gap-1.5 rounded-full bg-black/30 px-2.5 py-1.5 backdrop-blur-md lg:hidden" aria-label="AdGym">
-              <DumbbellIcon size={16} className="text-volt" />
-              <span className="text-sm font-black tracking-tight">AdGym</span>
-            </Link>
-            <div className="flex rounded-full bg-black/40 p-1 text-[13px] font-semibold ring-1 ring-white/10 backdrop-blur-md lg:mx-auto">
-              <button
-                type="button"
-                onClick={() => setMode(false)}
-                className={`rounded-full px-3 py-1.5 transition ${!daily ? "bg-white text-black" : "text-white/75 hover:text-white"}`}
-              >
-                Akış
-              </button>
-              <button
-                type="button"
-                onClick={() => setMode(true)}
-                className={`flex items-center gap-1 rounded-full px-3 py-1.5 transition ${daily ? "bg-volt text-black" : "text-white/75 hover:text-white"}`}
-              >
-                <span className="sm:hidden">Antrenman</span>
-                <span className="hidden sm:inline">Bugünün antrenmanı</span>
-              </button>
-            </div>
-            <div className="flex items-center gap-1.5">
-              {streak > 0 && (
-                <span className="flex items-center gap-1 rounded-full bg-black/40 px-2 py-1.5 text-xs font-bold text-orange-300 ring-1 ring-white/10 backdrop-blur-md lg:hidden" title={`${streak} günlük seri`}>
-                  <FlameIcon size={14} filled /> {streak}
-                </span>
-              )}
-              <button
-                type="button"
-                onClick={onOpenFilters}
-                className="relative grid size-9 place-items-center rounded-full bg-black/40 text-white ring-1 ring-white/10 backdrop-blur-md xl:hidden"
-                aria-label="Filtrele"
-              >
-                <SlidersIcon size={17} />
-                {nFilters > 0 && (
-                  <span className="absolute -right-0.5 -top-0.5 grid size-4 place-items-center rounded-full bg-volt text-[10px] font-bold text-black">{nFilters}</span>
-                )}
-              </button>
-            </div>
-          </div>
-
-          {daily && list.length > 0 && (
-            <div className="pointer-events-auto mt-2.5 px-1">
-              <div className="flex gap-1">
-                {list.map((a, i) => (
-                  <button
-                    key={a.id}
-                    type="button"
-                    aria-label={`${i + 1}. reklam`}
-                    onClick={() => go(i)}
-                    className={`h-1 flex-1 rounded-full transition-colors ${viewed.includes(a.id) ? "bg-volt" : i === active ? "bg-white/70" : "bg-white/20"}`}
-                  />
-                ))}
-              </div>
-              <p className="text-shadow mt-1.5 flex items-center justify-between text-[11px] font-semibold text-white/80">
-                <span>Bugünün antrenmanı · {doneCount}/{list.length}</span>
-                {streak > 0 && (
-                  <span className="flex items-center gap-1 text-orange-300">
-                    <FlameIcon size={12} filled /> {streak} gün seri
-                  </span>
-                )}
-              </p>
-            </div>
-          )}
-
-          {(!daily || extraChips) && (
-            <div className="pointer-events-auto mt-2 flex flex-wrap gap-1.5 px-1">
-              {!daily && (
+        {/* minimal top chrome: one menu button (+ active brand chip), workout progress in daily mode */}
+        {!clean && (
+          <div className="pointer-events-none absolute inset-x-0 top-0 z-30 flex items-start justify-between gap-2 px-3 pt-[max(0.75rem,env(safe-area-inset-top))]">
+            <div className="flex min-w-0 items-center gap-1.5">
+              <MenuButton onClick={onOpenMenu} count={nFilters} className="pointer-events-auto shrink-0 xl:hidden" />
+              {onShuffle && (
                 <button
                   type="button"
-                  onClick={onToggleVideo}
-                  aria-pressed={videoOnly}
-                  className={`flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold ring-1 backdrop-blur-md transition ${videoOnly ? "bg-volt text-black ring-volt" : "bg-black/40 text-white ring-white/15 hover:bg-black/60"}`}
+                  onClick={onShuffle}
+                  aria-label="Karıştır"
+                  title="Karıştır (r)"
+                  className="pointer-events-auto grid size-9 shrink-0 place-items-center rounded-full bg-black/30 text-white ring-1 ring-white/10 backdrop-blur-sm transition hover:bg-black/50 active:scale-95"
                 >
-                  <PlaySolidIcon size={11} /> Sadece video
+                  <ShuffleIcon size={18} />
                 </button>
               )}
               {filters.brand.map((b) => (
-                <button key={b} type="button" onClick={() => onRemoveBrand(b)} className="flex items-center gap-1 rounded-full bg-white px-2.5 py-1 text-xs font-semibold text-black">
-                  {b} <XIcon size={12} />
+                <button
+                  key={b}
+                  type="button"
+                  onClick={() => onRemoveBrand(b)}
+                  aria-label={`${b} filtresini kaldır`}
+                  className="pointer-events-auto flex min-w-0 items-center gap-1 rounded-full bg-black/35 px-2.5 py-1 text-xs font-semibold text-white ring-1 ring-white/10 backdrop-blur-sm"
+                >
+                  <span className="truncate">{b}</span> <XIcon size={12} className="shrink-0" />
                 </button>
               ))}
-              {usingFixtures && (
-                <span className="rounded-full bg-ember/20 px-2.5 py-1 text-[11px] font-semibold text-orange-200 ring-1 ring-ember/40 backdrop-blur">
-                  Demo verisi — henüz ingest yapılmadı
-                </span>
-              )}
             </div>
-          )}
-        </div>
+            {daily && list.length > 0 && (
+              <span
+                className="flex shrink-0 items-center gap-1 rounded-full bg-black/35 px-2 py-1 text-[11px] font-bold tabular-nums text-white ring-1 ring-white/10 backdrop-blur-sm"
+                aria-label={`Bugünün antrenmanı: ${doneCount}/${list.length}`}
+                data-daily-pill=""
+              >
+                <DumbbellIcon size={12} className="text-volt" /> {doneCount}/{list.length}
+              </span>
+            )}
+          </div>
+        )}
 
         {/* feed */}
         <div ref={scroller} className="no-scrollbar h-full snap-y snap-mandatory overflow-y-scroll overscroll-y-contain" tabIndex={-1}>
           {list.length === 0 ? (
-            <EmptyState daily={daily} hydrated={Boolean(today) || !daily} poolSize={poolSize} onClear={onClearFilters} />
+            <EmptyState daily={daily} hydrated={ready} poolSize={poolSize} onClear={onClearFilters} />
           ) : (
             Array.from({ length: shown }, (_, i) => {
               const ad = list[i];
@@ -354,6 +381,9 @@ function FeedColumn({
                         preload={i === active || i === active + 1 ? "auto" : Math.abs(i - active) <= 1 ? "metadata" : "none"}
                         muted={muted}
                         onToggleMute={toggleMute}
+                        onInfo={() => setInfoAd(ad)}
+                        clean={clean}
+                        onLongPress={toggleClean}
                       />
                     ) : (
                       <div className="h-full w-full bg-ink" />
@@ -369,6 +399,8 @@ function FeedColumn({
           )}
         </div>
       </div>
+
+      <AdInfoSheet ad={infoAd} onClose={() => setInfoAd(null)} />
 
       {/* desktop up/down */}
       <div className="absolute -right-[4.25rem] top-1/2 hidden -translate-y-1/2 flex-col gap-3 lg:flex">
@@ -582,6 +614,18 @@ function Shortcuts() {
         <li className="flex justify-between">
           <span>Ses aç / kapat</span>
           <Kbd>m</Kbd>
+        </li>
+        <li className="flex justify-between">
+          <span>Detaylar</span>
+          <Kbd>i</Kbd>
+        </li>
+        <li className="flex justify-between">
+          <span>Karıştır</span>
+          <Kbd>r</Kbd>
+        </li>
+        <li className="flex justify-between">
+          <span>Temiz mod</span>
+          <span className="text-zinc-400">basılı tut</span>
         </li>
       </ul>
     </div>

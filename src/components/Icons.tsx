@@ -170,3 +170,20 @@ export const PlaySolidIcon = ({ size = 20, ...p }: P) => (
     <path d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11.2-6.86a1 1 0 0 0 0-1.72L9.5 4.28A1 1 0 0 0 8 5.14z" />
   </svg>
 );
+export const MenuIcon = (p: P) => (
+  <Svg {...p}>
+    <path d="M4 7h16M4 12h16M4 17h10" />
+  </Svg>
+);
+export const InfoIcon = (p: P) => (
+  <Svg {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 11v5.5" />
+    <path d="M12 7.6v.01" strokeWidth={2.6} />
+  </Svg>
+);
+export const ShuffleIcon = (p: P) => (
+  <Svg {...p}>
+    <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+  </Svg>
+);

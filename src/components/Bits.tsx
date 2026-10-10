@@ -39,7 +39,7 @@ export function BrandAvatar({ name, logoUrl, size = 40, className = "" }: { name
   );
 }
 
-const TIER_COLOR = {
+export const TIER_COLOR = {
   elite: "#c8ff2e",
   strong: "#ffc53d",
   solid: "#a1a1aa",

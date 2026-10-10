@@ -5,7 +5,7 @@ import { scoreTier } from "@/lib/score";
 const norm = (s: string) => s.toLocaleLowerCase("tr").replace(/[^\p{L}\p{N}]+/gu, "");
 
 /** True when the "headline" is really just the brand / page name (common in Meta Ad Library data). */
-function isBrandish(headline: string, brand: string): boolean {
+export function isBrandish(headline: string, brand: string): boolean {
   const h = norm(headline);
   const b = norm(brand);
   return !h || b.includes(h) || h.includes(b);

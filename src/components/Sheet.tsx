@@ -10,12 +10,18 @@ export function Sheet({
   title,
   children,
   wide,
+  light,
+  label,
 }: {
   open: boolean;
   onClose: () => void;
   title?: ReactNode;
   children: ReactNode;
   wide?: boolean;
+  /** Light scrim + shorter panel: keeps the playing video visible behind the sheet. */
+  light?: boolean;
+  /** Accessible name when there is no visible title. */
+  label?: string;
 }) {
   const panelRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef(onClose);
@@ -42,17 +48,17 @@ export function Sheet({
 
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center" role="dialog" aria-modal="true">
+    <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center" role="dialog" aria-modal="true" aria-label={label ?? (typeof title === "string" ? title : undefined)}>
       <button
         type="button"
         aria-label="Kapat"
-        className="animate-fade-in absolute inset-0 bg-black/70 backdrop-blur-sm"
+        className={`animate-fade-in absolute inset-0 ${light ? "bg-black/25" : "bg-black/70 backdrop-blur-sm"}`}
         onClick={onClose}
       />
       <div
         ref={panelRef}
         tabIndex={-1}
-        className={`animate-sheet-in sm:animate-fade-in relative max-h-[88dvh] w-full overflow-y-auto rounded-t-3xl border border-line bg-ink-2/95 p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] shadow-2xl outline-none backdrop-blur-xl thin-scrollbar sm:rounded-3xl ${wide ? "sm:max-w-xl" : "sm:max-w-md"}`}
+        className={`animate-sheet-in sm:animate-fade-in relative ${light ? "max-h-[72dvh]" : "max-h-[88dvh]"} w-full overflow-y-auto rounded-t-3xl border border-line bg-ink-2/95 p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] shadow-2xl outline-none backdrop-blur-xl thin-scrollbar sm:rounded-3xl ${wide ? "sm:max-w-xl" : "sm:max-w-md"}`}
       >
         <div className="mx-auto mb-4 h-1 w-10 rounded-full bg-white/15 sm:hidden" />
         {title !== undefined && (
