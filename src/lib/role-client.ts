@@ -11,7 +11,9 @@ import { useEffect, useSyncExternalStore } from "react";
 export type ClientRole = "admin" | "viewer";
 export type QuotaInfo = { used: number; limit: number };
 export type ViewerUsage = { u: string; used: number | null; limit: number };
-export type Me = { u: string; r: ClientRole; quota?: QuotaInfo | null; viewers?: ViewerUsage[] };
+/** Active brand strategy (only sent to accounts that get strategy remix ideas). */
+export type StrategyInfo = { name: string; active: boolean };
+export type Me = { u: string; r: ClientRole; quota?: QuotaInfo | null; viewers?: ViewerUsage[]; strategy?: StrategyInfo | null };
 
 function readRole(): ClientRole | null {
   const m = /(?:^|;\s*)adgym_role=(admin|viewer)(?:;|$)/.exec(document.cookie);
@@ -61,6 +63,12 @@ export function useMe(): Me | null {
     if (!me && !loading) void refreshMe();
   }, []);
   return value;
+}
+
+/** The active strategy when this account gets strategy remix ideas (admin by default), else null. */
+export function useActiveStrategy(): StrategyInfo | null {
+  const m = useMe();
+  return m?.strategy?.active ? m.strategy : null;
 }
 
 /** Viewer quota (null for admin, unknown, or when the quota store is unavailable). */

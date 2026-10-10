@@ -215,6 +215,11 @@ export function safeNextPath(next: unknown): string {
   }
 }
 
+/** Pages / APIs only the admin may open (viewers get 403 from the middleware and the route itself). */
+export function isAdminOnlyPath(pathname: string): boolean {
+  return ["/strategy", "/api/strategy"].some((p) => pathname === p || pathname.startsWith(`${p}/`));
+}
+
 export function isApiPath(pathname: string): boolean {
   return pathname === "/api" || pathname.startsWith("/api/");
 }

@@ -6,7 +6,8 @@ import type { Ad } from "@/lib/types";
 import { useSaved } from "@/lib/saved";
 import { useHydrated } from "@/lib/store";
 import { startAnalysis, useAnalysisJob } from "@/lib/analyze-client";
-import { useCanAnalyze, useRole, useViewerQuota } from "@/lib/role-client";
+import { useActiveStrategy, useCanAnalyze, useRole, useViewerQuota } from "@/lib/role-client";
+import { strategyBrand } from "@/lib/analysis";
 
 /**
  * "✨ Özetle" — runs the Gemini breakdown for ONE saved ad, only when pressed (each press costs money).
@@ -37,6 +38,8 @@ export function AnalyzeButton({
   const allowed = useCanAnalyze();
   const role = useRole();
   const quota = useViewerQuota();
+  // Admin with an active brand strategy: remix ideas will follow it (shown before the paid press).
+  const strategy = useActiveStrategy();
   // Viewers: remaining Gemini uses (null = admin/unlimited or not loaded yet; the server enforces it anyway).
   const remaining = role === "viewer" && quota ? Math.max(0, quota.limit - quota.used) : null;
   const isVideo = (item?.ad ?? ad)?.format === "video" || Boolean((item?.ad ?? ad)?.media.some((m) => m.type === "video"));
@@ -92,11 +95,21 @@ export function AnalyzeButton({
       <button
         type="button"
         onClick={() => void startAnalysis(adId, { ad: item ? undefined : ad })}
+        title={strategy ? `Strateji: ${strategyBrand(strategy.name)}` : undefined}
         className={`${base} bg-volt text-black shadow-[0_0_24px_-8px] shadow-volt/60 hover:bg-volt-dim`}
       >
         <span aria-hidden>✨</span> {job.status === "error" ? "Tekrar dene" : "Özetle"}
         {remaining !== null && <span className="font-semibold opacity-70">({remaining} hakkın kaldı)</span>}
       </button>
+      {strategy && variant === "block" && (
+        <p
+          className="mt-1.5 text-center text-[11px] font-semibold text-zinc-400"
+          title={`Remix fikirleri "${strategy.name}" stratejisine göre üretilir`}
+          data-testid="strategy-note"
+        >
+          <span className="text-volt">◆</span> Strateji: {strategyBrand(strategy.name)}
+        </p>
+      )}
       {job.status === "error" && <AnalyzeError adId={adId} ad={item ? undefined : ad} error={job.error} canUsePoster={job.canUsePoster} />}
     </div>
   );

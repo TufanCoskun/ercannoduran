@@ -2,17 +2,19 @@
 
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import type { Ad } from "@/lib/types";
-import { adTitle, firstLine } from "@/lib/format";
+import { adTitle, firstLine, previewImage } from "@/lib/format";
 import { decide, lastSwipe, remainingIds, resolveAd, undoSwipe, type SwipeDir, type TinderSession } from "@/lib/tinder";
 import { AdMediaView, type MediaMode, type Preload } from "../AdMediaView";
 import { AdInfoSheet } from "../AdInfoSheet";
-import { InfoIcon, MuteIcon, VolumeIcon, XIcon } from "../Icons";
+import { InfoIcon, MuteIcon, PencilIcon, VolumeIcon, XIcon } from "../Icons";
 import { useUI } from "../UIProvider";
 import { BrandLine, CrossIcon, HeartIcon, SaveShareIcons, UndoIcon } from "./bits";
 
 /** Carousel arrows sit under the gesture layer and can't be clicked here — hide them. */
 const NO_ARROWS = "[&_button[aria-label$='görsel']]:!hidden";
 const FLING_MS = 260;
+/** After a like, the action-row ✎ / N key target the liked ad for this long ("like, then note"). */
+const RECENT_LIKE_MS = 5000;
 
 type CardApi = { fling: (dir: SwipeDir, from?: { dx: number; dy: number; vx?: number }) => void };
 
@@ -36,6 +38,13 @@ export function SwipeDeck({
   const [infoAd, setInfoAd] = useState<Ad | null>(null);
   const [enter, setEnter] = useState<{ id: string; dir: SwipeDir } | null>(null);
   const [flash, setFlash] = useState<{ dir: SwipeDir; n: number } | null>(null);
+  // The ad just liked: ♥ then ✎ should note THAT ad, not the next card that slid in.
+  const [recentLike, setRecentLike] = useState<Ad | null>(null);
+  useEffect(() => {
+    if (!recentLike) return;
+    const t = window.setTimeout(() => setRecentLike(null), RECENT_LIKE_MS);
+    return () => window.clearTimeout(t);
+  }, [recentLike]);
   const clearEnter = useCallback(() => setEnter(null), []);
   const busy = useRef(false);
   const top = useRef<CardApi | null>(null);
@@ -57,14 +66,19 @@ export function SwipeDeck({
   const liked = session.round1.liked.length;
   const current = deck[0];
   const canUndo = decided > 0;
+  /** What the action-row ✎ and the N key note: the just-liked ad for a few seconds, else the top card. */
+  const noteTarget = recentLike ?? current;
 
   const commit = useCallback(
     (ad: Ad, dir: SwipeDir) => {
       onChange(decide(sessionRef.current, ad.id, dir, ad));
       setFlash((f) => ({ dir, n: (f?.n ?? 0) + 1 }));
       busy.current = false;
+      // Any new swipe ends the previous "son beğenilen" window; a like starts a new one.
+      setRecentLike(dir === "like" ? ad : null);
+      if (dir === "like") ui.toast("Beğenildi", { label: "✎ Not al", onClick: () => ui.openNote(ad) }, { key: "tinder-like" });
     },
-    [onChange],
+    [onChange, ui],
   );
 
   const swipe = useCallback(
@@ -82,10 +96,11 @@ export function SwipeDeck({
     const last = lastSwipe(sessionRef.current);
     if (!last) return;
     setEnter({ id: last.id, dir: last.dir });
+    setRecentLike(null);
     onChange(undoSwipe(sessionRef.current));
   }, [onChange]);
 
-  // Keyboard: ←/→ swipe, Backspace/Z undo, M sound, I details, S save.
+  // Keyboard: ←/→ swipe, Backspace/Z undo, M sound, I details, S save, N note.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
@@ -108,13 +123,16 @@ export function SwipeDeck({
         setInfoAd(current);
       } else if ((k === "s" || k === "S") && current) {
         ui.toggleSave(current);
+      } else if ((k === "n" || k === "N") && noteTarget) {
+        e.preventDefault(); // don't type the "n" into the note
+        ui.openNote(noteTarget);
       } else if (k === "Escape") {
         onExit();
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [swipe, undo, current, ui, onExit]);
+  }, [swipe, undo, current, noteTarget, ui, onExit]);
 
   return (
     <div className="fixed inset-0 z-30 flex flex-col bg-ink lg:left-60" data-stage="swipe">
@@ -146,7 +164,7 @@ export function SwipeDeck({
         </div>
 
         {/* card stack */}
-        <div className="relative min-h-0 flex-1">
+        <div className="relative min-h-0 flex-1" data-toast-anchor="">
           <div className="relative mx-auto h-full w-full lg:aspect-[9/16] lg:w-auto lg:max-w-full">
             {deck.map((ad, i) => (
               <SwipeCard
@@ -171,7 +189,7 @@ export function SwipeDeck({
         </div>
 
         {/* controls */}
-        <div className="flex items-center justify-center gap-4 pt-3">
+        <div className="flex items-center justify-center gap-3 pt-3 min-[380px]:gap-4">
           <RoundButton label="Geri al" size="sm" onClick={undo} disabled={!canUndo}>
             <UndoIcon size={18} />
           </RoundButton>
@@ -181,16 +199,50 @@ export function SwipeDeck({
           <RoundButton label="Beğen" size="lg" tone="like" onClick={() => swipe("like")} disabled={!current}>
             <HeartIcon size={30} filled />
           </RoundButton>
+          <span className="relative" data-note-target={noteTarget?.id} data-note-recent={recentLike ? "" : undefined}>
+            <RoundButton
+              label={recentLike ? `Not al · son beğenilen: ${recentLike.brand.name}` : "Not al"}
+              size="sm"
+              tone={recentLike ? "like" : undefined}
+              onClick={() => noteTarget && ui.openNote(noteTarget)}
+              disabled={!noteTarget}
+            >
+              <PencilIcon size={17} />
+            </RoundButton>
+            {recentLike && (
+              <>
+                <MiniThumb key={recentLike.id} ad={recentLike} />
+                <span className="animate-fade-in pointer-events-none absolute left-1/2 top-full mt-0.5 -translate-x-1/2 whitespace-nowrap text-[9px] font-bold leading-none text-emerald-300">
+                  son beğenilen
+                </span>
+              </>
+            )}
+          </span>
           <RoundButton label="Detaylar" size="sm" onClick={() => current && setInfoAd(current)} disabled={!current}>
             <InfoIcon size={19} />
           </RoundButton>
         </div>
         <p className="mt-2 hidden text-center text-[11px] text-zinc-500 lg:block">
-          <Kbd>←</Kbd> geç · <Kbd>→</Kbd> beğen · <Kbd>⌫</Kbd> geri al · <Kbd>M</Kbd> ses · <Kbd>I</Kbd> detay · <Kbd>S</Kbd> kaydet
+          <Kbd>←</Kbd> geç · <Kbd>→</Kbd> beğen · <Kbd>⌫</Kbd> geri al · <Kbd>M</Kbd> ses · <Kbd>I</Kbd> detay · <Kbd>S</Kbd> kaydet · <Kbd>N</Kbd> not
         </p>
       </div>
       <AdInfoSheet ad={infoAd} onClose={() => setInfoAd(null)} />
     </div>
+  );
+}
+
+/** Tiny round preview of the just-liked ad on the action-row ✎. */
+function MiniThumb({ ad }: { ad: Ad }) {
+  const src = previewImage(ad);
+  const [failed, setFailed] = useState(false);
+  return (
+    <span className="animate-pop pointer-events-none absolute -right-1.5 -top-1.5 grid size-5 place-items-center overflow-hidden rounded-full bg-emerald-500 text-[8px] font-black text-black ring-2 ring-ink" aria-hidden="true">
+      {src && !failed ? (
+        <img src={src} alt="" referrerPolicy="no-referrer" draggable={false} onError={() => setFailed(true)} className="h-full w-full object-cover" />
+      ) : (
+        ad.brand.name.slice(0, 2).toUpperCase()
+      )}
+    </span>
   );
 }
 
@@ -434,7 +486,7 @@ function SwipeCard({
               {line && <p className="text-shadow mt-1 truncate text-[13px] leading-snug text-white/85">{line}</p>}
             </div>
             <span className="pointer-events-auto flex items-center gap-1.5">
-              <SaveShareIcons ad={ad} dark />
+              <SaveShareIcons ad={ad} dark note />
               <button
                 type="button"
                 onClick={onInfo}

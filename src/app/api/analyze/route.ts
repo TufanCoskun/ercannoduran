@@ -1,9 +1,10 @@
 import { after, NextResponse, type NextRequest } from "next/server";
 import { getAdById } from "@/lib/ads";
 import { analyzeAd, AnalyzeError, configuredModel, geminiKey, MISSING_KEY_MESSAGE, redact } from "@/lib/gemini";
-import type { AnalyzeResponse } from "@/lib/analysis";
+import { capNotes, type AnalyzeResponse } from "@/lib/analysis";
 import { canAnalyze, DEFAULT_VIEWER_LIMIT, findAccount, getAuthConfig, getRequestSession } from "@/lib/auth";
 import { consumeQuota, quotaExceededMessage, quotaStore, QUOTA_STORE_MISSING_MESSAGE, readQuota, type QuotaStore } from "@/lib/quota";
+import { getActiveStrategy, strategyAllowed } from "@/lib/strategy";
 
 // Gemini watches the whole video: download + upload + generation can take 20–60 s.
 export const runtime = "nodejs";
@@ -21,6 +22,7 @@ function fail(status: number, body: Extract<AnalyzeResponse, { ok: false }>) {
  * The ad (and therefore every media URL we fetch) is looked up server-side by id, so clients
  * can't make us fetch arbitrary URLs. Auth: src/middleware.ts gates all /api/*. Admin is unlimited;
  * viewers have a persistent per-user quota (src/lib/quota.ts), charged only for successful, non-cached runs.
+ * Admin with an active brand strategy (src/lib/strategy.ts) gets strategy remix ideas + strategyFit.
  */
 export async function POST(req: NextRequest) {
   const session = await getRequestSession(req);
@@ -62,8 +64,12 @@ export async function POST(req: NextRequest) {
     return fail(404, { ok: false, code: "not_found", error: "Bu reklam artık veri setinde yok; özetlenemiyor." });
   }
 
+  const strategy = strategyAllowed(session) ? await getActiveStrategy() : null;
+
   try {
     const { record, cached } = await analyzeAd(ad, {
+      strategy,
+      notes: capNotes(b.notes),
       force: b.force === true,
       allowPoster: b.allowPoster === true,
       origin: req.nextUrl.origin,
