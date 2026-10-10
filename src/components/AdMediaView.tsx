@@ -5,6 +5,8 @@ import type { Ad } from "@/lib/types";
 import { TextCard } from "./TextCard";
 import { ChevronDownIcon } from "./Icons";
 
+export type MediaMode = "text" | "image" | "video";
+
 type Slide = { kind: "video"; src: string; poster?: string } | { kind: "image"; src: string };
 
 /**
@@ -18,14 +20,14 @@ export function AdMediaView({
   near,
   muted,
   onToggleMute,
-  onVideoState,
+  onMode,
 }: {
   ad: Ad;
   active: boolean;
   near: boolean;
   muted: boolean;
   onToggleMute?: () => void;
-  onVideoState?: (hasVideo: boolean) => void;
+  onMode?: (mode: MediaMode) => void;
 }) {
   const [failed, setFailed] = useState<ReadonlySet<string>>(() => new Set());
   const fail = useCallback((src: string) => setFailed((f) => (f.has(src) ? f : new Set(f).add(src))), []);
@@ -41,10 +43,10 @@ export function AdMediaView({
     return out;
   }, [ad.media, failed]);
 
-  const hasVideo = slides.some((s) => s.kind === "video");
+  const mode: MediaMode = !slides.length ? "text" : slides.some((s) => s.kind === "video") ? "video" : "image";
   useEffect(() => {
-    onVideoState?.(hasVideo);
-  }, [hasVideo, onVideoState]);
+    onMode?.(mode);
+  }, [mode, onMode]);
 
   if (!slides.length) return <TextCard ad={ad} reason={ad.media.length ? "expired" : "missing"} />;
   if (slides.length === 1) {

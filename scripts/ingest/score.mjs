@@ -1,87 +1,98 @@
-// AdGym "winner" scoring heuristic (SPEC: "High-performing proxy").
-// Mirror of src/lib/score.ts — keep the weights below in sync with the app.
+// AdGym "winner" proxy score (0–100). VERBATIM JS port of src/lib/score.ts — that file is
+// the source of truth; when it changes, update this file to match (do not diverge).
 //
-// Spend is not public for commercial ads, so the score is a proxy built from
-// longevity + scaling signals. Every rule adds points and a short Turkish reason.
-//
-//   base                          10
-//   running >= 30 days           +15  "30+ gün yayında"
-//   running >= 90 days           +15  "90+ gün yayında"      (cumulative)
-//   running >= 180 days          +10  "180+ gün yayında"     (cumulative)
-//   still active                 +10  "Hâlâ yayında"
-//   variations >= 3              +10  "N varyasyon"
-//   variations >= 10             +10  (cumulative)
-//   platforms >= 2               +5   "N platformda"
-//   platforms >= 3               +5   (cumulative)
-//   TikTok Top Ads rank <= 10    +25  "TikTok Top Ads #N"
-//   TikTok Top Ads rank <= 50    +15
-//   TikTok Top Ads rank > 50     +8
-//   TikTok likes >= 10k / 100k   +5 / +10  "N beğeni"
-//   TikTok CTR (top tier) >= .8  +10  "Yüksek CTR"
-//   reach >= 100k / 1M (EU lib)  +5 / +10  "1M+ erişim"
-//   curated classic              +30  "Küratörlü klasik"
-// Clamped to 0–100.
+//   base (it made it into the library / watchlist)        10
+//   longevity  ≥7d +5 · ≥30d +20 · ≥90d +35 · ≥180d +42 · ≥365d +48
+//   still active                                           +12
+//   variations ≥2 +6 · ≥5 +12 · ≥10 +18
+//   platforms  ≥2 +5 · ≥3 +8
+//   TikTok Top Ads: rank ≤10 +16 · ≤50 +12 · any +8; CTR pct ≥80 +6; likes ≥100k +6
 
-const clamp = (n) => Math.max(0, Math.min(100, Math.round(n)));
+/**
+ * @typedef {Object} ScoreSignals
+ * @property {number}   [activeDays]
+ * @property {boolean}  [isActive]
+ * @property {number}   [variations]
+ * @property {string[]} [platforms]
+ * @property {"meta"|"tiktok"|"curated"} [source]
+ * @property {{rank?:number, ctrPercentile?:number, likes?:number}} [tiktok]
+ *           rank: position in TikTok Top Ads (1 = best); ctrPercentile: 0–100
+ */
 
-function fmtCount(n) {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(n >= 10_000_000 ? 0 : 1).replace(/\.0$/, "")}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(n >= 10_000 ? 0 : 1).replace(/\.0$/, "")}B`;
+export function formatCompact(n) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(n >= 10_000_000 ? 0 : 1).replace(".", ",")} Mn`;
+  if (n >= 1_000) return `${Math.round(n / 1_000)} B`;
   return String(n);
 }
 
-/**
- * @param {object} s signals
- * @param {number}   [s.activeDays]
- * @param {boolean}  [s.isActive]
- * @param {number}   [s.variations]
- * @param {string[]} [s.platforms]
- * @param {number}   [s.tiktokRank]    1-based position in TikTok Top Ads list
- * @param {number}   [s.tiktokLikes]
- * @param {number}   [s.tiktokCtr]     Creative Center relative CTR tier (0..1)
- * @param {number}   [s.reach]         unique users reached (EU ad libraries)
- * @param {boolean}  [s.curated]
- * @returns {{score:number, reasons:string[]}}
- */
-export function scoreAd(s = {}) {
+/** @param {ScoreSignals} s @returns {{score:number, reasons:string[]}} */
+export function computeScore(s) {
   let score = 10;
   const reasons = [];
+  const days = s.activeDays ?? 0;
 
-  const days = Number.isFinite(s.activeDays) ? s.activeDays : null;
-  if (days !== null) {
-    if (days >= 180) { score += 40; reasons.push("180+ gün yayında"); }
-    else if (days >= 90) { score += 30; reasons.push("90+ gün yayında"); }
-    else if (days >= 30) { score += 15; reasons.push("30+ gün yayında"); }
-  }
+  if (days >= 365) { score += 48; reasons.push("365+ gün yayında"); }
+  else if (days >= 180) { score += 42; reasons.push("180+ gün yayında"); }
+  else if (days >= 90) { score += 35; reasons.push("90+ gün yayında"); }
+  else if (days >= 30) { score += 20; reasons.push("30+ gün yayında"); }
+  else if (days >= 7) { score += 5; }
 
-  if (s.isActive) { score += 10; reasons.push("Hâlâ yayında"); }
+  if (s.isActive) { score += 12; reasons.push("Hâlâ yayında"); }
 
-  const v = s.variations || 0;
-  if (v >= 10) { score += 20; reasons.push(`${v} varyasyon`); }
-  else if (v >= 3) { score += 10; reasons.push(`${v} varyasyon`); }
+  const v = s.variations ?? 0;
+  if (v >= 10) { score += 18; reasons.push(`${v} varyasyon`); }
+  else if (v >= 5) { score += 12; reasons.push(`${v} varyasyon`); }
+  else if (v >= 2) { score += 6; reasons.push(`${v} varyasyon`); }
 
-  const p = Array.isArray(s.platforms) ? new Set(s.platforms).size : 0;
-  if (p >= 3) { score += 10; reasons.push(`${p} platformda`); }
+  const p = new Set((s.platforms ?? []).map((x) => x.toLowerCase())).size;
+  if (p >= 3) { score += 8; reasons.push(`${p} platformda`); }
   else if (p >= 2) { score += 5; reasons.push(`${p} platformda`); }
 
-  if (Number.isFinite(s.tiktokRank) && s.tiktokRank > 0) {
-    score += s.tiktokRank <= 10 ? 25 : s.tiktokRank <= 50 ? 15 : 8;
-    reasons.push(`TikTok Top Ads #${s.tiktokRank}`);
+  if (s.tiktok) {
+    const { rank, ctrPercentile, likes } = s.tiktok;
+    if (typeof rank === "number" && rank > 0) {
+      score += rank <= 10 ? 16 : rank <= 50 ? 12 : 8;
+      reasons.push(`TikTok Top Ads #${rank}`);
+    }
+    if (typeof ctrPercentile === "number" && ctrPercentile >= 80) {
+      score += 6;
+      reasons.push("Yüksek CTR");
+    }
+    if (typeof likes === "number" && likes >= 100_000) {
+      score += 6;
+      reasons.push(`${formatCompact(likes)} beğeni`);
+    }
   }
-  if (Number.isFinite(s.tiktokLikes)) {
-    if (s.tiktokLikes >= 100_000) { score += 10; reasons.push(`${fmtCount(s.tiktokLikes)} beğeni`); }
-    else if (s.tiktokLikes >= 10_000) { score += 5; reasons.push(`${fmtCount(s.tiktokLikes)} beğeni`); }
-  }
-  if (Number.isFinite(s.tiktokCtr) && s.tiktokCtr >= 0.8) { score += 10; reasons.push("Yüksek CTR"); }
 
-  if (Number.isFinite(s.reach)) {
-    if (s.reach >= 1_000_000) { score += 10; reasons.push("1M+ erişim"); }
-    else if (s.reach >= 100_000) { score += 5; reasons.push("100B+ erişim"); }
-  }
-
-  if (s.curated) { score += 30; reasons.push("Küratörlü klasik"); }
-
-  return { score: clamp(score), reasons };
+  return { score: Math.max(0, Math.min(100, Math.round(score))), reasons };
 }
 
-export default scoreAd;
+/** Days between two ISO dates (end defaults to now). */
+export function daysBetween(startIso, endIso) {
+  if (!startIso) return undefined;
+  const start = Date.parse(startIso);
+  if (Number.isNaN(start)) return undefined;
+  const end = endIso ? Date.parse(endIso) : Date.now();
+  if (Number.isNaN(end)) return undefined;
+  return Math.max(0, Math.floor((end - start) / 86_400_000));
+}
+
+/** Score an ad from its own fields (used when ingested data has no performance block). */
+export function scoreAd(ad) {
+  const activeDays = ad.activeDays ?? daysBetween(ad.startedAt, ad.endedAt ?? ad.collectedAt);
+  return computeScore({
+    activeDays,
+    isActive: ad.isActive,
+    variations: ad.variations,
+    platforms: ad.platforms,
+    source: ad.source,
+  });
+}
+
+export function scoreTier(score) {
+  if (score >= 80) return "elite";
+  if (score >= 60) return "strong";
+  return "solid";
+}
+
+export default computeScore;

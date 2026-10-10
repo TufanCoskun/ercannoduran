@@ -1,0 +1,892 @@
+{
+  "generatedAt": "2026-10-10T12:31:41.149Z",
+  "ads": [
+    {
+      "id": "curated_yt_owGykVbfgUE",
+      "source": "curated",
+      "segment": "general",
+      "market": "US",
+      "vertical": "grooming",
+      "brand": {
+        "name": "Old Spice",
+        "website": "https://oldspice.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/owGykVbfgUE/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/owGykVbfgUE/hqdefault.jpg"
+        }
+      ],
+      "headline": "Old Spice | The Man Your Man Could Smell Like",
+      "landingUrl": "https://oldspice.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=owGykVbfgUE",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_ZUG9qYTJMsI",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "grooming",
+      "brand": {
+        "name": "Dollar Shave Club",
+        "website": "https://www.dollarshaveclub.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/ZUG9qYTJMsI/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ZUG9qYTJMsI/hqdefault.jpg"
+        }
+      ],
+      "headline": "DollarShaveClub.com - Our Blades Are F***ing Great",
+      "landingUrl": "https://www.dollarshaveclub.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=ZUG9qYTJMsI",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_YbYWhdLO43Q",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "bathroom",
+      "brand": {
+        "name": "Squatty Potty",
+        "website": "https://www.squattypotty.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/YbYWhdLO43Q/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/YbYWhdLO43Q/hqdefault.jpg"
+        }
+      ],
+      "headline": "This Unicorn Changed the Way I Poop - #SquattyPotty",
+      "landingUrl": "https://www.squattypotty.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=YbYWhdLO43Q",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_ZKLnhuzh9uY",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "home",
+      "brand": {
+        "name": "Poo-Pourri",
+        "website": "https://poopourri.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/ZKLnhuzh9uY/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/ZKLnhuzh9uY/hqdefault.jpg"
+        }
+      ],
+      "headline": "Girls Don't Poop - PooPourri.com",
+      "landingUrl": "https://poopourri.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=ZKLnhuzh9uY",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_4BvwpjaGZCQ",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mattress",
+      "brand": {
+        "name": "Purple",
+        "website": "https://purple.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/4BvwpjaGZCQ/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/4BvwpjaGZCQ/hqdefault.jpg"
+        }
+      ],
+      "headline": "How to Use a Raw Egg to Determine if Your Mattress is Awful - Purple Mattress #goldilocks",
+      "landingUrl": "https://purple.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=4BvwpjaGZCQ",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_yLDLRx2atLQ",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "mattress",
+      "brand": {
+        "name": "Purple",
+        "website": "https://purple.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/yLDLRx2atLQ/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/yLDLRx2atLQ/hqdefault.jpg"
+        }
+      ],
+      "headline": "Does Your Mattress Pass The Human Egg Drop Test? - Purple Mattress",
+      "landingUrl": "https://purple.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=yLDLRx2atLQ",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_qQwt4rzmVxY",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Liquid Death",
+        "website": "https://liquiddeath.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/qQwt4rzmVxY/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/qQwt4rzmVxY/hqdefault.jpg"
+        }
+      ],
+      "headline": "Liquid Death Big Game Commercial With Kids Hydrating at a Party",
+      "landingUrl": "https://liquiddeath.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=qQwt4rzmVxY",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_EeRADNpdKD4",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Liquid Death",
+        "website": "https://liquiddeath.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/EeRADNpdKD4/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/EeRADNpdKD4/hqdefault.jpg"
+        }
+      ],
+      "headline": "Liquid Death - Deadliest Stuff On Earth?",
+      "landingUrl": "https://liquiddeath.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=EeRADNpdKD4",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_40NfaM8aieQ",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "beverage",
+      "brand": {
+        "name": "Liquid Death",
+        "website": "https://liquiddeath.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/40NfaM8aieQ/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/40NfaM8aieQ/hqdefault.jpg"
+        }
+      ],
+      "headline": "Liquid Death Mountain Water - Push Your Thirst Off A Cliff",
+      "landingUrl": "https://liquiddeath.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=40NfaM8aieQ",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_vDHNMqOLw_o",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "grooming",
+      "brand": {
+        "name": "Dr. Squatch",
+        "website": "https://www.drsquatch.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/vDHNMqOLw_o/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/vDHNMqOLw_o/hqdefault.jpg"
+        }
+      ],
+      "headline": "Dr. Squatch Super Bowl LV Commercial 2021 - You're Not A Dish",
+      "landingUrl": "https://www.drsquatch.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=vDHNMqOLw_o",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_mnF3oPTM2Zg",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "grooming",
+      "brand": {
+        "name": "Dr. Squatch",
+        "website": "https://www.drsquatch.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/mnF3oPTM2Zg/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/mnF3oPTM2Zg/hqdefault.jpg"
+        }
+      ],
+      "headline": "Dr. Squatch- Real Soap For Real Men",
+      "landingUrl": "https://www.drsquatch.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=mnF3oPTM2Zg",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_XzZc8hIZYk4",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "grooming",
+      "brand": {
+        "name": "Dr. Squatch",
+        "website": "https://www.drsquatch.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/XzZc8hIZYk4/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/XzZc8hIZYk4/hqdefault.jpg"
+        }
+      ],
+      "headline": "Dr. Squatch | \"Put Your Balls In Our Hands\" | Ball-to-Ball Coverage",
+      "landingUrl": "https://www.drsquatch.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=XzZc8hIZYk4",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_yRIOPfvMgOU",
+      "source": "curated",
+      "segment": "dtc",
+      "market": "US",
+      "vertical": "grooming",
+      "brand": {
+        "name": "Manscaped",
+        "website": "https://www.manscaped.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/yRIOPfvMgOU/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/yRIOPfvMgOU/hqdefault.jpg"
+        }
+      ],
+      "headline": "Gronk Can't Find His Balls Rob Gronkowski Manscaped™ Commercial",
+      "landingUrl": "https://www.manscaped.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=yRIOPfvMgOU",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_qg1ckCkm8YI",
+      "source": "curated",
+      "segment": "general",
+      "market": "US",
+      "vertical": "kitchen appliances",
+      "brand": {
+        "name": "Blendtec"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/qg1ckCkm8YI/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/qg1ckCkm8YI/hqdefault.jpg"
+        }
+      ],
+      "headline": "Will It Blend? - iPhone",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=qg1ckCkm8YI",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_M7FIvfx5J10",
+      "source": "curated",
+      "segment": "general",
+      "market": "GLOBAL",
+      "vertical": "automotive (B2B)",
+      "brand": {
+        "name": "Volvo Trucks"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/M7FIvfx5J10/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/M7FIvfx5J10/hqdefault.jpg"
+        }
+      ],
+      "headline": "Volvo Trucks - The Epic Split feat. Van Damme",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=M7FIvfx5J10",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_or4P0p_ojkM",
+      "source": "curated",
+      "segment": "hotel",
+      "market": "GLOBAL",
+      "vertical": "short-term rental",
+      "brand": {
+        "name": "Airbnb",
+        "website": "https://www.airbnb.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/or4P0p_ojkM/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/or4P0p_ojkM/hqdefault.jpg"
+        }
+      ],
+      "headline": "Same Room",
+      "landingUrl": "https://www.airbnb.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=or4P0p_ojkM",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_5c9RVGlUKDM",
+      "source": "curated",
+      "segment": "hotel",
+      "market": "GLOBAL",
+      "vertical": "hotel chain",
+      "brand": {
+        "name": "Marriott Bonvoy",
+        "website": "https://www.marriott.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/5c9RVGlUKDM/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/5c9RVGlUKDM/hqdefault.jpg"
+        }
+      ],
+      "headline": "The ‘Here’ Anthem | Marriott Bonvoy",
+      "landingUrl": "https://www.marriott.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=5c9RVGlUKDM",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt__fPV05xpVZE",
+      "source": "curated",
+      "segment": "hotel",
+      "market": "GLOBAL",
+      "vertical": "airline",
+      "brand": {
+        "name": "Turkish Airlines",
+        "website": "https://www.turkishairlines.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/_fPV05xpVZE/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/_fPV05xpVZE/hqdefault.jpg"
+        }
+      ],
+      "headline": "#StepOnEarth - Turkish Airlines",
+      "landingUrl": "https://www.turkishairlines.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=_fPV05xpVZE",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_vy8SitMlXwM",
+      "source": "curated",
+      "segment": "hotel",
+      "market": "GLOBAL",
+      "vertical": "airline",
+      "brand": {
+        "name": "Turkish Airlines",
+        "website": "https://www.turkishairlines.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/vy8SitMlXwM/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/vy8SitMlXwM/hqdefault.jpg"
+        }
+      ],
+      "headline": "#MeetAgain - Turkish Airlines",
+      "landingUrl": "https://www.turkishairlines.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=vy8SitMlXwM",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_QhWw73jMAg0",
+      "source": "curated",
+      "segment": "hotel",
+      "market": "GLOBAL",
+      "vertical": "airline",
+      "brand": {
+        "name": "Turkish Airlines",
+        "website": "https://www.turkishairlines.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/QhWw73jMAg0/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/QhWw73jMAg0/hqdefault.jpg"
+        }
+      ],
+      "headline": "Türkiye: A Country Of Wonders - Turkish Airlines",
+      "landingUrl": "https://www.turkishairlines.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=QhWw73jMAg0",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_o1T-FOLjPv4",
+      "source": "curated",
+      "segment": "hotel",
+      "market": "GLOBAL",
+      "vertical": "airline",
+      "brand": {
+        "name": "Turkish Airlines",
+        "website": "https://www.turkishairlines.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/o1T-FOLjPv4/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/o1T-FOLjPv4/hqdefault.jpg"
+        }
+      ],
+      "headline": "Fly with the Europe’s Best - Turkish Airlines",
+      "landingUrl": "https://www.turkishairlines.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "en"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=o1T-FOLjPv4",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_2_6HXS3WMqQ",
+      "source": "curated",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "website": "https://www.turkcell.com.tr"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/2_6HXS3WMqQ/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/2_6HXS3WMqQ/hqdefault.jpg"
+        }
+      ],
+      "headline": "Bir Turkcell Yapımı: HIZIN KRALI",
+      "landingUrl": "https://www.turkcell.com.tr",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=2_6HXS3WMqQ",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_u899_ZvIMII",
+      "source": "curated",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "website": "https://www.turkcell.com.tr"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/u899_ZvIMII/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/u899_ZvIMII/hqdefault.jpg"
+        }
+      ],
+      "headline": "Bir Turkcell Yapımı: DEMİR ER",
+      "landingUrl": "https://www.turkcell.com.tr",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=u899_ZvIMII",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_LExbcop2hkU",
+      "source": "curated",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "website": "https://www.turkcell.com.tr"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/LExbcop2hkU/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/LExbcop2hkU/hqdefault.jpg"
+        }
+      ],
+      "headline": "Öztürkcell - Baba ve Kızı",
+      "landingUrl": "https://www.turkcell.com.tr",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=LExbcop2hkU",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_d7CsoYuCUCI",
+      "source": "curated",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "telecom",
+      "brand": {
+        "name": "Turkcell",
+        "website": "https://www.turkcell.com.tr"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/d7CsoYuCUCI/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/d7CsoYuCUCI/hqdefault.jpg"
+        }
+      ],
+      "headline": "#DünyalarSeninOlsun",
+      "landingUrl": "https://www.turkcell.com.tr",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=d7CsoYuCUCI",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_FaXxbajkXrs",
+      "source": "curated",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "marketplace",
+      "brand": {
+        "name": "Hepsiburada",
+        "website": "https://www.hepsiburada.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/FaXxbajkXrs/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/FaXxbajkXrs/hqdefault.jpg"
+        }
+      ],
+      "headline": "Hepsiburada | Hepsiexpress’le Market Alışverişini Kafana Takma!",
+      "landingUrl": "https://www.hepsiburada.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=FaXxbajkXrs",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    },
+    {
+      "id": "curated_yt_J6dgzJ0dF6k",
+      "source": "curated",
+      "segment": "general",
+      "market": "TR",
+      "vertical": "marketplace",
+      "brand": {
+        "name": "Hepsiburada",
+        "website": "https://www.hepsiburada.com"
+      },
+      "format": "video",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://i.ytimg.com/vi/J6dgzJ0dF6k/hqdefault.jpg",
+          "thumbnailUrl": "https://i.ytimg.com/vi/J6dgzJ0dF6k/hqdefault.jpg"
+        }
+      ],
+      "headline": "Bergüzar Korel | Hepsiburada | #hepsiburadabaslar",
+      "landingUrl": "https://www.hepsiburada.com",
+      "platforms": [
+        "youtube"
+      ],
+      "languages": [
+        "tr"
+      ],
+      "performance": {
+        "score": 10,
+        "reasons": []
+      },
+      "libraryUrl": "https://www.youtube.com/watch?v=J6dgzJ0dF6k",
+      "collectedAt": "2026-10-10T12:31:41.149Z"
+    }
+  ]
+}

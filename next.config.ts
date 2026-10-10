@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
   },
   // Ad JSON is read with fs at build/server time — make sure it ships with server bundles.
   outputFileTracingIncludes: {
-    "/**": ["./data/ads/**/*.json"],
+    "/**": ["./data/ads/**/*.json", "./data/media/**/*.json"],
   },
 };
 

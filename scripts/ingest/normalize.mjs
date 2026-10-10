@@ -1,6 +1,6 @@
 // Normalizers: raw source payloads -> SPEC `Ad` objects (see docs/SPEC.md, src/lib/types.ts).
 // Also: dedupe/merge helpers shared by every source script.
-import { scoreAd } from "./score.mjs";
+import { computeScore } from "./score.mjs";
 
 const DAY = 86_400_000;
 
@@ -92,7 +92,8 @@ export function fromMetaArchive(raw, ctx) {
     // (an HTML render that needs a token). The UI shows a text card + "Ad Library'de aç".
     format: "text",
     media: [],
-    headline: clean(first(raw.ad_creative_link_titles)),
+    // Graph API gives arrays; the Meta Ads MCP `ads_library_search` gives a single `ad_creative_link_title`.
+    headline: clean(first(raw.ad_creative_link_titles)) || clean(raw.ad_creative_link_title),
     body: clean(first(raw.ad_creative_bodies)),
     landingUrl: captionToUrl(first(raw.ad_creative_link_captions)) || brand.website,
     platforms,
@@ -102,7 +103,7 @@ export function fromMetaArchive(raw, ctx) {
     isActive,
     activeDays,
     variations,
-    performance: scoreAd({ activeDays, isActive, variations, platforms }),
+    performance: computeScore({ activeDays, isActive, variations, platforms, source: "meta" }),
     libraryUrl: `https://www.facebook.com/ads/library/?id=${raw.id}`,
     collectedAt,
   };
@@ -175,7 +176,9 @@ export function fromTikTokTopAds(m, ctx) {
   const videoUrl = urls["720p"] || urls["1080p"] || urls["540p"] || urls["480p"] || urls["360p"] || Object.values(urls)[0];
   const media = videoUrl ? [{ type: "video", url: videoUrl, thumbnailUrl: vi.cover }] : vi.cover ? [{ type: "image", url: vi.cover }] : [];
   const likes = Number.isFinite(Number(m.like)) ? Number(m.like) : undefined;
-  const ctr = Number.isFinite(Number(m.ctr)) ? Number(m.ctr) : undefined;
+  // Creative Center reports ctr as a 0–1 relative tier; score.ts expects a 0–100 percentile.
+  const ctrRaw = Number.isFinite(Number(m.ctr)) ? Number(m.ctr) : undefined;
+  const ctrPercentile = ctrRaw === undefined ? undefined : ctrRaw <= 1 ? Math.round(ctrRaw * 100) : ctrRaw;
   const qs = new URLSearchParams({ countryCode: market === "GLOBAL" ? "" : market, from: "001010" });
   if (!qs.get("countryCode")) qs.delete("countryCode");
 
@@ -196,7 +199,7 @@ export function fromTikTokTopAds(m, ctx) {
     landingUrl: m.landing_page || brand?.website,
     platforms: ["tiktok"],
     isActive: undefined,
-    performance: scoreAd({ tiktokRank: rank, tiktokLikes: likes, tiktokCtr: ctr }),
+    performance: computeScore({ source: "tiktok", tiktok: { rank, likes, ctrPercentile } }),
     libraryUrl: `https://ads.tiktok.com/business/creativecenter/topads/${m.id}/pc/en?${qs}`,
     collectedAt,
   });
@@ -222,7 +225,6 @@ export function fromTikTokCommercial(item, ctx) {
     ...videos.filter((v) => v && v.url).map((v) => ({ type: "video", url: v.url, thumbnailUrl: v.cover_image_url })),
     ...images.map((u) => ({ type: "image", url: u })),
   ];
-  const reach = parseReach(ad.reach?.unique_users_seen);
   return compact({
     id: adId("tiktok", ad.id),
     source: "tiktok",
@@ -241,7 +243,8 @@ export function fromTikTokCommercial(item, ctx) {
     endedAt: isActive ? null : lastShown ?? null,
     isActive,
     activeDays,
-    performance: scoreAd({ activeDays, isActive, reach }),
+    performance: computeScore({ activeDays, isActive, platforms: ["tiktok"], source: "tiktok" }),
+    // reach (EU "unique users seen" lower bound) is not part of score.ts; kept out of the Ad schema too.
     libraryUrl: `https://library.tiktok.com/ads/detail/?ad_id=${ad.id}`,
     collectedAt,
   });
@@ -267,6 +270,9 @@ export function richness(ad) {
 }
 
 const FRESHNESS_KEYS = ["isActive", "endedAt", "activeDays", "variations", "performance", "collectedAt"];
+// Never replace a non-empty value of these with an empty one (hand-curated / media-enriched data wins).
+const PROTECTED_KEYS = ["media", "body", "cta", "headline", "landingUrl"];
+const isEmpty = (v) => v === undefined || v === null || v === "" || (Array.isArray(v) && v.length === 0);
 
 /** Merge two records with the same id: richer one wins, gaps filled from the other, freshness from the newer. */
 export function mergeAd(a, b) {
@@ -278,6 +284,12 @@ export function mergeAd(a, b) {
   if (!(rich.media?.length) && poor.media?.length) { out.media = poor.media; out.format = poor.format; }
   const newer = new Date(b.collectedAt || 0) >= new Date(a.collectedAt || 0) ? b : a;
   for (const k of FRESHNESS_KEYS) if (newer[k] !== undefined) out[k] = newer[k];
+  for (const k of PROTECTED_KEYS) {
+    if (isEmpty(out[k])) {
+      const keep = !isEmpty(a[k]) ? a : !isEmpty(b[k]) ? b : null;
+      if (keep) { out[k] = keep[k]; if (k === "media") out.format = keep.format; }
+    }
+  }
   return out;
 }
 

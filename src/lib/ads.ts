@@ -12,6 +12,8 @@ import { FIXTURE_ADS } from "./fixtures";
  */
 
 export const DATA_DIR = path.join(process.cwd(), "data", "ads");
+/** Optional enrichment overlays: `{ generatedAt, items: { [adId]: Partial<Ad> } }` (e.g. meta-media.json). */
+export const MEDIA_DIR = path.join(process.cwd(), "data", "media");
 
 export interface AdDataset {
   ads: Ad[];
@@ -35,6 +37,8 @@ const strArr = (v: unknown): string[] | undefined => {
   return out.length ? out : undefined;
 };
 const isUrl = (v: unknown): v is string => typeof v === "string" && /^https?:\/\//i.test(v.trim());
+/** Media may also point at files we host ourselves under /public (e.g. /media/meta/<id>.jpg). */
+const isMediaUrl = (v: unknown): v is string => isUrl(v) || (typeof v === "string" && /^\/[^/]/.test(v.trim()));
 const pick = <T extends string>(v: unknown, allowed: readonly T[], fallback: T): T => {
   if (typeof v !== "string") return fallback;
   const hit = allowed.find((a) => a.toLowerCase() === v.trim().toLowerCase());
@@ -47,8 +51,8 @@ function normalizeMedia(v: unknown): AdMedia[] {
   for (const m of v) {
     if (!m || typeof m !== "object") continue;
     const r = m as Record<string, unknown>;
-    const url = isUrl(r.url) ? r.url.trim() : undefined;
-    const thumb = isUrl(r.thumbnailUrl) ? r.thumbnailUrl.trim() : undefined;
+    const url = isMediaUrl(r.url) ? r.url.trim() : undefined;
+    const thumb = isMediaUrl(r.thumbnailUrl) ? r.thumbnailUrl.trim() : undefined;
     if (!url && !thumb) continue;
     const type = r.type === "video" ? "video" : "image";
     if (!url && thumb) {
@@ -142,9 +146,6 @@ export function normalizeAd(raw: unknown, fileGeneratedAt?: string): Ad | null {
   if (activeDays !== undefined) ad.activeDays = activeDays;
   if (variations !== undefined) ad.variations = variations;
 
-  // Nothing to show at all? Skip it.
-  if (!media.length && !headline && !body) return null;
-
   const perf = r.performance as Record<string, unknown> | undefined;
   const score = perf && num(perf.score);
   ad.performance =
@@ -170,6 +171,50 @@ function readFileSafe(file: string): { generatedAt?: string; items: unknown[]; e
   }
 }
 
+type OverlayItem = Record<string, unknown>;
+
+const OVERLAY_FIELDS = ["media", "body", "headline", "cta", "landingUrl", "platforms", "variations", "format", "languages"] as const;
+
+const nonEmpty = (v: unknown): boolean =>
+  Array.isArray(v) ? v.length > 0 : typeof v === "string" ? v.trim() !== "" : typeof v === "number" ? Number.isFinite(v) : v !== undefined && v !== null;
+
+/** Reads every data/media/*.json overlay; later files win on conflicts. Missing dir/files are fine. */
+function readOverlays(names: string[]): Map<string, OverlayItem> {
+  const out = new Map<string, OverlayItem>();
+  for (const name of names) {
+    try {
+      const json = JSON.parse(fs.readFileSync(path.join(MEDIA_DIR, name), "utf8")) as unknown;
+      const items = json && typeof json === "object" ? (json as Record<string, unknown>).items : undefined;
+      if (!items || typeof items !== "object" || Array.isArray(items)) continue;
+      for (const [id, item] of Object.entries(items as Record<string, unknown>)) {
+        if (item && typeof item === "object") out.set(id, { ...(out.get(id) ?? {}), ...(item as OverlayItem) });
+      }
+    } catch {
+      /* malformed / partially written overlay — ignore */
+    }
+  }
+  return out;
+}
+
+/** Overlay fields win when non-empty. Drops the stored score when scoring signals changed. */
+function applyOverlay(raw: unknown, overlays: Map<string, OverlayItem>): unknown {
+  if (!overlays.size || !raw || typeof raw !== "object") return raw;
+  const r = raw as Record<string, unknown>;
+  const ov = overlays.get(String(r.id));
+  if (!ov) return raw;
+  const next: Record<string, unknown> = { ...r };
+  for (const f of OVERLAY_FIELDS) if (nonEmpty(ov[f])) next[f] = ov[f];
+
+  if (nonEmpty(ov.media) && !nonEmpty(ov.format)) {
+    // Re-infer the format from the new media, keeping a declared carousel only if it really has >1 item.
+    const m = ov.media as unknown[];
+    if (!(r.format === "carousel" && m.length > 1)) delete next.format;
+  }
+  const changed = (k: "platforms" | "variations") => nonEmpty(ov[k]) && JSON.stringify(ov[k]) !== JSON.stringify(r[k]);
+  if (changed("platforms") || changed("variations")) delete next.performance;
+  return next;
+}
+
 function better(a: Ad, b: Ad): Ad {
   if (a.performance.score !== b.performance.score) return a.performance.score > b.performance.score ? a : b;
   return a.collectedAt >= b.collectedAt ? a : b;
@@ -187,26 +232,29 @@ export function compareAds(a: Ad, b: Ad): number {
 let cache: { key: string; data: AdDataset } | null = null;
 
 export function loadAds(): AdDataset {
-  let names: string[] = [];
-  try {
-    names = fs.readdirSync(DATA_DIR).filter((n) => n.toLowerCase().endsWith(".json")).sort();
-  } catch {
-    names = [];
-  }
+  const list = (dir: string) => {
+    try {
+      return fs.readdirSync(dir).filter((n) => n.toLowerCase().endsWith(".json")).sort();
+    } catch {
+      return [];
+    }
+  };
+  const names = list(DATA_DIR);
+  const overlayNames = list(MEDIA_DIR);
 
   // Cache keyed by file mtimes/sizes so `next dev` picks up fresh ingests without restart.
-  const key = names
-    .map((n) => {
-      try {
-        const s = fs.statSync(path.join(DATA_DIR, n));
-        return `${n}:${s.mtimeMs}:${s.size}`;
-      } catch {
-        return `${n}:x`;
-      }
-    })
-    .join("|");
+  const stamp = (dir: string, n: string) => {
+    try {
+      const s = fs.statSync(path.join(dir, n));
+      return `${n}:${s.mtimeMs}:${s.size}`;
+    } catch {
+      return `${n}:x`;
+    }
+  };
+  const key = [...names.map((n) => stamp(DATA_DIR, n)), "#", ...overlayNames.map((n) => stamp(MEDIA_DIR, n))].join("|");
   if (cache && cache.key === key) return cache.data;
 
+  const overlays = readOverlays(overlayNames);
   const byId = new Map<string, Ad>();
   const files: AdDataset["files"] = [];
   let generatedAt: string | undefined;
@@ -215,7 +263,7 @@ export function loadAds(): AdDataset {
     if (g && (!generatedAt || g > generatedAt)) generatedAt = g;
     let count = 0;
     for (const raw of items) {
-      const ad = normalizeAd(raw, g);
+      const ad = normalizeAd(applyOverlay(raw, overlays), g);
       if (!ad) continue;
       count++;
       const prev = byId.get(ad.id);

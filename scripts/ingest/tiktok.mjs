@@ -28,7 +28,7 @@ import { readFile, readdir, stat } from "node:fs/promises";
 import { resolve, join } from "node:path";
 import { ADS_DIR, fetchJson, isMain, loadBrands, log, parseArgs, readJson, sleep, writeJsonAtomic } from "./io.mjs";
 import { adId, compact, fromTikTokCommercial, fromTikTokTopAds, matchBrand, mergeAds } from "./normalize.mjs";
-import { scoreAd } from "./score.mjs";
+import { computeScore } from "./score.mjs";
 
 const OUT_FILE = resolve(ADS_DIR, "tiktok.json");
 const TOKEN_URL = "https://open.tiktokapis.com/v2/oauth/token/";
@@ -193,7 +193,7 @@ async function runUrls(brands, args, collectedAt) {
       media: meta.thumbnail_url ? [{ type: "image", url: meta.thumbnail_url }] : [],
       body: meta.title || undefined,
       platforms: ["tiktok"],
-      performance: scoreAd({}),
+      performance: computeScore({ source: "tiktok", platforms: ["tiktok"] }),
       libraryUrl: url.split("?")[0],
       collectedAt,
     }));

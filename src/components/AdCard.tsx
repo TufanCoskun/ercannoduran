@@ -6,7 +6,7 @@ import type { Ad } from "@/lib/types";
 import { MARKET_LABEL, SEGMENT_LABEL, SOURCE_LABEL, FORMAT_LABEL, verticalLabel } from "@/lib/filters";
 import { brandFeedPath, daysLabel, formatDate, platformLabel } from "@/lib/format";
 import { useSaved } from "@/lib/saved";
-import { AdMediaView } from "./AdMediaView";
+import { AdMediaView, type MediaMode } from "./AdMediaView";
 import { BrandAvatar, Chip, ScoreRing } from "./Bits";
 import { BookmarkIcon, ExternalIcon, FlameIcon, MuteIcon, ShareIcon, VolumeIcon } from "./Icons";
 import { useUI } from "./UIProvider";
@@ -28,8 +28,10 @@ export function AdCard({
   const saved = useSaved();
   const isSaved = Boolean(saved.items[ad.id]);
   const [expanded, setExpanded] = useState(false);
-  const [hasVideo, setHasVideo] = useState(false);
-  const onVideoState = useCallback((v: boolean) => setHasVideo(v), []);
+  const [mode, setMode] = useState<MediaMode>(ad.media.length ? "image" : "text");
+  const onMode = useCallback((m: MediaMode) => setMode(m), []);
+  const hasVideo = mode === "video";
+  const textMode = mode === "text";
   const days = daysLabel(ad);
   const bodyText = ad.body ?? "";
   const long = bodyText.length > 110 || bodyText.includes("\n");
@@ -37,13 +39,13 @@ export function AdCard({
   return (
     <article className="relative h-full w-full overflow-hidden bg-ink" aria-label={`${ad.brand.name} reklamı`}>
       <div className="absolute inset-0">
-        <AdMediaView ad={ad} active={active} near={near} muted={muted} onToggleMute={onToggleMute} onVideoState={onVideoState} />
+        <AdMediaView ad={ad} active={active} near={near} muted={muted} onToggleMute={onToggleMute} onMode={onMode} />
       </div>
 
       {/* legibility gradients */}
       <div className="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/60 to-transparent" />
       <div
-        className={`pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black via-black/70 to-transparent transition-all duration-300 ${expanded ? "h-[85%]" : "h-[58%]"}`}
+        className={`pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black via-black/70 to-transparent transition-all duration-300 ${expanded ? "h-[85%]" : textMode ? "h-[34%]" : "h-[58%]"}`}
       />
 
       {/* right action rail */}
@@ -96,14 +98,14 @@ export function AdCard({
           <Chip>{MARKET_LABEL[ad.market]}</Chip>
           {ad.vertical && <Chip>{verticalLabel(ad.vertical)}</Chip>}
           <Chip>{FORMAT_LABEL[ad.format]}</Chip>
-          {days && (
+          {days && !textMode && (
             <Chip tone="ember">
               <FlameIcon size={11} filled /> {days}
             </Chip>
           )}
         </div>
 
-        {ad.headline && <h3 className="text-shadow mb-1 text-[17px] font-bold leading-snug text-white">{ad.headline}</h3>}
+        {ad.headline && !textMode && <h3 className="text-shadow mb-1 text-[17px] font-bold leading-snug text-white">{ad.headline}</h3>}
 
         {bodyText && (
           <button
@@ -123,7 +125,18 @@ export function AdCard({
           </button>
         )}
 
-        {(expanded || !bodyText) && (
+        {!bodyText && textMode && (
+          <button
+            type="button"
+            onClick={() => setExpanded((x) => !x)}
+            aria-expanded={expanded}
+            className="text-shadow text-[13px] font-semibold text-white/70 hover:text-white"
+          >
+            {expanded ? "Gizle" : "Neden kazanıyor? →"}
+          </button>
+        )}
+
+        {(expanded || (!bodyText && !textMode)) && (
           <div className="animate-fade-in mt-3 rounded-2xl bg-white/[0.07] p-3 ring-1 ring-white/10 backdrop-blur-md">
             <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-volt">Neden kazanıyor?</p>
             <div className="flex flex-wrap gap-1.5">
@@ -160,7 +173,7 @@ export function AdCard({
           </div>
         )}
 
-        <div className="mt-3 flex items-center gap-2">
+        <div className={`mt-3 flex items-center gap-2 ${textMode && !ad.cta ? "hidden" : ""}`}>
           {ad.cta &&
             (ad.landingUrl ? (
               <a
@@ -177,6 +190,7 @@ export function AdCard({
                 <span className="truncate">{ad.cta}</span>
               </span>
             ))}
+          {!textMode && (
           <a
             href={ad.libraryUrl}
             target="_blank"
@@ -185,6 +199,7 @@ export function AdCard({
           >
             Ad Library&apos;de aç <ExternalIcon size={14} />
           </a>
+          )}
         </div>
       </div>
     </article>
